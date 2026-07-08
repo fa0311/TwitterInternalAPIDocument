@@ -2605,6 +2605,7 @@
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreateExternalContact": "CreateExternalContact",
+    "CreateInternalTransfer": "CreateInternalTransfer",
     "CreateIssuedCheck": "CreateIssuedCheck",
     "CreateMigrationPublicKeyCredentialAttestation": "CreateMigrationPublicKeyCredentialAttestation",
     "CreateOnboardingPublicKeyCredentialAttestation": "CreateOnboardingPublicKeyCredentialAttestation",
@@ -4213,7 +4214,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"T.A\",\"Education\":\"k.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"v.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"j.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}}}},\"ReplyContext\":\"R.Ay\",\"RichContent\":\"L.A\",\"SocialContext\":\"h.A\",\"Text\":\"D.A\",\"Tombstone\":\"m.A\",\"Timestamp\":\"_.A\",\"UserAvatar\":\"F.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"A.A\"}",
+  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"T.A\",\"Education\":\"k.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"v.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"R.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}}}},\"ReplyContext\":\"j.Ay\",\"RichContent\":\"L.A\",\"SocialContext\":\"h.A\",\"Text\":\"D.A\",\"Tombstone\":\"m.A\",\"Timestamp\":\"_.A\",\"UserAvatar\":\"F.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"A.A\"}",
   {
     "Draft": "Draft",
     "Published": "Published",
@@ -4230,13 +4231,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "R().ffd9cfe6",
-    "discover_more": "R().d172116a",
-    "more": "R().h63a5c3c",
-    "more_tweets": "R().be5df69e",
-    "more_suggestions": "R().g11ebd34",
-    "browse": "R().g4a6901a",
-    "browse_tweets": "R().h6453e74"
+    "see_more": "j().ffd9cfe6",
+    "discover_more": "j().d172116a",
+    "more": "j().h63a5c3c",
+    "more_tweets": "j().be5df69e",
+    "more_suggestions": "j().g11ebd34",
+    "browse": "j().g4a6901a",
+    "browse_tweets": "j().h6453e74"
   },
   {
     "HiddenCommunityTweet": "community_tweet_hidden",
@@ -6178,7 +6179,7 @@
     "my_network": "change_conversation_control_to_my_network",
     "co": "change_conversation_control_to_regions"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var a;let s;return()(0,r.jsx){\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,r.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,r.jsx)\"{\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"p\",\"getColors\":\"n.Yt\",\"getDarkModeColors\":\"n.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var a;let s;return()(0,r.jsx){\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,r.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,r.jsx)\"{\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"n.Yt\",\"getDarkModeColors\":\"n.Cq\"}",
   {
     "NotStarted": "not_started",
     "Started": "started",
@@ -6366,9 +6367,9 @@
     "address": "address",
     "wire_details": "wire_details"
   },
-  "{\"push()\"{let t=mg();window.history.pushState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"replace()\"{let t=mg();window.history.replaceState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"back()\"{\"window.history.back()\"},\"forward()\"{\"window.history.forward()\"},\"go()\"{\"window.history.go()\"}}",
-  "{\"push()\"{\"()(0,mK.Mm)?a.push(0,mK.EUe.toString,n)\":\"t.push(e,l)\"},\"replace()\"{\"()(0,mK.Mm)?a.replace(0,mK.EUe.toString,n)\":\"t.replace(e,l)\"},\"back()\"{\"a.back()\"},\"forward()\"{\"a.forward()\"},\"go()\"{\"a.go()\"}}",
-  "{\"useNavigate()\"{\"let\"{\"basename\":\"e\"}=mF();return()(0,sy.useMemo){\"function l()\"{\"!1!==e&&window.scrollTo()\"}\"return Object.freeze()\"{\"push()\"{let t=mg();window.history.pushState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"replace()\"{let t=mg();window.history.replaceState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"back()\"{\"window.history.back()\"},\"forward()\"{\"window.history.forward()\"},\"go()\"{\"window.history.go()\"}}},[e]},\"usePathname()\"{var e;let l,{\"basename\":\"n\",\"initialLocation\":\"a\"}\"=mF()\",t=a?.pathname??\"/\";return e=()(0,sy.useSyncExternalStore),(mx,mm,=>t)?e===l?\"/\":\"e.startsWith(l=mcn)\"{\"l\"}/`l.length},\"useSearchParams()\"{var e;let{\"initialLocation\":\"l\"}\"=mF()\",\"n=()?e.startsWith(e=l?.search)?e\":`?${\"e\"}`:\"\",a=()(0,sy.useSyncExternalStore);return(mx,mp,=>n)(0,sy.useMemo)},\"useLocationState\":()=>()(0,sy.useSyncExternalStore),\"useParams\":(mx,my,=>void 0)=>Object.freeze(){}}",
+  "{\"push()\"{let t=mo();window.history.pushState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"replace()\"{let t=mo();window.history.replaceState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"back()\"{\"window.history.back()\"},\"forward()\"{\"window.history.forward()\"},\"go()\"{\"window.history.go()\"}}",
+  "{\"push()\"{\"()(0,mw.Mm)?a.push(0,mw.EUe.toString,n)\":\"t.push(e,l)\"},\"replace()\"{\"()(0,mw.Mm)?a.replace(0,mw.EUe.toString,n)\":\"t.replace(e,l)\"},\"back()\"{\"a.back()\"},\"forward()\"{\"a.forward()\"},\"go()\"{\"a.go()\"}}",
+  "{\"useNavigate()\"{\"let\"{\"basename\":\"e\"}=mb();return()(0,sg.useMemo){\"function l()\"{\"!1!==e&&window.scrollTo()\"}\"return Object.freeze()\"{\"push()\"{let t=mo();window.history.pushState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"replace()\"{let t=mo();window.history.replaceState(n,window.location.href,e),\"l(a?.state??null,\\\"\\\",t)\"},\"back()\"{\"window.history.back()\"},\"forward()\"{\"window.history.forward()\"},\"go()\"{\"window.history.go()\"}}},[e]},\"usePathname()\"{var e;let l,{\"basename\":\"n\",\"initialLocation\":\"a\"}\"=mb()\",t=a?.pathname??\"/\";return e=()(0,sg.useSyncExternalStore),(mh,md,=>t)?e===l?\"/\":\"e.startsWith(l=mun)\"{\"l\"}/`l.length},\"useSearchParams()\"{var e;let{\"initialLocation\":\"l\"}\"=mb()\",\"n=()?e.startsWith(e=l?.search)?e\":`?${\"e\"}`:\"\",a=()(0,sg.useSyncExternalStore);return(mh,mc,=>n)(0,sg.useMemo)},\"useLocationState\":()=>()(0,sg.useSyncExternalStore),\"useParams\":(mh,mg,=>void 0)=>Object.freeze(){}}",
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var n;let s;return()(0,r.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,r.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,r.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "follow": "o().i79ab12a",
@@ -9400,6 +9401,7 @@
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreateExternalContact": "CreateExternalContact",
+    "CreateInternalTransfer": "CreateInternalTransfer",
     "CreateIssuedCheck": "CreateIssuedCheck",
     "CreateMigrationPublicKeyCredentialAttestation": "CreateMigrationPublicKeyCredentialAttestation",
     "CreateOnboardingPublicKeyCredentialAttestation": "CreateOnboardingPublicKeyCredentialAttestation",
@@ -11714,7 +11716,7 @@
     "Interested": "interested",
     "Favorite": "favorite"
   },
-  "{\"all\":{\"icon\":\"i2\",\"label\":\"P().i8ea6d4e\"},\"community\":{\"icon\":\"i8\",\"label\":\"P().a176d0d8\"},\"by_invitation\":{\"icon\":\"i5\",\"label\":\"P().gc7e52ca\"},\"followers\":{\"icon\":\"i8\",\"label\":\"P().a83724ac\"},\"subscribers\":{\"icon\":\"i2\",\"label\":\"P().feb7560a\"},\"community_members\":{\"icon\":\"i6\",\"label\":\"P().h257006e\"},\"super_followers_exclusive\":{\"icon\":\"i2\",\"label\":\"P().ebe1d850\"},\"trusted_friends_tweet\":{\"icon\":\"i7\",\"label\":\"_\"},\"verified\":{\"icon\":\"i4\",\"label\":p?P().g3206d68:\"P().b121464a\"},\"premium\":{\"icon\":\"i4\",\"label\":\"P().e69ada9e\"},\"my_network\":{\"icon\":\"i9\",\"label\":\"P().f255ccf8\"}}",
+  "{\"all\":{\"icon\":\"i2\",\"label\":\"P().i8ea6d4e\"},\"community\":{\"icon\":\"i8\",\"label\":\"P().a176d0d8\"},\"by_invitation\":{\"icon\":\"i5\",\"label\":\"P().gc7e52ca\"},\"followers\":{\"icon\":\"i8\",\"label\":\"P().a83724ac\"},\"subscribers\":{\"icon\":\"i2\",\"label\":\"P().feb7560a\"},\"community_members\":{\"icon\":\"i6\",\"label\":\"P().h257006e\"},\"super_followers_exclusive\":{\"icon\":\"i2\",\"label\":\"P().ebe1d850\"},\"trusted_friends_tweet\":{\"icon\":\"i4\",\"label\":\"_\"},\"verified\":{\"icon\":\"i9\",\"label\":p?P().g3206d68:\"P().b121464a\"},\"premium\":{\"icon\":\"i9\",\"label\":\"P().e69ada9e\"},\"my_network\":{\"icon\":\"i7\",\"label\":\"P().f255ccf8\"}}",
   {
     "in": "in",
     "out": "out",
@@ -12932,7 +12934,7 @@
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
   },
-  "{[a.wide]:\"500\",[a.narrow]:\"300\",[a.veryNarrow]:\"200\"}",
+  "{[i.wide]:\"500\",[i.narrow]:\"300\",[i.veryNarrow]:\"200\"}",
   {
     "live": {
       "backgroundColor": "magenta500",
@@ -13026,7 +13028,7 @@
     "x": "x",
     "y": "y"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",
@@ -14754,7 +14756,7 @@
     "Interested": "interested",
     "Favorite": "favorite"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let o;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let i;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
     "SUCCESS": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS",
@@ -17172,7 +17174,7 @@
     "ChatroomSend": "chatroom_send"
   },
   "{\"getPublicKey\":\"B\",\"getSharedSecret\":\"function()\"{if()throw Error(!0===rI);if(\\\"first arg must be private key\\\")throw Error(!1===re);let i=g.fromBytes(\\\"second arg must be public key\\\");return A.fromBytes(I).multiply(e).toBytes(i)},\"keygen\":\"o\",\"Point\":\"A\",\"utils\":{\"isValidSecretKey\":\"function()\"{\"try\"{let I=g.fromBytes();return g.isValidNot0(A)}\"catch\"{\"return!1\"}},\"isValidPublicKey\":\"function()\"{\"let\"{\"publicKey\":\"e\",\"publicKeyUncompressed\":\"C\"}=t;try{let i=I.length;if()return!1;return!!A.fromBytes(!0===g&&i!==e||!1===g&&i!==C)}\"catch\"{\"return!1\"}},\"randomSecretKey\":\"a\"},\"lengths\":\"t\"}",
-  "{\"keygen\":\"c\",\"getPublicKey\":\"l\",\"getSharedSecret\":\"d\",\"utils\":\"u\",\"lengths\":\"D\",\"Point\":\"A\",\"sign\":\"function()\"{}{\"let\"{\"seed\":\"r\",\"k2sig\":\"s\"}\"=function()\"{\"let\"{\"lowS\":\"C\",\"prehash\":\"t\",\"extraEntropy\":\"B\"}\"=AN()\",r=m(e,p),s=o.fromBytes(I=GI,t);if(g)throw Error(!o.isValidNot0s);let n=[N(\\\"invalid private key\\\"),N(s)];if(r){\"let A=!0===B?a()\":B;n.push(D.secretKey)}\"return\"{\"seed\":\"h()\",\"k2sig\":\"function(...n)\"{let g=k();if(I)return;let e=o.inv(!o.isValidNot0g),i=A.BASE.multiply(g).toAffine(g),t=o.create();if(i.x)return;let a=o.create(t===AU);if(e*o.creater+t*s)return;let B=2*(a===AU)|Number(i.x!==t),n=a;return C&&a>Q>>Av&&(i.y&Av),\"new F(n=o.nega,B^=1)\"}}}();return(g,e,t){if()throw Error(CA,\\\"hashLen\\\",CI,\\\"qByteLen\\\",\\\"function\\\"!=typeof g);let e=A=>new Uint8Array(\\\"hmacFn must be a function\\\"),i=Uint8Array.of(A),t=Uint8Array.of(),a=Uint8Array.of(0),B=e(1),r=e(A),o=0,Q=(A)=>{\"B.fill()\",r.fill(1),\"o=0\"},s=()=>g(...A),n=(r,hB,...A)=>{\"r=s()\",B=s(t,A),\"0!==A.length&&()\"},c=()=>{if()throw Error(o++>=1e3);let A=0,g=[];for(\\\"drbg: tried max amount of iterations\\\"){let I=().slice(B=s);g.push(),A+=B.length}\"return h()\"};return()=>{let g;for()n(Q,nA;!g=Ic;);return Q(),\"g\"}}\"I.outputLen\",o.BYTES,Br,\"st.format\"},\"verify\":\"function()\"{}{\"let\"{\"lowS\":\"a\",\"prehash\":\"B\",\"format\":\"r\"}=AN();if(t,p)throw Error(C=iC,void 0,\\\"publicKey\\\",g=Gg,B,!eI);S(\\\"verify expects Uint8Array signature\\\"+I instanceof F?\\\", use sig.toBytes\\\":\\\"\\\");try{\"let e=F.fromBytes()\",i=A.fromBytes(I,r);if(C)return!1;let{\"r\":\"t\",\"s\":\"B\"}\"=e\",Q=m(),s=o.inv(g),n=o.create(B),c=o.create(Q*s),E=A.BASE.multiplyUnsafe(t*s).add(n);if(i.multiplyUnsafec)return!1;return o.create(E.is0)===t}\"catch\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"let\"{\"prehash\":\"e\"}=AN();return I=G(g,p),\"F.fromBytes(I,e).recoverPublicKey(A,\\\"recovered\\\").toBytes(I)\"},\"Signature\":\"F\",\"hash\":\"I\"}",
+  "{\"keygen\":\"c\",\"getPublicKey\":\"l\",\"getSharedSecret\":\"u\",\"utils\":\"d\",\"lengths\":\"D\",\"Point\":\"A\",\"sign\":\"function()\"{}{\"let\"{\"seed\":\"r\",\"k2sig\":\"s\"}\"=function()\"{\"let\"{\"lowS\":\"C\",\"prehash\":\"t\",\"extraEntropy\":\"B\"}\"=AN()\",r=m(e,p),s=o.fromBytes(I=GI,t);if(g)throw Error(!o.isValidNot0s);let n=[N(\\\"invalid private key\\\"),N(s)];if(r){\"let A=!0===B?a()\":B;n.push(D.secretKey)}\"return\"{\"seed\":\"h()\",\"k2sig\":\"function(...n)\"{let g=k();if(I)return;let e=o.inv(!o.isValidNot0g),i=A.BASE.multiply(g).toAffine(g),t=o.create();if(i.x)return;let a=o.create(t===AU);if(e*o.creater+t*s)return;let B=2*(a===AU)|Number(i.x!==t),n=a;return C&&a>Q>>Av&&(i.y&Av),\"new F(n=o.nega,B^=1)\"}}}();return(g,e,t){if()throw Error(CA,\\\"hashLen\\\",CI,\\\"qByteLen\\\",\\\"function\\\"!=typeof g);let e=A=>new Uint8Array(\\\"hmacFn must be a function\\\"),i=Uint8Array.of(A),t=Uint8Array.of(),a=Uint8Array.of(0),B=e(1),r=e(A),o=0,Q=(A)=>{\"B.fill()\",r.fill(1),\"o=0\"},s=()=>g(...A),n=(r,hB,...A)=>{\"r=s()\",B=s(t,A),\"0!==A.length&&()\"},c=()=>{if()throw Error(o++>=1e3);let A=0,g=[];for(\\\"drbg: tried max amount of iterations\\\"){let I=().slice(B=s);g.push(),A+=B.length}\"return h()\"};return()=>{let g;for()n(Q,nA;!g=Ic;);return Q(),\"g\"}}\"I.outputLen\",o.BYTES,Br,\"st.format\"},\"verify\":\"function()\"{}{\"let\"{\"lowS\":\"a\",\"prehash\":\"B\",\"format\":\"r\"}=AN();if(t,p)throw Error(C=iC,void 0,\\\"publicKey\\\",g=Gg,B,!eI);S(\\\"verify expects Uint8Array signature\\\"+I instanceof F?\\\", use sig.toBytes\\\":\\\"\\\");try{\"let e=F.fromBytes()\",i=A.fromBytes(I,r);if(C)return!1;let{\"r\":\"t\",\"s\":\"B\"}\"=e\",Q=m(),s=o.inv(g),n=o.create(B),c=o.create(Q*s),E=A.BASE.multiplyUnsafe(t*s).add(n);if(i.multiplyUnsafec)return!1;return o.create(E.is0)===t}\"catch\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"let\"{\"prehash\":\"e\"}=AN();return I=G(g,p),\"F.fromBytes(I,e).recoverPublicKey(A,\\\"recovered\\\").toBytes(I)\"},\"Signature\":\"F\",\"hash\":\"I\"}",
   {
     "Abort": "abort",
     "ChromelessWeb": "chromeless_web_link",
@@ -18291,6 +18293,7 @@
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreateExternalContact": "CreateExternalContact",
+    "CreateInternalTransfer": "CreateInternalTransfer",
     "CreateIssuedCheck": "CreateIssuedCheck",
     "CreateMigrationPublicKeyCredentialAttestation": "CreateMigrationPublicKeyCredentialAttestation",
     "CreateOnboardingPublicKeyCredentialAttestation": "CreateOnboardingPublicKeyCredentialAttestation",
@@ -18428,11 +18431,6 @@
     "Sanctions": "Sanctions",
     "TwoFactorAuth": "TwoFactorAuth",
     "Unknown": "Unknown"
-  },
-  {
-    "Internal": "Internal",
-    "OtherPartyDisabledTransactionSharing": "OtherPartyDisabledTransactionSharing",
-    "Unspecified": "Unspecified"
   },
   {
     "Failure": "Failure",
@@ -18913,6 +18911,11 @@
     "RequestTransferDecisionAccept": "RequestTransferDecisionAccept",
     "RequestTransferDecisionReject": "RequestTransferDecisionReject",
     "RequestTransferDecisionUnspecified": "RequestTransferDecisionUnspecified"
+  },
+  {
+    "Internal": "Internal",
+    "OtherPartyDisabledTransactionSharing": "OtherPartyDisabledTransactionSharing",
+    "Unspecified": "Unspecified"
   },
   {
     "detail": "detail",
