@@ -2878,7 +2878,7 @@
         "value": "true"
       },
       "rweb_ssp_ads_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_ssp_ads_refresh_enabled": {
         "value": "true"
@@ -2932,7 +2932,7 @@
         "value": "false"
       },
       "rweb_xchat_keyboard_nav_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_xchat_logs": {
         "value": "false"
@@ -4292,7 +4292,7 @@
         "value": "11000"
       },
       "xchat_max_message_preview_size": {
-        "value": ""
+        "value": "500"
       },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
@@ -7268,7 +7268,7 @@
           "value": "false"
         },
         "rweb_xchat_keyboard_nav_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -8772,10 +8772,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "12d79378b7573776c952fceb140d1d56"
+      "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "e3139b2b57d3275d54d564b4864fbee35bc1e8bc",
+    "featureSetToken": "1e174a638d1e725784b23af82b14da489a76f241",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8844,7 +8844,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178337755258281275",
+    "guestId": "178354976846370763",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
