@@ -8669,3 +8669,20 @@
 - xchat_max_message_preview_size<br>
 #### remove<br>
 - None<br>
+## 2026/07/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- birdwatch_xchat_pivot_rendering_enabled<br>
+- new_timeline_experiment_enabled<br>
+- rweb_xchat_scroller_rewrite_enabled<br>
+- xchat_enable_realm_reach_check<br>
+- xchat_inbox_new_messages_preview_enabled<br>
+- xchat_keypair_nuclear_reset_enabled<br>
+- responsive_web_history_screen_enabled<br>
+#### remove<br>
+- None<br>
