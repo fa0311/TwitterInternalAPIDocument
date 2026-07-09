@@ -358,6 +358,54 @@ This document is entirely auto-generated and may contain errors.<br>
 | MaintenanceModeEnabled | MaintenanceModeEnabled |
 | Unspecified            | Unspecified            |
 
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
+
+| constant      | value        |
+|:--------------|:-------------|
+| SELF          | self         |
+| MUTUAL_FOLLOW | mutualfollow |
+| FOLLOWING     | following    |
+| FOLLOWERS     | followers    |
+| PUBLIC        | public       |
+
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                      |
+|:-----------|:-----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                    |
+|:-----------|:---------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| SUPERSCRIPT_AND_SUBSCRIPT | superscript_and_subscript |
+| CURRENCY                  | currency                  |
+| LETTER_LIKE               | letter_like               |
+| NUMBER_FORMS              | number_forms              |
+| ARROWS                    | arrows                    |
+| MATHEMATICAL              | mathematical              |
+| GENERAL_PUNCTUATION       | general_punctuation       |
+| ENCLOSED_ALPHANUMERICS    | enclosed_alphanumerics    |
+| BOX                       | box                       |
+| GEOMETRIC                 | geometric                 |
+| SPACING_MODIFIER          | spacing_modifier          |
+| PUNCTUATION               | punctuation               |
+| MISC                      | miscellaneous             |
+
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -578,6 +626,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expired                         | Expired                         |
 | Inactive                        | Inactive                        |
 | Invalid                         | Invalid                         |
+| Issuing                         | Issuing                         |
 | LoginRequired                   | LoginRequired                   |
 | Pending                         | Pending                         |
 | PendingMicroDepositVerification | PendingMicroDepositVerification |
@@ -609,6 +658,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value               |
 |:--------------------|:--------------------|
 | AudienceRewards     | AudienceRewards     |
+| Cards               | Cards               |
 | DirectDeposit       | DirectDeposit       |
 | Geography           | Geography           |
 | Interest            | Interest            |
@@ -981,13 +1031,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
 
 | constant         | value              |
 |:-----------------|:-------------------|

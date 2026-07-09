@@ -2693,6 +2693,19 @@
       "method": "POST",
       "features": {}
     },
+    "PinnableTimelines": {
+      "url": "https://x.com/i/api/graphql/Tx2WqUDEDSYRA7IKfQReAg/PinnableTimelines",
+      "queryId": "Tx2WqUDEDSYRA7IKfQReAg",
+      "method": "GET",
+      "features": {
+        "profile_label_improvements_pcf_label_in_post_enabled": true,
+        "responsive_web_profile_redirect_enabled": false,
+        "rweb_tipjar_consumption_enabled": false,
+        "verified_phone_label_enabled": false,
+        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
+        "responsive_web_graphql_timeline_navigation_enabled": true
+      }
+    },
     "PinnedTimelines": {
       "url": "https://x.com/i/api/graphql/TRRXFHdz_saNdA9vVa94cg/PinnedTimelines",
       "queryId": "TRRXFHdz_saNdA9vVa94cg",

@@ -6435,6 +6435,7 @@
   "ae8d5b88": "Add money",
   "ac1fb213": "You sent {formattedAmount} to @{userScreenName}.",
   "ga6fd5ae": "I did not make this purchase",
+  "g33c35c0": "Share to 𝕏",
   "e8028ac2": "Unable to share this transaction. Please try again later.",
   "b569f733": "This transaction can’t be shared because @{screenName} has not turned on transaction sharing.",
   "jde88c7e": "This transaction can’t be shared because the other participant has not turned on transaction sharing.",
