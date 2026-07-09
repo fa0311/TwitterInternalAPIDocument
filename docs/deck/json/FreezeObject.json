@@ -308,48 +308,6 @@
     "Unspecified": "Unspecified"
   },
   {
-    "INFINITE": "infinite",
-    "MEDIUM": "medium",
-    "NONE": "none"
-  },
-  {
-    "SELF": "self",
-    "MUTUAL_FOLLOW": "mutualfollow",
-    "FOLLOWING": "following",
-    "FOLLOWERS": "followers",
-    "PUBLIC": "public"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "SUPERSCRIPT_AND_SUBSCRIPT": "superscript_and_subscript",
-    "CURRENCY": "currency",
-    "LETTER_LIKE": "letter_like",
-    "NUMBER_FORMS": "number_forms",
-    "ARROWS": "arrows",
-    "MATHEMATICAL": "mathematical",
-    "GENERAL_PUNCTUATION": "general_punctuation",
-    "ENCLOSED_ALPHANUMERICS": "enclosed_alphanumerics",
-    "BOX": "box",
-    "GEOMETRIC": "geometric",
-    "SPACING_MODIFIER": "spacing_modifier",
-    "PUNCTUATION": "punctuation",
-    "MISC": "miscellaneous"
-  },
-  {
     "wide": "wide",
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
@@ -459,6 +417,16 @@
     }
   },
   "{[r.sl.AMPLIFY]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let o=()(0,_.Pj)\",d=parseInt(i,\\\"image_value\\\",\\\"player_image_original\\\")/parseInt(0,_.Jni,\\\"string_value\\\",\\\"player_width\\\",10),l=(0,_.Jni,\\\"string_value\\\",\\\"player_height\\\",10)(0,_.Jn),s=(i,\\\"string_value\\\",\\\"content_duration_seconds\\\")(0,_.Jn),u=(i,\\\"string_value\\\",\\\"title\\\")(0,_.Jn);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:s||u?[r.eu.MEDIA,r.eu.DETAILS]:[r.eu.MEDIA],[r.qr.STATIC]:s||u?[r.eu.MEDIA_STATIC,r.eu.DETAILS_STATIC]:[r.eu.MEDIA_STATIC]},\"destinations\":{[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":\"()(0,_.Jn)\",\"...l?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"()(0,_.Jn)\",\"poster_image\":\"o\",\"publisher_id\":(i,\\\"string_value\\\",\\\"amplify_url_vmap\\\")(0,_.Jn)||a.tweetUserId,\"variants\":[]}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION_STATIC\",\"overlay\":{\"type\":\"r.k1.PLAY\"}}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"title\":\"s?\"{\"content\":\"s\"}:\"void 0\"}},[r.eu.DETAILS_STATIC]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"r.eu.DESTINATION_STATIC\",\"title\":\"s?\"{\"content\":\"s\"}:\"void 0\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.APP]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"let i=()(0,_.Pj)\",d=(a,\\\"image_value\\\",\\\"thumbnail_original\\\")(0,_.Jn),l=(a,\\\"string_value\\\",\\\"description\\\")(0,_.Jn),s=(a,\\\"string_value\\\",\\\"app_star_rating\\\")(0,_.Jn),\"u=l&&s?o.$.renderRatingsLabel(a,\\\"string_value\\\",\\\"app_num_ratings\\\")\"{\"appStarRating\":\"l\",\"appNumRatings\":\"s\"}\"0\",_.Jna,\"string_value\",\"card_url\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"small\"},[r.qr.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,_.Jn)\",\"...!u?\":{\"vanity\":\"c\"}:\"null\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...i?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":i?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"description\":\"d?\"{\"content\":\"d\"}:\"void 0\",\"destination\":\"r.eu.DESTINATION\",\"footer\":\"u\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.AUDIOSPACE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"large\"},[r.qr.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.SPACE],[r.qr.STATIC]:[r.eu.SPACE]},\"destinations\":{},\"media_entities\":{},\"components_data\":{[r.eu.SPACE]:{\"type\":\"space\",\"data\":{\"id\":\"()(0,_.Jn)\",\"clip_metadata\":\"(i,\\\"string_value\\\",\\\"id\\\")(0,_.Jn)\"}}}}}},[r.sl.BROADCAST]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"i\"}{\"let u=()(0,_.j1)\",c=u&&i[u.id_str],p=(a,\\\"user_value\\\",\\\"site\\\")(0,_.Jn),T=(a,\\\"string_value\\\",\\\"broadcaster_display_name\\\")(0,_.Jn),E=\"NOT_STARTED\"===T||\"NotStarted\"===T,I=(a,\\\"string_value\\\",\\\"broadcast_state\\\")(0,_.Pj),A=(a,\\\"image_value\\\",\\\"broadcast_thumbnail_original\\\")(0,_.Pj)||s,\"m=E?A\":\"I\",D=(a,\\\"image_value\\\",\\\"broadcast_pre_live_slate\\\")(0,_.Jn),\"y=E&&D?o.$.renderStartingTimeLabel(a,\\\"string_value\\\",\\\"broadcast_scheduled_start_time\\\")\":\"void 0\",g=d.A.theme.aspectRatios.landscape,v=Math.max(D);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.STATIC]:{\"size\":m?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"get_fetch_interval_for_updates\":{[r.qr.DEFAULT]:()=>\"NOT_STARTED\"===T&&parseInt()<=Date.now(D,10)?{\"...l.jy\":\"_\",\"initialPoll\":\"!0\"}:\"l.jy\"},\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[E?r.eu.MEDIA_SECONDARY:\"r.eu.MEDIA\",r.eu.DETAILS],[r.qr.STATIC]:[r.eu.MEDIA_SECONDARY,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROADCAST\",\"data\":{\"broadcast_data\":{\"id\":\"()(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...m?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\",[r.eu.VIDEO_ENTITY]:{\"type\":\"live_broadcast\",\"aspect_ratio\":\"v\",\"broadcast_id\":\"()(0,_.Jn)\",\"content_id\":\"(a,\\\"string_value\\\",\\\"broadcast_id\\\")(0,_.Jn)\",\"destination\":\"r.eu.DESTINATION\",\"...m?\":{\"poster_image\":\"m\"}:\"null\",\"timecode\":()(0,_.Jn)||(a,\\\"string_value\\\",\\\"broadcast_timecode\\\")(0,_.Jn)}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\",\"aspect_ratio\":\"v\"}},[r.eu.MEDIA_SECONDARY]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":m?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"g\",\"destination\":\"r.eu.DESTINATION\",\"overlay\":\"E?y?\"{\"type\":\"r.k1.LABEL\",\"text\":\"y\"}:void 0:{\"type\":\"r.k1.PLAY\"}}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION\",\"...c?\":{\"attribution\":\"c\"}:{\"category\":{\"content\":\"p\"}},\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"let i=()(0,_.Pj)\",d=(a,\\\"image_value\\\",\\\"thumbnail_original\\\")(0,_.Jn),l=(a,\\\"string_value\\\",\\\"description\\\")(0,_.Jn),s=(a,\\\"string_value\\\",\\\"app_star_rating\\\")(0,_.Jn),\"u=l&&s?o.$.renderRatingsLabel(a,\\\"string_value\\\",\\\"app_num_ratings\\\")\"{\"appStarRating\":\"l\",\"appNumRatings\":\"s\"}\"0\",_.Jna,\"string_value\",\"card_url\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"small\"},[r.qr.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,_.Jn)\",\"...!u?\":{\"vanity\":\"c\"}:\"null\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...i?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":i?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"description\":\"d?\"{\"content\":\"d\"}:\"void 0\",\"destination\":\"r.eu.DESTINATION\",\"footer\":\"u\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\",\"users\":\"d\"}{\"let l=()(0,_.Pj)\",\"s=a.tweetPermalink?o.$.getMediaDetailsLink(i,\\\"image_value\\\",\\\"image_original\\\")\":\"void 0\",u=e=>[1,2,3,4].map(a.tweetPermalink){\"let a=()(0,_.Jn)\"{\"t\"}`0,_.Jni,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"n.y6.DM\",\"data\":{\"cta\":\"a\",\"wm_id\":\"r\",\"destination\":\"e\",\"icon\":\"dm\",\"index\":\"t\"}}:\"null\"}\"Booleanr.eu.DESTINATIONr.eu.DESTINATION_STATIC0\",_.j1i,\"user_value\",\"recipient\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,...I?[r.eu.DETAILS]:[],r.eu.BUTTON_GROUP],[r.qr.STATIC]:[r.eu.MEDIA_STATIC,...I?[r.eu.DETAILS]:[],r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"T.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"n.A.DM_BUTTON_CLICK\"}},[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},\"...s?\":{[r.eu.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\"},\"scribe\":\"show\",\"promoted_log\":\"n.A.EMBEDDED_MEDIA\"}}}:\"null\"},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"...s?\":{\"destination\":\"r.eu.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION_STATIC\"}},\"...I?\":{[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"attribution\":\"E\"}}}:\"null\",[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"p\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.LIVE_EVENT]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\",\"users\":\"o\"}{\"let s=()(0,_.j1)\",u=s&&o[s.id_str],c=(i,r.aC.User,\\\"author\\\")(0,_.Jn),I=(i,r.aC.String,\\\"event_id\\\")(0,_.Jn),A=(i,r.aC.String,\\\"event_category\\\")(0,_.Jn),m=\"broadcast\"===A,D=(i,r.aC.String,\\\"media_type\\\")(0,_.Jn),y=Math.max(i,r.aC.String,\\\"broadcast_id\\\"),g=(parseInt0,_.Jni,r.aC.String,\\\"broadcast_width\\\",10/parseInt0,_.Jni,r.aC.String,\\\"broadcast_height\\\",10,1)(0,_.Jn),v=(i,r.aC.String,\\\"broadcast_media_key\\\")(0,_.Jn),S=(i,r.aC.String,\\\"media_tweet_id\\\")(0,_.Pj),C=(i,r.aC.Image,\\\"event_thumbnail\\\")(0,_.Pj),\"N=m?C\":\"S\",O=m?void 0:[{\"h\":\"parseInt()\",\"w\":\"parseInt(0,_.Jni,r.aC.String,\\\"event_thumbnail_media_size_crops_16x9_h\\\",10)\",\"x\":\"parseInt(0,_.Jni,r.aC.String,\\\"event_thumbnail_media_size_crops_16x9_w\\\",10)\",\"y\":\"parseInt(0,_.Jni,r.aC.String,\\\"event_thumbnail_media_size_crops_16x9_x\\\",10)\"}],b=()(0,_.Jn),h=(i,r.aC.String,\\\"remind_me_notification_id\\\")(0,_.A_)&&!!b,L=(i,r.aC.Boolean,\\\"remind_me_toggle_visible\\\")(0,_.A_),\"M=L?T\":p;return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.DATA_SAVER]:{\"size\":\"small\"},[r.qr.SECONDARY]:{\"size\":\"small\",\"reverse\":\"!0\"},[r.qr.STATIC]:{\"size\":N?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"get_fetch_interval_for_updates\":{[r.qr.DEFAULT]:\"l.J4\",[r.qr.DATA_SAVER]:\"l.J4\"},\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[m||\"video\"===A?r.eu.MEDIA:\"r.eu.MEDIA_STATIC\",r.eu.DETAILS,r.eu.BUTTON_GROUP],[r.qr.DATA_SAVER]:[r.eu.MEDIA_STATIC,r.eu.DETAILS,r.eu.BUTTON_GROUP],[r.qr.SECONDARY]:[r.eu.MEDIA_STATIC,r.eu.DETAILS],[r.qr.STATIC]:[r.eu.MEDIA_STATIC,r.eu.DETAILS,r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.EVENT\",\"data\":{\"event_data\":{\"id\":\"c\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},[r.eu.DESTINATION_SECONDARY]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!0\",\"type\":\"reminder\"},\"auth_required\":\"!0\",\"scribe\":\"reminder\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a&&a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...N?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\",[r.eu.VIDEO_ENTITY]:\"m?\"{\"type\":\"live_broadcast\",\"aspect_ratio\":\"y\",\"broadcast_id\":\"D\",\"content_id\":\"g\",\"destination\":\"r.eu.DESTINATION\",\"poster_image\":\"N\",\"timecode\":\"()(0,_.Jn)\"}:{\"type\":\"tweet_video\",\"aspect_ratio\":\"d.A.theme.aspectRatios.landscape\",\"media_tweet_id\":\"v\",\"event_id\":\"c\",\"poster_image\":\"N\"}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\",\"aspect_ratio\":m?y:\"d.A.theme.aspectRatios.landscape\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"aspect_ratio\":\"d.A.theme.aspectRatios.landscape\",\"destination\":\"r.eu.DESTINATION\"}},[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"...h?\":{\"buttons\":[E(){\"cta\":\"M\",\"destination\":\"r.eu.DESTINATION_SECONDARY\",\"eventId\":\"c\",\"index\":\"0\",\"isSelected\":\"L\",\"notificationId\":\"b\"}}:\"null\"}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"...h?\":{\"buttons\":[E(){\"cta\":\"M\",\"destination\":\"r.eu.DESTINATION_STATIC\",\"eventId\":\"c\",\"index\":\"0\",\"isSelected\":\"L\",\"notificationId\":\"b\"}}:\"null\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION\",\"...u?\":{\"attribution\":\"u\"}:\"I?\"{\"category\":{\"content\":\"I\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.MESSAGE_ME]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let d=()(0,_.Jn)\",l=(i,\\\"string_value\\\",\\\"default_composer_text\\\")(0,_.Jn),s=(i,\\\"string_value\\\",\\\"welcome_message_id\\\")(0,_.j1);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\",\"chromeless\":\"!0\"},[r.qr.CONDENSED]:{\"size\":\"large\",\"chromeless\":\"!0\"},[r.qr.STATIC]:{\"size\":\"large\",\"chromeless\":\"!0\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"message_me_show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.BUTTON_GROUP],[r.qr.STATIC]:[r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"s.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"message_me_click\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{},\"components_data\":{[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":[I(){\"composer_text\":\"d\",\"cta\":\"o.$.getMessageMeString()\",\"index\":\"0\",\"wm_id\":\"l\",\"destination\":\"r.eu.DESTINATION\"}}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":[I(){\"composer_text\":\"d\",\"cta\":\"o.$.getMessageMeString()\",\"index\":\"0\",\"wm_id\":\"l\",\"destination\":\"r.eu.DESTINATION_STATIC\"}}}}}}},\"shouldRenderCard\":()=>(e,t)(0,_._g)&&t.tweetUserId===(e,e=>e\\\"recipient\\\".and\\\"cta\\\")(0,_.j1).id_str},[r.sl.MOMENT]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"i\"}{let o=()(0,_.Pj)||{\"url\":\"()(0,_.Jn)\",\"width\":parseInt(a,\\\"string_value\\\",\\\"cover_format_media_url\\\")||0,\"height\":parseInt(0,_.Jna,\\\"string_value\\\",\\\"cover_format_media_size_w\\\",10)||0},d=()(0,_.j1),l=d&&i[d.id_str],s=(a,\\\"user_value\\\",\\\"author\\\")(0,_.Jn),u=(a,\\\"string_value\\\",\\\"title\\\")(0,_.Jn),c=(a,\\\"string_value\\\",\\\"description\\\")(0,_.Jn);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"small\",\"reverse\":\"!0\"},[r.qr.CONDENSED]:{\"size\":\"small\",\"reverse\":\"!0\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.MOMENT\",\"data\":{\"moment_data\":{\"moment\":\"()(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"r.k1.MOMENTS\"},\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"attribution\":\"l\",\"category\":\"!l&&c?\"{\"content\":\"c\"}:\"void 0\",\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"r.eu.DESTINATION\",\"title\":\"s?\"{\"content\":\"s\"}:\"void 0\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[r.sl.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[r.sl.NOTE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let o\",{\"isLoggedIn\":\"l\"}\"=a\",s=()(0,_.Jn),u=(i,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn),p=(i,\\\"string_value\\\",\\\"note_title\\\")(0,_.Jn),T=(i,\\\"string_value\\\",\\\"note_description\\\")(0,_.Pj),E=(i,\\\"image_value\\\",\\\"cover_image\\\")(0,_.Jn),I=E&&parseFloat(i,\\\"string_value\\\",\\\"cover_image_aspect_ratio\\\"),C=(E)(0,_.Jn),N=(i,\\\"string_value\\\",\\\"author_screen_name\\\")(0,_.Jn),O=(i,\\\"string_value\\\",\\\"author_name\\\")(0,_.Jn),b=(i,\\\"string_value\\\",\\\"author_user_id\\\")(0,_.Jn),h=(i,\\\"string_value\\\",\\\"author_profile_image_url\\\")(0,_.A_),L=(i,\\\"boolean_value\\\",\\\"is_author_protected\\\")(0,_.A_),M=(i,\\\"boolean_value\\\",\\\"is_author_verified\\\")(0,_.A_),\"R=(i,\\\"boolean_value\\\",\\\"is_author_blue_verified\\\")\"{\"switch()\"{case\"yellow0\":case\"orange0\":case\"red0\":case\"magenta0\":case\"plum0\":case\"purple0\":case\"blue0\":case\"teal0\":case\"green0\":case\"gray0\":return e;default:\"return\"}}\"()(0,_.Jn)(i,\\\"string_value\\\",\\\"background_color\\\",U=parseInt)(0,_.Jn)\",100,_.Jni,\"string_value\",\"published_time_ms\"U{\"let e=\"{\"readTime\":\"()(0,y.jsx)\"{\"short\":\"!0\",\"timeMs\":60*U*1e3}};o=()(0,y.jsx){\"$i18n\":\"dfde726b\",\"children\":\"e.readTime\"}}let w=R||d.A.isDarkMode()?\"gray900\":\"gray700\",\"P=()(0,y.jsx)\"{\"color\":\"w\",\"timestamp\":\"Number()\"}\"0\",A.A[P,...o?[o]:[]]{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.ATTRIBUTION,r.eu.MEDIA,r.eu.DETAILS,r.eu.BUTTON_GROUP,r.eu.BACKGROUND_COLOR]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\"},\"scribe\":\"n.mj.OPEN_LINK\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},[r.eu.DESTINATION_SECONDARY]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\"},\"scribe\":\"n.mj.READ_NOTE_CLICK\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...T?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":T?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":I||2.5,\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS_WITH_MIDDOT_GROUP\",\"data\":{\"...p?\":{\"description\":{\"content\":\"p\"}}:\"null\",\"descriptionMaxLines\":\"3\",\"descriptionTextColor\":\"w\",\"destination\":\"r.eu.DESTINATION\",\"label\":\"g\",\"middotGroupContents\":\"k\",\"middotGroupOnTop\":\"!0\",\"middotGroupSize\":\"large\",\"middotGroupTextColor\":\"w\",\"showDescriptionOnSmallScreens\":\"!0\",\"title\":{\"content\":\"u\"},\"titleMaxLines\":\"0\",\"titleSize\":\"large\",\"titleWeight\":\"heavy\"}},[r.eu.ATTRIBUTION]:{\"type\":\"r.v1.ATTRIBUTION\",\"data\":{\"scribeAction\":\"avatar_click\",\"user\":{\"id_str\":\"O\",\"profile_image_url_https\":\"b\",\"protected\":\"h\",\"verified\":\"L\",\"name\":\"N\",\"screen_name\":\"C\",\"is_blue_verified\":\"M\"}}},[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":[{\"type\":\"n.y6.GENERIC\",\"data\":{\"aria-label\":\"v\",\"cta\":\"v\",\"destination\":\"r.eu.DESTINATION_SECONDARY\",\"index\":\"0\",\"styleType\":\"primaryFilled\"}},...l?[{\"type\":\"n.y6.GENERIC\",\"data\":{\"buttonType\":\"bookmark\",\"cta\":\"S\",\"index\":\"1\"}}]:[]],\"layout\":\"horizontal\"}},[r.eu.BACKGROUND_COLOR]:{\"type\":\"r.v1.BACKGROUND_COLOR\",\"data\":{\"backgroundColor\":\"R\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"i\"}{\"let o=()(0,_.Pj)\",d=Math.max(a,\\\"image_value\\\",\\\"thumbnail_original\\\"),l=(parseInt0,_.Jna,\\\"string_value\\\",\\\"broadcast_width\\\",10/parseInt0,_.Jna,\\\"string_value\\\",\\\"broadcast_height\\\",10,1)(0,_.Jn),s=l?i[l]:\"void 0\",u=(a,\\\"string_value\\\",\\\"broadcaster_twitter_id\\\")(0,_.Jn);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.STATIC]:{\"size\":o?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS],[r.qr.STATIC]:[r.eu.MEDIA_STATIC,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,_.Jn)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...o?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\",[r.eu.VIDEO_ENTITY]:{\"type\":\"live_broadcast\",\"aspect_ratio\":\"d\",\"broadcast_id\":\"()(0,_.Jn)\",\"content_id\":\"(a,\\\"string_value\\\",\\\"id\\\")(0,_.Jn)\",\"destination\":\"r.eu.DESTINATION\",\"...o?\":{\"poster_image\":\"o\"}:\"null\",\"timecode\":()(0,_.Jn)||(a,\\\"string_value\\\",\\\"timecode\\\")(0,_.Jn)}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\",\"aspect_ratio\":\"d\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":o?r.eu.IMAGE_ENTITY:\"null\",\"destination\":\"r.eu.DESTINATION\",\"overlay\":{\"type\":\"r.k1.PLAY\"}}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"attribution\":\"s\",\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"r.eu.DESTINATION\",\"title\":\"l?void 0:\"{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.PLAYER]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\",\"users\":\"d\"}{\"let l\",s=()(0,_.Pj),u=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,_.Jn),c=(i,\\\"string_value\\\",\\\"description\\\")(0,_.Jn),\"p=a.tweetId?o.$.getPlayerCardIFrameUrl(i,\\\"string_value\\\",\\\"player_url\\\")\":\"void 0\",T=parseInt(a.tweetId)/parseInt(0,_.Jni,\\\"string_value\\\",\\\"player_width\\\",10),E=[r.eu.MEDIA,r.eu.DETAILS],I=[r.eu.MEDIA_STATIC,r.eu.DETAILS_SECONDARY];return(0,_.Jni,\\\"string_value\\\",\\\"player_height\\\",10)(0,_.Bx){\"name\":\"t\",\"binding_values\":\"i\"}\"(?)\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let o=()(0,_.Pj)\",d=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,_.Jn),l=parseInt(i,\\\"string_value\\\",\\\"description\\\")/parseInt(0,_.Jni,\\\"string_value\\\",\\\"player_width\\\",10);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.STATIC]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,_.Jn)\",\"vanity\":\"(i,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS],[r.qr.STATIC]:[r.eu.MEDIA_STATIC,r.eu.DETAILS]},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\",[r.eu.VIDEO_ENTITY]:{\"type\":\"vine\",\"aspect_ratio\":\"l\",\"content_id\":\"()(0,_.F0)\",\"poster_image\":\"o\",\"publisher_id\":(o.url)(0,_.Jn)||a.tweetUserId,\"variants\":[{\"src\":\"()(0,_.Jn)\",\"type\":\"(i,\\\"string_value\\\",\\\"player_stream_url\\\")(0,_.Jn)\"}]}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION\",\"overlay\":{\"type\":\"r.k1.PLAY\"}}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION\",\"...d?\":{\"description\":{\"content\":\"d\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}}{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"i\",\"converterOptions\":\"a\",\"users\":\"d\"}{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"small\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.SECONDARY]:{\"size\":\"large\"},[r.qr.STATIC]:{\"size\":\"small\"},[r.qr.DATA_SAVER]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:p?E:\"I\",[r.qr.SECONDARY]:[r.eu.MEDIA_SECONDARY,r.eu.DETAILS_SECONDARY],[r.qr.STATIC]:\"I\",[r.qr.DATA_SAVER]:[r.eu.MEDIA_STATIC,r.eu.DETAILS_SECONDARY]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"r.qr.SECONDARY\",\"persist\":\"!1\",\"vanity\":\"()(0,_.Jn)\"},\"scribe\":\"click\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},[r.eu.DESTINATION_SECONDARY]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,_.Jn)\",\"vanity\":\"(i,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":\"()\"{},s&&(),\"p&&(l[r.eu.IMAGE_ENTITY]=0,_.BSs)\"{\"type\":\"iframe\",\"url\":\"p\",\"aspect_ratio\":\"T\"}{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":s?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"r.k1.PLAY\"},\"destination\":c?r.eu.DESTINATION:\"r.eu.DESTINATION_SECONDARY\"}},[r.eu.MEDIA_SECONDARY]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":c?r.eu.IFRAME_ENTITY:\"null\",\"aspect_ratio\":\"T\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":s?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"r.k1.PLAY\"},\"destination\":\"r.eu.DESTINATION_SECONDARY\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":c?r.eu.DESTINATION:\"r.eu.DESTINATION_SECONDARY\",\"...u?\":{\"description\":{\"content\":\"u\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}},[r.eu.DETAILS_SECONDARY]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION_SECONDARY\",\"...u?\":{\"description\":{\"content\":\"u\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_.Bx){\"name\":\"player\",\"binding_values\":\"e\"}\"0\",_._ge,e=>e(?).and(\\\"card_url\\\").and(\\\"title\\\").and(\\\"player_width\\\").and(\\\"player_height\\\").and(\\\"player_image_original\\\").and(\\\"player_stream_url\\\")0,_._ge,e=>e(\\\"player_stream_content_type\\\":).and(\\\"card_url\\\").and(\\\"player_url\\\").and(\\\"player_height\\\").and(\\\"player_width\\\")},[r.sl.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"N\",\"shouldRenderCard\":\"C\"},[r.sl.IMAGE_POLL]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let d=()(0,_.Pj)\",\"s=a.tweetPermalink?o.$.getMediaDetailsLink(i,\\\"image_value\\\",\\\"image_original\\\")\":\"void 0\",u=(a.tweetPermalink)(0,_.A_),c=(i,\\\"boolean_value\\\",\\\"counts_are_final\\\")(0,_.Jn),p=(i,\\\"string_value\\\",\\\"selected_choice\\\")(0,_.Jn),\"T=\"{};d&&();let E=(T[r.eu.IMAGE_ENTITY]=0,_.BSd)(0,_.Jn),\"I=Array.from(i,\\\"string_value\\\",\\\"choice_count\\\")\"{\"length\":E?parseInt():\"4\"},()=>t+1{};I.forEach(){\"let t=()(0,_.Pj)\"{\"e\"}_image_original`,`choice${\"e\"}_image_large`,`choice${\"e\"}_image`]t{let i=`image_entity_choice${\"e\"}`,\"o=()\"{if()return`${\"a.tweetPermalink\"}/photo/${\"e\"}`}\"e0\",_.BStd.expanded_url=oA[`destination_choice${\"e\"}_image`]={\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"o\"},\"scribe\":\"show\",\"promoted_log\":\"n.A.EMBEDDED_MEDIA\"}}}}{\"let t=I.map()\"{\"let a=()(0,_.Jn)\"{\"t\"}_label`0,_.Jni,\"string_value\",`choice${\"t\"}_count`0,_.Pji,\"image_value\",[`choice${\"t\"}_image_original`,`choice${\"t\"}_image_large`,`choice${\"t\"}_image`]0,_.ySi,\"image_color_value\",`choice${\"t\"}_image_color`!a{\"index\":\"t\",\"cta\":\"a\",\"count\":parseInt()||0,\"destination\":\"e\"};return r&&(){\"t\"}_image`,d.imageEntityKey=`image_entity_choice${\"t\"}`d.imageColor=o}\"Boolean\"{\"type\":\"image_poll\",\"data\":{\"choices\":\"t\",\"isFinal\":\"u\",\"resultTextSize\":\"body\",\"endDatetimeUtc\":\"p\",\"...c&&!isNaN()?\":{\"selectedChoice\":\"parseInt()\"}:\"null\",\"totalVotes\":\"t.reduce()\"}}};return{\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\",\"chromeless\":\"!0\"},[r.qr.CONDENSED]:{\"size\":\"large\",\"chromeless\":\"!0\"}},\"cardState\":\"r.qr.DEFAULT\",\"card\":{\"id\":\"e\",\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"get_fetch_interval_for_updates\":{[r.qr.DEFAULT]:()=>u?void 0:()(0,l.J4)},\"components\":{[r.qr.DEFAULT]:d?[r.eu.IMAGE_POLL,r.eu.MEDIA]:[r.eu.IMAGE_POLL],[r.qr.STATIC]:d?[r.eu.IMAGE_POLL_STATIC,r.eu.MEDIA_STATIC]:[r.eu.IMAGE_POLL_STATIC]},\"components_data\":{[r.eu.IMAGE_POLL]:\"m()\",[r.eu.IMAGE_POLL_STATIC]:\"m(r.eu.DESTINATION)\",\"...d?\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"...s?\":{\"destination\":\"r.eu.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"...s?\":{\"destination\":\"r.eu.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}}}:\"null\"},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!0\",\"type\":\"vote\"},\"auth_required\":\"!0\",\"scribe\":\"vote\",\"promoted_log\":\"n.A.POLL_CARD_VOTE\"}},[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}},\"...s?\":{[r.eu.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\"},\"scribe\":\"show\",\"promoted_log\":\"n.A.EMBEDDED_MEDIA\"}}}:\"null\",\"...A\":\"_\"},\"media_entities\":\"T\"}}},\"shouldRenderCard\":()=>!!t?.imagePollEnabled&&!!t.imagePollEnabled(e,t)&&()(0,_._g)},[r.sl.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let d=()(0,_.Jn)\",\"l=a.tweetPermalink?o.$.getMediaDetailsLink(i,\\\"string_value\\\",\\\"thank_you_url\\\")\":\"void 0\",s=(a.tweetPermalink)(0,_.Pj),u=(i,\\\"image_value\\\",[\\\"cover_promo_image\\\",\\\"promo_image\\\"])(0,_.Pj),c=(i,\\\"image_value\\\",\\\"promo_image\\\")(0,_.Jn),p=e=>[\"one\",\"two\",\"three\",\"four\"].map(i,\\\"string_value\\\",\\\"title\\\"){\"let r=()(0,_.Jn)\"{\"t\"}`0,_.Jni,\"string_value\",`cta_${\"t\"}_tweet`{\"type\":\"n.y6.COMPOSE\",\"data\":{\"icon\":\"compose\",\"index\":\"a\",\"cta\":\"o.$.renderTweetActionLabel()\",\"tweet\":\"d\",\"destination\":\"e\"}}:\"null\"}\"Booleanr.eu.DESTINATIONr.eu.DESTINATION_STATIC\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.SECONDARY]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{\"default\":[r.eu.MEDIA,r.eu.DETAILS,r.eu.BUTTON_GROUP],\"secondary\":[r.eu.MEDIA_SECONDARY,r.eu.DETAILS_SECONDARY],\"static\":[r.eu.MEDIA_STATIC,r.eu.DETAILS_STATIC,r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"r.qr.SECONDARY\",\"persist\":\"!0\",\"type\":\"compose\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"n.A.CONVO_BUTTON_CLICK\"}},\"...l?\":{[r.eu.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"l\"},\"scribe\":\"show\",\"promoted_log\":\"n.A.EMBEDDED_MEDIA\"}}}:\"null\",\"...d?\":{[r.eu.DESTINATION_SECONDARY]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"d\",\"vanity\":\"()(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}}:\"null\",[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\",[r.eu.IMAGE_ENTITY_SECONDARY]:\"(s)(0,_.BS)\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"...l?\":{\"destination\":\"r.eu.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[r.eu.MEDIA_SECONDARY]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY_SECONDARY\",\"destination\":\"r.eu.DESTINATION_SECONDARY\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION_STATIC\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"...c?\":{\"title\":{\"content\":\"c\"}}:\"null\"}},[r.eu.DETAILS_SECONDARY]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"title\":{\"content\":\"()(0,_.Jn)\"},\"...d?\":{\"destination\":\"r.eu.DESTINATION_SECONDARY\"}:\"null\"}},[r.eu.DETAILS_STATIC]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"...c?\":{\"title\":{\"content\":\"c\"}}:\"null\"}},[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"T\"}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"E\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\"}{\"let d=()(0,_.Jn)\",\"l=a.tweetPermalink?o.$.getMediaDetailsLink(i,\\\"string_value\\\",\\\"thank_you_url\\\")\":\"void 0\",s=(a.tweetPermalink)(0,_.Pj),u=(i,\\\"image_value\\\",[\\\"cover_player_image_original\\\",\\\"player_image_original\\\"])(0,_.Pj),c=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,_.Pj),p=(i,\\\"image_value\\\",\\\"cover_promo_image_original\\\")(0,_.Jn),T=parseInt(i,\\\"string_value\\\",\\\"title\\\")/parseInt(0,_.Jni,\\\"string_value\\\",\\\"cover_player_width\\\",10),E=parseInt(0,_.Jni,\\\"string_value\\\",\\\"cover_player_height\\\",10)/parseInt(0,_.Jni,\\\"string_value\\\",\\\"player_width\\\",10),I=e=>[\"one\",\"two\",\"three\",\"four\"].map(0,_.Jni,\\\"string_value\\\",\\\"player_height\\\",10){\"let r=()(0,_.Jn)\"{\"t\"}`0,_.Jni,\"string_value\",`cta_${\"t\"}_tweet`{\"type\":\"n.y6.COMPOSE\",\"data\":{\"icon\":\"compose\",\"index\":\"a\",\"cta\":\"o.$.renderTweetActionLabel()\",\"tweet\":\"d\",\"destination\":\"e\"}}:\"null\"}\"Booleanr.eu.DESTINATIONr.eu.DESTINATION_STATIC0\",_.Jni,\"string_value\",\"cover_player_stream_url\"0,_.Jni,\"string_value\",\"player_stream_url\"0,_.Jni,\"string_value\",\"player_hls_url\"0,_.j1i,\"user_value\",\"site\"0,_.Jni,\"string_value\",\"content_duration_seconds\"0,_.Jni,\"string_value\",\"cover_content_duration_seconds\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"small\"},[r.qr.SECONDARY]:{\"size\":\"large\"},[r.qr.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{\"default\":[r.eu.MEDIA,r.eu.DETAILS,r.eu.BUTTON_GROUP],\"secondary\":[r.eu.MEDIA_SECONDARY,r.eu.DETAILS_SECONDARY],\"static\":[r.eu.MEDIA_STATIC,r.eu.DETAILS_STATIC,r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"r.qr.SECONDARY\",\"persist\":\"!0\",\"type\":\"compose\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"n.A.CONVO_BUTTON_CLICK\"}},\"...l?\":{[r.eu.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"l\"},\"scribe\":\"show\",\"promoted_log\":\"n.A.EMBEDDED_MEDIA\"}}}:\"null\",\"...d?\":{[r.eu.DESTINATION_SECONDARY]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":\"d\",\"vanity\":\"()(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}}:\"null\",[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...D?\":{[r.eu.VIDEO_ENTITY]:{\"type\":\"video\",\"aspect_ratio\":\"T\",\"content_id\":\"()(0,_.F0)\",\"...C?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"D\",\"poster_image\":\"s\",\"publisher_id\":v?v.id_str:\"a.tweetUserId\"}}:\"null\",[r.eu.VIDEO_ENTITY_SECONDARY]:{\"type\":\"video\",\"aspect_ratio\":\"E\",\"content_id\":\"()(0,_.F0)\",\"duration_ms\":S?1e3*parseInt(y):\"void 0\",\"vmap_url\":\"y\",\"poster_image\":\"u\",\"publisher_id\":v?v.id_str:\"a.tweetUserId\",\"...g?\":{\"variants\":[{\"src\":\"g\",\"type\":\"application/x-mpegURL\"}]}:\"null\"},[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"{}\"0\",_.BSu||{}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":D?r.eu.VIDEO_ENTITY:c?r.eu.IMAGE_ENTITY:\"r.eu.VIDEO_ENTITY_SECONDARY\",\"...!D&&c&&l?\":{\"destination\":\"r.eu.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[r.eu.MEDIA_SECONDARY]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY_SECONDARY\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":u?r.eu.IMAGE_ENTITY_STATIC:\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION_STATIC\",\"aspect_ratio\":\"u?void 0:1.91\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"...p?\":{\"title\":{\"content\":\"p\"}}:\"null\"}},[r.eu.DETAILS_SECONDARY]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"title\":{\"content\":\"()(0,_.Jn)\"},\"...d?\":{\"destination\":\"r.eu.DESTINATION_SECONDARY\"}:\"null\"}},[r.eu.DETAILS_STATIC]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"...p?\":{\"title\":{\"content\":\"p\"}}:\"null\"}},[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"A\"}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"m\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.SUMMARY]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"let i=()(0,_.Pj)\",o=(a,\\\"image_value\\\",\\\"thumbnail_image_original\\\")(0,_.Jn);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"small\"},[r.qr.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"domain\":\"()(0,_.Jn)\",\"url\":\"(a,\\\"string_value\\\",[\\\"domain\\\",\\\"vanity_url\\\"])(0,_.Jn)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...i?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":i?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION\",\"...o?\":{\"description\":{\"content\":\"o\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"let i=()(0,_.Pj)\",o=(a,\\\"image_value\\\",\\\"summary_photo_image_original\\\")(0,_.Jn);return{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":i?\"large\":\"small\"},[r.qr.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,r.eu.DETAILS]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"domain\":\"()(0,_.Jn)\",\"url\":\"(a,\\\"string_value\\\",[\\\"domain\\\",\\\"vanity_url\\\"])(0,_.Jn)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,_.Jn)\"},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{\"...i?\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"}:\"null\"},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":i?r.eu.IMAGE_ENTITY:\"null\",\"aspect_ratio\":i?1.91:\"1\",\"destination\":\"r.eu.DESTINATION\"}},[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"destination\":\"r.eu.DESTINATION\",\"...o?\":{\"description\":{\"content\":\"o\"}}:\"null\",\"title\":{\"content\":\"()(0,_.Jn)\"}}}}}}},\"shouldRenderCard\":e=>()(0,_._g)},[r.sl.UNIFIED_CARD]:{\"conversionHandler\":\"O.Iu\",\"shouldRenderCard\":\"O.yO\"},[r.sl.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"i\",\"users\":\"o\"}{\"let d=()(0,_.Pj)\",l=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,_.Jn),s=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,_.Jni,\\\"string_value\\\",\\\"player_width\\\",10),u=(0,_.Jni,\\\"string_value\\\",\\\"player_height\\\",10)(0,_.Jn),c=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"let a=()(0,_.Jn)\"{\"t\"}`0,_.Jni,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"n.y6.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"a\",\"wm_id\":\"r\",\"destination\":\"e\"}}:\"null\"}\"Booleanr.eu.DESTINATIONr.eu.DESTINATION_STATIC0\",_.j1i,\"user_value\",\"recipient\"{\"cardState\":\"r.qr.DEFAULT\",\"layout\":{[r.qr.DEFAULT]:{\"size\":\"large\"},[r.qr.CONDENSED]:{\"size\":\"large\"},[r.qr.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[r.qr.DEFAULT]:[r.eu.MEDIA,...A?[r.eu.DETAILS]:[],r.eu.BUTTON_GROUP],[r.qr.STATIC]:[r.eu.MEDIA_STATIC,...A?[r.eu.DETAILS]:[],r.eu.BUTTON_GROUP_STATIC]},\"destinations\":{[r.eu.DESTINATION]:{\"type\":\"r.e.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"E.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"n.A.DM_BUTTON_CLICK\"}},[r.eu.DESTINATION_STATIC]:{\"type\":\"r.e.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||r.mW},\"scribe\":\"open_link\",\"promoted_log\":\"n.A.CARD_URL_CLICK\"}}},\"media_entities\":{[r.eu.IMAGE_ENTITY]:\"()(0,_.BS)\"{}{\"type\":\"video\",\"aspect_ratio\":\"s\",\"content_id\":()(0,_.Jn)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,_.F0),\"...u?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"l\",\"poster_image\":\"d\",\"publisher_id\":()(0,_.Jn)||a.tweetUserId,\"variants\":[{\"src\":\"()(0,_.Jn)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[r.eu.MEDIA]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.VIDEO_ENTITY\"}},[r.eu.MEDIA_STATIC]:{\"type\":\"r.v1.MEDIA\",\"data\":{\"id\":\"r.eu.IMAGE_ENTITY\",\"destination\":\"r.eu.DESTINATION_STATIC\"}},\"...A?\":{[r.eu.DETAILS]:{\"type\":\"r.v1.DETAILS\",\"data\":{\"attribution\":\"I\"}}}:\"null\",[r.eu.BUTTON_GROUP]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"p\"}},[r.eu.BUTTON_GROUP_STATIC]:{\"type\":\"r.v1.BUTTON_GROUP\",\"data\":{\"buttons\":\"T\"}}}}}},\"shouldRenderCard\":e=>()(0,_._g)}}",
+  {
+    "normal": "100",
+    "long": "250",
+    "longer": "500"
+  },
+  {
+    "animate": "animate",
+    "static": "static",
+    "prep": "prep"
+  },
   {
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
@@ -861,19 +829,6 @@
     "ON_FOLLOW": "onFollow"
   },
   {
-    "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
-  },
-  {
-    "fetchStatus": "eO.Ay.NONE",
-    "mobileViewCount": "0"
-  },
-  {
-    "VIDEO": "video",
-    "PHOTO": "photo",
-    "GIF": "animated_gif",
-    "TEXT": "text"
-  },
-  {
     "INFINITE": "infinite",
     "MEDIUM": "medium",
     "NONE": "none"
@@ -905,29 +860,29 @@
   },
   {
     "NOT_RESPONDER": {
-      "DELAY": "K",
+      "DELAY": "q",
       "RESPONDER_GRANT": "J",
-      "RESPONDER_RELEASE": "K",
-      "RESPONDER_TERMINATED": "K",
-      "LONG_PRESS_DETECTED": "K"
+      "RESPONDER_RELEASE": "q",
+      "RESPONDER_TERMINATED": "q",
+      "LONG_PRESS_DETECTED": "q"
     },
     "RESPONDER_INACTIVE_PRESS_START": {
       "DELAY": "Z",
-      "RESPONDER_GRANT": "K",
+      "RESPONDER_GRANT": "q",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
-      "LONG_PRESS_DETECTED": "K"
+      "LONG_PRESS_DETECTED": "q"
     },
     "RESPONDER_ACTIVE_PRESS_START": {
-      "DELAY": "K",
-      "RESPONDER_GRANT": "K",
+      "DELAY": "q",
+      "RESPONDER_GRANT": "q",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
       "LONG_PRESS_DETECTED": "X"
     },
     "RESPONDER_ACTIVE_LONG_PRESS_START": {
-      "DELAY": "K",
-      "RESPONDER_GRANT": "K",
+      "DELAY": "q",
+      "RESPONDER_GRANT": "q",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
       "LONG_PRESS_DETECTED": "X"
@@ -941,15 +896,6 @@
     }
   },
   {
-    "RANGE_ADD": "RANGE_ADD",
-    "RANGE_DELETE": "RANGE_DELETE",
-    "NODE_DELETE": "NODE_DELETE"
-  },
-  {
-    "APPEND": "append",
-    "PREPEND": "prepend"
-  },
-  {
     "__UNPUBLISH_RECORD_SENTINEL": "!0"
   },
   {
@@ -958,16 +904,6 @@
   {
     "READONLY": "readonly",
     "READWRITE": "readwrite"
-  },
-  {
-    "normal": "100",
-    "long": "250",
-    "longer": "500"
-  },
-  {
-    "animate": "animate",
-    "static": "static",
-    "prep": "prep"
   },
   {
     "DEPRECATED_secondary": {
@@ -1209,7 +1145,7 @@
     "large": "large",
     "xLarge": "xLarge"
   },
-  "{[n.xSmall]:\".9\",[n.small]:\".95\",[n.normal]:\"1\",[n.large]:\"1.1\",[n.xLarge]:\"1.2\"}",
+  "{[i.xSmall]:\".9\",[i.small]:\".95\",[i.normal]:\"1\",[i.large]:\"1.1\",[i.xLarge]:\"1.2\"}",
   {
     "light": "light",
     "dark": "dark",
@@ -1372,83 +1308,83 @@
   },
   {
     "...s()": "_",
-    "activeFaintGray": "rgba(a.jk.light)",
-    "activeBlack": "o.j_.black(230, 236, 240, 0.7)",
-    "hoverBlack": "o.j_.black(.07)",
-    "navigationBackground": "o.UE",
-    "navigationBackground95": "o.j_.white(.03)",
-    "cellBackground": "o.UE",
-    "borderColor": "n.A.color.baseColor.gray50",
-    "nestedBorderColor": "n.A.color.baseColor.gray200",
-    "dmReceivedBubbleBackground": "n.A.color.baseColor.gray50",
-    "badgeColor": "n.A.color.baseColor.blue500",
-    "maskColor": "o.j_.black(.95)",
-    "maskColorNative": "o.j_.black(.4)",
-    "hoverLabelColor": "o.j_.black(.4)",
-    "elevatedBackground": "o.UE",
-    "elevatedBackgroundShadow": "o.j_.black(.6)",
-    "brandColor": "n.A.color.baseColor.gray1100",
-    "whiteOnColor": "o.UE",
-    "buttonBlack": "n.A.color.baseColor.gray1100",
-    "buttonWhite": "o.UE",
-    "buttonOutlinedBorder": "n.A.color.baseColor.gray200",
-    "buttonDestructionOutlinedBorder": "n.A.color.baseColor.red100",
-    "appBarBackground": "o.j_.white(.1)",
-    "appBarFirefoxBackground": "o.j_.white(.85)",
-    "modalBackground": "o.UE",
+    "activeFaintGray": "rgba(o.jk.light)",
+    "activeBlack": "a.j_.black(230, 236, 240, 0.7)",
+    "hoverBlack": "a.j_.black(.07)",
+    "navigationBackground": "a.UE",
+    "navigationBackground95": "a.j_.white(.03)",
+    "cellBackground": "a.UE",
+    "borderColor": "i.A.color.baseColor.gray50",
+    "nestedBorderColor": "i.A.color.baseColor.gray200",
+    "dmReceivedBubbleBackground": "i.A.color.baseColor.gray50",
+    "badgeColor": "i.A.color.baseColor.blue500",
+    "maskColor": "a.j_.black(.95)",
+    "maskColorNative": "a.j_.black(.4)",
+    "hoverLabelColor": "a.j_.black(.4)",
+    "elevatedBackground": "a.UE",
+    "elevatedBackgroundShadow": "a.j_.black(.6)",
+    "brandColor": "i.A.color.baseColor.gray1100",
+    "whiteOnColor": "a.UE",
+    "buttonBlack": "i.A.color.baseColor.gray1100",
+    "buttonWhite": "a.UE",
+    "buttonOutlinedBorder": "i.A.color.baseColor.gray200",
+    "buttonDestructionOutlinedBorder": "i.A.color.baseColor.red100",
+    "appBarBackground": "a.j_.white(.1)",
+    "appBarFirefoxBackground": "a.j_.white(.85)",
+    "modalBackground": "a.UE",
     "passkeyColor": "#007AFF"
   },
   {
-    "...h": "_",
+    "...d": "_",
     "...s()": "_",
     "text": "#141D26",
     "gray700": "#3B4C5C",
     "gray300": "#697987",
     "gray200": "#697987",
     "gray100": "#E5EAEC",
-    "gray50": "n.A.color.baseColor.gray200",
-    "gray0": "n.A.color.baseColor.gray50",
-    "navigationBackground95": "o.UE",
-    "borderColor": "n.A.color.baseColor.gray300",
-    "nestedBorderColor": "n.A.color.baseColor.gray300",
-    "dmReceivedBubbleBackground": "n.A.color.baseColor.gray200",
+    "gray50": "i.A.color.baseColor.gray200",
+    "gray0": "i.A.color.baseColor.gray50",
+    "navigationBackground95": "a.UE",
+    "borderColor": "i.A.color.baseColor.gray300",
+    "nestedBorderColor": "i.A.color.baseColor.gray300",
+    "dmReceivedBubbleBackground": "i.A.color.baseColor.gray200",
     "badgeColor": "#264A9D",
-    "buttonOutlinedBorder": "n.A.color.baseColor.gray700",
+    "buttonOutlinedBorder": "i.A.color.baseColor.gray700",
     "passkeyColor": "#007AFF"
   },
   {
     "...s()": "_",
-    "activeFaintGray": "rgba(a.jk.dark)",
-    "activeBlack": "o.j_.white(18, 21, 23, 0.7)",
-    "hoverBlack": "o.j_.white(.07)",
-    "navigationBackground": "o.Uv",
-    "navigationBackground95": "o.j_.black(.03)",
-    "cellBackground": "o.Uv",
+    "activeFaintGray": "rgba(o.jk.dark)",
+    "activeBlack": "a.j_.white(18, 21, 23, 0.7)",
+    "hoverBlack": "a.j_.white(.07)",
+    "navigationBackground": "a.Uv",
+    "navigationBackground95": "a.j_.black(.03)",
+    "cellBackground": "a.Uv",
     "unreadCellBackground": "#041722",
     "borderColor": "#2F3336",
     "nestedBorderColor": "#2F3336",
     "dmReceivedBubbleBackground": "#2F3336",
-    "badgeColor": "n.A.color.baseColor.blue500",
-    "maskColor": "o.j_.gray700(.95)",
-    "maskColorNative": "o.j_.black(.4)",
-    "hoverLabelColor": "o.j_.gray700(.4)",
+    "badgeColor": "i.A.color.baseColor.blue500",
+    "maskColor": "a.j_.gray700(.95)",
+    "maskColorNative": "a.j_.black(.4)",
+    "hoverLabelColor": "a.j_.gray700(.4)",
     "elevatedBackground": "#1B2023",
-    "elevatedBackgroundShadow": "o.j_.black(.8)",
-    "brandColor": "n.A.color.darkColor.gray1100",
-    "whiteOnColor": "o.UE",
-    "buttonBlack": "n.A.color.baseColor.gray50",
-    "buttonWhite": "n.A.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "n.A.color.baseColor.gray700",
+    "elevatedBackgroundShadow": "a.j_.black(.8)",
+    "brandColor": "i.A.color.darkColor.gray1100",
+    "whiteOnColor": "a.UE",
+    "buttonBlack": "i.A.color.baseColor.gray50",
+    "buttonWhite": "i.A.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.A.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
-    "appBarBackground": "o.j_.black(.1)",
-    "appBarFirefoxBackground": "o.j_.black(.65)",
+    "appBarBackground": "a.j_.black(.1)",
+    "appBarFirefoxBackground": "a.j_.black(.65)",
     "modalBackground": "#141414",
     "passkeyColor": "#007AFF"
   },
   {
-    "...f": "_",
+    "..._": "_",
     "...s()": "_",
-    "text": "o.UE",
+    "text": "a.UE",
     "navigationBackground": "#050505",
     "navigationBackground95": "#050505",
     "cellBackground": "#050505",
@@ -1457,83 +1393,61 @@
     "nestedBorderColor": "#3D4145",
     "dmReceivedBubbleBackground": "#929CA6",
     "badgeColor": "#264A9D",
-    "whiteOnColor": "n.A.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "n.A.color.baseColor.gray300",
+    "whiteOnColor": "i.A.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.A.color.baseColor.gray300",
     "passkeyColor": "#007AFF"
   },
   {
     "...s()": "_",
-    "activeFaintGray": "rgba(a.jk.business)",
-    "activeBlack": "o.j_.white(20, 29, 38, 0.7)",
-    "hoverBlack": "o.j_.white(.07)",
+    "activeFaintGray": "rgba(o.jk.business)",
+    "activeBlack": "a.j_.white(20, 29, 38, 0.7)",
+    "hoverBlack": "a.j_.white(.07)",
     "navigationBackground": "#010c12",
-    "navigationBackground95": "o.j_.dim(.03)",
+    "navigationBackground95": "a.j_.dim(.03)",
     "cellBackground": "#010c12",
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "n.A.color.baseColor.blue500",
-    "maskColor": "o.j_.gray700(.95)",
-    "maskColorNative": "o.j_.black(.4)",
-    "hoverLabelColor": "o.j_.gray700(.4)",
+    "badgeColor": "i.A.color.baseColor.blue500",
+    "maskColor": "a.j_.gray700(.95)",
+    "maskColorNative": "a.j_.black(.4)",
+    "hoverLabelColor": "a.j_.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
-    "elevatedBackgroundShadow": "o.j_.dim(.8)",
-    "brandColor": "n.A.color.baseColor.gray0",
-    "whiteOnColor": "o.UE",
-    "buttonBlack": "n.A.color.baseColor.gray50",
-    "buttonWhite": "n.A.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "n.A.color.baseColor.gray700",
+    "elevatedBackgroundShadow": "a.j_.dim(.8)",
+    "brandColor": "i.A.color.baseColor.gray0",
+    "whiteOnColor": "a.UE",
+    "buttonBlack": "i.A.color.baseColor.gray50",
+    "buttonWhite": "i.A.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.A.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
-    "appBarBackground": "o.j_.dim(.1)",
-    "appBarFirefoxBackground": "o.j_.dim(.75)",
+    "appBarBackground": "a.j_.dim(.1)",
+    "appBarFirefoxBackground": "a.j_.dim(.75)",
     "modalBackground": "#141414",
     "passkeyColor": "#007AFF"
   },
   "{\"appBarHeight\":`${\"T\"}px`,\"appBarHeightPx\":\"T\",\"conversationLineWidth\":\"b.space2\",\"gutterHorizontal\":\"y.space16\",\"gutterHorizontalPx\":\"b.space16\",\"gutterVertical\":\"y.space12\",\"gutterVerticalPx\":\"b.space12\"}",
   {
-    "space1": "h.spaces.space1",
+    "space1": "m.spaces.space1",
     "space2": "p()",
-    "space4": "p(h.spaces.space2)",
-    "space8": "p(h.spaces.space4)",
-    "space10": "p(h.spaces.space8)",
-    "space12": "p(h.spaces.space10)",
-    "space16": "p(h.spaces.space12)",
-    "space20": "p(h.spaces.space16)",
-    "space24": "p(h.spaces.space20)",
-    "space28": "p(h.spaces.space24)",
-    "space32": "p(h.spaces.space28)",
-    "space36": "p(h.spaces.space32)",
-    "space40": "p(h.spaces.space36)",
-    "space48": "p(h.spaces.space40)",
-    "space56": "p(h.spaces.space48)",
-    "space64": "p(h.spaces.space56)",
-    "space72": "p(h.spaces.space64)",
-    "space80": "p(h.spaces.space72)"
+    "space4": "p(m.spaces.space2)",
+    "space8": "p(m.spaces.space4)",
+    "space10": "p(m.spaces.space8)",
+    "space12": "p(m.spaces.space10)",
+    "space16": "p(m.spaces.space12)",
+    "space20": "p(m.spaces.space16)",
+    "space24": "p(m.spaces.space20)",
+    "space28": "p(m.spaces.space24)",
+    "space32": "p(m.spaces.space28)",
+    "space36": "p(m.spaces.space32)",
+    "space40": "p(m.spaces.space36)",
+    "space48": "p(m.spaces.space40)",
+    "space56": "p(m.spaces.space48)",
+    "space64": "p(m.spaces.space56)",
+    "space72": "p(m.spaces.space64)",
+    "space80": "p(m.spaces.space72)"
   },
-  "{\"aspectRatios\":\"s\",\"baseFontSize\":\"A\",\"borderRadii\":\"d\",\"borderRadiiPx\":\"l\",\"borderWidths\":\"u\",\"borderWidthsPx\":\"c\",\"breakpoints\":\"a\",\"componentDimensions\":\"Object.freeze()\"{\"appBarHeight\":`${\"T\"}px`,\"appBarHeightPx\":\"T\",\"conversationLineWidth\":\"b.space2\",\"gutterHorizontal\":\"y.space16\",\"gutterHorizontalPx\":\"b.space16\",\"gutterVertical\":\"y.space12\",\"gutterVerticalPx\":\"b.space12\"}}",
-  "{\"...h()\":{\"scale\":\"o\",\"scales\":\"s\"}\"ei0\",g.KDa,i,\"t\"}",
-  {
-    "UNKNOWN": "0",
-    "TOP_LEFT": "1",
-    "TOP_RIGHT": "2",
-    "BOTTOM_RIGHT": "3",
-    "BOTTOM_LEFT": "4",
-    "LEFT_TOP": "5",
-    "LEFT_BOTTOM": "6",
-    "RIGHT_BOTTOM": "7",
-    "RIGHT_TOP": "8"
-  },
-  {
-    "FILE_TOO_LARGE": "2",
-    "INTERNAL_ERROR": "131",
-    "INVALID_MEDIA": "1",
-    "RATE_LIMIT": "88",
-    "TIMEOUT": "67",
-    "UNSUPPORTED_MEDIA": "3",
-    "ZERO_FILE_LENGTH": "4",
-    "CANCELED": "999",
-    "INVALID_RES_STATUS": -1
-  },
+  "{\"aspectRatios\":\"s\",\"baseFontSize\":\"A\",\"borderRadii\":\"c\",\"borderRadiiPx\":\"l\",\"borderWidths\":\"u\",\"borderWidthsPx\":\"d\",\"breakpoints\":\"o\",\"componentDimensions\":\"Object.freeze()\"{\"appBarHeight\":`${\"T\"}px`,\"appBarHeightPx\":\"T\",\"conversationLineWidth\":\"b.space2\",\"gutterHorizontal\":\"y.space16\",\"gutterHorizontalPx\":\"b.space16\",\"gutterVertical\":\"y.space12\",\"gutterVerticalPx\":\"b.space12\"}}",
+  "{\"...()\":{\"scale\":\"e\",\"scales\":\"t=i.Ht\"}{let r=t[e],p=e=>Math.round(),{\"font\":\"h\",\"size\":\"m\"}\"=n.A\",\"f=\"{\"subtext3\":\"p()\",\"subtext2\":\"p(h.lineHeight.subtext3)\",\"subtext1\":\"p(h.lineHeight.subtext2)\",\"body\":\"p(h.lineHeight.subtext1)\",\"headline2\":\"p(h.lineHeight.body)\",\"headline1\":\"p(h.lineHeight.headline2)\",\"title4\":\"p(h.lineHeight.headline1)\",\"title3\":\"p(h.lineHeight.title4)\",\"title2\":\"p(h.lineHeight.title3)\",\"title1\":\"p(h.lineHeight.title2)\",\"title0\":\"p(h.lineHeight.title1)\"},\"g=\"{};Object.keys().forEach(f){g[e]=`${f[e]}px`}{\"space1\":\"m.spaces.space1\",\"space2\":\"p()\",\"space4\":\"p(m.spaces.space2)\",\"space8\":\"p(m.spaces.space4)\",\"space10\":\"p(m.spaces.space8)\",\"space12\":\"p(m.spaces.space10)\",\"space16\":\"p(m.spaces.space12)\",\"space20\":\"p(m.spaces.space16)\",\"space24\":\"p(m.spaces.space20)\",\"space28\":\"p(m.spaces.space24)\",\"space32\":\"p(m.spaces.space28)\",\"space36\":\"p(m.spaces.space32)\",\"space40\":\"p(m.spaces.space36)\",\"space48\":\"p(m.spaces.space40)\",\"space56\":\"p(m.spaces.space48)\",\"space64\":\"p(m.spaces.space56)\",\"space72\":\"p(m.spaces.space64)\",\"space80\":\"p(m.spaces.space72)\"}{};Object.keys().forEach(b){y[e]=`${b[e]}px`}{\"subtext3\":\"p()\",\"subtext2\":\"p(h.fontSize.subtext3)\",\"subtext1\":\"p(h.fontSize.subtext2)\",\"body\":\"p(h.fontSize.subtext1)\",\"headline2\":\"p(h.fontSize.body)\",\"headline1\":\"p(h.fontSize.headline2)\",\"title4\":\"p(h.fontSize.headline1)\",\"title3\":\"p(h.fontSize.title4)\",\"title2\":\"p(h.fontSize.title3)\",\"title1\":\"p(h.fontSize.title2)\",\"title0\":\"p(h.fontSize.title1)\"},\"v=\"{};Object.keys().forEach(w){v[e]=`${w[e]}px`}\"h.fontSize.body53\"{\"aspectRatios\":\"s\",\"baseFontSize\":\"A\",\"borderRadii\":\"c\",\"borderRadiiPx\":\"l\",\"borderWidths\":\"u\",\"borderWidthsPx\":\"d\",\"breakpoints\":\"o\",\"componentDimensions\":\"Object.freeze()\"{\"appBarHeight\":`${\"T\"}px`,\"appBarHeightPx\":\"T\",\"conversationLineWidth\":\"b.space2\",\"gutterHorizontal\":\"y.space16\",\"gutterHorizontalPx\":\"b.space16\",\"gutterVertical\":\"y.space12\",\"gutterVerticalPx\":\"b.space12\"}}}{\"scale\":\"f\",\"scales\":\"g\"}{\"normal\":e?'\"TwitterChirp\", System':\"System\",\"chirpExtended\":'\"TwitterChirpExtendedHeavy\", \"Verdana\", System',\"japan\":'\"Segoe UI\", Meiryo, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',\"rtl\":\"Tahoma, Arial, sans-serif\",\"fa\":\"Vazirmatn, Tahoma, Arial, sans-serif\"},\"boxShadows\":\"()\"{\"switch()\"{\"case i.jk.dark\":\"return\"{\"xSmall\":\"0 0 7px rgba(), 0 1px 3px 1px rgba(255,255,255,0.2)\",\"small\":\"0 0 5px rgba(255,255,255,0.15), 0 1px 4px 1px rgba(217,217,217,0.2)\",\"medium\":\"0 0 15px rgba(217,217,217,0.25), 0 0 3px 1px rgba(255,255,255,0.2)\",\"large\":\"0 0 25px rgba(255,255,255,0.15), 0 0 3px 1px rgba(255,255,255,0.2)\",\"menu\":\"0 4px 12px rgba(255,255,255,0.15), 0 0 2px rgba(0,0,0,0.5)\"};case i.jk.light:default:\"return\"{\"xSmall\":\"0 0 7px rgba(), 0 1px 3px 1px rgba(101,119,134,0.2)\",\"small\":\"0 0 8px rgba(101,119,134,0.15), 0 1px 3px 1px rgba(101,119,134,0.2)\",\"medium\":\"0 0 15px rgba(101,119,134,0.25), 0 0 3px 1px rgba(101,119,134,0.2)\",\"large\":\"0 0 25px rgba(101,119,134,0.15), 0 0 3px 1px rgba(101,119,134,0.2)\",\"menu\":\"0 0 15px rgba(101,119,134,0.15), 0 0 3px 1px rgba(101,119,134,0.2)\"}}}\"h0\",p.KDm,h,\"t\"}",
   {
     "Live": "Live",
     "Top": "Top",
@@ -1737,13 +1651,10 @@
     "en-ss": "!0",
     "en-xx": "!0",
     "es": "!0",
-    "eu": "!0",
     "fa": "!0",
     "fi": "!0",
     "fil": "!0",
     "fr": "!0",
-    "ga": "!0",
-    "gl": "!0",
     "gu": "!0",
     "ha": "!0",
     "he": "!0",
@@ -1857,12 +1768,12 @@
       }
     }
   },
-  "{\"oneColumn\":\"n.primary\",\"twoColumn\":{\"small\":n.primary+n.gutter.left.small+n.secondary.small+n.gutter.right.normal,\"normal\":n.primary+n.gutter.left.normal+n.secondary.normal+n.gutter.right.normal,\"large\":n.primary+n.gutter.left.normal+n.secondary.normal+n.gutter.right.large}}",
-  "{\"oneColumn\":\"i.primary\",\"twoColumn\":{\"small\":i.primary+i.gutter.left.small+i.secondary.small+i.gutter.right.normal,\"normal\":i.primary+i.gutter.left.normal+i.secondary.normal+i.gutter.right.normal,\"large\":i.wide+i.gutter.left.normal+i.secondary.wide+i.gutter.right.large}}",
+  "{\"oneColumn\":\"i.primary\",\"twoColumn\":{\"small\":i.primary+i.gutter.left.small+i.secondary.small+i.gutter.right.normal,\"normal\":i.primary+i.gutter.left.normal+i.secondary.normal+i.gutter.right.normal,\"large\":i.primary+i.gutter.left.normal+i.secondary.normal+i.gutter.right.large}}",
+  "{\"oneColumn\":\"n.primary\",\"twoColumn\":{\"small\":n.primary+n.gutter.left.small+n.secondary.small+n.gutter.right.normal,\"normal\":n.primary+n.gutter.left.normal+n.secondary.normal+n.gutter.right.normal,\"large\":n.wide+n.gutter.left.normal+n.secondary.wide+n.gutter.right.large}}",
   {
     "normal": "300"
   },
-  "{\"cardWidth\":\"d\",\"columnWidths\":\"n\",\"columnWidthsRedesign\":\"i\",\"sideNavWidths\":\"a\",\"sideNavWidthsRedesign\":\"o\",\"contentWidths\":\"s\",\"contentWidthsRedesign\":\"l\",\"wideTabBarWidth\":\"c\",\"dmDrawerHeight\":\"Object.freeze()\"{\"expanded\":\"530\",\"collapsed\":\"60\"}{\"min\":\"350\",\"max\":\"400\"}}",
+  "{\"cardWidth\":\"c\",\"columnWidths\":\"i\",\"columnWidthsRedesign\":\"n\",\"sideNavWidths\":\"o\",\"sideNavWidthsRedesign\":\"a\",\"contentWidths\":\"s\",\"contentWidthsRedesign\":\"l\",\"wideTabBarWidth\":\"d\",\"dmDrawerHeight\":\"Object.freeze()\"{\"expanded\":\"530\",\"collapsed\":\"60\"}{\"min\":\"350\",\"max\":\"400\"}}",
   {
     "Admin": "Admin",
     "Moderator": "Moderator",
@@ -1884,38 +1795,6 @@
     "Always": "always"
   },
   {
-    "RESIZE": "resize",
-    "UPLOAD": "upload",
-    "METADATA": "metadata",
-    "MAXDURATION": "maxduration",
-    "MAXSIZE": "maxsize"
-  },
-  {
-    "AmplifyVideo": "amplify_video",
-    "CommunityBanner": "community_banner_image",
-    "ListBanner": "list_banner_image",
-    "TweetImage": "tweet_image",
-    "TweetVideo": "tweet_video",
-    "TweetGif": "tweet_gif",
-    "DMImage": "dm_image",
-    "DMVideo": "dm_video",
-    "DMGif": "dm_gif",
-    "Subtitles": "subtitles",
-    "ProfileBanner": "banner_image",
-    "CardImage": "card_image"
-  },
-  {
-    "Tweet": "tweet",
-    "Dm": "dm",
-    "ImagePollCard": "image_poll_card",
-    "CommunityBanner": "community_banner",
-    "ListBanner": "list_banner",
-    "ProfileBanner": "profile_banner",
-    "Avatar": "avatar",
-    "Verification": "verification",
-    "TwitterArticle": "twitter_article"
-  },
-  {
     "grok": "grok",
     "pro": "pro"
   },
@@ -1928,7 +1807,7 @@
     "BlueVerifiedPlus6Months": "BlueVerifiedPlus6Months"
   },
   {
-    "...n.A": "_",
+    "...i.A": "_",
     "EMBEDDED_MEDIA": "embedded_media",
     "FOOTER_PROFILE": "footer_profile",
     "HASHTAG_CLICK": "hashtag_click",
@@ -1948,7 +1827,7 @@
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[i.A.CASHTAG]:\"void 0\",[i.A.EMOJI]:\"void 0\",[i.A.HASHTAG]:\"a.HASHTAG_CLICK\",[i.A.MEDIA]:\"void 0\",[i.A.MENTION]:\"a.USER_MENTION_CLICK\",[i.A.SMARTTAG]:\"a.SMARTTAG_CLICK\",[i.A.TEXT]:\"void 0\",[i.A.TIMESTAMP]:\"void 0\",[i.A.URL]:\"a.URL_CLICK\"}",
+  "{[n.A.CASHTAG]:\"void 0\",[n.A.EMOJI]:\"void 0\",[n.A.HASHTAG]:\"o.HASHTAG_CLICK\",[n.A.MEDIA]:\"void 0\",[n.A.MENTION]:\"o.USER_MENTION_CLICK\",[n.A.SMARTTAG]:\"o.SMARTTAG_CLICK\",[n.A.TEXT]:\"void 0\",[n.A.TIMESTAMP]:\"void 0\",[n.A.URL]:\"o.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -2258,8 +2137,8 @@
     "NewTweets": "NewTweets"
   },
   {
-    "...n": "_",
     "...i": "_",
+    "...n": "_",
     "FacepileGroup": "FacepileGroup",
     "Community": "Community",
     "Pin": "Pin",
@@ -2331,16 +2210,6 @@
     "Hero": "Hero"
   },
   {
-    "List": "List",
-    "ListTile": "ListTile",
-    "ListWithPin": "ListWithPin",
-    "ListWithSubscribe": "ListWithSubscribe"
-  },
-  {
-    "Creation": "list_creation",
-    "Edit": "list_edit"
-  },
-  {
     "Basic": "Basic",
     "Recommendation": "Recommendation",
     "Pivot": "Pivot"
@@ -2370,13 +2239,8 @@
     "Always": "Always"
   },
   {
-    "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
-    "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
-    "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
-  },
-  {
-    "memberships": "s",
-    "fetchStatus": "a.Ay.NONE"
+    "BLOCKED": "blocked",
+    "ALLOWED": "allowed"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -2391,7 +2255,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[m.DEFAULT]:\"h.UNDETERMINED\",[m.DENIED]:\"h.OFF\",[m.GRANTED]:\"h.ON\"}",
+  "{[h.DEFAULT]:\"m.UNDETERMINED\",[h.DENIED]:\"m.OFF\",[h.GRANTED]:\"m.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -2432,74 +2296,6 @@
     "FAILURE": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_FAILURE"
   },
   {
-    "REQUEST": "rweb/lists/FETCH_LISTMEMBERSHIPS_REQUEST",
-    "SUCCESS": "rweb/lists/FETCH_LISTMEMBERSHIPS_SUCCESS",
-    "FAILURE": "rweb/lists/FETCH_LISTMEMBERSHIPS_FAILURE"
-  },
-  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[l.CK.BOTTOM]:\"o.Ay.NONE\",[l.CK.TOP]:\"o.Ay.NONE\"}}",
-  {
-    "uploading": "uploading",
-    "processing": "processing"
-  },
-  {
-    "0": "w.fv.INTERNAL_ERROR",
-    "1": "w.fv.INVALID_MEDIA",
-    "2": "w.fv.FILE_TOO_LARGE",
-    "3": "w.fv.UNSUPPORTED_MEDIA",
-    "4": "w.fv.TIMEOUT"
-  },
-  {
-    "LocalFile": "local_file",
-    "Remote": "remote"
-  },
-  {
-    "Cancel": "cancel",
-    "Failure": "failure",
-    "Success": "success",
-    "Complete": "complete",
-    "Invalid": "invalid"
-  },
-  {
-    "InProgress": "in_progress",
-    "Complete": "complete",
-    "Failure": "failure",
-    "Canceled": "canceled"
-  },
-  {
-    "Full": "full",
-    "Hash": "hash",
-    "Processing": "processing",
-    "SruUpload": "sru_upload",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
-    "Metadata": "metadata",
-    "MetadataExtractToFinalize": "metadata_extract_to_finalize"
-  },
-  {
-    "SruUpload": "sru_upload_no_eager",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
-  },
-  {
-    "All": "all",
-    "Short": "short",
-    "Medium": "medium",
-    "Long": "long",
-    "XLong": "xlong",
-    "L90to140s": "l90to140s",
-    "L140to300s": "l140to300s",
-    "L300to600s": "l300to600s",
-    "L600to1200s": "l600to1200s",
-    "L1200to1800s": "l1200to1800s",
-    "L1800to2700s": "l1800to2700s",
-    "L2700to3600s": "l2700to3600s",
-    "L3600to4500s": "l3600to4500s",
-    "L4500to5400s": "l4500to5400s",
-    "L5400to6300s": "l5400to6300s",
-    "L6300to7200s": "l6300to7200s",
-    "L7200to10800s": "l7200to10800s",
-    "L10800to14400s": "l10800to14400s",
-    "LGT14400s": "lgt14400s"
-  },
-  {
     "REQUEST": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST",
     "SUCCESS": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS",
     "FAILURE": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE"
@@ -2509,14 +2305,7 @@
     "REQUEST": "rweb/pinnedTimelines/TOGGLE_PIN_TIMELINE_REQUEST",
     "SUCCESS": "rweb/pinnedTimelines/TOGGLE_PIN_TIMELINE_SUCCESS"
   },
-  {
-    "type": "component",
-    "Component": "x"
-  },
-  {
-    "type": "pinnedTimelineMenu"
-  },
-  "{\"forYou\":\"()(0,j.bw)\"{\"controlFeatureSwitch\":\"co_timeline_topic_filter_enabled\",\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"home\"}{\"id\":\"home\",\"type\":\"home\"}{\"state\":\"e\"}{\"let t=e?()(0,P.fz)\":null;if(e)throw Error(!t);let r=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,u.fU):[];return r.length>0?(e)(0,U.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"r\"}\"0\",\"U.Ay\"{\"userId\":\"t\"}},\"getName\":()=>i().d1e0a75f(){\"noun\":\"\"}}\"0\",\"j.bw\"{\"controlFeatureSwitch\":\"rweb_home_ranked_following_enabled\",\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"home_latest\",\"sort\":\"Popular\"}{\"id\":\"home_latest\",\"type\":\"home_latest\",\"sort\":\"Popular\"}\"e\",\"t\"{if()return e;let r=t.sort;return\"Popular\"===r||\"Recent\"===r?{\"id\":\"e.id\",\"type\":\"home_latest\",\"sort\":\"r\"}:\"e\"},\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"q\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let r=e?(\\\"following getModule called with wrong timeline type\\\")(0,P.fz):null;if(e)throw Error(!r);let n=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,U.Ay){\"sort\":\"n\",\"userId\":\"r\"}},\"getName\":()=>z,\"getScribe\":\"()\"{\"timeline\":\"e\"}}{\"createRecord\":e=>(){\"id\":\"e\",\"sort\":\"Relevance\",\"type\":\"Community\"}\"e\",\"t\"{if()return e;let r=t.sort;return\"Relevance\"===r||\"Recency\"===r||\"Likes\"===r?{\"id\":\"e.id\",\"type\":\"Community\",\"sort\":\"r\"}:\"e\"},\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"q\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,F.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"List\"}{\"timeline\":\"e\"}\"0\",\"M.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"Generic\"}{\"let t=e?.id?.trim()\",r=e?.name?.trim(),n=e?.scribe?.trim();return t&&r&&n?{\"id\":\"t\",\"name\":\"r\",\"scribe\":\"n\",\"type\":\"Generic\"}:\"null\"},\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"D.de.id\"{\"timeline\":\"e\"}{\"timeline\":\"e\"}}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"Tag\"}{let t=e?.tag?.trim();return t?{\"id\":\"t\",\"tag\":\"t\",\"type\":\"Tag\"}:\"null\"},\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let r=e?(\\\"tag getModule called with wrong timeline type\\\")(0,P.fz):null;if(e)throw Error(!r);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,u.fU):[];return(e)(0,U.Ay){\"userId\":\"r\",\"snoozedTopicIds\":\"n\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}{\"timeline\":\"e\"}}}",
+  "{\"forYou\":\"()(0,i.bw)\"{\"controlFeatureSwitch\":\"co_timeline_topic_filter_enabled\",\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"home\"}{\"id\":\"home\",\"type\":\"home\"}}\"0\",\"i.bw\"{\"controlFeatureSwitch\":\"rweb_home_ranked_following_enabled\",\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"home_latest\",\"sort\":\"Popular\"}{\"id\":\"home_latest\",\"type\":\"home_latest\",\"sort\":\"Popular\"}\"e\",\"t\"{if()return e;let r=t.sort;return\"Popular\"===r||\"Recent\"===r?{\"id\":\"e.id\",\"type\":\"home_latest\",\"sort\":\"r\"}:\"e\"},\"getScribe\":\"()\"{\"timeline\":\"e\"}}{\"createRecord\":e=>(){\"id\":\"e\",\"sort\":\"Relevance\",\"type\":\"Community\"}\"e\",\"t\"{if()return e;let r=t.sort;return\"Relevance\"===r||\"Recency\"===r||\"Likes\"===r?{\"id\":\"e.id\",\"type\":\"Community\",\"sort\":\"r\"}:\"e\"},\"getScribe\":()=>\"community\",\"type\":\"Community\"}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"List\"}}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"Generic\"}{\"let t=e?.id?.trim()\",r=e?.name?.trim(),i=e?.scribe?.trim();return t&&r&&i?{\"id\":\"t\",\"name\":\"r\",\"scribe\":\"i\",\"type\":\"Generic\"}:\"null\"},\"getScribe\":\"()\"{\"timeline\":\"e\"}}{\"createRecord\":e=>(){\"id\":\"e\",\"type\":\"Tag\"}{let t=e?.tag?.trim();return t?{\"id\":\"t\",\"tag\":\"t\",\"type\":\"Tag\"}:\"null\"},\"getScribe\":\"()\"{\"timeline\":\"e\"}}}",
   {
     "REQUEST": "rweb/upsells/FETCH_UPSELLS_REQUEST",
     "SUCCESS": "rweb/upsells/FETCH_UPSELLS_SUCCESS",
@@ -2613,18 +2402,6 @@
     "FAILURE": "rweb/settings/DELETE_SSO_CONNECTION_FAILURE"
   },
   {
-    "BOTTOM": "bottom",
-    "TOP": "top"
-  },
-  {
-    "down_cursor": "n.BOTTOM",
-    "max_id": "n.BOTTOM",
-    "max_position": "n.BOTTOM",
-    "min_position": "n.TOP",
-    "since_id": "n.TOP",
-    "up_cursor": "n.TOP"
-  },
-  {
     "REQUEST": "rweb/typeaheadV2/FETCH_REQUEST",
     "SUCCESS": "rweb/typeaheadV2/FETCH_SUCCESS",
     "FAILURE": "rweb/typeaheadV2/FETCH_FAILURE"
@@ -2642,10 +2419,6 @@
     "Top": "Top",
     "Bottom": "Bottom",
     "TopAndBottom": "TopAndBottom"
-  },
-  {
-    "pinnedLists": "pinnedLists",
-    "ownedSubscribedList": "ownedSubscribedList"
   },
   {
     "All": "all",
@@ -2725,33 +2498,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,i.Xz)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,i.Xz)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,i.Xz)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,i.Xz)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,i.Xz)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,i.Xz)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,i.Xz)"
+    "AU": "()(0,n.Xz)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,n.Xz)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,n.Xz)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,n.Xz)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,n.Xz)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,n.Xz)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,n.Xz)"
   },
   {
-    "en": "()(0,i.Xz)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,i.Xz)"
+    "en": "()(0,n.Xz)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,n.Xz)"
   },
   {
-    "en": "()(0,i.Xz)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,i.Xz)"
+    "en": "()(0,n.Xz)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,n.Xz)"
   },
   {
     "All": "all",
