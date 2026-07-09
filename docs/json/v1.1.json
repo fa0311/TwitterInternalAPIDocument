@@ -1,5 +1,23 @@
 [
   {
+    "queryId": "media/metadata/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "onboarding/task",
     "dispatch_key": "post",
     "dispatch": [
@@ -100,6 +118,15 @@
   },
   {
     "queryId": "account/not_my_account/get_masked_data",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "lists/memberships",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -585,15 +612,6 @@
     ]
   },
   {
-    "queryId": "lists/memberships",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "notifications/settings/save",
     "dispatch_key": "post",
     "dispatch": [
@@ -936,19 +954,10 @@
     ]
   },
   {
-    "queryId": "media/metadata/create",
-    "dispatch_key": "post",
+    "queryId": "help/settings",
+    "dispatch_key": "get",
     "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/subtitles/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
