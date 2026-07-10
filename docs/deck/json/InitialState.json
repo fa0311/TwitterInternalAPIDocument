@@ -7966,7 +7966,7 @@
           "value": "variant_b"
         },
         "subscriptions_upsells_visitor_get_verified_age_gate_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_vo_nav_decoration_enabled": {
           "value": "false"
@@ -8670,7 +8670,7 @@
           "value": "11000"
         },
         "xchat_max_message_preview_size": {
-          "value": "500"
+          "value": "1000"
         },
         "xchat_max_users_to_fetch_per_request": {
           "value": "100"
@@ -8814,7 +8814,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "de07c368d84266edaeb76abed0569e59"
+      "settingsVersion": "698746464f9ee960b95e7cdd53a105fd"
     },
     "debug": {},
     "featureSetToken": "0d529b4cc8fe646d4575219e3d33a2b51380704b",
@@ -8886,7 +8886,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178363746236068972",
+    "guestId": "178372325087059258",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
