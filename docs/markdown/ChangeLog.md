@@ -8686,3 +8686,14 @@
 - responsive_web_history_screen_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- web_video_hlsjs_media_error_recovery_enabled<br>
+#### remove<br>
+- None<br>
