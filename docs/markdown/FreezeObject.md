@@ -9161,7 +9161,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[e3.upgradeToKycVerified]:{"path":`${"e7"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e3.upgradeToKycDocumentsVerified]:{"path":`${"e7"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e3.selfieVerification]:{"path":`${"...
+{[e3.upgradeToKycVerified]:{"path":`${"e6"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e3.upgradeToKycDocumentsVerified]:{"path":`${"e6"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e3.selfieVerification]:{"path":`${"...
 ```
 | constant   | value   |
 |:-----------|:--------|
