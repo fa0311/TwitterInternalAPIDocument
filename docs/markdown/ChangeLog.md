@@ -8697,3 +8697,15 @@
 - web_video_hlsjs_media_error_recovery_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_transfer_link_enabled<br>
+- responsive_web_jetfuel_add_phone_enabled<br>
+#### remove<br>
+- web_video_hlsjs_media_error_recovery_enabled<br>
