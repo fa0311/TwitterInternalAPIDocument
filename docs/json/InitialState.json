@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "939190",
+          "followers_count": "939108",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "514",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "939190",
+          "normal_followers_count": "939108",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -1325,6 +1325,9 @@
       "payments_transaction_search_enabled": {
         "value": "true"
       },
+      "payments_transfer_link_enabled": {
+        "value": "false"
+      },
       "payments_web_external_app_enabled": {
         "value": "false"
       },
@@ -2159,6 +2162,9 @@
       "responsive_web_hevc_upload_preview_enabled": {
         "value": "false"
       },
+      "responsive_web_history_screen_enabled": {
+        "value": "false"
+      },
       "responsive_web_home_pinned_timelines_prefetch_enabled": {
         "value": "false"
       },
@@ -2179,6 +2185,9 @@
       },
       "responsive_web_intercom_support_capture_premium_enabled": {
         "value": "false"
+      },
+      "responsive_web_jetfuel_add_phone_enabled": {
+        "value": "true"
       },
       "responsive_web_jetfuel_frame": {
         "value": "true"
@@ -3674,7 +3683,7 @@
         "value": "variant_b"
       },
       "subscriptions_upsells_visitor_get_verified_age_gate_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
         "value": "false"
@@ -4207,7 +4216,7 @@
         "value": "false"
       },
       "xchat_ckey_recovery_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_clear_chat_enabled": {
         "value": "true"
@@ -4375,7 +4384,7 @@
         "value": "11000"
       },
       "xchat_max_message_preview_size": {
-        "value": "500"
+        "value": "1000"
       },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
@@ -5679,6 +5688,9 @@
         "payments_transaction_search_enabled": {
           "value": "true"
         },
+        "payments_transfer_link_enabled": {
+          "value": "false"
+        },
         "payments_web_external_app_enabled": {
           "value": "false"
         },
@@ -6536,6 +6548,9 @@
         },
         "responsive_web_intercom_support_capture_premium_enabled": {
           "value": "false"
+        },
+        "responsive_web_jetfuel_add_phone_enabled": {
+          "value": "true"
         },
         "responsive_web_jetfuel_frame": {
           "value": "true"
@@ -8504,9 +8519,6 @@
         "web_video_hls_variant_version": {
           "value": "1"
         },
-        "web_video_hlsjs_media_error_recovery_enabled": {
-          "value": "false"
-        },
         "web_video_hlsjs_version": {
           "value": "1.5.0"
         },
@@ -8879,10 +8891,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "698746464f9ee960b95e7cdd53a105fd"
+      "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "0d529b4cc8fe646d4575219e3d33a2b51380704b",
+    "featureSetToken": "8149a455532fb02a338d65fe21f8e9efc6476dbf",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8951,7 +8963,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178397748009088134",
+    "guestId": "178406393416674648",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
