@@ -3980,24 +3980,24 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var s;let n;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var s;let n;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
-    "superFollower": "c().fc065ee4"
+    "superFollower": "d().fc065ee4"
   },
   {
     "superFollower": {
       "graphic": "u.default",
-      "headline": "c().e453f536",
-      "subtext": "c().bd4cb7a0",
-      "actionLabel": "c().g7099a02",
+      "headline": "d().e453f536",
+      "subtext": "d().bd4cb7a0",
+      "actionLabel": "d().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "c().c2637ef6"
+      "secondaryActionLabel": "d().c2637ef6"
     }
   },
   {
-    "followsYou": "c().efb17190",
-    "superFollowsYou": "c().g57b5f6c",
-    "superFollower": "c().a77a27c0"
+    "followsYou": "d().efb17190",
+    "superFollowsYou": "d().g57b5f6c",
+    "superFollower": "d().a77a27c0"
   },
   {
     "followsYou": "gray700",
