@@ -9616,7 +9616,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[i.wide]:"500",[i.narrow]:"300",[i.veryNarrow]:"200"}
+{[a.wide]:"500",[a.narrow]:"300",[a.veryNarrow]:"200"}
 ```
 | constant           | value                                                                                                                                        |
 |:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
