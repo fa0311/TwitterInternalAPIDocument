@@ -10226,7 +10226,7 @@
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
   },
-  "{[i.wide]:\"500\",[i.narrow]:\"300\",[i.veryNarrow]:\"200\"}",
+  "{[a.wide]:\"500\",[a.narrow]:\"300\",[a.veryNarrow]:\"200\"}",
   {
     "live": {
       "backgroundColor": "magenta500",
