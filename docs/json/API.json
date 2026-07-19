@@ -3128,12 +3128,6 @@
       "method": "GET",
       "features": {}
     },
-    "SearchGrokConversations": {
-      "url": "https://x.com/i/api/graphql/Sr2QEitvnemma5D2NJlA2Q/SearchGrokConversations",
-      "queryId": "Sr2QEitvnemma5D2NJlA2Q",
-      "method": "GET",
-      "features": {}
-    },
     "GrokShare": {
       "url": "https://x.com/i/api/graphql/3t5UV-eOtTGN9Gl2PCXNrA/GrokShare",
       "queryId": "3t5UV-eOtTGN9Gl2PCXNrA",

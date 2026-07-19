@@ -1239,6 +1239,9 @@
       "payments_half_cover_notices_enabled": {
         "value": "true"
       },
+      "payments_onboarding_issued_cards_polling_enabled": {
+        "value": "false"
+      },
       "payments_passkey_onboarding_enabled": {
         "value": "true"
       },
@@ -1259,6 +1262,9 @@
       },
       "payments_transaction_search_enabled": {
         "value": "true"
+      },
+      "payments_transfer_link_enabled": {
+        "value": "false"
       },
       "payments_web_external_app_enabled": {
         "value": "false"
@@ -2094,6 +2100,9 @@
       "responsive_web_hevc_upload_preview_enabled": {
         "value": "false"
       },
+      "responsive_web_history_screen_enabled": {
+        "value": "false"
+      },
       "responsive_web_home_pinned_timelines_prefetch_enabled": {
         "value": "false"
       },
@@ -2113,6 +2122,12 @@
         "value": "true"
       },
       "responsive_web_intercom_support_capture_premium_enabled": {
+        "value": "false"
+      },
+      "responsive_web_jetfuel_add_phone_enabled": {
+        "value": "true"
+      },
+      "responsive_web_jetfuel_enable_sms_2fa_enabled": {
         "value": "false"
       },
       "responsive_web_jetfuel_frame": {
@@ -2305,6 +2320,9 @@
         "value": "false"
       },
       "responsive_web_prerolls_fullscreen_disabled_on_ios": {
+        "value": "false"
+      },
+      "responsive_web_primary_nav_route_preload_enabled": {
         "value": "false"
       },
       "responsive_web_priority_ntab_enabled": {
@@ -3609,7 +3627,7 @@
         "value": "variant_b"
       },
       "subscriptions_upsells_visitor_get_verified_age_gate_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
         "value": "false"
@@ -4088,6 +4106,9 @@
       "web_video_persist_bandwidth_estimate_enabled": {
         "value": "true"
       },
+      "web_video_persist_player_preferences_enabled": {
+        "value": "false"
+      },
       "web_video_playback_rate_enabled": {
         "value": "true"
       },
@@ -4142,7 +4163,7 @@
         "value": "false"
       },
       "xchat_ckey_recovery_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_clear_chat_enabled": {
         "value": "true"
@@ -4310,7 +4331,7 @@
         "value": "11000"
       },
       "xchat_max_message_preview_size": {
-        "value": "500"
+        "value": "1000"
       },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
@@ -5593,6 +5614,9 @@
         "payments_half_cover_notices_enabled": {
           "value": "true"
         },
+        "payments_onboarding_issued_cards_polling_enabled": {
+          "value": "false"
+        },
         "payments_passkey_onboarding_enabled": {
           "value": "true"
         },
@@ -5613,6 +5637,9 @@
         },
         "payments_transaction_search_enabled": {
           "value": "true"
+        },
+        "payments_transfer_link_enabled": {
+          "value": "false"
         },
         "payments_web_external_app_enabled": {
           "value": "false"
@@ -6472,6 +6499,12 @@
         "responsive_web_intercom_support_capture_premium_enabled": {
           "value": "false"
         },
+        "responsive_web_jetfuel_add_phone_enabled": {
+          "value": "true"
+        },
+        "responsive_web_jetfuel_enable_sms_2fa_enabled": {
+          "value": "false"
+        },
         "responsive_web_jetfuel_frame": {
           "value": "true"
         },
@@ -6662,6 +6695,9 @@
           "value": "false"
         },
         "responsive_web_prerolls_fullscreen_disabled_on_ios": {
+          "value": "false"
+        },
+        "responsive_web_primary_nav_route_preload_enabled": {
           "value": "false"
         },
         "responsive_web_priority_ntab_enabled": {
@@ -8439,14 +8475,14 @@
         "web_video_hls_variant_version": {
           "value": "1"
         },
-        "web_video_hlsjs_media_error_recovery_enabled": {
-          "value": "false"
-        },
         "web_video_hlsjs_version": {
           "value": "1.5.0"
         },
         "web_video_persist_bandwidth_estimate_enabled": {
           "value": "true"
+        },
+        "web_video_persist_player_preferences_enabled": {
+          "value": "false"
         },
         "web_video_playback_rate_enabled": {
           "value": "true"
@@ -8814,10 +8850,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "698746464f9ee960b95e7cdd53a105fd"
+      "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "0d529b4cc8fe646d4575219e3d33a2b51380704b",
+    "featureSetToken": "6bcff8b545b279d4b4b8cd6c39db48d4afe5675d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8886,7 +8922,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178398223342868229",
+    "guestId": "178441465769092262",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

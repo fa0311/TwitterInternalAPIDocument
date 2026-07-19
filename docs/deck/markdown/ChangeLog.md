@@ -7933,3 +7933,19 @@
 - web_video_hlsjs_media_error_recovery_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_onboarding_issued_cards_polling_enabled<br>
+- payments_transfer_link_enabled<br>
+- responsive_web_jetfuel_add_phone_enabled<br>
+- responsive_web_jetfuel_enable_sms_2fa_enabled<br>
+- responsive_web_primary_nav_route_preload_enabled<br>
+- web_video_persist_player_preferences_enabled<br>
+#### remove<br>
+- web_video_hlsjs_media_error_recovery_enabled<br>
