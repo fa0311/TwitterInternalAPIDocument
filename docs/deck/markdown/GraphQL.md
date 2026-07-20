@@ -121,7 +121,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -173,7 +173,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -225,7 +225,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -277,7 +277,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -357,7 +357,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -473,7 +473,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean |          1 | nan       |
 | longform_notetweets_inline_media_enabled                                | boolean |          0 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -533,7 +533,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean |          1 | nan       |
 | longform_notetweets_inline_media_enabled                                | boolean |          0 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -704,7 +704,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
@@ -757,7 +757,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -831,7 +831,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -883,7 +883,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -935,7 +935,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -987,7 +987,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1050,7 +1050,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1102,7 +1102,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1154,7 +1154,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1206,7 +1206,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1258,7 +1258,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1321,7 +1321,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1373,7 +1373,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1437,7 +1437,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -1467,7 +1467,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -1486,7 +1486,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -1507,7 +1507,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1592,7 +1592,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1655,7 +1655,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1707,7 +1707,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1781,7 +1781,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1833,7 +1833,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1885,7 +1885,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -1937,7 +1937,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2015,7 +2015,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean |          1 | nan       |
 | longform_notetweets_inline_media_enabled                                | boolean |          0 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | responsive_web_grok_image_annotation_enabled                            | boolean |          1 | nan       |
@@ -2065,7 +2065,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean |          1 | nan       |
 | longform_notetweets_inline_media_enabled                                | boolean |          0 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | responsive_web_grok_image_annotation_enabled                            | boolean |          1 | nan       |
@@ -2131,7 +2131,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -2161,7 +2161,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -2196,7 +2196,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2248,7 +2248,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2300,7 +2300,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2351,7 +2351,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
@@ -2375,7 +2375,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | True       |
@@ -2413,7 +2413,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2465,7 +2465,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2517,7 +2517,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2569,7 +2569,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2632,7 +2632,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2684,7 +2684,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2747,7 +2747,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2799,7 +2799,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2851,7 +2851,7 @@ Login Required: `...`<br>
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
-| responsive_web_profile_redirect_enabled                                 | boolean |          0 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
@@ -2901,7 +2901,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
@@ -2921,7 +2921,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | True       |
@@ -2961,7 +2961,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | subscriptions_upsells_api_enabled                                 | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| responsive_web_profile_redirect_enabled                           | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | False      |
 | verified_phone_label_enabled                                      | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
