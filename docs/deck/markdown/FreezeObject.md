@@ -30,7 +30,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.w.Location]:"/settings/professional_profile/profile_spotlight/location",[a.w.App]:"/settings/professional_profile/profile_spotlight/app",[a.w.Communities]:"/settings/professional_profile/profile_spotlight/communities"}
+{[l.w.Location]:"/settings/professional_profile/profile_spotlight/location",[l.w.App]:"/settings/professional_profile/profile_spotlight/app",[l.w.Communities]:"/settings/professional_profile/profile_spotlight/communities"}
 ```
 | constant      | value        |
 |:--------------|:-------------|
@@ -713,7 +713,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[e0.upgradeToKycVerified]:{"path":`${"e4"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e0.upgradeToKycDocumentsVerified]:{"path":`${"e4"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e0.selfieVerification]:{"path":`${"...
+{[e0.upgradeToKycVerified]:{"path":`${"e3"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e0.upgradeToKycDocumentsVerified]:{"path":`${"e3"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[e0.selfieVerification]:{"path":`${"...
 ```
 | constant   | value   |
 |:-----------|:--------|

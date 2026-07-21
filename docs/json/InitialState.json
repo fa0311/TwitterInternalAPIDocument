@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "941026",
+          "followers_count": "940981",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "515",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "941026",
+          "normal_followers_count": "940981",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -2403,7 +2403,7 @@
         "value": "true"
       },
       "responsive_web_profile_redirect_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_profile_spotlight_v0_config": {
         "value": "true"
@@ -4172,7 +4172,7 @@
         "value": "true"
       },
       "web_video_persist_player_preferences_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "web_video_playback_rate_enabled": {
         "value": "true"
@@ -6778,7 +6778,7 @@
           "value": "true"
         },
         "responsive_web_profile_redirect_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_profile_spotlight_v0_config": {
           "value": "true"
@@ -8547,7 +8547,7 @@
           "value": "true"
         },
         "web_video_persist_player_preferences_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_playback_rate_enabled": {
           "value": "true"
@@ -8918,7 +8918,7 @@
       "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "6bcff8b545b279d4b4b8cd6c39db48d4afe5675d",
+    "featureSetToken": "1c937943eb729b07b6461b57282f42380d9e550f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8987,7 +8987,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178449571338444906",
+    "guestId": "178458260735236684",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

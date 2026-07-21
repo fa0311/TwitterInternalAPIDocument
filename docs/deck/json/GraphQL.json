@@ -146,7 +146,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -323,7 +323,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -500,7 +500,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -677,7 +677,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -896,7 +896,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -1179,7 +1179,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -1357,7 +1357,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -1634,7 +1634,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -1814,7 +1814,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2017,7 +2017,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2194,7 +2194,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2371,7 +2371,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2548,7 +2548,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2738,7 +2738,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -2915,7 +2915,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3092,7 +3092,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3269,7 +3269,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3446,7 +3446,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3636,7 +3636,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3813,7 +3813,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -3966,7 +3966,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4021,7 +4021,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4063,7 +4063,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4150,7 +4150,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4366,7 +4366,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4556,7 +4556,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4733,7 +4733,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -4936,7 +4936,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5113,7 +5113,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5290,7 +5290,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5467,7 +5467,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5717,7 +5717,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5886,7 +5886,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -5989,7 +5989,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6044,7 +6044,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6150,7 +6150,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6327,7 +6327,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6504,7 +6504,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6644,7 +6644,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6708,7 +6708,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -6826,7 +6826,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7003,7 +7003,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7180,7 +7180,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7357,7 +7357,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7547,7 +7547,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7724,7 +7724,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -7914,7 +7914,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -8091,7 +8091,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -8268,7 +8268,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -8400,7 +8400,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -8452,7 +8452,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
@@ -8539,7 +8539,7 @@
             "value": "true"
           },
           "responsive_web_profile_redirect_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "false"
