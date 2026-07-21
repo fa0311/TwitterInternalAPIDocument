@@ -108,6 +108,15 @@
     ]
   },
   {
+    "queryId": "moments/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "account/personalization/partner_interests",
     "dispatch_key": "get",
     "dispatch": [
@@ -361,15 +370,6 @@
   },
   {
     "queryId": "mutes/keywords/update",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "moments/create",
     "dispatch_key": "post",
     "dispatch": [
       "post",
