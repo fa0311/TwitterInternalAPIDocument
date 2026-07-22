@@ -79,9 +79,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "F",
-    "gif": "F",
-    "hd": "F",
+    "alt": "j",
+    "gif": "j",
+    "hd": "j",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -217,7 +217,7 @@
     "up_cursor": "l.TOP"
   },
   {
-    "DELEGATE_ERR_002": "H",
+    "DELEGATE_ERR_002": "z",
     "DELEGATE_ERR_003": "G",
     "DELEGATE_ERR_004": "V",
     "DELEGATE_ERR_005": "C().e4a6e006",
@@ -449,7 +449,7 @@
     "moneyConfirmation": "moneyConfirmation",
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
-  "{[I.LIVE_EVENT]:\"!0\",[I.MOMENT]:\"!0\",[I.SUMMARY]:\"!0\",[I.SUMMARY_LARGE_IMAGE]:\"!0\",[I.AUDIOSPACE]:\"!0\"}",
+  "{[j.LIVE_EVENT]:\"!0\",[j.MOMENT]:\"!0\",[j.SUMMARY]:\"!0\",[j.SUMMARY_LARGE_IMAGE]:\"!0\",[j.AUDIOSPACE]:\"!0\"}",
   {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
@@ -457,7 +457,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "o.Ay.NONE"
+    "fetchStatus": "i.Ay.NONE"
   },
   {
     "live": {
@@ -589,6 +589,12 @@
     "HeaderImagePrompt": "headerImagePrompt",
     "InlinePrompt": "inlinePrompt",
     "LargePrompt": "largePrompt"
+  },
+  {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
   },
   {
     "live": {
@@ -1136,6 +1142,30 @@
     "Trimmer": "trimmer"
   },
   {
+    "private": "private",
+    "public": "public",
+    "unlisted": "unlisted"
+  },
+  {
+    "CurationStudio": "CURATION_STUDIO",
+    "MomentMakerLite": "MOMENT_MAKER_LITE",
+    "MomentMakerMobile": "MOMENT_MAKER_MOBILE",
+    "MomentMakerPro": "MOMENT_MAKER_PRO"
+  },
+  {
+    "moveTweet": "MOVE",
+    "moveAnnotation": "MOVE_ANNOTATION",
+    "removeTweet": "DELETE",
+    "deleteAnnotation": "DELETE_ANNOTATION",
+    "addTweet": "ADD",
+    "addAnnotation": "ADD_ANNOTATION",
+    "updateAnnotation": "UPDATE_ANNOTATION"
+  },
+  {
+    "LANDSCAPE_16_9": "LANDSCAPE_16_9",
+    "SQUARE": "SQUARE"
+  },
+  {
     "normal": "100",
     "long": "250",
     "longer": "500"
@@ -1283,7 +1313,7 @@
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var o;let r;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[_.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var o;let r;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"_\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "follow": "a().i79ab12a",
     "following": "a().d960b55c",
@@ -1980,7 +2010,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "o.Ay.NONE"
+    "fetchStatus": "i.Ay.NONE"
   },
   {
     "Bold": "Bold",
@@ -2697,24 +2727,24 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var s;let n;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var s;let n;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
-    "superFollower": "c().fc065ee4"
+    "superFollower": "d().fc065ee4"
   },
   {
     "superFollower": {
       "graphic": "u.default",
-      "headline": "c().e453f536",
-      "subtext": "c().bd4cb7a0",
-      "actionLabel": "c().g7099a02",
+      "headline": "d().e453f536",
+      "subtext": "d().bd4cb7a0",
+      "actionLabel": "d().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "c().c2637ef6"
+      "secondaryActionLabel": "d().c2637ef6"
     }
   },
   {
-    "followsYou": "c().efb17190",
-    "superFollowsYou": "c().g57b5f6c",
-    "superFollower": "c().a77a27c0"
+    "followsYou": "d().efb17190",
+    "superFollowsYou": "d().g57b5f6c",
+    "superFollower": "d().a77a27c0"
   },
   {
     "followsYou": "gray700",
@@ -3054,7 +3084,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "a.Ay.NONE"
+    "fetchStatus": "i.Ay.NONE"
   },
   {
     "BOTTOM": "bottom",
@@ -3836,7 +3866,7 @@
     "BLOCKED": "b",
     "BLOCKED_BY": "f"
   },
-  "{[g]:{\"title\":\"c().j32d345e\",\"button\":\"c().c3d89aca\",\"body\":\"void 0\"},[b]:{\"title\":\"c().a01d5a7c\",\"body\":\"()\"{\"screenName\":\"e\"}\"0\",m.jsxc(=>).I18NFormatMessage,{\"$i18n\":\"cc70dc63\",\"screenName\":\"e\",\"children\":\"()(0,m.jsx)\"{\"link\":\"_\",\"children\":\"c().i859a9d4\"}}},[f]:{\"title\":\"c().b2311b70\",\"body\":\"c().cab51f93\",\"button\":\"void 0\"}}",
+  "{[g]:{\"title\":\"c().j32d345e\",\"button\":\"c().c3d89aca\",\"body\":\"void 0\"},[b]:{\"title\":\"c().a01d5a7c\",\"body\":\"()\"{\"screenName\":\"e\"}\"0\",h.jsxc(=>).I18NFormatMessage,{\"$i18n\":\"cc70dc63\",\"screenName\":\"e\",\"children\":\"()(0,h.jsx)\"{\"link\":\"_\",\"children\":\"c().i859a9d4\"}}},[f]:{\"title\":\"c().b2311b70\",\"body\":\"c().cab51f93\",\"button\":\"void 0\"}}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4021,6 +4051,39 @@
     "POSTAL_CODES": "4"
   },
   "{[S.D4.CurrentCountryMatch]:\"0\",[S.D4.Match]:\"1\",[S.D4.NoMatch]:\"2\"}",
+  {
+    "follow": "l().i79ab12a",
+    "following": "l().d960b55c",
+    "unfollow": "l().c0f56044"
+  },
+  {
+    "follow": "l().fcf51fe6",
+    "following": "l().e9a90d72",
+    "unfollow": "l().bf403716",
+    "confirmationHeadline": "l().c9f08e29",
+    "confirmationSheetText": "l().hed4dcd0"
+  },
+  {
+    "follow": "l().cd876e02",
+    "following": "l().f2816e02",
+    "unfollow": "l().f5b04fbc",
+    "confirmationHeadline": "l().c481ae3f",
+    "confirmationSheetText": "l().c94116de"
+  },
+  {
+    "follow": "l().e0e730b0",
+    "following": "l().e0e730b0",
+    "unfollow": "l().b1850062",
+    "confirmationHeadline": "l().gd3f996f",
+    "confirmationSheetText": "l().jdd65aac"
+  },
+  {
+    "Default": "default",
+    "FollowTopic": "follow",
+    "Star": "star",
+    "Interested": "interested",
+    "Favorite": "favorite"
+  },
   {
     "MOVEMENT": "movement",
     "LIST_UPDATE": "list_update",
@@ -4921,7 +4984,7 @@
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var r;let o;return()(0,n.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,n.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,n.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":s=\"audiospace\"}{var r;let o;return()(0,n.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,n.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,n.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",
@@ -5181,8 +5244,8 @@
       "aria-live": "polite"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var i;let o;return()(0,a.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,a.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,a.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
-  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"let o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"w.i\",\"EditCallout\":\"_.A\",\"Education\":\"C.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"S.A\",\"Place\":\"r.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"i\",\"link\":\"r\",\"onClick\":\"o\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"h\"}{\"return()(0,A.jsx)\"{\"style\":\"l\",\"children\":\"()(0,A.jsx)\"{\"link\":\"r\",\"onClick\":\"o\",\"style\":\"R.root\",\"children\":\"()(0,A.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"i\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"h\"}}}},\"ReplyContext\":\"P.Ay\",\"RichContent\":\"L.A\",\"SocialContext\":\"m.A\",\"Text\":\"M.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"h.A\",\"UserAvatar\":\"D.A\",\"UserFollowIndicator\":\"N.A\",\"UserName\":\"E.A\",\"ArticleCard\":\"v.A\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var n;let s;return()(0,a.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,a.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,a.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"ActionsBar\":\"A.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"r\"}{\"let s=n.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"s\"}},\"CallToAction\":\"s.Ay\",\"ContentDisclosure\":\"_.i\",\"EditCallout\":\"v.A\",\"Education\":\"C.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"I.A\",\"Place\":\"r.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"n\",\"link\":\"r\",\"onClick\":\"s\",\"onScreenNameClick\":\"o\",\"promotedContent\":\"a\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"h\"}{\"return()(0,y.jsx)\"{\"style\":\"l\",\"children\":\"()(0,y.jsx)\"{\"link\":\"r\",\"onClick\":\"s\",\"style\":\"L.root\",\"children\":\"()(0,y.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"n\",\"onScreenNameClick\":\"o\",\"promotedContent\":\"a\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"h\"}}}},\"ReplyContext\":\"P.Ay\",\"RichContent\":\"M.A\",\"SocialContext\":\"m.A\",\"Text\":\"D.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"h.A\",\"UserAvatar\":\"R.A\",\"UserFollowIndicator\":\"N.A\",\"UserName\":\"E.A\",\"ArticleCard\":\"w.A\"}",
   {
     "live": {
       "backgroundColor": "magenta500",
@@ -6139,6 +6202,7 @@
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
     "CardSpendLocked": "CardSpendLocked",
+    "CardholderUnderProviderReview": "CardholderUnderProviderReview",
     "CashbackRestricted": "CashbackRestricted",
     "CddPendingReview": "CddPendingReview",
     "CddRequired": "CddRequired",
@@ -6187,6 +6251,7 @@
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
     "PublicKeyCredentialRequired": "PublicKeyCredentialRequired",
     "RecurringDeposits": "RecurringDeposits",
+    "RecurringDirectDeposits": "RecurringDirectDeposits",
     "Registered": "Registered",
     "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedGeolocationCountry": "RestrictedGeolocationCountry",
@@ -6284,12 +6349,6 @@
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
-  },
-  {
     "latency": "2e3"
   },
   {
@@ -6316,12 +6375,12 @@
     "TOP": "top"
   },
   {
-    "down_cursor": "n.BOTTOM",
-    "max_id": "n.BOTTOM",
-    "max_position": "n.BOTTOM",
-    "min_position": "n.TOP",
-    "since_id": "n.TOP",
-    "up_cursor": "n.TOP"
+    "down_cursor": "r.BOTTOM",
+    "max_id": "r.BOTTOM",
+    "max_position": "r.BOTTOM",
+    "min_position": "r.TOP",
+    "since_id": "r.TOP",
+    "up_cursor": "r.TOP"
   },
   {
     "wide": "wide",
@@ -6397,6 +6456,12 @@
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.Xz)"
   },
   {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
+  },
+  {
     "ONE_TO_ONE": "ONE_TO_ONE",
     "GROUP": "GROUP_DM",
     "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
@@ -6468,7 +6533,7 @@
     "SECONDARY": "secondary",
     "TERTIARY": "tertiary"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let o;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let i;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",
@@ -6878,7 +6943,7 @@
     "SwitchToAppLow5": "switch_to_app_low_5",
     "SwitchToAppLow9": "switch_to_app_low_9"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":t=\"audiospace\"}{var n;let r;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":t=\"audiospace\"}{var a;let r;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
   {
     "primary": {
       "aria-live": "polite"
@@ -6896,7 +6961,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let a;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
   {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
@@ -7424,6 +7489,7 @@
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
     "CardSpendLocked": "CardSpendLocked",
+    "CardholderUnderProviderReview": "CardholderUnderProviderReview",
     "CashbackRestricted": "CashbackRestricted",
     "CddPendingReview": "CddPendingReview",
     "CddRequired": "CddRequired",
@@ -7472,6 +7538,7 @@
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
     "PublicKeyCredentialRequired": "PublicKeyCredentialRequired",
     "RecurringDeposits": "RecurringDeposits",
+    "RecurringDirectDeposits": "RecurringDirectDeposits",
     "Registered": "Registered",
     "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedGeolocationCountry": "RestrictedGeolocationCountry",
@@ -7685,12 +7752,6 @@
     "modal": "modal"
   },
   {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
-  },
-  {
     "delegations": "/i/delegate/delegations",
     "switch": "/i/delegate/switch",
     "notSupported": "/i/delegate/not-supported"
@@ -7796,7 +7857,7 @@
       "value": "2"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
@@ -7982,6 +8043,7 @@
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
     "CardSpendLocked": "CardSpendLocked",
+    "CardholderUnderProviderReview": "CardholderUnderProviderReview",
     "CashbackRestricted": "CashbackRestricted",
     "CddPendingReview": "CddPendingReview",
     "CddRequired": "CddRequired",
@@ -8030,6 +8092,7 @@
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
     "PublicKeyCredentialRequired": "PublicKeyCredentialRequired",
     "RecurringDeposits": "RecurringDeposits",
+    "RecurringDirectDeposits": "RecurringDirectDeposits",
     "Registered": "Registered",
     "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedGeolocationCountry": "RestrictedGeolocationCountry",
@@ -8180,6 +8243,7 @@
   {
     "Cancelled": "Cancelled",
     "CancelledByCustomer": "CancelledByCustomer",
+    "CheckDepositAttemptSuperseded": "CheckDepositAttemptSuperseded",
     "CheckVoidPeriodElapsed": "CheckVoidPeriodElapsed",
     "DuplicateCheck": "DuplicateCheck",
     "ExternalBlockedFirstUse": "ExternalBlockedFirstUse",
@@ -8228,6 +8292,7 @@
     "RejectedCardCancelled": "RejectedCardCancelled",
     "RejectedCardInactive": "RejectedCardInactive",
     "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
+    "RejectedCardholderUnderReview": "RejectedCardholderUnderReview",
     "RejectedLimitsExceeded": "RejectedLimitsExceeded",
     "RejectedMissingRequiredPermission": "RejectedMissingRequiredPermission",
     "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
@@ -8368,12 +8433,6 @@
   },
   {
     "WebSidebar": "web_sidebar"
-  },
-  {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
   },
   {
     "Chat": "1",
@@ -8560,8 +8619,7 @@
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let a;return()(0,l.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,l.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,l.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
-  "{\"ActionsBar\":\"A.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"let a=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"a.Ay\",\"ContentDisclosure\":\"w.i\",\"EditCallout\":\"C.A\",\"Education\":\"_.A\",\"HighlightedUserLabel\":\"o.A\",\"Media\":\"k.A\",\"Place\":\"i.Ay\",\"PromotedDetails\":\"d.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"link\":\"i\",\"onClick\":\"a\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"l\",\"style\":\"o\",\"userDescription\":\"c\",\"userId\":\"d\",\"userName\":\"u\",\"userScreenName\":\"m\"}{\"return()(0,b.jsx)\"{\"style\":\"o\",\"children\":\"()(0,b.jsx)\"{\"link\":\"i\",\"onClick\":\"a\",\"style\":\"R.root\",\"children\":\"()(0,b.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"l\",\"userDescription\":\"c\",\"userId\":\"d\",\"userName\":\"u\",\"userScreenName\":\"m\"}}}},\"ReplyContext\":\"F.Ay\",\"RichContent\":\"L.A\",\"SocialContext\":\"h.A\",\"Text\":\"P.A\",\"Tombstone\":\"g.A\",\"Timestamp\":\"m.A\",\"UserAvatar\":\"M.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"D.A\",\"ArticleCard\":\"v.A\"}",
+  "{\"ActionsBar\":\"A.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"let l=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"l\"}},\"CallToAction\":\"l.Ay\",\"ContentDisclosure\":\"_.i\",\"EditCallout\":\"v.A\",\"Education\":\"C.A\",\"HighlightedUserLabel\":\"o.A\",\"Media\":\"k.A\",\"Place\":\"i.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"link\":\"i\",\"onClick\":\"l\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"o\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"m\"}{\"return()(0,b.jsx)\"{\"style\":\"o\",\"children\":\"()(0,b.jsx)\"{\"link\":\"i\",\"onClick\":\"l\",\"style\":\"F.root\",\"children\":\"()(0,b.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"m\"}}}},\"ReplyContext\":\"L.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"h.A\",\"Text\":\"E.A\",\"Tombstone\":\"g.A\",\"Timestamp\":\"m.A\",\"UserAvatar\":\"P.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"D.A\",\"ArticleCard\":\"w.A\"}",
   {
     "large": "54",
     "medium": "46",
@@ -8580,39 +8638,6 @@
     "NoteComposition": "note_composition"
   },
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,l.jsx){\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,l.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,l.jsx)\"{\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"n.Yt\",\"getDarkModeColors\":\"n.Cq\"}",
-  {
-    "follow": "a().i79ab12a",
-    "following": "a().d960b55c",
-    "unfollow": "a().c0f56044"
-  },
-  {
-    "follow": "a().fcf51fe6",
-    "following": "a().e9a90d72",
-    "unfollow": "a().bf403716",
-    "confirmationHeadline": "a().c9f08e29",
-    "confirmationSheetText": "a().hed4dcd0"
-  },
-  {
-    "follow": "a().cd876e02",
-    "following": "a().f2816e02",
-    "unfollow": "a().f5b04fbc",
-    "confirmationHeadline": "a().c481ae3f",
-    "confirmationSheetText": "a().c94116de"
-  },
-  {
-    "follow": "a().e0e730b0",
-    "following": "a().e0e730b0",
-    "unfollow": "a().b1850062",
-    "confirmationHeadline": "a().gd3f996f",
-    "confirmationSheetText": "a().jdd65aac"
-  },
-  {
-    "Default": "default",
-    "FollowTopic": "follow",
-    "Star": "star",
-    "Interested": "interested",
-    "Favorite": "favorite"
-  },
   {
     "Trends": "trends"
   },
@@ -9006,7 +9031,7 @@
     "Interested": "interested",
     "Favorite": "favorite"
   },
-  "{\"all\":{\"icon\":\"i2\",\"label\":\"P().i8ea6d4e\"},\"community\":{\"icon\":\"i8\",\"label\":\"P().a176d0d8\"},\"by_invitation\":{\"icon\":\"i5\",\"label\":\"P().gc7e52ca\"},\"followers\":{\"icon\":\"i8\",\"label\":\"P().a83724ac\"},\"subscribers\":{\"icon\":\"i2\",\"label\":\"P().feb7560a\"},\"community_members\":{\"icon\":\"i6\",\"label\":\"P().h257006e\"},\"super_followers_exclusive\":{\"icon\":\"i2\",\"label\":\"P().ebe1d850\"},\"trusted_friends_tweet\":{\"icon\":\"i4\",\"label\":\"_\"},\"verified\":{\"icon\":\"i3\",\"label\":p?P().g3206d68:\"P().b121464a\"},\"premium\":{\"icon\":\"i3\",\"label\":\"P().e69ada9e\"},\"my_network\":{\"icon\":\"i7\",\"label\":\"P().f255ccf8\"}}",
+  "{\"all\":{\"icon\":\"i2\",\"label\":\"M().i8ea6d4e\"},\"community\":{\"icon\":\"i5\",\"label\":\"M().a176d0d8\"},\"by_invitation\":{\"icon\":\"i3\",\"label\":\"M().gc7e52ca\"},\"followers\":{\"icon\":\"i5\",\"label\":\"M().a83724ac\"},\"subscribers\":{\"icon\":\"i2\",\"label\":\"M().feb7560a\"},\"community_members\":{\"icon\":\"i6\",\"label\":\"M().h257006e\"},\"super_followers_exclusive\":{\"icon\":\"i2\",\"label\":\"M().ebe1d850\"},\"trusted_friends_tweet\":{\"icon\":\"i7\",\"label\":\"_\"},\"verified\":{\"icon\":\"i4\",\"label\":p?M().g3206d68:\"M().b121464a\"},\"premium\":{\"icon\":\"i4\",\"label\":\"M().e69ada9e\"},\"my_network\":{\"icon\":\"i8\",\"label\":\"M().f255ccf8\"}}",
   {
     "in": "in",
     "out": "out",
@@ -9160,7 +9185,7 @@
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"a\",\"type\":t=\"audiospace\"}{var i;let l;return()(0,s.jsx){\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[l.primary,l.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let a;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[a.primary,a.secondary,a.primary,a.secondary,a.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"r.Yt\",\"getDarkModeColors\":\"r.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"a\",\"type\":t=\"audiospace\"}{var i;let n;return()(0,s.jsx){\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let a;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[a.primary,a.secondary,a.primary,a.secondary,a.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"r.Yt\",\"getDarkModeColors\":\"r.Cq\"}",
   {
     "superFollower": "d().fc065ee4"
   },
@@ -9205,7 +9230,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[b.Ls.switchFromDirect]:\"m().dca6b3ac\",[b.Ls.generate]:\"m().dca6b3ac\",[b.Ls.updateSeats]:\"m().c97ad52a\"}",
-  "{[P.Ls.generate]:\"L().fc1f43d0\",[P.Ls.switchFromDirect]:\"L().fc1f43d0\",[P.Ls.updateSeats]:\"L().c97ad52a\"}",
+  "{[R.Ls.generate]:\"L().fc1f43d0\",[R.Ls.switchFromDirect]:\"L().fc1f43d0\",[R.Ls.updateSeats]:\"L().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
@@ -9499,7 +9524,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var n;let r;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var n;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",
@@ -10135,23 +10160,24 @@
   {
     "default": "tweets",
     "with_replies": "tweets_and_replies",
+    "reposts": "reposts",
     "with_sort_and_filter": "tweets_with_sort_and_filter",
     "superfollows": "superfollows_tweets",
     "highlights": "highlights_tweets",
     "articles": "article_tweets"
   },
-  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>h,\"with_sort_and_filter\":()=>h,\"with_replies\":()=>h,\"superfollows\":()=>a().ce659062,\"highlights\":()=>a().f1e98cc2,\"articles\":()=>a().d5c743c6}",
-  "{\"default\":()=>_,\"with_sort_and_filter\":()=>_,\"with_replies\":()=>_,\"superfollows\":()=>a().hb26a1fe,\"highlights\":()=>a().b7c3572e,\"articles\":()=>a().i8123550}",
-  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>I,\"with_sort_and_filter\":()=>I,\"with_replies\":()=>I,\"superfollows\":()=>a().h9346040,\"articles\":()=>a().i4c3ddc6}",
+  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
+  "{\"default\":()=>y,\"with_sort_and_filter\":()=>y,\"with_replies\":()=>y,\"reposts\":()=>a().a5359844,\"superfollows\":()=>a().ce659062,\"highlights\":()=>a().f1e98cc2,\"articles\":()=>a().d5c743c6}",
+  "{\"default\":()=>I,\"with_sort_and_filter\":()=>I,\"with_replies\":()=>I,\"reposts\":()=>a().cccf43ee,\"superfollows\":()=>a().hb26a1fe,\"highlights\":()=>a().b7c3572e,\"articles\":()=>a().i8123550}",
+  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
+  "{\"default\":()=>b,\"with_sort_and_filter\":()=>b,\"with_replies\":()=>b,\"reposts\":()=>a().ha05d3ac,\"superfollows\":()=>a().h9346040,\"articles\":()=>a().i4c3ddc6}",
   "{\"default\":()=>a().e0118142,\"articles\":()=>a().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
   },
-  "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
-  "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}}",
+  "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
+  "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}{\"fullName\":\"e\",\"screenName\":\"t\"}}",
   {
     "Badge": "Badge",
     "Inline": "Inline"
@@ -10168,7 +10194,7 @@
     "Reserved6": "Reserved6",
     "Reserved7": "Reserved7"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let n;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let l;return()(0,s.jsx){\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[l.primary,l.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"n.Yt\",\"getDarkModeColors\":\"n.Cq\"}",
   {
     "Composition": "composition",
     "DMComposition": "dm_composition",
@@ -10381,9 +10407,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "j",
+    "gif": "j",
+    "hd": "j",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -10428,30 +10454,30 @@
     "Variable": "variable"
   },
   {
-    "follow": "i().i79ab12a",
-    "following": "i().d960b55c",
-    "unfollow": "i().c0f56044"
+    "follow": "a().i79ab12a",
+    "following": "a().d960b55c",
+    "unfollow": "a().c0f56044"
   },
   {
-    "follow": "i().fcf51fe6",
-    "following": "i().e9a90d72",
-    "unfollow": "i().bf403716",
-    "confirmationHeadline": "i().c9f08e29",
-    "confirmationSheetText": "i().hed4dcd0"
+    "follow": "a().fcf51fe6",
+    "following": "a().e9a90d72",
+    "unfollow": "a().bf403716",
+    "confirmationHeadline": "a().c9f08e29",
+    "confirmationSheetText": "a().hed4dcd0"
   },
   {
-    "follow": "i().cd876e02",
-    "following": "i().f2816e02",
-    "unfollow": "i().f5b04fbc",
-    "confirmationHeadline": "i().c481ae3f",
-    "confirmationSheetText": "i().c94116de"
+    "follow": "a().cd876e02",
+    "following": "a().f2816e02",
+    "unfollow": "a().f5b04fbc",
+    "confirmationHeadline": "a().c481ae3f",
+    "confirmationSheetText": "a().c94116de"
   },
   {
-    "follow": "i().e0e730b0",
-    "following": "i().e0e730b0",
-    "unfollow": "i().b1850062",
-    "confirmationHeadline": "i().gd3f996f",
-    "confirmationSheetText": "i().jdd65aac"
+    "follow": "a().e0e730b0",
+    "following": "a().e0e730b0",
+    "unfollow": "a().b1850062",
+    "confirmationHeadline": "a().gd3f996f",
+    "confirmationSheetText": "a().jdd65aac"
   },
   {
     "Default": "default",
@@ -10459,6 +10485,30 @@
     "Star": "star",
     "Interested": "interested",
     "Favorite": "favorite"
+  },
+  {
+    "private": "private",
+    "public": "public",
+    "unlisted": "unlisted"
+  },
+  {
+    "CurationStudio": "CURATION_STUDIO",
+    "MomentMakerLite": "MOMENT_MAKER_LITE",
+    "MomentMakerMobile": "MOMENT_MAKER_MOBILE",
+    "MomentMakerPro": "MOMENT_MAKER_PRO"
+  },
+  {
+    "moveTweet": "MOVE",
+    "moveAnnotation": "MOVE_ANNOTATION",
+    "removeTweet": "DELETE",
+    "deleteAnnotation": "DELETE_ANNOTATION",
+    "addTweet": "ADD",
+    "addAnnotation": "ADD_ANNOTATION",
+    "updateAnnotation": "UPDATE_ANNOTATION"
+  },
+  {
+    "LANDSCAPE_16_9": "LANDSCAPE_16_9",
+    "SQUARE": "SQUARE"
   },
   {
     "Scheduled": "Scheduled",
@@ -11167,30 +11217,30 @@
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
-    "follow": "r().i79ab12a",
-    "following": "r().d960b55c",
-    "unfollow": "r().c0f56044"
+    "follow": "n().i79ab12a",
+    "following": "n().d960b55c",
+    "unfollow": "n().c0f56044"
   },
   {
-    "follow": "r().fcf51fe6",
-    "following": "r().e9a90d72",
-    "unfollow": "r().bf403716",
-    "confirmationHeadline": "r().c9f08e29",
-    "confirmationSheetText": "r().hed4dcd0"
+    "follow": "n().fcf51fe6",
+    "following": "n().e9a90d72",
+    "unfollow": "n().bf403716",
+    "confirmationHeadline": "n().c9f08e29",
+    "confirmationSheetText": "n().hed4dcd0"
   },
   {
-    "follow": "r().cd876e02",
-    "following": "r().f2816e02",
-    "unfollow": "r().f5b04fbc",
-    "confirmationHeadline": "r().c481ae3f",
-    "confirmationSheetText": "r().c94116de"
+    "follow": "n().cd876e02",
+    "following": "n().f2816e02",
+    "unfollow": "n().f5b04fbc",
+    "confirmationHeadline": "n().c481ae3f",
+    "confirmationSheetText": "n().c94116de"
   },
   {
-    "follow": "r().e0e730b0",
-    "following": "r().e0e730b0",
-    "unfollow": "r().b1850062",
-    "confirmationHeadline": "r().gd3f996f",
-    "confirmationSheetText": "r().jdd65aac"
+    "follow": "n().e0e730b0",
+    "following": "n().e0e730b0",
+    "unfollow": "n().b1850062",
+    "confirmationHeadline": "n().gd3f996f",
+    "confirmationSheetText": "n().jdd65aac"
   },
   {
     "Default": "default",
@@ -11206,7 +11256,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "n.Ay.NONE"
+    "fetchStatus": "r.Ay.NONE"
   },
   {
     "COUNTRIES": "0",
@@ -11330,11 +11380,11 @@
     "PendingFollowUser": "PendingFollowUser",
     "SubscribableUser": "SubscribableUser"
   },
-  "{\"type\":\"component\",\"Component\":\"function()\"{\"onClose\":\"e\"}{\"let t=l.useMemo()\"{\"isLoading\":\"!0\",\"loadingLabel\":\"v\",\"onClose\":\"e\",\"onToggle\":\"S\",\"options\":[],\"selected\":[],\"subtitle\":\"b\",\"title\":\"y\",\"withDividers\":\"!1\"}{\"errorConfig\":\"A\",\"suspenseFallback\":\"t\",\"children\":\"()(0,g.jsx)\"{\"onClose\":\"e\"}}}}",
+  "{\"type\":\"component\",\"Component\":\"function()\"{\"onClose\":\"e\"}{\"let t=l.useMemo()\"{\"isLoading\":\"!0\",\"loadingLabel\":\"v\",\"onClose\":\"e\",\"onToggle\":\"S\",\"options\":[],\"selected\":[],\"subtitle\":\"b\",\"title\":\"y\",\"withDividers\":\"!1\"}{\"errorConfig\":\"T\",\"suspenseFallback\":\"t\",\"children\":\"()(0,_.jsx)\"{\"onClose\":\"e\"}}}}",
   {
     "type": "pinnedTimelineMenu"
   },
-  "{\"forYou\":{\"...D.o.forYou\":\"_\",\"getControl\":()=>F,\"getModule\":\"()\"{\"state\":\"e\"}{\"let t=e?()(0,E.fz)\":null;if(e)throw Error(!t);let i=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return i.length>0?(e)(0,P.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"i\"}\"0\",\"P.Ay\"{\"userId\":\"t\"}},\"getName\":()=>r().d1e0a75f(){\"noun\":\"\"}},\"following\":{\"...D.o.following\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let i=e?(\\\"following getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,P.Ay){\"sort\":\"n\",\"userId\":\"i\"}},\"getName\":()=>O},\"community\":{\"...D.o.community\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,R.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"list\":{\"...D.o.list\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"j.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"generic\":{\"...D.o.generic\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"L.de.id\"{\"timeline\":\"e\"}},\"tag\":{\"...D.o.tag\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let i=e?(\\\"tag getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return(e)(0,P.Ay){\"userId\":\"i\",\"snoozedTopicIds\":\"n\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}}}",
+  "{\"forYou\":{\"...D.o.forYou\":\"_\",\"getControl\":()=>F,\"getModule\":\"()\"{\"state\":\"e\"}{\"let t=e?()(0,E.fz)\":null;if(e)throw Error(!t);let i=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return i.length>0?(e)(0,j.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"i\"}\"0\",\"j.Ay\"{\"userId\":\"t\"}},\"getName\":()=>r().d1e0a75f(){\"noun\":\"\"}},\"following\":{\"...D.o.following\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let i=e?(\\\"following getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,j.Ay){\"sort\":\"n\",\"userId\":\"i\"}},\"getName\":()=>O},\"community\":{\"...D.o.community\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,R.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"list\":{\"...D.o.list\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"P.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"generic\":{\"...D.o.generic\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"L.de.id\"{\"timeline\":\"e\"}},\"tag\":{\"...D.o.tag\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let i=e?(\\\"tag getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return(e)(0,j.Ay){\"userId\":\"i\",\"snoozedTopicIds\":\"n\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}}}",
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let s;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "superFollower": "d().fc065ee4"
@@ -11594,30 +11644,6 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  {
-    "private": "private",
-    "public": "public",
-    "unlisted": "unlisted"
-  },
-  {
-    "CurationStudio": "CURATION_STUDIO",
-    "MomentMakerLite": "MOMENT_MAKER_LITE",
-    "MomentMakerMobile": "MOMENT_MAKER_MOBILE",
-    "MomentMakerPro": "MOMENT_MAKER_PRO"
-  },
-  {
-    "moveTweet": "MOVE",
-    "moveAnnotation": "MOVE_ANNOTATION",
-    "removeTweet": "DELETE",
-    "deleteAnnotation": "DELETE_ANNOTATION",
-    "addTweet": "ADD",
-    "addAnnotation": "ADD_ANNOTATION",
-    "updateAnnotation": "UPDATE_ANNOTATION"
-  },
-  {
-    "LANDSCAPE_16_9": "LANDSCAPE_16_9",
-    "SQUARE": "SQUARE"
-  },
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
@@ -11842,7 +11868,6 @@
     "main_offer_stripe": "main_offer_stripe",
     "app_open_upgrade_offer": "app_open_upgrade_offer"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "INFINITE": "infinite",
     "MEDIUM": "medium",
@@ -12019,40 +12044,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  {
-    "follow": "a().i79ab12a",
-    "following": "a().d960b55c",
-    "unfollow": "a().c0f56044"
-  },
-  {
-    "follow": "a().fcf51fe6",
-    "following": "a().e9a90d72",
-    "unfollow": "a().bf403716",
-    "confirmationHeadline": "a().c9f08e29",
-    "confirmationSheetText": "a().hed4dcd0"
-  },
-  {
-    "follow": "a().cd876e02",
-    "following": "a().f2816e02",
-    "unfollow": "a().f5b04fbc",
-    "confirmationHeadline": "a().c481ae3f",
-    "confirmationSheetText": "a().c94116de"
-  },
-  {
-    "follow": "a().e0e730b0",
-    "following": "a().e0e730b0",
-    "unfollow": "a().b1850062",
-    "confirmationHeadline": "a().gd3f996f",
-    "confirmationSheetText": "a().jdd65aac"
-  },
-  {
-    "Default": "default",
-    "FollowTopic": "follow",
-    "Star": "star",
-    "Interested": "interested",
-    "Favorite": "favorite"
-  },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let i;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
   "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
   {
     "Pinnable": "Pinnable",
@@ -12064,14 +12056,14 @@
     "fixNegotiationNeeded": "ay",
     "shimAddTrackRemoveTrack": "ag",
     "shimAddTrackRemoveTrackWithNative": "am",
-    "shimGetSendersWithDtmf": "ah",
+    "shimGetSendersWithDtmf": "ap",
     "shimGetUserMedia": "ac",
     "shimMediaStream": "ad",
     "shimOnTrack": "au",
     "shimPeerConnection": "af",
-    "shimSenderReceiverGetStats": "ap"
+    "shimSenderReceiverGetStats": "ah"
   },
-  "{\"__proto__\":\"null\",\"shimAddTransceiver\":\"aT\",\"shimCreateAnswer\":\"aE\",\"shimCreateOffer\":\"aj\",\"shimGetDisplayMedia\":\"function()\"{e.navigator.mediaDevices&&\"getDisplayMedia\"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){\"if()\"{let e=new DOMException();return e.name=\"NotFoundError\",e.code=8,\"Promise.reject(\\\"getDisplayMedia without video constraints is undefined\\\")\"}\"return!0===i.video?i.video=\"{\"mediaSource\":\"t\"}:\"i.video.mediaSource=t\",\"e.navigator.mediaDevices.getUserMedia()\"}},\"shimGetParameters\":\"aI\",\"shimGetUserMedia\":\"av\",\"shimOnTrack\":\"ak\",\"shimPeerConnection\":\"ax\",\"shimRTCDataChannel\":\"aA\",\"shimReceiverGetStats\":\"aw\",\"shimRemoveStream\":\"aS\",\"shimSenderGetStats\":\"aC\"}",
+  "{\"__proto__\":\"null\",\"shimAddTransceiver\":\"aA\",\"shimCreateAnswer\":\"aE\",\"shimCreateOffer\":\"aj\",\"shimGetDisplayMedia\":\"function()\"{e.navigator.mediaDevices&&\"getDisplayMedia\"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){\"if()\"{let e=new DOMException();return e.name=\"NotFoundError\",e.code=8,\"Promise.reject(\\\"getDisplayMedia without video constraints is undefined\\\")\"}\"return!0===i.video?i.video=\"{\"mediaSource\":\"t\"}:\"i.video.mediaSource=t\",\"e.navigator.mediaDevices.getUserMedia()\"}},\"shimGetParameters\":\"aI\",\"shimGetUserMedia\":\"av\",\"shimOnTrack\":\"ak\",\"shimPeerConnection\":\"ax\",\"shimRTCDataChannel\":\"aT\",\"shimReceiverGetStats\":\"aw\",\"shimRemoveStream\":\"aS\",\"shimSenderGetStats\":\"aC\"}",
   {
     "__proto__": "null",
     "shimAudioContext": "aB",
@@ -12351,9 +12343,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "L",
-    "gif": "L",
-    "hd": "L",
+    "alt": "S",
+    "gif": "S",
+    "hd": "S",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -12379,6 +12371,12 @@
       "color": "gray900",
       "fontSize": "subtext3"
     }
+  },
+  {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
   },
   {
     "live": {
@@ -13224,7 +13222,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var r;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var r;let n;return()(0,l.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,l.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,l.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",
@@ -13293,7 +13291,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "a.Ay.NONE"
+    "fetchStatus": "n.Ay.NONE"
   },
   {
     "UNKNOWN": "0",
@@ -13695,7 +13693,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e1.upgradeToKycVerified]:{\"path\":`${\"e2\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.upgradeToKycDocumentsVerified]:{\"path\":`${\"e2\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.selfieVerification]:{\"path\":`${\"e2\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateAddress]:{\"path\":`${\"e2\"}/update/address`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateMailingAddress]:{\"path\":`${\"e2\"}/update/mailing-address`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.questions]:{\"path\":`${\"e2\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updatePin]:{\"path\":`${\"e2\"}/update-pin`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.forgotPin]:{\"path\":`${\"e2\"}/forgot-pin`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.recoverAccess]:{\"path\":`${\"e2\"}/recover-access`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.migrateCredential]:{\"path\":`${\"e2\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.createCredential]:{\"path\":`${\"e2\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.changeCardPin]:{\"path\":`${\"e2\"}/change-card-pin`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.fullAccountRouting]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.accountWireDetails]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateAccountNickname]:{\"path\":`${\"e2\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.changeCardAccount]:{\"path\":`${\"e2\"}/change-card-account`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.updateCardNickname]:{\"path\":`${\"e2\"}/cards/update/nickname`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.createAccount]:{\"path\":`${\"e2\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.respondAccountInvitation]:{\"path\":`${\"e2\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.cancelAccountInvitation]:{\"path\":`${\"e2\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.removeAccountMember]:{\"path\":`${\"e2\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.closeSecondaryAccount]:{\"path\":`${\"e2\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.challenge]:{\"path\":`${\"e2\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.personal]:{\"path\":`${\"e2\"}/personal-info`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevices]:{\"path\":`${\"e2\"}/known-devices`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevice]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"eW.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDeviceModal]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.cardOnboarding]:{\"path\":`${\"e2\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.replaceCard]:{\"path\":`${\"e2\"}/cards/replace`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.contacts]:{\"path\":`${\"e2\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactData]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactDetails]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createContact]:{\"path\":`${\"e2\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateContact]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaries]:{\"path\":`${\"e2\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createBeneficiary]:{\"path\":`${\"e2\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateBeneficiary]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.wireMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.checkMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credentials]:{\"path\":`${\"e2\"}/credentials`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eW.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateCredential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eW.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.revealCustomerPersonalInfo]:{\"path\":`${\"e2\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.connections]:{\"path\":`${\"e2\"}/connections`,\"defaultClosePath\":\"eV.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.connection]:{\"path\":e=>e?.id?`${\"e2\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eV.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.supportChat]:{\"path\":`${\"e2\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.supportChatConversation]:{\"path\":e=>e?.id?`${\"e2\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eL\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[e1.upgradeToKycVerified]:{\"path\":`${\"e5\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.upgradeToKycDocumentsVerified]:{\"path\":`${\"e5\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.selfieVerification]:{\"path\":`${\"e5\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateAddress]:{\"path\":`${\"e5\"}/update/address`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateMailingAddress]:{\"path\":`${\"e5\"}/update/mailing-address`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.questions]:{\"path\":`${\"e5\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updatePin]:{\"path\":`${\"e5\"}/update-pin`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.forgotPin]:{\"path\":`${\"e5\"}/forgot-pin`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.recoverAccess]:{\"path\":`${\"e5\"}/recover-access`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.migrateCredential]:{\"path\":`${\"e5\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.createCredential]:{\"path\":`${\"e5\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.changeCardPin]:{\"path\":`${\"e5\"}/change-card-pin`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.fullAccountRouting]:{\"path\":`${\"e5\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.accountWireDetails]:{\"path\":`${\"e5\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateAccountNickname]:{\"path\":`${\"e5\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.changeCardAccount]:{\"path\":`${\"e5\"}/change-card-account`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.updateCardNickname]:{\"path\":`${\"e5\"}/cards/update/nickname`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.createAccount]:{\"path\":`${\"e5\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.respondAccountInvitation]:{\"path\":`${\"e5\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.cancelAccountInvitation]:{\"path\":`${\"e5\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.removeAccountMember]:{\"path\":`${\"e5\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.closeSecondaryAccount]:{\"path\":`${\"e5\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.challenge]:{\"path\":`${\"e5\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.personal]:{\"path\":`${\"e5\"}/personal-info`,\"defaultClosePath\":\"eV.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevices]:{\"path\":`${\"e5\"}/known-devices`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevice]:{\"path\":`${\"e5\"}/known-device`,\"defaultClosePath\":\"eH.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDeviceModal]:{\"path\":`${\"e5\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.cardOnboarding]:{\"path\":`${\"e5\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.replaceCard]:{\"path\":`${\"e5\"}/cards/replace`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.contacts]:{\"path\":`${\"e5\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactData]:{\"path\":e=>e?.id?`${\"e5\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactDetails]:{\"path\":e=>e?.id?`${\"e5\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createContact]:{\"path\":`${\"e5\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateContact]:{\"path\":e=>e?.id?`${\"e5\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaries]:{\"path\":`${\"e5\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"e5\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createBeneficiary]:{\"path\":`${\"e5\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateBeneficiary]:{\"path\":e=>e?.id?`${\"e5\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.wireMeta]:{\"path\":e=>e?.id?`${\"e5\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.checkMeta]:{\"path\":e=>e?.id?`${\"e5\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credentials]:{\"path\":`${\"e5\"}/credentials`,\"defaultClosePath\":\"eV.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credential]:{\"path\":e=>e?.id?`${\"e5\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eH.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateCredential]:{\"path\":e=>e?.id?`${\"e5\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eH.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.revealCustomerPersonalInfo]:{\"path\":`${\"e5\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.connections]:{\"path\":`${\"e5\"}/connections`,\"defaultClosePath\":\"eV.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.connection]:{\"path\":e=>e?.id?`${\"e5\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eV.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.supportChat]:{\"path\":`${\"e5\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.supportChatConversation]:{\"path\":e=>e?.id?`${\"e5\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eL\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -14576,7 +14574,6 @@
     "Home": "home",
     "Latest": "latest"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[l.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
   {
     "primary": {
       "aria-live": "polite"
@@ -14670,11 +14667,11 @@
   {
     "onsite": {
       "label": "p",
-      "description": "h",
+      "description": "f",
       "value": "onsite"
     },
     "remote": {
-      "label": "f",
+      "label": "h",
       "description": "r().ibed2d04",
       "value": "remote"
     },
@@ -14707,6 +14704,7 @@
     "superFollowsYou": "plum700",
     "superFollower": "plum700"
   },
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[l.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
   {
     "FollowingTimeline": "FollowingTimeline",
     "ForYouTimeline": "ForYouTimeline",
@@ -15374,11 +15372,6 @@
     "UserSecondary": "UserSecondary"
   },
   {
-    "Active": "Active",
-    "Unspecified": "Unspecified",
-    "VerificationRequired": "VerificationRequired"
-  },
-  {
     "BankCardLinkingSessionSubmissionStatusCancelled": "BankCardLinkingSessionSubmissionStatusCancelled",
     "BankCardLinkingSessionSubmissionStatusFailed": "BankCardLinkingSessionSubmissionStatusFailed",
     "BankCardLinkingSessionSubmissionStatusSucceeded": "BankCardLinkingSessionSubmissionStatusSucceeded",
@@ -15618,10 +15611,6 @@
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
-    "ExternalWidget": "ExternalWidget",
-    "OwnProfile": "OwnProfile"
-  },
-  {
     "accountWireDetails": "accountWireDetails",
     "address": "address",
     "autoclaim": "autoclaim",
@@ -15678,7 +15667,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e1.upgradeToKycVerified]:{\"path\":`${\"e2\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.upgradeToKycDocumentsVerified]:{\"path\":`${\"e2\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.selfieVerification]:{\"path\":`${\"e2\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateAddress]:{\"path\":`${\"e2\"}/update/address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateMailingAddress]:{\"path\":`${\"e2\"}/update/mailing-address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.questions]:{\"path\":`${\"e2\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updatePin]:{\"path\":`${\"e2\"}/update-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.forgotPin]:{\"path\":`${\"e2\"}/forgot-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.recoverAccess]:{\"path\":`${\"e2\"}/recover-access`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.migrateCredential]:{\"path\":`${\"e2\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.createCredential]:{\"path\":`${\"e2\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.changeCardPin]:{\"path\":`${\"e2\"}/change-card-pin`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.fullAccountRouting]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"y\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.accountWireDetails]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateAccountNickname]:{\"path\":`${\"e2\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.changeCardAccount]:{\"path\":`${\"e2\"}/change-card-account`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.updateCardNickname]:{\"path\":`${\"e2\"}/cards/update/nickname`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.createAccount]:{\"path\":`${\"e2\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.respondAccountInvitation]:{\"path\":`${\"e2\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.cancelAccountInvitation]:{\"path\":`${\"e2\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.removeAccountMember]:{\"path\":`${\"e2\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.closeSecondaryAccount]:{\"path\":`${\"e2\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.challenge]:{\"path\":`${\"e2\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.personal]:{\"path\":`${\"e2\"}/personal-info`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevices]:{\"path\":`${\"e2\"}/known-devices`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevice]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"eW.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDeviceModal]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.cardOnboarding]:{\"path\":`${\"e2\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.replaceCard]:{\"path\":`${\"e2\"}/cards/replace`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.contacts]:{\"path\":`${\"e2\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactData]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactDetails]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createContact]:{\"path\":`${\"e2\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateContact]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaries]:{\"path\":`${\"e2\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createBeneficiary]:{\"path\":`${\"e2\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateBeneficiary]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.wireMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.checkMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credentials]:{\"path\":`${\"e2\"}/credentials`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eW.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateCredential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eW.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.revealCustomerPersonalInfo]:{\"path\":`${\"e2\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.connections]:{\"path\":`${\"e2\"}/connections`,\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.connection]:{\"path\":e=>e?.id?`${\"e2\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.supportChat]:{\"path\":`${\"e2\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.supportChatConversation]:{\"path\":e=>e?.id?`${\"e2\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eE\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[e1.upgradeToKycVerified]:{\"path\":`${\"e2\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.upgradeToKycDocumentsVerified]:{\"path\":`${\"e2\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.selfieVerification]:{\"path\":`${\"e2\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateAddress]:{\"path\":`${\"e2\"}/update/address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updateMailingAddress]:{\"path\":`${\"e2\"}/update/mailing-address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.questions]:{\"path\":`${\"e2\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e1.updatePin]:{\"path\":`${\"e2\"}/update-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.forgotPin]:{\"path\":`${\"e2\"}/forgot-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.recoverAccess]:{\"path\":`${\"e2\"}/recover-access`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.migrateCredential]:{\"path\":`${\"e2\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.createCredential]:{\"path\":`${\"e2\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e1.changeCardPin]:{\"path\":`${\"e2\"}/change-card-pin`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.fullAccountRouting]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"y\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.accountWireDetails]:{\"path\":`${\"e2\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateAccountNickname]:{\"path\":`${\"e2\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.changeCardAccount]:{\"path\":`${\"e2\"}/change-card-account`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.updateCardNickname]:{\"path\":`${\"e2\"}/cards/update/nickname`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.createAccount]:{\"path\":`${\"e2\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.respondAccountInvitation]:{\"path\":`${\"e2\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.cancelAccountInvitation]:{\"path\":`${\"e2\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.removeAccountMember]:{\"path\":`${\"e2\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.closeSecondaryAccount]:{\"path\":`${\"e2\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e1.challenge]:{\"path\":`${\"e2\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.personal]:{\"path\":`${\"e2\"}/personal-info`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevices]:{\"path\":`${\"e2\"}/known-devices`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDevice]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"e$.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.knownDeviceModal]:{\"path\":`${\"e2\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.cardOnboarding]:{\"path\":`${\"e2\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.replaceCard]:{\"path\":`${\"e2\"}/cards/replace`,\"defaultClosePath\":\"ep\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e1.contacts]:{\"path\":`${\"e2\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactData]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.contactDetails]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createContact]:{\"path\":`${\"e2\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateContact]:{\"path\":e=>e?.id?`${\"e2\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaries]:{\"path\":`${\"e2\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.createBeneficiary]:{\"path\":`${\"e2\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.updateBeneficiary]:{\"path\":e=>e?.id?`${\"e2\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.wireMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.checkMeta]:{\"path\":e=>e?.id?`${\"e2\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credentials]:{\"path\":`${\"e2\"}/credentials`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.credential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"e$.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.updateCredential]:{\"path\":e=>e?.id?`${\"e2\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"e$.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.revealCustomerPersonalInfo]:{\"path\":`${\"e2\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.connections]:{\"path\":`${\"e2\"}/connections`,\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.connection]:{\"path\":e=>e?.id?`${\"e2\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e1.supportChat]:{\"path\":`${\"e2\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e1.supportChatConversation]:{\"path\":e=>e?.id?`${\"e2\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eE\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -15719,6 +15708,11 @@
     "name": "name",
     "address": "address",
     "wire_details": "wire_details"
+  },
+  {
+    "Active": "Active",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
   },
   {
     "CustomerNotFound": "CustomerNotFound",
@@ -15820,8 +15814,8 @@
     "AccountInvitationStatusRevoked": "AccountInvitationStatusRevoked",
     "AccountInvitationStatusUnspecified": "AccountInvitationStatusUnspecified"
   },
-  "{[ef.xx.debit]:{\"analyticsSection\":\"withdraw\",\"label\":\"ef.cz.withdraw.label\",\"confirmTitle\":\"eF().i670fe74\",\"linkAccountTitle\":\"eF().ecacfe52\",\"canShowFDICNotice\":\"!1\",\"canShowTasks\":\"!1\",\"selectMethodTitle\":\"eF().i2362cb2\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.x],\"allowedDebitMethods\":[{\"debitMethod\":\"eI.a.Oct\",\"type\":\"ef.I6.card\"},{\"debitMethod\":\"eI.a.Ach\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.Rtp\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.DomesticWire\",\"type\":\"ef.I6.bank\"}]},[ef.xx.credit]:{\"analyticsSection\":\"deposit\",\"label\":\"ef.cz.deposit.label\",\"confirmTitle\":\"eF().b628d5fa\",\"linkAccountTitle\":\"eF().d9f3e9b0\",\"linkAccountSubtitle\":\"eF().f3f1c814\",\"canShowFDICNotice\":\"!0\",\"canShowTasks\":\"!0\",\"selectMethodTitle\":\"eF().d9f3e9b0\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.check,ef.I6.cash,ef.I6.x],\"allowedCreditMethods\":[{\"creditMethod\":\"eT.x.Aft\",\"type\":\"ef.I6.card\"},{\"creditMethod\":\"eT.x.Rfp\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Ach\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Check\",\"featureSwitch\":\"payments_cheques_deposits_enabled\",\"type\":\"ef.I6.check\"},{\"creditMethod\":\"eT.x.Cash\",\"featureSwitch\":\"payments_cash_deposits_enabled\",\"type\":\"ef.I6.cash\"}]}}",
-  "{[ef.xx.debit]:\"eP.C.CreateWithdrawal\",[ef.xx.credit]:\"eP.C.CreateDeposit\"}",
+  "{[ek.xx.debit]:{\"analyticsSection\":\"withdraw\",\"label\":\"ek.cz.withdraw.label\",\"confirmTitle\":\"eF().i670fe74\",\"linkAccountTitle\":\"eF().ecacfe52\",\"canShowFDICNotice\":\"!1\",\"canShowTasks\":\"!1\",\"selectMethodTitle\":\"eF().i2362cb2\",\"allowedTypes\":[ek.I6.card,ek.I6.bank,ek.I6.x],\"allowedDebitMethods\":[{\"debitMethod\":\"eI.a.Oct\",\"type\":\"ek.I6.card\"},{\"debitMethod\":\"eI.a.Ach\",\"type\":\"ek.I6.bank\"},{\"debitMethod\":\"eI.a.Rtp\",\"type\":\"ek.I6.bank\"},{\"debitMethod\":\"eI.a.DomesticWire\",\"type\":\"ek.I6.bank\"}]},[ek.xx.credit]:{\"analyticsSection\":\"deposit\",\"label\":\"ek.cz.deposit.label\",\"confirmTitle\":\"eF().b628d5fa\",\"linkAccountTitle\":\"eF().d9f3e9b0\",\"linkAccountSubtitle\":\"eF().f3f1c814\",\"canShowFDICNotice\":\"!0\",\"canShowTasks\":\"!0\",\"selectMethodTitle\":\"eF().d9f3e9b0\",\"allowedTypes\":[ek.I6.card,ek.I6.bank,ek.I6.check,ek.I6.cash,ek.I6.x],\"allowedCreditMethods\":[{\"creditMethod\":\"eT.x.Aft\",\"type\":\"ek.I6.card\"},{\"creditMethod\":\"eT.x.Rfp\",\"type\":\"ek.I6.bank\"},{\"creditMethod\":\"eT.x.Ach\",\"type\":\"ek.I6.bank\"},{\"creditMethod\":\"eT.x.Check\",\"featureSwitch\":\"payments_cheques_deposits_enabled\",\"type\":\"ek.I6.check\"},{\"creditMethod\":\"eT.x.Cash\",\"featureSwitch\":\"payments_cash_deposits_enabled\",\"type\":\"ek.I6.cash\"}]}}",
+  "{[ek.xx.debit]:\"eP.C.CreateWithdrawal\",[ek.xx.credit]:\"eP.C.CreateDeposit\"}",
   {
     "DailyAchDeposit": "DailyAchDeposit",
     "DailyAchWithdrawal": "DailyAchWithdrawal",
@@ -15906,7 +15900,7 @@
     "Unspecified": "Unspecified"
   },
   "{[d.YV.SEND_WIRE_TRANSFER]:\"i().gd0092d0\",[d.YV.ACCOUNT_LINKING]:\"i().h21d2206\",[d.YV.DEPOSIT]:\"i().f00e8268\",[d.YV.P2P_TRANSFER_REQUEST]:\"i().e3f45a70\",[d.YV.P2P_TRANSFER_SEND]:\"i().e3f45a70\",[d.YV.P2P_TRANSFER_SEND_FUNDED]:\"i().f00e8268\",[d.YV.WITHDRAWAL]:\"i().e04209d0\",[d.YV.MAIL_CHECK]:\"i().d92cbe6a\",[d.YV.CREATE_TRANSFER_LINK]:\"i().cb7b59da\",[d.YV.CLAIM_TRANSFER_LINK]:\"i().jb5966f2\"}",
-  "{\"InsufficientFunds\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f9e0e6a2\",\"action\":{\"link\":\"c.L\",\"label\":\"d.cz.deposit.label\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"R\",\"message\":\"O\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"i().f6b3499c\",\"message\":\"i().f64125f6\",\"action\":{\"link\":\"c.f\",\"label\":\"i().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"i().gde35c74\",\"action\":{\"link\":\"c.zi\",\"label\":\"i().jd899ca2\"}},\"LoginRequired\":\"N\",\"PaymentMethodLinkRequired\":\"N\",\"PaymentMethodInactive\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"PaymentMethodExpired\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"AccountLinkingNameMismatch\":{\"message\":\"i().d660047c\"},\"InsufficientBalance\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f40c576c\",\"action\":{\"link\":\"c.L\",\"label\":\"d.cz.deposit.label\"}},\"TwoFactorAuthRequired\":{\"message\":\"i().i10a73ce\",\"action\":{\"link\":\"c.Z7\",\"label\":\"i().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"L()\"{\"type\":\"d.gT.monthly\"}{\"type\":\"d.gT.daily\"}{\"type\":\"d.gT.monthly\"}{\"type\":\"d.gT.perEntry\"}{\"headline\":\"i().g243dc66\",\"message\":\"i().b0315b3a\",\"action\":{\"link\":\"c.wt.tier2.verifyIdentityPath\",\"label\":\"i().c3d89aca\"}},\"Velocity\":{\"headline\":\"X\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":I[e]}},\"HasAccountBalance\":{\"headline\":\"U\",\"message\":\"i().a9ec0e4a\",\"action\":{\"link\":\"c.hM\",\"label\":\"d.cz.withdraw.label\"}},\"HasCashbackAccountBalance\":{\"headline\":\"U\",\"message\":\"i().a387275c\",\"action\":{\"link\":\"c.hl\",\"label\":\"i().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"U\",\"message\":\"i().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"U\",\"message\":\"i().i0391488\"},\"InactivePaymentMethod\":\"H\",\"InvalidPaymentMethodType\":\"H\",\"PaymentMethodDeleted\":\"H\",\"FeeCalculationError\":{\"headline\":\"$\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":I[e]}{\"link\":\"c.Hu\",\"label\":\"i().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"i().ac1c4c40\",\"message\":\"i().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.YV.P2P_TRANSFER_SEND\":return M;case d.YV.P2P_TRANSFER_REQUEST:return R;case d.YV.WITHDRAWAL:return Y;case d.YV.DEPOSIT:return Q;case d.YV.CLOSE_ACCOUNT:return U;case d.YV.REONBOARD:return V;case d.YV.CREATE_TRANSFER_LINK:return i().b64fa994;default:\"return i().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.YV.P2P_TRANSFER_SEND\":case d.YV.P2P_TRANSFER_REQUEST:case d.YV.CREATE_TRANSFER_LINK:return B;default:\"return _\"}},\"message\":\"_\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:\"e===d.YV.CREATE_TRANSFER_LINK?\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while creating a transfer link.\"}:{\"issueReportEnabled\":\"!1\"}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f9e0e6a2\",\"action\":{\"link\":\"c.L\",\"label\":\"d.cz.deposit.label\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"R\",\"message\":\"O\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"i().f6b3499c\",\"message\":\"i().f64125f6\",\"action\":{\"link\":\"c.f\",\"label\":\"i().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"i().gde35c74\",\"action\":{\"link\":\"c.zi\",\"label\":\"i().jd899ca2\"}},\"LoginRequired\":\"N\",\"PaymentMethodLinkRequired\":\"N\",\"PaymentMethodInactive\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"PaymentMethodExpired\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"AccountLinkingNameMismatch\":{\"message\":\"i().d660047c\"},\"InsufficientBalance\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f40c576c\",\"action\":{\"link\":\"c.L\",\"label\":\"d.cz.deposit.label\"}},\"TwoFactorAuthRequired\":{\"message\":\"i().i10a73ce\",\"action\":{\"link\":\"c.Z7\",\"label\":\"i().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"L()\"{\"type\":\"d.gT.monthly\"}{\"type\":\"d.gT.daily\"}{\"type\":\"d.gT.monthly\"}{\"type\":\"d.gT.perEntry\"}{\"headline\":\"i().g243dc66\",\"message\":\"i().b0315b3a\",\"action\":{\"link\":\"c.wt.tier2.verifyIdentityPath\",\"label\":\"i().c3d89aca\"}},\"Velocity\":{\"headline\":\"X\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":I[e]}},\"HasAccountBalance\":{\"headline\":\"z\",\"message\":\"i().a9ec0e4a\",\"action\":{\"link\":\"c.hM\",\"label\":\"d.cz.withdraw.label\"}},\"HasCashbackAccountBalance\":{\"headline\":\"z\",\"message\":\"i().a387275c\",\"action\":{\"link\":\"c.hl\",\"label\":\"i().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"z\",\"message\":\"i().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"z\",\"message\":\"i().i0391488\"},\"InactivePaymentMethod\":\"H\",\"InvalidPaymentMethodType\":\"H\",\"PaymentMethodDeleted\":\"H\",\"FeeCalculationError\":{\"headline\":\"W\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":I[e]}{\"link\":\"c.Hu\",\"label\":\"i().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"i().ac1c4c40\",\"message\":\"i().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.YV.P2P_TRANSFER_SEND\":return M;case d.YV.P2P_TRANSFER_REQUEST:return R;case d.YV.WITHDRAWAL:return Y;case d.YV.DEPOSIT:return Q;case d.YV.CLOSE_ACCOUNT:return z;case d.YV.REONBOARD:return V;case d.YV.CREATE_TRANSFER_LINK:return i().b64fa994;default:\"return i().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.YV.P2P_TRANSFER_SEND\":case d.YV.P2P_TRANSFER_REQUEST:case d.YV.CREATE_TRANSFER_LINK:return B;default:\"return _\"}},\"message\":\"_\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:\"e===d.YV.CREATE_TRANSFER_LINK?\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while creating a transfer link.\"}:{\"issueReportEnabled\":\"!1\"}}}",
   {
     "UnrecognizedPaymentDecisionAccept": "UnrecognizedPaymentDecisionAccept",
     "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
@@ -16216,7 +16210,7 @@
     "Red": "red500",
     "Teal": "teal500",
     "Yellow": "yellow500",
-    "Unspecified": "k"
+    "Unspecified": "f"
   },
   {
     "Blue": "o.A.theme.colors.blue500",
@@ -16279,17 +16273,17 @@
     "TOP": "top"
   },
   {
-    "down_cursor": "n.BOTTOM",
-    "max_id": "n.BOTTOM",
-    "max_position": "n.BOTTOM",
-    "min_position": "n.TOP",
-    "since_id": "n.TOP",
-    "up_cursor": "n.TOP"
+    "down_cursor": "i.BOTTOM",
+    "max_id": "i.BOTTOM",
+    "max_position": "i.BOTTOM",
+    "min_position": "i.TOP",
+    "since_id": "i.TOP",
+    "up_cursor": "i.TOP"
   },
   {
     "VerificationCheck": "VerificationCheck"
   },
-  "{[Object.freeze(){\"VerificationCheck\":\"VerificationCheck\"}\"e\"{if()throw Error(3!==e.length);let[t,i,n]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"i\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"n\"}]}\"()\"}",
+  "{[Object.freeze(){\"VerificationCheck\":\"VerificationCheck\"}\"e\"{if()throw Error(3!==e.length);let[t,n,i]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"n\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"i\"}]}\"()\"}",
   {
     "NOT_RESPONDER": {
       "DELAY": "q",
@@ -17862,6 +17856,7 @@
   {
     "default": "default",
     "with_replies": "with_replies",
+    "reposts": "reposts",
     "superfollows": "superfollows",
     "highlights": "highlights",
     "articles": "articles",

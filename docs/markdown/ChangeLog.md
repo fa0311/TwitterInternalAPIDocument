@@ -8733,3 +8733,23 @@
 - payments_onboarding_issued_cards_polling_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/21<br>
+### API<br>
+#### add<br>
+- UserOriginalsTimeline<br>
+- UserRepliesTimeline<br>
+- UserRepostsTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- jetfuel_forgot_password_migration_enabled<br>
+- responsive_web_profile_redesign_enabled<br>
+- xchat_batch_updates_for_bottom_cursor_processing<br>
+- xchat_composer_photo_editor_enabled<br>
+- xchat_inbox_checksum_scribing_enabled<br>
+- xchat_keep_db_when_processing_inbox_response<br>
+- xchat_missing_messages_scribe_enabled<br>
+- xchat_plaintext_grok_minimum_tier<br>
+#### remove<br>
+- None<br>
