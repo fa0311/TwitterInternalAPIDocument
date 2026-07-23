@@ -8753,3 +8753,14 @@
 - xchat_plaintext_grok_minimum_tier<br>
 #### remove<br>
 - None<br>
+## 2026/07/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_gpc_enabled<br>
+#### remove<br>
+- None<br>
