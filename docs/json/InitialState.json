@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "940873",
+          "followers_count": "940798",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
-          "listed_count": "515",
+          "listed_count": "514",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "940873",
+          "normal_followers_count": "940798",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -2331,7 +2331,7 @@
         "value": "false"
       },
       "responsive_web_notifications_refresher_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ocf_reportflow_appeals_enabled": {
         "value": "false"
@@ -4178,7 +4178,7 @@
         "value": "true"
       },
       "web_video_persist_player_preferences_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "web_video_playback_rate_enabled": {
         "value": "true"
@@ -6730,7 +6730,7 @@
           "value": "false"
         },
         "responsive_web_notifications_refresher_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ocf_reportflow_appeals_enabled": {
           "value": "false"
@@ -8577,7 +8577,7 @@
           "value": "true"
         },
         "web_video_persist_player_preferences_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_playback_rate_enabled": {
           "value": "true"
@@ -8966,7 +8966,7 @@
       "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "5a58eaf33743d17059feb5a89b342f69280f27b6",
+    "featureSetToken": "2018e7b154ba9f4de774ef687cff7f5b8b5bc317",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9035,7 +9035,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178466908915966867",
+    "guestId": "178475534805464225",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
