@@ -8764,3 +8764,19 @@
 - responsive_web_gpc_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/24<br>
+### API<br>
+#### add<br>
+- UserPhotoTimeline<br>
+- UserVideoTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- rweb_xchat_delegate_accounts_enabled<br>
+- rweb_xchat_messages_sidebar_enabled<br>
+- rweb_xchat_old_dms_inbox_item<br>
+- rweb_xchat_remove_x_pro_dms<br>
+- xchat_unified_tab_min_snowflake_user_id<br>
