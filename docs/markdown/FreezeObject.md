@@ -1192,7 +1192,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[h.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let a",r,l;return{"type":"radio","props":{"description":"e3().description","getNextFormStep":e=>{"switch()"{"case h.C6.IDENTITY_DOCUMENT":return h.$V.INTAKE_TYPE_SELECT;case h.C6.EMAIL:return...
+{[h.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let a",r,l;return{"type":"radio","props":{"description":"e7().description","getNextFormStep":e=>{"switch()"{"case h.C6.IDENTITY_DOCUMENT":return h.$V.INTAKE_TYPE_SELECT;case h.C6.EMAIL:return...
 ```
 ```internal process
 # Error
@@ -7739,7 +7739,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.N.LoginRequired]:"m().d87f82b4",[P.N.Invalid]:"m().iaad96d0",[P.N.Pending]:"Q",[P.N.PendingMicroDepositVerification]:"m().dfe1ee26",[P.N.Revoked]:"m().i31b3ed4",[P.N.Canceled]:"m().a89b0322",[P.N.Inactive]:"m().ac43b354",[P.N.Expired]:"m().eb4e810a",[P.N.ScaRequired]:"m().d39e7324"}
+{[b.N.LoginRequired]:"m().d87f82b4",[b.N.Invalid]:"m().iaad96d0",[b.N.Pending]:"Q",[b.N.PendingMicroDepositVerification]:"m().dfe1ee26",[b.N.Revoked]:"m().i31b3ed4",[b.N.Canceled]:"m().a89b0322",[b.N.Inactive]:"m().ac43b354",[b.N.Expired]:"m().eb4e810a",[b.N.ScaRequired]:"m().d39e7324"}
 ```
 ```internal process
 # Error
