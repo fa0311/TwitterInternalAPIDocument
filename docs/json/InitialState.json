@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "940431",
+          "followers_count": "939806",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "514",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "940431",
+          "normal_followers_count": "939806",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -8780,7 +8780,7 @@
           "value": "1"
         },
         "xchat_max_group_size": {
-          "value": "350"
+          "value": "1000"
         },
         "xchat_max_group_size_for_live_read_receipts": {
           "value": "50"
@@ -8939,7 +8939,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2472f681cdef7c815df20e3eff9b280f"
+      "settingsVersion": "e1f312bc041864a98825d9270f1fac23"
     },
     "debug": {},
     "featureSetToken": "2adfe0a3edbe1f463264b7b8fc321a74f85d81fe",
@@ -9011,7 +9011,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178501416734612585",
+    "guestId": "178510059784655851",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
