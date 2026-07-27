@@ -306,15 +306,6 @@
     ]
   },
   {
-    "queryId": "contacts/addressbook",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "foundmedia/categories",
     "dispatch_key": "get",
     "dispatch": [
@@ -441,6 +432,15 @@
     ]
   },
   {
+    "queryId": "contacts/addressbook",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "account/multi/list",
     "dispatch_key": "get",
     "dispatch": [
@@ -550,6 +550,15 @@
   },
   {
     "queryId": "friends/following/list",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "friendships/list",
     "dispatch_key": "get",
     "dispatch": [
       "get",
