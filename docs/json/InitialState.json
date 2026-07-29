@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "939584",
+          "followers_count": "939516",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1299,6 +1299,9 @@
       "payments_half_cover_notices_enabled": {
         "value": "true"
       },
+      "payments_lexical_search_enabled": {
+        "value": "false"
+      },
       "payments_onboarding_issued_cards_polling_enabled": {
         "value": "true"
       },
@@ -1420,13 +1423,13 @@
         "value": "right_tweet_header_ad_label"
       },
       "recruiting_admin_currencies_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_global_jobs_search_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_job_page_consumption_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_job_recommendations_enabled": {
         "value": "false"
@@ -1435,34 +1438,34 @@
         "value": "false"
       },
       "recruiting_jobs_list_consumption_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_jobs_list_search_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_jobs_list_share_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_pin_job_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_premium_jobs_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_promoted_jobs_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_search_filters_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_verified_orgs_admin_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_verified_orgs_ats_integration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "recruiting_verified_orgs_enroll_allowed": {
-        "value": "true"
+        "value": "false"
       },
       "report_center_mvp_r1_enabled": {
         "value": "true"
@@ -3288,13 +3291,13 @@
         "value": "true"
       },
       "subscriptions_feature_organization_x_hiring": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_feature_premium_insights": {
         "value": "true"
       },
       "subscriptions_feature_premium_jobs": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_features_premium_real_syscache_write": {
         "value": "true"
@@ -4364,7 +4367,7 @@
         "value": "false"
       },
       "xchat_invalid_sig_log_after_seq_num_str": {
-        "value": "2078993286558646272"
+        "value": "2082251782884425728"
       },
       "xchat_ios_max_io_threads": {
         "value": "64"
@@ -4452,6 +4455,9 @@
       },
       "xchat_ratchet_group_id_threshold_str": {
         "value": "9223372036854775807"
+      },
+      "xchat_realm_migration_local_key_fallback_enabled": {
+        "value": "false"
       },
       "xchat_repair_groups_after_passcode_reset": {
         "value": "true"
@@ -5694,6 +5700,9 @@
         },
         "payments_half_cover_notices_enabled": {
           "value": "true"
+        },
+        "payments_lexical_search_enabled": {
+          "value": "false"
         },
         "payments_onboarding_issued_cards_polling_enabled": {
           "value": "true"
@@ -7411,6 +7420,9 @@
         "rweb_xchat_bug_report_url": {
           "value": ""
         },
+        "rweb_xchat_call_window_enabled": {
+          "value": "false"
+        },
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
@@ -8693,6 +8705,9 @@
         "xchat_enable_message_requests_attachments": {
           "value": "false"
         },
+        "xchat_enable_metadata_sync": {
+          "value": "false"
+        },
         "xchat_enable_ratcheting": {
           "value": "false"
         },
@@ -8760,7 +8775,7 @@
           "value": "false"
         },
         "xchat_invalid_sig_log_after_seq_num_str": {
-          "value": "2078993286558646272"
+          "value": "2082251782884425728"
         },
         "xchat_ios_max_io_threads": {
           "value": "64"
@@ -8848,6 +8863,9 @@
         },
         "xchat_ratchet_group_id_threshold_str": {
           "value": "9223372036854775807"
+        },
+        "xchat_realm_migration_local_key_fallback_enabled": {
+          "value": "false"
         },
         "xchat_repair_groups_after_passcode_reset": {
           "value": "true"
@@ -8946,10 +8964,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "362ef9ffc5b47e0c57b502c7a592b1fd"
+      "settingsVersion": "533d2cbda0f9098f4554d0d6a55532f2"
     },
     "debug": {},
-    "featureSetToken": "6b87f34a01ede62a4db1eef6186c7a393342a7bc",
+    "featureSetToken": "dfe4321c24ceb12eed2496c73cf9d8f12b033ffb",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9018,7 +9036,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178527378870091220",
+    "guestId": "178535982159172661",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
