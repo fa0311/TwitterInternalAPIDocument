@@ -8793,3 +8793,17 @@
 - xchat_dm_write_gate_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_lexical_search_enabled<br>
+- xchat_realm_migration_local_key_fallback_enabled<br>
+- rweb_xchat_call_window_enabled<br>
+- xchat_enable_metadata_sync<br>
+#### remove<br>
+- None<br>
