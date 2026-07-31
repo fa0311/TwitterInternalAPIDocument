@@ -2826,15 +2826,15 @@
       "method": "GET",
       "features": {}
     },
+    "UserUnderTheHoodReport": {
+      "url": "https://x.com/i/api/graphql/nYJzdcaWlKpGPO5CbGiLRQ/UserUnderTheHoodReport",
+      "queryId": "nYJzdcaWlKpGPO5CbGiLRQ",
+      "method": "GET",
+      "features": {}
+    },
     "UniversalSearchFeedbackMutation": {
       "url": "https://x.com/i/api/graphql/qaIzg304L134B5-NI43j2A/UniversalSearchFeedbackMutation",
       "queryId": "qaIzg304L134B5-NI43j2A",
-      "method": "POST",
-      "features": {}
-    },
-    "EnableLoggedOutWebNotifications": {
-      "url": "https://x.com/i/api/graphql/BqIHKmwZKtiUBPi07jKctg/EnableLoggedOutWebNotifications",
-      "queryId": "BqIHKmwZKtiUBPi07jKctg",
       "method": "POST",
       "features": {}
     },
