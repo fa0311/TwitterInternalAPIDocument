@@ -8807,3 +8807,17 @@
 - xchat_enable_metadata_sync<br>
 #### remove<br>
 - None<br>
+## 2026/07/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_edit_image_attribution_mode<br>
+- responsive_web_grok_imagine_continue_seamless_enabled<br>
+- rweb_video_host_enabled<br>
+- timeline_scroll_pointer_events_optimization<br>
+#### remove<br>
+- None<br>

@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "939516",
+          "followers_count": "939190",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1911,6 +1911,9 @@
       "responsive_web_grok_download_favicons": {
         "value": "true"
       },
+      "responsive_web_grok_edit_image_attribution_mode": {
+        "value": "free"
+      },
       "responsive_web_grok_enable_android_image_donwload": {
         "value": "false"
       },
@@ -1967,6 +1970,9 @@
       },
       "responsive_web_grok_imagine_composer_enabled": {
         "value": "false"
+      },
+      "responsive_web_grok_imagine_continue_seamless_enabled": {
+        "value": "true"
       },
       "responsive_web_grok_imagine_explore_enabled": {
         "value": "false"
@@ -3003,6 +3009,9 @@
       "rweb_update_fatigue_switch_to_app_link": {
         "value": "BannerSwitchToApp"
       },
+      "rweb_video_host_enabled": {
+        "value": "false"
+      },
       "rweb_video_logged_in_analytics_enabled": {
         "value": "true"
       },
@@ -3017,6 +3026,9 @@
       },
       "rweb_xchat_bug_report_url": {
         "value": ""
+      },
+      "rweb_xchat_call_window_enabled": {
+        "value": "false"
       },
       "rweb_xchat_debug_enabled": {
         "value": "false"
@@ -3773,6 +3785,9 @@
       "targeted_project_friday_enabled": {
         "value": "false"
       },
+      "timeline_scroll_pointer_events_optimization": {
+        "value": "false"
+      },
       "topic_landing_page_clearer_controls_enabled": {
         "value": "true"
       },
@@ -4298,6 +4313,9 @@
         "value": "true"
       },
       "xchat_enable_message_requests_attachments": {
+        "value": "false"
+      },
+      "xchat_enable_metadata_sync": {
         "value": "false"
       },
       "xchat_enable_ratcheting": {
@@ -4870,7 +4888,7 @@
           "value": "false"
         },
         "birdwatch_xchat_pivot_rendering_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_admin_sidebar_module_enabled": {
           "value": "true"
@@ -6313,6 +6331,9 @@
         "responsive_web_grok_download_favicons": {
           "value": "true"
         },
+        "responsive_web_grok_edit_image_attribution_mode": {
+          "value": "free"
+        },
         "responsive_web_grok_enable_android_image_donwload": {
           "value": "false"
         },
@@ -6369,6 +6390,9 @@
         },
         "responsive_web_grok_imagine_composer_enabled": {
           "value": "false"
+        },
+        "responsive_web_grok_imagine_continue_seamless_enabled": {
+          "value": "true"
         },
         "responsive_web_grok_imagine_explore_enabled": {
           "value": "false"
@@ -7405,6 +7429,9 @@
         "rweb_update_fatigue_switch_to_app_link": {
           "value": "BannerSwitchToApp"
         },
+        "rweb_video_host_enabled": {
+          "value": "false"
+        },
         "rweb_video_logged_in_analytics_enabled": {
           "value": "true"
         },
@@ -7436,7 +7463,7 @@
           "value": "false"
         },
         "rweb_xchat_scroller_rewrite_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_sentry_enabled": {
           "value": "true"
@@ -8176,6 +8203,9 @@
           "value": "true"
         },
         "targeted_project_friday_enabled": {
+          "value": "false"
+        },
+        "timeline_scroll_pointer_events_optimization": {
           "value": "false"
         },
         "topic_landing_page_clearer_controls_enabled": {
@@ -8964,10 +8994,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "533d2cbda0f9098f4554d0d6a55532f2"
+      "settingsVersion": "03bfa795ba41f028f95c74a1c54ee1d5"
     },
     "debug": {},
-    "featureSetToken": "dfe4321c24ceb12eed2496c73cf9d8f12b033ffb",
+    "featureSetToken": "17e2732915e8da6be78445cf7ecca8d462452e95",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9036,7 +9066,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178535982159172661",
+    "guestId": "178544657233039317",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
