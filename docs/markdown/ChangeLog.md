@@ -8849,3 +8849,20 @@
 - responsive_web_notifications_refresher_enabled<br>
 - rweb_enable_logged_out_search_search_bar_enabled<br>
 - search_results_disable_latest_tab_when_logged_out<br>
+## 2026/08/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- grok_agent_disclosure_enabled<br>
+- payments_interest_details_with_boost_enabled<br>
+- payments_scheduled_payments_enabled<br>
+- payments_transaction_receipt_enabled<br>
+- responsive_web_livecut_native_share_enabled<br>
+- xchat_ckey_sig_v6_enforce_after_seq_num_str<br>
+- xchat_enable_default_screenshot_blocking_setting<br>
+#### remove<br>
+- None<br>
