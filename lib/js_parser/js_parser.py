@@ -181,6 +181,11 @@ def json_parser(text: JsData):
                 r'\1"\2"\3',
                 json,
             )
+            json = re.sub(
+                rf'(&quot;:)"({reg_other}+)"',
+                r"\1\2",
+                json,
+            )
             args = [
                 "(" + parsed.replace('"', '\\"') + ")" for parsed in placeholder.list
             ]
