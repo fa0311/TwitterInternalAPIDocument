@@ -8866,3 +8866,21 @@
 - xchat_enable_default_screenshot_blocking_setting<br>
 #### remove<br>
 - None<br>
+## 2026/08/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_inplace_auth_handoff_enabled<br>
+- responsive_web_grok_sidebar_campaign_variant<br>
+- rweb_xchat_call_link_enabled<br>
+- rweb_xchat_loudness_control_enabled<br>
+- xchat_enable_legacy_metadata_write<br>
+- xchat_liquid_glass_convo_header_enabled<br>
+- xchat_message_list_v2_enabled<br>
+#### remove<br>
+- rweb_sourcemap_migration<br>
+- rweb_xchat_keyboard_nav_enabled<br>
