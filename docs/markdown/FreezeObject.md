@@ -5528,7 +5528,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let o;return()(0,s.jsx){"...()":{"...()(0,i.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let a;return()(0,s.jsx){"...()":{"...()(0,i.nQ)":"_","colors":[a.primary,a.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
 ```
 | constant               | value                  |
 |:-----------------------|:-----------------------|
@@ -6605,7 +6605,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":n="audiospace"}{var r;let o;return()(0,s.jsx){"...()":{"...()(0,a.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[d.container,e.style],"children":"()(0,s.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":n="audiospace"}{var r;let o;return()(0,s.jsx){"...()":{"...()(0,a.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
 ```
 | constant   | value                                                      |
 |:-----------|:-----------------------------------------------------------|
