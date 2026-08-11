@@ -8884,3 +8884,15 @@
 #### remove<br>
 - rweb_sourcemap_migration<br>
 - rweb_xchat_keyboard_nav_enabled<br>
+## 2026/08/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_group_description_enabled<br>
+- xchat_pinned_messages_enabled<br>
+#### remove<br>
+- None<br>
