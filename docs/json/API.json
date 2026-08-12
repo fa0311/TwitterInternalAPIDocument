@@ -4422,8 +4422,8 @@
       }
     },
     "PinTimeline": {
-      "url": "https://x.com/i/api/graphql/udkubIxf_zj2-pkdNGT4Gg/PinTimeline",
-      "queryId": "udkubIxf_zj2-pkdNGT4Gg",
+      "url": "https://x.com/i/api/graphql/UMNCKard0g-n-O0hVkLMIw/PinTimeline",
+      "queryId": "UMNCKard0g-n-O0hVkLMIw",
       "method": "POST",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4440,8 +4440,8 @@
       "features": {}
     },
     "PinnableTimelines": {
-      "url": "https://x.com/i/api/graphql/w5_zVfZbdIYToapdJyDtFw/PinnableTimelines",
-      "queryId": "w5_zVfZbdIYToapdJyDtFw",
+      "url": "https://x.com/i/api/graphql/0qgKOIvB4NQG4t87kE6RxA/PinnableTimelines",
+      "queryId": "0qgKOIvB4NQG4t87kE6RxA",
       "method": "GET",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4452,8 +4452,8 @@
       }
     },
     "PinnedTimelines": {
-      "url": "https://x.com/i/api/graphql/2wkpESMIBNvCMXCMCQQJTg/PinnedTimelines",
-      "queryId": "2wkpESMIBNvCMXCMCQQJTg",
+      "url": "https://x.com/i/api/graphql/-cgbxu1bOQbapAA31bo1mA/PinnedTimelines",
+      "queryId": "-cgbxu1bOQbapAA31bo1mA",
       "method": "GET",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4960,8 +4960,8 @@
       "features": {}
     },
     "UnpinTimeline": {
-      "url": "https://x.com/i/api/graphql/-HDI6pq6p3rQuubVUO2mJw/UnpinTimeline",
-      "queryId": "-HDI6pq6p3rQuubVUO2mJw",
+      "url": "https://x.com/i/api/graphql/DZ0hj7fjEmb3Wu2mn1WuHg/UnpinTimeline",
+      "queryId": "DZ0hj7fjEmb3Wu2mn1WuHg",
       "method": "POST",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4978,8 +4978,8 @@
       "features": {}
     },
     "UpdatePinnedTimelines": {
-      "url": "https://x.com/i/api/graphql/uTZBG7-obKDJKNOSdhii3w/UpdatePinnedTimelines",
-      "queryId": "uTZBG7-obKDJKNOSdhii3w",
+      "url": "https://x.com/i/api/graphql/ddaSb0QQnp88Itg6gHlfsg/UpdatePinnedTimelines",
+      "queryId": "ddaSb0QQnp88Itg6gHlfsg",
       "method": "POST",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
