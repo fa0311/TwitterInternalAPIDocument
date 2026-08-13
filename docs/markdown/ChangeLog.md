@@ -8896,3 +8896,14 @@
 - xchat_pinned_messages_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- spaces_live_chat_enabled<br>
+#### remove<br>
+- None<br>
