@@ -8907,3 +8907,16 @@
 - spaces_live_chat_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_calls_v2_enabled<br>
+- xchat_attachment_viewer_enabled<br>
+- xchat_enable_user_metadata_migration_dry_run<br>
+#### remove<br>
+- None<br>
