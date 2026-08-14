@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "934434",
+          "followers_count": "934539",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1570,7 +1570,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_crowd_nmr_pivots_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_enforce_author_user_quotas": {
         "value": "true"
@@ -2002,7 +2002,7 @@
         "value": "4"
       },
       "responsive_web_grok_inplace_auth_handoff_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_latest_news_preset_enabled": {
         "value": "true"
@@ -2182,7 +2182,7 @@
         "value": "false"
       },
       "responsive_web_history_screen_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_home_pinned_timelines_prefetch_enabled": {
         "value": "false"
@@ -2404,7 +2404,7 @@
         "value": "true"
       },
       "responsive_web_profile_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_profile_redirect_enabled": {
         "value": "true"
@@ -2965,7 +2965,7 @@
         "value": "true"
       },
       "rweb_ssp_ads_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_ssp_ads_premium_bypass_enabled": {
         "value": "false"
@@ -4428,6 +4428,9 @@
       },
       "xchat_max_attachments_per_message": {
         "value": "10"
+      },
+      "xchat_max_group_description_length": {
+        "value": "500"
       },
       "xchat_max_group_size": {
         "value": "1000"
@@ -6014,7 +6017,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_crowd_nmr_pivots_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_enforce_author_user_quotas": {
           "value": "true"
@@ -6446,7 +6449,7 @@
           "value": "4"
         },
         "responsive_web_grok_inplace_auth_handoff_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_latest_news_preset_enabled": {
           "value": "true"
@@ -7409,7 +7412,7 @@
           "value": "true"
         },
         "rweb_ssp_ads_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_ssp_ads_premium_bypass_enabled": {
           "value": "false"
@@ -8873,6 +8876,9 @@
         "xchat_max_attachments_per_message": {
           "value": "10"
         },
+        "xchat_max_group_description_length": {
+          "value": "500"
+        },
         "xchat_max_group_size": {
           "value": "1000"
         },
@@ -9042,10 +9048,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8fe919ad2b08c6f7ba98f9ac79652dfc"
+      "settingsVersion": "ca1a4bb9479c6b54d649e6dc7f8a0103"
     },
     "debug": {},
-    "featureSetToken": "564550bbb6f469fde231e1105cabb13f9008fe60",
+    "featureSetToken": "bb6ebea1ef95868fcac4a60655d94e26e89071c6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9113,7 +9119,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178665688004322198",
+    "guestId": "178674213935480303",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
