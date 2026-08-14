@@ -8920,3 +8920,14 @@
 - xchat_enable_user_metadata_migration_dry_run<br>
 #### remove<br>
 - None<br>
+## 2026/08/14<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchSimilarMediaMatchSlice<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_max_group_description_length<br>
+#### remove<br>
+- None<br>
