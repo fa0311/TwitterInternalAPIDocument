@@ -740,6 +740,7 @@
       "value": "2"
     }
   },
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[l.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
   {
     "transparent": "transparent",
     "modern": "modern"
@@ -972,6 +973,9 @@
     "Composition": "composition",
     "DMComposition": "dm_composition",
     "NoteComposition": "note_composition"
+  },
+  {
+    "client": "m5"
   },
   {
     "normal": "100",
@@ -1222,6 +1226,13 @@
     "FourthVariation": "treatment_4"
   },
   {
+    "__proto__": "null",
+    "assert": "S",
+    "requireNonNull": "w",
+    "requireInstance": "E",
+    "abstractMethodFail": "y"
+  },
+  {
     "toggleCommandCenter": "mod+k",
     "openKeyboardShortcuts": "?",
     "swipeLeft": "left",
@@ -1443,6 +1454,12 @@
     "moneyMax": "moneyMax",
     "moneyConfirmation": "moneyConfirmation",
     "tierSwitchConfirmation": "tierSwitchConfirmation"
+  },
+  {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
   },
   {
     "ContinueWith": "continue_with",
@@ -1750,7 +1767,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e8.upgradeToKycVerified]:{\"path\":`${\"te\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.upgradeToKycDocumentsVerified]:{\"path\":`${\"te\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.selfieVerification]:{\"path\":`${\"te\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updateAddress]:{\"path\":`${\"te\"}/update/address`,\"defaultClosePath\":\"eq.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updateMailingAddress]:{\"path\":`${\"te\"}/update/mailing-address`,\"defaultClosePath\":\"eq.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.questions]:{\"path\":`${\"te\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updatePin]:{\"path\":`${\"te\"}/update-pin`,\"defaultClosePath\":\"eq.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.forgotPin]:{\"path\":`${\"te\"}/forgot-pin`,\"defaultClosePath\":\"eq.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.recoverAccess]:{\"path\":`${\"te\"}/recover-access`,\"defaultClosePath\":\"eq.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.migrateCredential]:{\"path\":`${\"te\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.createCredential]:{\"path\":`${\"te\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.changeCardPin]:{\"path\":`${\"te\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.fullAccountRouting]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.accountWireDetails]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.updateAccountNickname]:{\"path\":`${\"te\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.changeCardAccount]:{\"path\":`${\"te\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.updateCardNickname]:{\"path\":`${\"te\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.createAccount]:{\"path\":`${\"te\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.respondAccountInvitation]:{\"path\":`${\"te\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.cancelAccountInvitation]:{\"path\":`${\"te\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.removeAccountMember]:{\"path\":`${\"te\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.closeSecondaryAccount]:{\"path\":`${\"te\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.challenge]:{\"path\":`${\"te\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.personal]:{\"path\":`${\"te\"}/personal-info`,\"defaultClosePath\":\"eq.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDevices]:{\"path\":`${\"te\"}/known-devices`,\"defaultClosePath\":\"eq.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDevice]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"eQ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDeviceModal]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.cardOnboarding]:{\"path\":`${\"te\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.replaceCard]:{\"path\":`${\"te\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.contacts]:{\"path\":`${\"te\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.internationalContacts]:{\"path\":`${\"te\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.contactData]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.contactDetails]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.createContact]:{\"path\":`${\"te\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.createInternationalContact]:{\"path\":`${\"te\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateInternationalContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.beneficiaries]:{\"path\":`${\"te\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.createBeneficiary]:{\"path\":`${\"te\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateBeneficiary]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.wireMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.checkMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.transactionReceipt]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.credentials]:{\"path\":`${\"te\"}/credentials`,\"defaultClosePath\":\"eq.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.credential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.updateCredential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.revealCustomerPersonalInfo]:{\"path\":`${\"te\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.connections]:{\"path\":`${\"te\"}/connections`,\"defaultClosePath\":\"eq.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.connection]:{\"path\":e=>e?.id?`${\"te\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eq.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.supportChat]:{\"path\":`${\"te\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.supportChatConversation]:{\"path\":e=>e?.id?`${\"te\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"ez\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[tt.upgradeToKycVerified]:{\"path\":`${\"tn\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.upgradeToKycDocumentsVerified]:{\"path\":`${\"tn\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.selfieVerification]:{\"path\":`${\"tn\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateAddress]:{\"path\":`${\"tn\"}/update/address`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateMailingAddress]:{\"path\":`${\"tn\"}/update/mailing-address`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.questions]:{\"path\":`${\"tn\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updatePin]:{\"path\":`${\"tn\"}/update-pin`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.forgotPin]:{\"path\":`${\"tn\"}/forgot-pin`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.recoverAccess]:{\"path\":`${\"tn\"}/recover-access`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.migrateCredential]:{\"path\":`${\"tn\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.createCredential]:{\"path\":`${\"tn\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.changeCardPin]:{\"path\":`${\"tn\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.fullAccountRouting]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.accountWireDetails]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateAccountNickname]:{\"path\":`${\"tn\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.changeCardAccount]:{\"path\":`${\"tn\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.updateCardNickname]:{\"path\":`${\"tn\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.createAccount]:{\"path\":`${\"tn\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.respondAccountInvitation]:{\"path\":`${\"tn\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.cancelAccountInvitation]:{\"path\":`${\"tn\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.removeAccountMember]:{\"path\":`${\"tn\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.closeSecondaryAccount]:{\"path\":`${\"tn\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.challenge]:{\"path\":`${\"tn\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.personal]:{\"path\":`${\"tn\"}/personal-info`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevices]:{\"path\":`${\"tn\"}/known-devices`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevice]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"eZ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDeviceModal]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.cardOnboarding]:{\"path\":`${\"tn\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.replaceCard]:{\"path\":`${\"tn\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.contacts]:{\"path\":`${\"tn\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.internationalContacts]:{\"path\":`${\"tn\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactData]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactDetails]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createContact]:{\"path\":`${\"tn\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.createInternationalContact]:{\"path\":`${\"tn\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateInternationalContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaries]:{\"path\":`${\"tn\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createBeneficiary]:{\"path\":`${\"tn\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateBeneficiary]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.wireMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.checkMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.transactionReceipt]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credentials]:{\"path\":`${\"tn\"}/credentials`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateCredential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.revealCustomerPersonalInfo]:{\"path\":`${\"tn\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.connections]:{\"path\":`${\"tn\"}/connections`,\"defaultClosePath\":\"eQ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.connection]:{\"path\":e=>e?.id?`${\"tn\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eQ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.supportChat]:{\"path\":`${\"tn\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.supportChatConversation]:{\"path\":e=>e?.id?`${\"tn\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eB\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -1870,7 +1887,7 @@
     "Strikethrough": "STRIKETHROUGH"
   },
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":i=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
-  "{\"ActionsBar\":\"w.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"v.i\",\"EditCallout\":\"A.A\",\"Education\":\"C.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"T.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}{\"return()(0,b.jsx)\"{\"style\":\"l\",\"children\":\"()(0,b.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"I.root\",\"children\":\"()(0,b.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}}}},\"ReplyContext\":\"j.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"m.A\",\"Text\":\"L.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"p.A\",\"UserAvatar\":\"M.A\",\"UserFollowIndicator\":\"O.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"x.A\"}",
+  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"A.A\",\"Education\":\"C.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"T.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"D.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}}}},\"ReplyContext\":\"j.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"m.A\",\"Text\":\"L.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"p.A\",\"UserAvatar\":\"M.A\",\"UserFollowIndicator\":\"O.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"v.A\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
@@ -2110,7 +2127,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"v.A\",\"Education\":\"T.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"k.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"L.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}}}},\"ReplyContext\":\"R.Ay\",\"RichContent\":\"j.A\",\"SocialContext\":\"h.A\",\"Text\":\"D.A\",\"Tombstone\":\"m.A\",\"Timestamp\":\"_.A\",\"UserAvatar\":\"F.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"A.A\"}",
+  "{\"ActionsBar\":\"y.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"i\",\"onOpen\":\"n\"}{\"let o=r.useCallback()\"{\"items\":\"i\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"v.A\",\"Education\":\"T.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"k.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"L.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"i\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"_\"}}}},\"ReplyContext\":\"j.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"h.A\",\"Text\":\"D.A\",\"Tombstone\":\"m.A\",\"Timestamp\":\"_.A\",\"UserAvatar\":\"F.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"A.A\"}",
   {
     "Draft": "Draft",
     "Published": "Published",
@@ -2127,13 +2144,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "R().ffd9cfe6",
-    "discover_more": "R().d172116a",
-    "more": "R().h63a5c3c",
-    "more_tweets": "R().be5df69e",
-    "more_suggestions": "R().g11ebd34",
-    "browse": "R().g4a6901a",
-    "browse_tweets": "R().h6453e74"
+    "see_more": "j().ffd9cfe6",
+    "discover_more": "j().d172116a",
+    "more": "j().h63a5c3c",
+    "more_tweets": "j().be5df69e",
+    "more_suggestions": "j().g11ebd34",
+    "browse": "j().g4a6901a",
+    "browse_tweets": "j().h6453e74"
   },
   {
     "HiddenCommunityTweet": "community_tweet_hidden",
@@ -2896,9 +2913,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "R",
-    "gif": "R",
-    "hd": "R",
+    "alt": "P",
+    "gif": "P",
+    "hd": "P",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2926,6 +2943,20 @@
     }
   },
   {
+    "verticallyMaximized": "verticallyMaximized",
+    "verticallyFull": "verticallyFull",
+    "fixed": "fixed",
+    "dynamic": "dynamic",
+    "fitChildren": "fitChildren",
+    "noSizeLimit": "noSizeLimit",
+    "full": "full",
+    "jetfuel": "jetfuel",
+    "money": "money",
+    "moneyMax": "moneyMax",
+    "moneyConfirmation": "moneyConfirmation",
+    "tierSwitchConfirmation": "tierSwitchConfirmation"
+  },
+  {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
     "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
@@ -2946,7 +2977,7 @@
     "since_id": "n.TOP",
     "up_cursor": "n.TOP"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[_.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let i;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[_.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "MarchMadness": "MarchMadness"
   },
@@ -3502,36 +3533,52 @@
     "ownedSubscribedList": "ownedSubscribedList"
   },
   {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
-  },
-  {
-    "superFollower": "d().fc065ee4"
+    "superFollower": "c().fc065ee4"
   },
   {
     "superFollower": {
       "graphic": "u.default",
-      "headline": "d().e453f536",
-      "subtext": "d().bd4cb7a0",
-      "actionLabel": "d().g7099a02",
+      "headline": "c().e453f536",
+      "subtext": "c().bd4cb7a0",
+      "actionLabel": "c().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "d().c2637ef6"
+      "secondaryActionLabel": "c().c2637ef6"
     }
   },
   {
-    "followsYou": "d().efb17190",
-    "superFollowsYou": "d().g57b5f6c",
-    "superFollower": "d().a77a27c0"
+    "followsYou": "c().efb17190",
+    "superFollowsYou": "c().g57b5f6c",
+    "superFollower": "c().a77a27c0"
   },
   {
     "followsYou": "gray700",
     "superFollowsYou": "plum700",
     "superFollower": "plum700"
   },
-  "{\"getPublicKey\":\"a\",\"getSharedSecret\":\"function()\"{if()throw Error(!0===tI);if(\\\"first arg must be private key\\\")throw Error(!1===tC);let i=g.fromBytes(\\\"second arg must be public key\\\");return A.fromBytes(I).multiply(C).toBytes(i)},\"keygen\":\"o\",\"Point\":\"A\",\"utils\":{\"isValidSecretKey\":\"function()\"{\"try\"{let I=g.fromBytes();return g.isValidNot0(A)}\"catch\"{\"return!1\"}},\"isValidPublicKey\":\"function()\"{\"let\"{\"publicKey\":\"C\",\"publicKeyUncompressed\":\"B\"}=e;try{let i=I.length;if()return!1;return!!A.fromBytes(!0===g&&i!==C||!1===g&&i!==B)}\"catch\"{\"return!1\"}},\"randomSecretKey\":\"Q\"},\"lengths\":\"e\"}",
-  "{\"keygen\":\"s\",\"getPublicKey\":\"D\",\"getSharedSecret\":\"_\",\"utils\":\"u\",\"lengths\":\"p\",\"Point\":\"A\",\"sign\":\"function()\"{}{\"let\"{\"seed\":\"t\",\"k2sig\":\"r\"}\"=function()\"{\"let\"{\"lowS\":\"B\",\"prehash\":\"e\",\"extraEntropy\":\"a\"}\"=AG()\",t=M(C,w),r=o.fromBytes(I=YI,e);if(g)throw Error(!o.isValidNot0r);let c=[G(\\\"invalid private key\\\"),G(r)];if(t){\"let A=!0===a?Q()\":a;c.push(p.secretKey)}\"return\"{\"seed\":\"h()\",\"k2sig\":\"function(...c)\"{let g=k();if(I)return;let C=o.inv(!o.isValidNot0g),i=A.BASE.multiply(g).toAffine(g),e=o.create();if(i.x)return;let Q=o.create(e===AU);if(C*o.createt+e*r)return;let a=2*(Q===AU)|Number(i.x!==e),c=Q;return B&&Q>E>>AJ&&(i.y&AJ),\"new F(c=o.negQ,a^=1)\"}}}();return(g,C,e){if()throw Error(BA,\\\"hashLen\\\",BI,\\\"qByteLen\\\",\\\"function\\\"!=typeof g);let C=A=>new Uint8Array(\\\"hmacFn must be a function\\\"),i=Uint8Array.of(A),e=Uint8Array.of(),Q=Uint8Array.of(0),a=C(1),t=C(A),o=0,E=(A)=>{\"a.fill()\",t.fill(1),\"o=0\"},r=()=>g(...A),c=(t,ha,...A)=>{\"t=r()\",a=r(e,A),\"0!==A.length&&()\"},s=()=>{if()throw Error(o++>=1e3);let A=0,g=[];for(\\\"drbg: tried max amount of iterations\\\"){let I=().slice(a=r);g.push(),A+=a.length}\"return h()\"};return()=>{let g;for()c(E,cA;!g=Is;);return E(),\"g\"}}\"I.outputLen\",o.BYTES,at,\"re.format\"},\"verify\":\"function()\"{}{\"let\"{\"lowS\":\"Q\",\"prehash\":\"a\",\"format\":\"t\"}=AG();if(e,w)throw Error(B=iB,void 0,\\\"publicKey\\\",g=Yg,a,!CI);S(\\\"verify expects Uint8Array signature\\\"+I instanceof F?\\\", use sig.toBytes\\\":\\\"\\\");try{\"let C=F.fromBytes()\",i=A.fromBytes(I,t);if(B)return!1;let{\"r\":\"e\",\"s\":\"a\"}\"=C\",E=M(),r=o.inv(g),c=o.create(a),s=o.create(E*r),n=A.BASE.multiplyUnsafe(e*r).add(c);if(i.multiplyUnsafes)return!1;return o.create(n.is0)===e}\"catch\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"let\"{\"prehash\":\"C\"}=AG();return I=Y(g,w),\"F.fromBytes(I,C).recoverPublicKey(A,\\\"recovered\\\").toBytes(I)\"},\"Signature\":\"F\",\"hash\":\"I\"}",
+  {
+    "verticallyMaximized": "verticallyMaximized",
+    "verticallyFull": "verticallyFull",
+    "fixed": "fixed",
+    "dynamic": "dynamic",
+    "fitChildren": "fitChildren",
+    "noSizeLimit": "noSizeLimit",
+    "full": "full",
+    "jetfuel": "jetfuel",
+    "money": "money",
+    "moneyMax": "moneyMax",
+    "moneyConfirmation": "moneyConfirmation",
+    "tierSwitchConfirmation": "tierSwitchConfirmation"
+  },
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":n=\"audiospace\"}{var a;let r;return()(0,i.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,i.jsx){\"style\":[u.container,e.style],\"children\":\"()(0,i.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
+  {
+    "__proto__": "null",
+    "assert": "y",
+    "requireNonNull": "_",
+    "requireInstance": "l",
+    "abstractMethodFail": "D"
+  },
+  "{\"getPublicKey\":\"a\",\"getSharedSecret\":\"function()\"{if()throw Error(!0===CI);if(\\\"first arg must be private key\\\")throw Error(!1===Ce);let i=g.fromBytes(\\\"second arg must be public key\\\");return A.fromBytes(I).multiply(e).toBytes(i)},\"keygen\":\"o\",\"Point\":\"A\",\"utils\":{\"isValidSecretKey\":\"function()\"{\"try\"{let I=g.fromBytes();return g.isValidNot0(A)}\"catch\"{\"return!1\"}},\"isValidPublicKey\":\"function()\"{\"let\"{\"publicKey\":\"e\",\"publicKeyUncompressed\":\"t\"}=n;try{let i=I.length;if()return!1;return!!A.fromBytes(!0===g&&i!==e||!1===g&&i!==t)}\"catch\"{\"return!1\"}},\"randomSecretKey\":\"r\"},\"lengths\":\"n\"}",
+  "{\"keygen\":\"c\",\"getPublicKey\":\"f\",\"getSharedSecret\":\"y\",\"utils\":\"_\",\"lengths\":\"l\",\"Point\":\"A\",\"sign\":\"function()\"{}{\"let\"{\"seed\":\"C\",\"k2sig\":\"B\"}\"=function()\"{\"let\"{\"lowS\":\"t\",\"prehash\":\"n\",\"extraEntropy\":\"a\"}\"=Am()\",C=N(e,D),B=o.fromBytes(I=YI,n);if(g)throw Error(!o.isValidNot0B);let Q=[m(\\\"invalid private key\\\"),m(B)];if(C){\"let A=!0===a?r()\":a;Q.push(l.secretKey)}\"return\"{\"seed\":\"h()\",\"k2sig\":\"function(...Q)\"{let g=k();if(I)return;let e=o.inv(!o.isValidNot0g),i=A.BASE.multiply(g).toAffine(g),n=o.create();if(i.x)return;let r=o.create(n===Av);if(e*o.createC+n*B)return;let a=2*(r===Av)|Number(i.x!==n),Q=r;return t&&r>s>>AU&&(i.y&AU),\"new F(Q=o.negr,a^=1)\"}}}();return(g,e,n){if()throw Error(tA,\\\"hashLen\\\",tI,\\\"qByteLen\\\",\\\"function\\\"!=typeof g);let e=A=>new Uint8Array(\\\"hmacFn must be a function\\\"),i=Uint8Array.of(A),n=Uint8Array.of(),r=Uint8Array.of(0),a=e(1),C=e(A),o=0,s=(A)=>{\"a.fill()\",C.fill(1),\"o=0\"},B=()=>g(...A),Q=(C,ha,...A)=>{\"C=B()\",a=B(n,A),\"0!==A.length&&()\"},c=()=>{if()throw Error(o++>=1e3);let A=0,g=[];for(\\\"drbg: tried max amount of iterations\\\"){let I=().slice(a=B);g.push(),A+=a.length}\"return h()\"};return()=>{let g;for()Q(s,QA;!g=Ic;);return s(),\"g\"}}\"I.outputLen\",o.BYTES,aC,\"Bn.format\"},\"verify\":\"function()\"{}{\"let\"{\"lowS\":\"r\",\"prehash\":\"a\",\"format\":\"C\"}=Am();if(n,D)throw Error(t=it,void 0,\\\"publicKey\\\",g=Yg,a,!eI);S(\\\"verify expects Uint8Array signature\\\"+I instanceof F?\\\", use sig.toBytes\\\":\\\"\\\");try{\"let e=F.fromBytes()\",i=A.fromBytes(I,C);if(t)return!1;let{\"r\":\"n\",\"s\":\"a\"}\"=e\",s=N(),B=o.inv(g),Q=o.create(a),c=o.create(s*B),E=A.BASE.multiplyUnsafe(n*B).add(Q);if(i.multiplyUnsafec)return!1;return o.create(E.is0)===n}\"catch\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"let\"{\"prehash\":\"e\"}=Am();return I=Y(g,D),\"F.fromBytes(I,e).recoverPublicKey(A,\\\"recovered\\\").toBytes(I)\"},\"Signature\":\"F\",\"hash\":\"I\"}",
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
@@ -3561,7 +3608,7 @@
     "BLOCKED": "b",
     "BLOCKED_BY": "f"
   },
-  "{[g]:{\"title\":\"c().j32d345e\",\"button\":\"c().c3d89aca\",\"body\":\"void 0\"},[b]:{\"title\":\"c().a01d5a7c\",\"body\":\"()\"{\"screenName\":\"e\"}\"0\",m.jsxc(=>).I18NFormatMessage,{\"$i18n\":\"cc70dc63\",\"screenName\":\"e\",\"children\":\"()(0,m.jsx)\"{\"link\":\"_\",\"children\":\"c().i859a9d4\"}}},[f]:{\"title\":\"c().b2311b70\",\"body\":\"c().cab51f93\",\"button\":\"void 0\"}}",
+  "{[g]:{\"title\":\"c().j32d345e\",\"button\":\"c().c3d89aca\",\"body\":\"void 0\"},[b]:{\"title\":\"c().a01d5a7c\",\"body\":\"()\"{\"screenName\":\"e\"}\"0\",h.jsxc(=>).I18NFormatMessage,{\"$i18n\":\"cc70dc63\",\"screenName\":\"e\",\"children\":\"()(0,h.jsx)\"{\"link\":\"_\",\"children\":\"c().i859a9d4\"}}},[f]:{\"title\":\"c().b2311b70\",\"body\":\"c().cab51f93\",\"button\":\"void 0\"}}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -3881,6 +3928,12 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
+  },
+  {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
     "SUCCESS": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS",
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
@@ -3972,7 +4025,7 @@
     "paused": "paused"
   },
   {
-    "ANIMATED_GIF": "o",
+    "ANIMATED_GIF": "s",
     "VIDEO": "l",
     "VINE": "d"
   },
@@ -4029,10 +4082,10 @@
     "superFollowersOnly": "2"
   },
   {
-    "relativeDays": "s().c333da63",
-    "time": "s().d725a289",
-    "weekdayMonthAndDay": "s().h8054d91",
-    "scheduledStart": "s().d0e7b11b"
+    "relativeDays": "o().c333da63",
+    "time": "o().d725a289",
+    "weekdayMonthAndDay": "o().h8054d91",
+    "scheduledStart": "o().d0e7b11b"
   },
   {
     "today": "h().relativeDays()",
@@ -4413,7 +4466,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[nG.onlyInvited]:\"0\",[nG.peopleYouFollow]:\"1\",[nG.everyone]:\"2\"}",
+  "{[nq.onlyInvited]:\"0\",[nq.peopleYouFollow]:\"1\",[nq.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4826,9 +4879,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "j",
-    "gif": "j",
-    "hd": "j",
+    "alt": "B",
+    "gif": "B",
+    "hd": "B",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -4854,12 +4907,6 @@
       "color": "gray900",
       "fontSize": "subtext3"
     }
-  },
-  {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
   },
   {
     "latency": "2e3"
@@ -5177,22 +5224,23 @@
     "Notifications": "5",
     "Connect": "6",
     "Profile": "7",
-    "History": "8",
-    "Premium": "9",
-    "Payments": "10",
-    "Boost": "11",
-    "VerifiedOrg": "12",
-    "PremiumSignup": "13",
-    "VerifiedOrgSignup": "14",
-    "Analytics": "15",
-    "Articles": "16",
-    "Bookmarks": "17",
-    "CreatorStudio": "18",
-    "Lists": "19",
-    "CommunityNotes": "20",
-    "Spaces": "21",
-    "Communities": "22",
-    "Settings": "23"
+    "FollowerRequests": "8",
+    "History": "9",
+    "Premium": "10",
+    "Payments": "11",
+    "Boost": "12",
+    "VerifiedOrg": "13",
+    "PremiumSignup": "14",
+    "VerifiedOrgSignup": "15",
+    "Analytics": "16",
+    "Articles": "17",
+    "Bookmarks": "18",
+    "CreatorStudio": "19",
+    "Lists": "20",
+    "CommunityNotes": "21",
+    "Spaces": "22",
+    "Communities": "23",
+    "Settings": "24"
   },
   {
     "upfrontPaymentAccess": "upfrontPaymentAccess",
@@ -5287,7 +5335,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e7.upgradeToKycVerified]:{\"path\":`${\"te\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.upgradeToKycDocumentsVerified]:{\"path\":`${\"te\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.selfieVerification]:{\"path\":`${\"te\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updateAddress]:{\"path\":`${\"te\"}/update/address`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updateMailingAddress]:{\"path\":`${\"te\"}/update/mailing-address`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.questions]:{\"path\":`${\"te\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updatePin]:{\"path\":`${\"te\"}/update-pin`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.forgotPin]:{\"path\":`${\"te\"}/forgot-pin`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.recoverAccess]:{\"path\":`${\"te\"}/recover-access`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.migrateCredential]:{\"path\":`${\"te\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.createCredential]:{\"path\":`${\"te\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.changeCardPin]:{\"path\":`${\"te\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.fullAccountRouting]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.accountWireDetails]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.updateAccountNickname]:{\"path\":`${\"te\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.changeCardAccount]:{\"path\":`${\"te\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.updateCardNickname]:{\"path\":`${\"te\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.createAccount]:{\"path\":`${\"te\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.respondAccountInvitation]:{\"path\":`${\"te\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.cancelAccountInvitation]:{\"path\":`${\"te\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.removeAccountMember]:{\"path\":`${\"te\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.closeSecondaryAccount]:{\"path\":`${\"te\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.challenge]:{\"path\":`${\"te\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.personal]:{\"path\":`${\"te\"}/personal-info`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDevices]:{\"path\":`${\"te\"}/known-devices`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDevice]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"eQ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDeviceModal]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.cardOnboarding]:{\"path\":`${\"te\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.replaceCard]:{\"path\":`${\"te\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.contacts]:{\"path\":`${\"te\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.internationalContacts]:{\"path\":`${\"te\"}/contacts/international`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.contactData]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.contactDetails]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.createContact]:{\"path\":`${\"te\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.createInternationalContact]:{\"path\":`${\"te\"}/contacts/international/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateInternationalContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.beneficiaries]:{\"path\":`${\"te\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.createBeneficiary]:{\"path\":`${\"te\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateBeneficiary]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.wireMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.checkMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.transactionReceipt]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.credentials]:{\"path\":`${\"te\"}/credentials`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.credential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.updateCredential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.revealCustomerPersonalInfo]:{\"path\":`${\"te\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.connections]:{\"path\":`${\"te\"}/connections`,\"defaultClosePath\":\"eG.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.connection]:{\"path\":e=>e?.id?`${\"te\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eG.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.supportChat]:{\"path\":`${\"te\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.supportChatConversation]:{\"path\":e=>e?.id?`${\"te\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eK\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[tt.upgradeToKycVerified]:{\"path\":`${\"tr\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.upgradeToKycDocumentsVerified]:{\"path\":`${\"tr\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.selfieVerification]:{\"path\":`${\"tr\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateAddress]:{\"path\":`${\"tr\"}/update/address`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateMailingAddress]:{\"path\":`${\"tr\"}/update/mailing-address`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.questions]:{\"path\":`${\"tr\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updatePin]:{\"path\":`${\"tr\"}/update-pin`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.forgotPin]:{\"path\":`${\"tr\"}/forgot-pin`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.recoverAccess]:{\"path\":`${\"tr\"}/recover-access`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.migrateCredential]:{\"path\":`${\"tr\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.createCredential]:{\"path\":`${\"tr\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.changeCardPin]:{\"path\":`${\"tr\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.fullAccountRouting]:{\"path\":`${\"tr\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.accountWireDetails]:{\"path\":`${\"tr\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateAccountNickname]:{\"path\":`${\"tr\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.changeCardAccount]:{\"path\":`${\"tr\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.updateCardNickname]:{\"path\":`${\"tr\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.createAccount]:{\"path\":`${\"tr\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.respondAccountInvitation]:{\"path\":`${\"tr\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.cancelAccountInvitation]:{\"path\":`${\"tr\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.removeAccountMember]:{\"path\":`${\"tr\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.closeSecondaryAccount]:{\"path\":`${\"tr\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.challenge]:{\"path\":`${\"tr\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.personal]:{\"path\":`${\"tr\"}/personal-info`,\"defaultClosePath\":\"eQ.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevices]:{\"path\":`${\"tr\"}/known-devices`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevice]:{\"path\":`${\"tr\"}/known-device`,\"defaultClosePath\":\"eZ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDeviceModal]:{\"path\":`${\"tr\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.cardOnboarding]:{\"path\":`${\"tr\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.replaceCard]:{\"path\":`${\"tr\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.contacts]:{\"path\":`${\"tr\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.internationalContacts]:{\"path\":`${\"tr\"}/contacts/international`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactData]:{\"path\":e=>e?.id?`${\"tr\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactDetails]:{\"path\":e=>e?.id?`${\"tr\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createContact]:{\"path\":`${\"tr\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.createInternationalContact]:{\"path\":`${\"tr\"}/contacts/international/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateContact]:{\"path\":e=>e?.id?`${\"tr\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateInternationalContact]:{\"path\":e=>e?.id?`${\"tr\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaries]:{\"path\":`${\"tr\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"tr\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createBeneficiary]:{\"path\":`${\"tr\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateBeneficiary]:{\"path\":e=>e?.id?`${\"tr\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.wireMeta]:{\"path\":e=>e?.id?`${\"tr\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.checkMeta]:{\"path\":e=>e?.id?`${\"tr\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.transactionReceipt]:{\"path\":e=>e?.id?`${\"tr\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credentials]:{\"path\":`${\"tr\"}/credentials`,\"defaultClosePath\":\"eQ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credential]:{\"path\":e=>e?.id?`${\"tr\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateCredential]:{\"path\":e=>e?.id?`${\"tr\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.revealCustomerPersonalInfo]:{\"path\":`${\"tr\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.connections]:{\"path\":`${\"tr\"}/connections`,\"defaultClosePath\":\"eQ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.connection]:{\"path\":e=>e?.id?`${\"tr\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eQ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.supportChat]:{\"path\":`${\"tr\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.supportChatConversation]:{\"path\":e=>e?.id?`${\"tr\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eW\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -5405,7 +5453,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "a.Ay.NONE"
+    "fetchStatus": "n.Ay.NONE"
   },
   {
     "CLOSED": "closed",
@@ -5830,12 +5878,6 @@
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
-  },
-  {
     "latency": "2e3"
   },
   {
@@ -5874,7 +5916,7 @@
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
   },
-  "{[a.wide]:\"500\",[a.narrow]:\"300\",[a.veryNarrow]:\"200\"}",
+  "{[l.wide]:\"500\",[l.narrow]:\"300\",[l.veryNarrow]:\"200\"}",
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,s.jsx){\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,n.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"n.Yt\",\"getDarkModeColors\":\"n.Cq\"}",
   {
     "verticallyMaximized": "verticallyMaximized",
@@ -6021,6 +6063,12 @@
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.Xz)"
   },
   {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
+  },
+  {
     "ONE_TO_ONE": "ONE_TO_ONE",
     "GROUP": "GROUP_DM",
     "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
@@ -6092,7 +6140,7 @@
     "SECONDARY": "secondary",
     "TERTIARY": "tertiary"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let o;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let a;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
   {
     "position": "absolute",
     "border": "0",
@@ -6186,22 +6234,23 @@
     "Notifications": "5",
     "Connect": "6",
     "Profile": "7",
-    "History": "8",
-    "Premium": "9",
-    "Payments": "10",
-    "Boost": "11",
-    "VerifiedOrg": "12",
-    "PremiumSignup": "13",
-    "VerifiedOrgSignup": "14",
-    "Analytics": "15",
-    "Articles": "16",
-    "Bookmarks": "17",
-    "CreatorStudio": "18",
-    "Lists": "19",
-    "CommunityNotes": "20",
-    "Spaces": "21",
-    "Communities": "22",
-    "Settings": "23"
+    "FollowerRequests": "8",
+    "History": "9",
+    "Premium": "10",
+    "Payments": "11",
+    "Boost": "12",
+    "VerifiedOrg": "13",
+    "PremiumSignup": "14",
+    "VerifiedOrgSignup": "15",
+    "Analytics": "16",
+    "Articles": "17",
+    "Bookmarks": "18",
+    "CreatorStudio": "19",
+    "Lists": "20",
+    "CommunityNotes": "21",
+    "Spaces": "22",
+    "Communities": "23",
+    "Settings": "24"
   },
   {
     "upfrontPaymentAccess": "upfrontPaymentAccess",
@@ -6371,7 +6420,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var n;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
@@ -7199,6 +7248,12 @@
     "END": "end"
   },
   {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
+  },
+  {
     "primary": {
       "aria-live": "polite"
     },
@@ -7255,7 +7310,7 @@
       "value": "2"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
@@ -7296,7 +7351,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":n=\"audiospace\"}{var a;let s;return()(0,t.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,t.jsx){\"style\":[u.container,e.style],\"children\":\"()(0,t.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":n=\"audiospace\"}{var a;let r;return()(0,t.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,t.jsx){\"style\":[u.container,e.style],\"children\":\"()(0,t.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
@@ -7349,7 +7404,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":a=\"audiospace\"}{var n;let i;return()(0,r.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,r.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,r.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"l\",\"type\":n=\"audiospace\"}{var a;let r;return()(0,s.jsx){\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[r.primary,r.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let l;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,i.nQ)\":\"_\",\"colors\":[l.primary,l.secondary,l.primary,l.secondary,l.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"i.Yt\",\"getDarkModeColors\":\"i.Cq\"}",
   {
     "locationTypes": [],
     "seniority": [],
@@ -7960,6 +8015,12 @@
     "WebSidebar": "web_sidebar"
   },
   {
+    "TopNavBar": "TopNavBar",
+    "LoggedOutSignUp": "LoggedOutSignUp",
+    "Spacebar": "Spacebar",
+    "NewTweetsPill": "NewTweetsPill"
+  },
+  {
     "Chat": "1",
     "Control": "2",
     "Auth": "3"
@@ -8037,6 +8098,15 @@
     "FROZEN": "frozen",
     "TERMINATED": "terminated",
     "DISCARDED": "discarded"
+  },
+  {
+    "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
+    "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
+    "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
+  },
+  {
+    "memberships": [],
+    "fetchStatus": "a.Ay.NONE"
   },
   {
     "REQUEST": "rweb/lists/FETCH_LISTMEMBERSHIPS_REQUEST",
@@ -8145,8 +8215,7 @@
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let a;return()(0,s.jsx){\"...()\":{\"...()(0,l.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,l.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"l.Yt\",\"getDarkModeColors\":\"l.Cq\"}",
-  "{\"ActionsBar\":\"A.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"let a=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"a.Ay\",\"ContentDisclosure\":\"_.i\",\"EditCallout\":\"C.A\",\"Education\":\"v.A\",\"HighlightedUserLabel\":\"o.A\",\"Media\":\"k.A\",\"Place\":\"i.Ay\",\"PromotedDetails\":\"d.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"link\":\"i\",\"onClick\":\"a\",\"onScreenNameClick\":\"l\",\"promotedContent\":\"s\",\"style\":\"o\",\"userDescription\":\"c\",\"userId\":\"d\",\"userName\":\"u\",\"userScreenName\":\"m\"}{\"return()(0,b.jsx)\"{\"style\":\"o\",\"children\":\"()(0,b.jsx)\"{\"link\":\"i\",\"onClick\":\"a\",\"style\":\"F.root\",\"children\":\"()(0,b.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"l\",\"promotedContent\":\"s\",\"userDescription\":\"c\",\"userId\":\"d\",\"userName\":\"u\",\"userScreenName\":\"m\"}}}},\"ReplyContext\":\"L.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"h.A\",\"Text\":\"E.A\",\"Tombstone\":\"g.A\",\"Timestamp\":\"m.A\",\"UserAvatar\":\"D.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"w.A\"}",
+  "{\"ActionsBar\":\"A.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"let l=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"l\"}},\"CallToAction\":\"l.Ay\",\"ContentDisclosure\":\"_.i\",\"EditCallout\":\"C.A\",\"Education\":\"v.A\",\"HighlightedUserLabel\":\"o.A\",\"Media\":\"k.A\",\"Place\":\"i.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"link\":\"i\",\"onClick\":\"l\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"style\":\"o\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"m\"}{\"return()(0,b.jsx)\"{\"style\":\"o\",\"children\":\"()(0,b.jsx)\"{\"link\":\"i\",\"onClick\":\"l\",\"style\":\"F.root\",\"children\":\"()(0,b.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"n\",\"knownFollowers\":\"r\",\"onScreenNameClick\":\"a\",\"promotedContent\":\"s\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"m\"}}}},\"ReplyContext\":\"L.Ay\",\"RichContent\":\"R.A\",\"SocialContext\":\"h.A\",\"Text\":\"P.A\",\"Tombstone\":\"g.A\",\"Timestamp\":\"m.A\",\"UserAvatar\":\"E.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"D.A\",\"ArticleCard\":\"w.A\"}",
   {
     "large": "54",
     "medium": "46",
@@ -8760,7 +8829,7 @@
     "whiteSpace": "nowrap",
     "wordWrap": "normal"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"a\",\"type\":i=\"audiospace\"}{var l;let n;return()(0,s.jsx){\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[n.primary,n.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let a;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[a.primary,a.secondary,a.primary,a.secondary,a.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"r.Yt\",\"getDarkModeColors\":\"r.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"a\",\"type\":i=\"audiospace\"}{var l;let t;return()(0,s.jsx){\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[t.primary,t.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let a;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,r.nQ)\":\"_\",\"colors\":[a.primary,a.secondary,a.primary,a.secondary,a.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"r.Yt\",\"getDarkModeColors\":\"r.Cq\"}",
   {
     "superFollower": "d().fc065ee4"
   },
@@ -9099,9 +9168,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "S",
-    "gif": "S",
-    "hd": "S",
+    "alt": "C",
+    "gif": "C",
+    "hd": "C",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -9713,14 +9782,8 @@
     "Reserved7": "Reserved7"
   },
   {
-    "TopNavBar": "TopNavBar",
-    "LoggedOutSignUp": "LoggedOutSignUp",
-    "Spacebar": "Spacebar",
-    "NewTweetsPill": "NewTweetsPill"
-  },
-  {
     "MARKDOWN": "t$",
-    "PREVIEW": "tq"
+    "PREVIEW": "tK"
   },
   {
     "Public": "Public",
@@ -10071,6 +10134,15 @@
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
+  },
+  {
+    "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
+    "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
+    "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
+  },
+  {
+    "memberships": [],
+    "fetchStatus": "i.Ay.NONE"
   },
   {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
@@ -10585,30 +10657,30 @@
     "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
-    "follow": "r().i79ab12a",
-    "following": "r().d960b55c",
-    "unfollow": "r().c0f56044"
+    "follow": "n().i79ab12a",
+    "following": "n().d960b55c",
+    "unfollow": "n().c0f56044"
   },
   {
-    "follow": "r().fcf51fe6",
-    "following": "r().e9a90d72",
-    "unfollow": "r().bf403716",
-    "confirmationHeadline": "r().c9f08e29",
-    "confirmationSheetText": "r().hed4dcd0"
+    "follow": "n().fcf51fe6",
+    "following": "n().e9a90d72",
+    "unfollow": "n().bf403716",
+    "confirmationHeadline": "n().c9f08e29",
+    "confirmationSheetText": "n().hed4dcd0"
   },
   {
-    "follow": "r().cd876e02",
-    "following": "r().f2816e02",
-    "unfollow": "r().f5b04fbc",
-    "confirmationHeadline": "r().c481ae3f",
-    "confirmationSheetText": "r().c94116de"
+    "follow": "n().cd876e02",
+    "following": "n().f2816e02",
+    "unfollow": "n().f5b04fbc",
+    "confirmationHeadline": "n().c481ae3f",
+    "confirmationSheetText": "n().c94116de"
   },
   {
-    "follow": "r().e0e730b0",
-    "following": "r().e0e730b0",
-    "unfollow": "r().b1850062",
-    "confirmationHeadline": "r().gd3f996f",
-    "confirmationSheetText": "r().jdd65aac"
+    "follow": "n().e0e730b0",
+    "following": "n().e0e730b0",
+    "unfollow": "n().b1850062",
+    "confirmationHeadline": "n().gd3f996f",
+    "confirmationSheetText": "n().jdd65aac"
   },
   {
     "Default": "default",
@@ -10624,7 +10696,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "n.Ay.NONE"
+    "fetchStatus": "r.Ay.NONE"
   },
   {
     "COUNTRIES": "0",
@@ -10748,11 +10820,6 @@
     "PendingFollowUser": "PendingFollowUser",
     "SubscribableUser": "SubscribableUser"
   },
-  "{\"type\":\"component\",\"Component\":\"function()\"{\"onClose\":\"e\"}{\"let t=l.useMemo()\"{\"isLoading\":\"!0\",\"loadingLabel\":\"v\",\"onClose\":\"e\",\"onToggle\":\"S\",\"options\":[],\"selected\":[],\"subtitle\":\"b\",\"title\":\"y\",\"withDividers\":\"!1\"}{\"errorConfig\":\"A\",\"suspenseFallback\":\"t\",\"children\":\"()(0,_.jsx)\"{\"onClose\":\"e\"}}}}",
-  {
-    "type": "pinnedTimelineMenu"
-  },
-  "{\"forYou\":{\"...D.o.forYou\":\"_\",\"getControl\":()=>F,\"getModule\":\"()\"{\"state\":\"e\"}{\"let t=e?()(0,E.fz)\":null;if(e)throw Error(!t);let i=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return i.length>0?(e)(0,P.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"i\"}\"0\",\"P.Ay\"{\"userId\":\"t\"}},\"getName\":()=>r().d1e0a75f(){\"noun\":\"\"}},\"following\":{\"...D.o.following\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let i=e?(\\\"following getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,P.Ay){\"sort\":\"n\",\"userId\":\"i\"}},\"getName\":()=>N},\"community\":{\"...D.o.community\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"U\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,R.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"list\":{\"...D.o.list\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"j.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"generic\":{\"...D.o.generic\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"L.de.id\"{\"timeline\":\"e\"}},\"tag\":{\"...D.o.tag\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let i=e?(\\\"tag getModule called with wrong timeline type\\\")(0,E.fz):null;if(e)throw Error(!i);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return(e)(0,P.Ay){\"userId\":\"i\",\"snoozedTopicIds\":\"n\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}}}",
   "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let s;return()(0,o.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[s.primary,s.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "superFollower": "d().fc065ee4"
@@ -10896,20 +10963,6 @@
     "SPACE": "0",
     "INELIGIBLE": -1
   },
-  {
-    "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
-    "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
-    "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
-  },
-  {
-    "memberships": [],
-    "fetchStatus": "i.Ay.NONE"
-  },
-  "{\"type\":\"component\",\"Component\":\"function()\"{\"onClose\":\"e\"}{\"let t=s.useMemo()\"{\"isLoading\":\"!0\",\"loadingLabel\":\"k\",\"onClose\":\"e\",\"onToggle\":\"E\",\"options\":[],\"selected\":[],\"subtitle\":\"h\",\"title\":\"b\",\"withDividers\":\"!1\"}{\"errorConfig\":\"I\",\"suspenseFallback\":\"t\",\"children\":\"()(0,g.jsx)\"{\"onClose\":\"e\"}}}}",
-  {
-    "type": "pinnedTimelineMenu"
-  },
-  "{\"forYou\":{\"...P.o.forYou\":\"_\",\"getControl\":()=>H,\"getModule\":\"()\"{\"state\":\"e\"}{\"let t=e?()(0,S.fz)\":null;if(e)throw Error(!t);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return n.length>0?(e)(0,j.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"n\"}\"0\",\"j.Ay\"{\"userId\":\"t\"}},\"getName\":()=>a().d1e0a75f(){\"noun\":\"\"}},\"following\":{\"...P.o.following\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"N\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let n=e?(\\\"following getModule called with wrong timeline type\\\")(0,S.fz):null;if(e)throw Error(!n);let r=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,j.Ay){\"sort\":\"r\",\"userId\":\"n\"}},\"getName\":()=>D},\"community\":{\"...P.o.community\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"N\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,L.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"list\":{\"...P.o.list\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"M.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"generic\":{\"...P.o.generic\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"R.de.id\"{\"timeline\":\"e\"}},\"tag\":{\"...P.o.tag\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let n=e?(\\\"tag getModule called with wrong timeline type\\\")(0,S.fz):null;if(e)throw Error(!n);let r=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,p.fU):[];return(e)(0,j.Ay){\"userId\":\"n\",\"snoozedTopicIds\":\"r\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}}}",
   {
     "ON_LINGER": "onLinger",
     "ON_IS_RELEVANT": "onIsRelevant",
@@ -11065,13 +11118,6 @@
     "email": "i().a3841918",
     "callFormatter": "i().ha9b8035",
     "textFormatter": "i().g2244521"
-  },
-  {
-    "__proto__": "null",
-    "assert": "S",
-    "requireNonNull": "N",
-    "requireInstance": "D",
-    "abstractMethodFail": "A"
   },
   {
     "live": {
@@ -11350,7 +11396,6 @@
     "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
     "TWITTER_ARTICLE": "twitter_article"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var i;let a;return()(0,s.jsx){\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[a.primary,a.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,o.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"o.Yt\",\"getDarkModeColors\":\"o.Cq\"}",
   {
     "INFINITE": "infinite",
     "MEDIUM": "medium",
@@ -11573,8 +11618,8 @@
     "shimAddTrackRemoveTrack": "ab",
     "shimAddTrackRemoveTrackWithNative": "ay",
     "shimGetSendersWithDtmf": "ag",
-    "shimGetUserMedia": "ah",
-    "shimMediaStream": "ap",
+    "shimGetUserMedia": "ap",
+    "shimMediaStream": "ah",
     "shimOnTrack": "am",
     "shimPeerConnection": "av",
     "shimSenderReceiverGetStats": "af"
@@ -13004,20 +13049,6 @@
     "fetchStatus": "i.Ay.NONE"
   },
   {
-    "verticallyMaximized": "verticallyMaximized",
-    "verticallyFull": "verticallyFull",
-    "fixed": "fixed",
-    "dynamic": "dynamic",
-    "fitChildren": "fitChildren",
-    "noSizeLimit": "noSizeLimit",
-    "full": "full",
-    "jetfuel": "jetfuel",
-    "money": "money",
-    "moneyMax": "moneyMax",
-    "moneyConfirmation": "moneyConfirmation",
-    "tierSwitchConfirmation": "tierSwitchConfirmation"
-  },
-  {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
@@ -13158,7 +13189,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e8.upgradeToKycVerified]:{\"path\":`${\"te\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.upgradeToKycDocumentsVerified]:{\"path\":`${\"te\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.selfieVerification]:{\"path\":`${\"te\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updateAddress]:{\"path\":`${\"te\"}/update/address`,\"defaultClosePath\":\"eB.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updateMailingAddress]:{\"path\":`${\"te\"}/update/mailing-address`,\"defaultClosePath\":\"eB.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.questions]:{\"path\":`${\"te\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e8.updatePin]:{\"path\":`${\"te\"}/update-pin`,\"defaultClosePath\":\"eB.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.forgotPin]:{\"path\":`${\"te\"}/forgot-pin`,\"defaultClosePath\":\"eB.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.recoverAccess]:{\"path\":`${\"te\"}/recover-access`,\"defaultClosePath\":\"eB.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.migrateCredential]:{\"path\":`${\"te\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.createCredential]:{\"path\":`${\"te\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e8.changeCardPin]:{\"path\":`${\"te\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.fullAccountRouting]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.accountWireDetails]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.updateAccountNickname]:{\"path\":`${\"te\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.changeCardAccount]:{\"path\":`${\"te\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.updateCardNickname]:{\"path\":`${\"te\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.createAccount]:{\"path\":`${\"te\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.respondAccountInvitation]:{\"path\":`${\"te\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.cancelAccountInvitation]:{\"path\":`${\"te\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.removeAccountMember]:{\"path\":`${\"te\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.closeSecondaryAccount]:{\"path\":`${\"te\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e8.challenge]:{\"path\":`${\"te\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.personal]:{\"path\":`${\"te\"}/personal-info`,\"defaultClosePath\":\"eB.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDevices]:{\"path\":`${\"te\"}/known-devices`,\"defaultClosePath\":\"eB.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDevice]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"eY.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.knownDeviceModal]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.cardOnboarding]:{\"path\":`${\"te\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.replaceCard]:{\"path\":`${\"te\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e8.contacts]:{\"path\":`${\"te\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.internationalContacts]:{\"path\":`${\"te\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.contactData]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.contactDetails]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.createContact]:{\"path\":`${\"te\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.createInternationalContact]:{\"path\":`${\"te\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateInternationalContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.beneficiaries]:{\"path\":`${\"te\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.createBeneficiary]:{\"path\":`${\"te\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.updateBeneficiary]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.wireMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.checkMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.transactionReceipt]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.credentials]:{\"path\":`${\"te\"}/credentials`,\"defaultClosePath\":\"eB.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.credential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eY.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.updateCredential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eY.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.revealCustomerPersonalInfo]:{\"path\":`${\"te\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.connections]:{\"path\":`${\"te\"}/connections`,\"defaultClosePath\":\"eB.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.connection]:{\"path\":e=>e?.id?`${\"te\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eB.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e8.supportChat]:{\"path\":`${\"te\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e8.supportChatConversation]:{\"path\":e=>e?.id?`${\"te\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eF\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[tt.upgradeToKycVerified]:{\"path\":`${\"tn\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.upgradeToKycDocumentsVerified]:{\"path\":`${\"tn\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.selfieVerification]:{\"path\":`${\"tn\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateAddress]:{\"path\":`${\"tn\"}/update/address`,\"defaultClosePath\":\"eY.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateMailingAddress]:{\"path\":`${\"tn\"}/update/mailing-address`,\"defaultClosePath\":\"eY.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.questions]:{\"path\":`${\"tn\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updatePin]:{\"path\":`${\"tn\"}/update-pin`,\"defaultClosePath\":\"eY.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.forgotPin]:{\"path\":`${\"tn\"}/forgot-pin`,\"defaultClosePath\":\"eY.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.recoverAccess]:{\"path\":`${\"tn\"}/recover-access`,\"defaultClosePath\":\"eY.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.migrateCredential]:{\"path\":`${\"tn\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.createCredential]:{\"path\":`${\"tn\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.changeCardPin]:{\"path\":`${\"tn\"}/change-card-pin`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.fullAccountRouting]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"m\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.accountWireDetails]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateAccountNickname]:{\"path\":`${\"tn\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.changeCardAccount]:{\"path\":`${\"tn\"}/change-card-account`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.updateCardNickname]:{\"path\":`${\"tn\"}/cards/update/nickname`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.createAccount]:{\"path\":`${\"tn\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.respondAccountInvitation]:{\"path\":`${\"tn\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.cancelAccountInvitation]:{\"path\":`${\"tn\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.removeAccountMember]:{\"path\":`${\"tn\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.closeSecondaryAccount]:{\"path\":`${\"tn\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.challenge]:{\"path\":`${\"tn\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.personal]:{\"path\":`${\"tn\"}/personal-info`,\"defaultClosePath\":\"eY.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevices]:{\"path\":`${\"tn\"}/known-devices`,\"defaultClosePath\":\"eY.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevice]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"eQ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDeviceModal]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.cardOnboarding]:{\"path\":`${\"tn\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.replaceCard]:{\"path\":`${\"tn\"}/cards/replace`,\"defaultClosePath\":\"ef\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.contacts]:{\"path\":`${\"tn\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.internationalContacts]:{\"path\":`${\"tn\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactData]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactDetails]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createContact]:{\"path\":`${\"tn\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.createInternationalContact]:{\"path\":`${\"tn\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateInternationalContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaries]:{\"path\":`${\"tn\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createBeneficiary]:{\"path\":`${\"tn\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateBeneficiary]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.wireMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.checkMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.transactionReceipt]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credentials]:{\"path\":`${\"tn\"}/credentials`,\"defaultClosePath\":\"eY.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateCredential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eQ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.revealCustomerPersonalInfo]:{\"path\":`${\"tn\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.connections]:{\"path\":`${\"tn\"}/connections`,\"defaultClosePath\":\"eY.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.connection]:{\"path\":e=>e?.id?`${\"tn\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eY.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.supportChat]:{\"path\":`${\"tn\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.supportChatConversation]:{\"path\":e=>e?.id?`${\"tn\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eU\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -13371,7 +13402,7 @@
     "CREATE_TRANSFER_LINK": "CREATE_TRANSFER_LINK",
     "CLAIM_TRANSFER_LINK": "CLAIM_TRANSFER_LINK"
   },
-  "{[eu.SEND_WIRE_TRANSFER]:\"k.V_\",[eu.ACCOUNT_LINKING]:\"k.r9.bankAccounts\",[eu.DEPOSIT]:\"k.L\",[eu.P2P_TRANSFER_REQUEST]:`${\"k.WX\"}\"?direction=$\"{\"L.credit\"}`,[eu.P2P_TRANSFER_SEND]:\"k.WX\",[eu.P2P_TRANSFER_SEND_FUNDED]:\"k.WX\",[eu.WITHDRAWAL]:\"k.hM\",[eu.MAIL_CHECK]:\"k.Dt\",[eu.CREATE_TRANSFER_LINK]:\"k.tE\"}",
+  "{[eh.SEND_WIRE_TRANSFER]:\"k.V_\",[eh.ACCOUNT_LINKING]:\"k.r9.bankAccounts\",[eh.DEPOSIT]:\"k.L\",[eh.P2P_TRANSFER_REQUEST]:`${\"k.WX\"}\"?direction=$\"{\"L.credit\"}`,[eh.P2P_TRANSFER_SEND]:\"k.WX\",[eh.P2P_TRANSFER_SEND_FUNDED]:\"k.WX\",[eh.WITHDRAWAL]:\"k.hM\",[eh.MAIL_CHECK]:\"k.Dt\",[eh.CREATE_TRANSFER_LINK]:\"k.tE\"}",
   {
     "daily": "daily",
     "monthly": "monthly",
@@ -13903,7 +13934,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e7.upgradeToKycVerified]:{\"path\":`${\"ae\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.upgradeToKycDocumentsVerified]:{\"path\":`${\"ae\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.selfieVerification]:{\"path\":`${\"ae\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updateAddress]:{\"path\":`${\"ae\"}/update/address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updateMailingAddress]:{\"path\":`${\"ae\"}/update/mailing-address`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.questions]:{\"path\":`${\"ae\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e7.updatePin]:{\"path\":`${\"ae\"}/update-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.forgotPin]:{\"path\":`${\"ae\"}/forgot-pin`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.recoverAccess]:{\"path\":`${\"ae\"}/recover-access`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.migrateCredential]:{\"path\":`${\"ae\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.createCredential]:{\"path\":`${\"ae\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e7.changeCardPin]:{\"path\":`${\"ae\"}/change-card-pin`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.fullAccountRouting]:{\"path\":`${\"ae\"}/account-receive-wire`,\"defaultClosePath\":\"C\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.accountWireDetails]:{\"path\":`${\"ae\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.updateAccountNickname]:{\"path\":`${\"ae\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.changeCardAccount]:{\"path\":`${\"ae\"}/change-card-account`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.updateCardNickname]:{\"path\":`${\"ae\"}/cards/update/nickname`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.createAccount]:{\"path\":`${\"ae\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.respondAccountInvitation]:{\"path\":`${\"ae\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.cancelAccountInvitation]:{\"path\":`${\"ae\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.removeAccountMember]:{\"path\":`${\"ae\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.closeSecondaryAccount]:{\"path\":`${\"ae\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e7.challenge]:{\"path\":`${\"ae\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.personal]:{\"path\":`${\"ae\"}/personal-info`,\"defaultClosePath\":\"eH.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDevices]:{\"path\":`${\"ae\"}/known-devices`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDevice]:{\"path\":`${\"ae\"}/known-device`,\"defaultClosePath\":\"eZ.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.knownDeviceModal]:{\"path\":`${\"ae\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.cardOnboarding]:{\"path\":`${\"ae\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.replaceCard]:{\"path\":`${\"ae\"}/cards/replace`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e7.contacts]:{\"path\":`${\"ae\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.internationalContacts]:{\"path\":`${\"ae\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.contactData]:{\"path\":e=>e?.id?`${\"ae\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.contactDetails]:{\"path\":e=>e?.id?`${\"ae\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.createContact]:{\"path\":`${\"ae\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.createInternationalContact]:{\"path\":`${\"ae\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateContact]:{\"path\":e=>e?.id?`${\"ae\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateInternationalContact]:{\"path\":e=>e?.id?`${\"ae\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.beneficiaries]:{\"path\":`${\"ae\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"ae\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.createBeneficiary]:{\"path\":`${\"ae\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.updateBeneficiary]:{\"path\":e=>e?.id?`${\"ae\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.wireMeta]:{\"path\":e=>e?.id?`${\"ae\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.checkMeta]:{\"path\":e=>e?.id?`${\"ae\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.transactionReceipt]:{\"path\":e=>e?.id?`${\"ae\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.credentials]:{\"path\":`${\"ae\"}/credentials`,\"defaultClosePath\":\"eH.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.credential]:{\"path\":e=>e?.id?`${\"ae\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.updateCredential]:{\"path\":e=>e?.id?`${\"ae\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eZ.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.revealCustomerPersonalInfo]:{\"path\":`${\"ae\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.connections]:{\"path\":`${\"ae\"}/connections`,\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.connection]:{\"path\":e=>e?.id?`${\"ae\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eH.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e7.supportChat]:{\"path\":`${\"ae\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e7.supportChatConversation]:{\"path\":e=>e?.id?`${\"ae\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eB\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[tt.upgradeToKycVerified]:{\"path\":`${\"ta\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.upgradeToKycDocumentsVerified]:{\"path\":`${\"ta\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.selfieVerification]:{\"path\":`${\"ta\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateAddress]:{\"path\":`${\"ta\"}/update/address`,\"defaultClosePath\":\"eZ.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateMailingAddress]:{\"path\":`${\"ta\"}/update/mailing-address`,\"defaultClosePath\":\"eZ.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.questions]:{\"path\":`${\"ta\"}/questions`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updatePin]:{\"path\":`${\"ta\"}/update-pin`,\"defaultClosePath\":\"eZ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.forgotPin]:{\"path\":`${\"ta\"}/forgot-pin`,\"defaultClosePath\":\"eZ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.recoverAccess]:{\"path\":`${\"ta\"}/recover-access`,\"defaultClosePath\":\"eZ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.migrateCredential]:{\"path\":`${\"ta\"}/migrate-credential`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.createCredential]:{\"path\":`${\"ta\"}/credentials/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.changeCardPin]:{\"path\":`${\"ta\"}/change-card-pin`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.fullAccountRouting]:{\"path\":`${\"ta\"}/account-receive-wire`,\"defaultClosePath\":\"C\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.accountWireDetails]:{\"path\":`${\"ta\"}/account-receive-wire`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateAccountNickname]:{\"path\":`${\"ta\"}/update/nickname`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.changeCardAccount]:{\"path\":`${\"ta\"}/change-card-account`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.updateCardNickname]:{\"path\":`${\"ta\"}/cards/update/nickname`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.createAccount]:{\"path\":`${\"ta\"}/create-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.respondAccountInvitation]:{\"path\":`${\"ta\"}/respond-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.cancelAccountInvitation]:{\"path\":`${\"ta\"}/cancel-invitation`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.removeAccountMember]:{\"path\":`${\"ta\"}/remove-member`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.closeSecondaryAccount]:{\"path\":`${\"ta\"}/close-secondary-account`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.challenge]:{\"path\":`${\"ta\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.personal]:{\"path\":`${\"ta\"}/personal-info`,\"defaultClosePath\":\"eZ.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevices]:{\"path\":`${\"ta\"}/known-devices`,\"defaultClosePath\":\"eZ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevice]:{\"path\":`${\"ta\"}/known-device`,\"defaultClosePath\":\"eX.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDeviceModal]:{\"path\":`${\"ta\"}/known-device`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.cardOnboarding]:{\"path\":`${\"ta\"}/order-card`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.replaceCard]:{\"path\":`${\"ta\"}/cards/replace`,\"defaultClosePath\":\"ey\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.contacts]:{\"path\":`${\"ta\"}/contacts`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.internationalContacts]:{\"path\":`${\"ta\"}/contacts/international`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactData]:{\"path\":e=>e?.id?`${\"ta\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactDetails]:{\"path\":e=>e?.id?`${\"ta\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createContact]:{\"path\":`${\"ta\"}/contacts/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.createInternationalContact]:{\"path\":`${\"ta\"}/contacts/international/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateContact]:{\"path\":e=>e?.id?`${\"ta\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateInternationalContact]:{\"path\":e=>e?.id?`${\"ta\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaries]:{\"path\":`${\"ta\"}/beneficiaries`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"ta\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createBeneficiary]:{\"path\":`${\"ta\"}/beneficiaries/create`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateBeneficiary]:{\"path\":e=>e?.id?`${\"ta\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.wireMeta]:{\"path\":e=>e?.id?`${\"ta\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.checkMeta]:{\"path\":e=>e?.id?`${\"ta\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.transactionReceipt]:{\"path\":e=>e?.id?`${\"ta\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credentials]:{\"path\":`${\"ta\"}/credentials`,\"defaultClosePath\":\"eZ.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credential]:{\"path\":e=>e?.id?`${\"ta\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eX.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateCredential]:{\"path\":e=>e?.id?`${\"ta\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eX.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.revealCustomerPersonalInfo]:{\"path\":`${\"ta\"}/reveal`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.connections]:{\"path\":`${\"ta\"}/connections`,\"defaultClosePath\":\"eZ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.connection]:{\"path\":e=>e?.id?`${\"ta\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eZ.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.supportChat]:{\"path\":`${\"ta\"}/support`,\"defaultClosePath\":\"u\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.supportChatConversation]:{\"path\":e=>e?.id?`${\"ta\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eq\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -14046,7 +14077,11 @@
     "Home": "home",
     "Latest": "latest"
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":r=\"audiospace\"}{var a;let i;return()(0,o.jsx){\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[i.primary,i.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,o.jsx){\"style\":[l.container,e.style],\"children\":\"()(0,o.jsx)\"{\"...()\":{\"...()(0,s.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"s.Yt\",\"getDarkModeColors\":\"s.Cq\"}",
+  "{\"type\":\"component\",\"Component\":\"function()\"{\"onClose\":\"e\"}{\"let t=s.useMemo()\"{\"isLoading\":\"!0\",\"loadingLabel\":\"k\",\"onClose\":\"e\",\"onToggle\":\"x\",\"options\":[],\"selected\":[],\"subtitle\":\"w\",\"title\":\"b\",\"withDividers\":\"!1\"}{\"errorConfig\":\"A\",\"suspenseFallback\":\"t\",\"children\":\"()(0,y.jsx)\"{\"onClose\":\"e\"}}}}",
+  {
+    "type": "pinnedTimelineMenu"
+  },
+  "{\"forYou\":{\"...S.o.forYou\":\"_\",\"getControl\":()=>D,\"getModule\":\"()\"{\"state\":\"e\"}{\"let t=e?()(0,j.fz)\":null;if(e)throw Error(!t);let n=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,_.fU):[];return n.length>0?(e)(0,P.Ay){\"userId\":\"t\",\"snoozedTopicIds\":\"n\"}\"0\",\"P.Ay\"{\"userId\":\"t\"}},\"getName\":()=>l().d1e0a75f(){\"noun\":\"\"}},\"following\":{\"...S.o.following\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Popular\",\"Recent\"],\"selected\":\"Popular\"===e.sort?\"Popular\":\"Recent\",\"title\":\"N\",\"type\":\"select\"},\"getModule\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"home_latest\\\"!==t.type);let n=e?(\\\"following getModule called with wrong timeline type\\\")(0,j.fz):null;if(e)throw Error(!n);let o=\"Popular\"===t.sort?\"Popular\":\"Recent\";return(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,P.Ay){\"sort\":\"o\",\"userId\":\"n\"}},\"getName\":()=>K},\"community\":{\"...S.o.community\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"options\":[\"Relevance\",\"Recency\",\"Likes\"],\"selected\":\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\",\"title\":\"N\",\"type\":\"select\"},\"getModule\":\"()\"{\"timeline\":\"e\"}{if()throw Error(\\\"Community\\\"!==e.type);let t=\"Recency\"===e.sort?\"Recency\":\"Likes\"===e.sort?\"Likes\":\"Relevance\";return(\\\"community getModule called with wrong timeline type\\\")(0,R.In){\"displayLocation\":\"Home\",\"rankingMode\":\"t\"}},\"getName\":\"()\"{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"list\":{\"...S.o.list\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"M.A\"{\"listId\":\"e.id\"}{\"state\":\"e\",\"timeline\":\"t\"}\"e\",\"t.id\"},\"generic\":{\"...S.o.generic\":\"_\",\"getModule\":\"()\"{\"timeline\":\"e\"}\"0\",\"L.de.id\"{\"timeline\":\"e\"}},\"tag\":{\"...S.o.tag\":\"_\",\"getControl\":\"()\"{\"timeline\":\"e\"}{\"state\":\"e\",\"timeline\":\"t\"}{if()throw Error(\\\"Tag\\\"!==t.type);let n=e?(\\\"tag getModule called with wrong timeline type\\\")(0,j.fz):null;if(e)throw Error(!n);let o=e?(\\\"Pinned timeline definitions require a viewerUserId\\\")(0,_.fU):[];return(e)(0,P.Ay){\"userId\":\"n\",\"snoozedTopicIds\":\"o\",\"tag\":\"t.tag??t.id\"}},\"getName\":\"()\"{\"timeline\":\"e\"}}}",
   {
     "primary": {
       "aria-live": "polite"
@@ -14139,11 +14174,11 @@
   {
     "onsite": {
       "label": "p",
-      "description": "f",
+      "description": "h",
       "value": "onsite"
     },
     "remote": {
-      "label": "h",
+      "label": "f",
       "description": "r().ibed2d04",
       "value": "remote"
     },
@@ -14403,6 +14438,9 @@
   {
     "APPEND": "append",
     "PREPEND": "prepend"
+  },
+  {
+    "client": "m5"
   },
   {
     "REQUEST": "rweb/bookmarkFolders/FETCH_BOOKMARK_FOLDERS_REQUEST",
@@ -15195,7 +15233,7 @@
     "verifyPaymentMethod": "verifyPaymentMethod",
     "wireMeta": "wireMeta"
   },
-  "{[e4.upgradeToKycVerified]:{\"path\":`${\"te\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e4.upgradeToKycDocumentsVerified]:{\"path\":`${\"te\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e4.selfieVerification]:{\"path\":`${\"te\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e4.updateAddress]:{\"path\":`${\"te\"}/update/address`,\"defaultClosePath\":\"eW.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e4.updateMailingAddress]:{\"path\":`${\"te\"}/update/mailing-address`,\"defaultClosePath\":\"eW.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.questions]:{\"path\":`${\"te\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[e4.updatePin]:{\"path\":`${\"te\"}/update-pin`,\"defaultClosePath\":\"eW.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.forgotPin]:{\"path\":`${\"te\"}/forgot-pin`,\"defaultClosePath\":\"eW.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e4.recoverAccess]:{\"path\":`${\"te\"}/recover-access`,\"defaultClosePath\":\"eW.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e4.migrateCredential]:{\"path\":`${\"te\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e4.createCredential]:{\"path\":`${\"te\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[e4.changeCardPin]:{\"path\":`${\"te\"}/change-card-pin`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e4.fullAccountRouting]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"p\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.accountWireDetails]:{\"path\":`${\"te\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.updateAccountNickname]:{\"path\":`${\"te\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.changeCardAccount]:{\"path\":`${\"te\"}/change-card-account`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.updateCardNickname]:{\"path\":`${\"te\"}/cards/update/nickname`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.createAccount]:{\"path\":`${\"te\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.respondAccountInvitation]:{\"path\":`${\"te\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.cancelAccountInvitation]:{\"path\":`${\"te\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.removeAccountMember]:{\"path\":`${\"te\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.closeSecondaryAccount]:{\"path\":`${\"te\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[e4.challenge]:{\"path\":`${\"te\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[e4.personal]:{\"path\":`${\"te\"}/personal-info`,\"defaultClosePath\":\"eW.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.knownDevices]:{\"path\":`${\"te\"}/known-devices`,\"defaultClosePath\":\"eW.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.knownDevice]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"eG.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.knownDeviceModal]:{\"path\":`${\"te\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.cardOnboarding]:{\"path\":`${\"te\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.replaceCard]:{\"path\":`${\"te\"}/cards/replace`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[e4.contacts]:{\"path\":`${\"te\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.internationalContacts]:{\"path\":`${\"te\"}/contacts/international`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.contactData]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.contactDetails]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.createContact]:{\"path\":`${\"te\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.createInternationalContact]:{\"path\":`${\"te\"}/contacts/international/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.updateContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.updateInternationalContact]:{\"path\":e=>e?.id?`${\"te\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.beneficiaries]:{\"path\":`${\"te\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.createBeneficiary]:{\"path\":`${\"te\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.updateBeneficiary]:{\"path\":e=>e?.id?`${\"te\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.wireMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.checkMeta]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.transactionReceipt]:{\"path\":e=>e?.id?`${\"te\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.credentials]:{\"path\":`${\"te\"}/credentials`,\"defaultClosePath\":\"eW.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.credential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eG.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.updateCredential]:{\"path\":e=>e?.id?`${\"te\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eG.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.revealCustomerPersonalInfo]:{\"path\":`${\"te\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.connections]:{\"path\":`${\"te\"}/connections`,\"defaultClosePath\":\"eW.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.connection]:{\"path\":e=>e?.id?`${\"te\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eW.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[e4.supportChat]:{\"path\":`${\"te\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[e4.supportChatConversation]:{\"path\":e=>e?.id?`${\"te\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eO\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[tt.upgradeToKycVerified]:{\"path\":`${\"tn\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.upgradeToKycDocumentsVerified]:{\"path\":`${\"tn\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.selfieVerification]:{\"path\":`${\"tn\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateAddress]:{\"path\":`${\"tn\"}/update/address`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updateMailingAddress]:{\"path\":`${\"tn\"}/update/mailing-address`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.questions]:{\"path\":`${\"tn\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[tt.updatePin]:{\"path\":`${\"tn\"}/update-pin`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.forgotPin]:{\"path\":`${\"tn\"}/forgot-pin`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.recoverAccess]:{\"path\":`${\"tn\"}/recover-access`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.migrateCredential]:{\"path\":`${\"tn\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.createCredential]:{\"path\":`${\"tn\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[tt.changeCardPin]:{\"path\":`${\"tn\"}/change-card-pin`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.fullAccountRouting]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"p\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.accountWireDetails]:{\"path\":`${\"tn\"}/account-receive-wire`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateAccountNickname]:{\"path\":`${\"tn\"}/update/nickname`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.changeCardAccount]:{\"path\":`${\"tn\"}/change-card-account`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.updateCardNickname]:{\"path\":`${\"tn\"}/cards/update/nickname`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.createAccount]:{\"path\":`${\"tn\"}/create-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.respondAccountInvitation]:{\"path\":`${\"tn\"}/respond-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.cancelAccountInvitation]:{\"path\":`${\"tn\"}/cancel-invitation`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.removeAccountMember]:{\"path\":`${\"tn\"}/remove-member`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.closeSecondaryAccount]:{\"path\":`${\"tn\"}/close-secondary-account`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[tt.challenge]:{\"path\":`${\"tn\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.personal]:{\"path\":`${\"tn\"}/personal-info`,\"defaultClosePath\":\"eG.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevices]:{\"path\":`${\"tn\"}/known-devices`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDevice]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"eY.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.knownDeviceModal]:{\"path\":`${\"tn\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.cardOnboarding]:{\"path\":`${\"tn\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.replaceCard]:{\"path\":`${\"tn\"}/cards/replace`,\"defaultClosePath\":\"eg\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[tt.contacts]:{\"path\":`${\"tn\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.internationalContacts]:{\"path\":`${\"tn\"}/contacts/international`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactData]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.contactDetails]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createContact]:{\"path\":`${\"tn\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.createInternationalContact]:{\"path\":`${\"tn\"}/contacts/international/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateInternationalContact]:{\"path\":e=>e?.id?`${\"tn\"}/contacts/international/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaries]:{\"path\":`${\"tn\"}/beneficiaries`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.beneficiaryDetails]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.createBeneficiary]:{\"path\":`${\"tn\"}/beneficiaries/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.updateBeneficiary]:{\"path\":e=>e?.id?`${\"tn\"}/beneficiaries/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.wireMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.checkMeta]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.transactionReceipt]:{\"path\":e=>e?.id?`${\"tn\"}/transactions/${\"e.id\"}/receipt`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credentials]:{\"path\":`${\"tn\"}/credentials`,\"defaultClosePath\":\"eG.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.credential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eY.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.updateCredential]:{\"path\":e=>e?.id?`${\"tn\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"eY.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.revealCustomerPersonalInfo]:{\"path\":`${\"tn\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.connections]:{\"path\":`${\"tn\"}/connections`,\"defaultClosePath\":\"eG.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.connection]:{\"path\":e=>e?.id?`${\"tn\"}/connections/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eG.connections\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[tt.supportChat]:{\"path\":`${\"tn\"}/support`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[tt.supportChatConversation]:{\"path\":e=>e?.id?`${\"tn\"}/support/${\"e.id\"}`:\"\",\"defaultClosePath\":\"eU\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -15321,13 +15359,18 @@
     "autoclaim": "autoclaim",
     "claimTransferLink": "claimTransferLink"
   },
-  "{[j.default]:{\"redirectPath\":()=>h.Hu},[j.autoclaim]:{\"redirectPath\":()=>h.Hu},[j.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"h.f\"}/${\"e\"}`:\"h.Hu\"},[j.claimTransferLink]:{\"redirectPath\":()=>h.Hu}}",
+  "{[v.default]:{\"redirectPath\":()=>h.Hu},[v.autoclaim]:{\"redirectPath\":()=>h.Hu},[v.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"h.f\"}/${\"e\"}`:\"h.Hu\"},[v.claimTransferLink]:{\"redirectPath\":()=>h.Hu}}",
   {
     "XChatConversation": "XChatConversation",
     "XUserProfileHeader": "XUserProfileHeader"
   },
-  "{[ed.xx.debit]:{\"label\":\"ed.cz.send.label\",\"title\":\"ed.cz.send.label\",\"withAlternativePaymentMethods\":\"!0\"},[ed.xx.credit]:{\"label\":\"ed.cz.request.label\",\"title\":\"ed.cz.request.label\",\"scanMessage\":\"eg().efd5b52e\",\"withAlternativePaymentMethods\":\"!1\"}}",
-  "{[ed.xx.debit]:\"eW.C.CreateTransfer\",[ed.xx.credit]:\"eW.C.RequestTransfer\"}",
+  "{[em.xx.debit]:{\"label\":\"em.cz.send.label\",\"title\":\"em.cz.send.label\",\"withAlternativePaymentMethods\":\"!0\"},[em.xx.credit]:{\"label\":\"em.cz.request.label\",\"title\":\"em.cz.request.label\",\"scanMessage\":\"eh().efd5b52e\",\"withAlternativePaymentMethods\":\"!1\"}}",
+  "{[em.xx.debit]:\"eq.C.CreateTransfer\",[em.xx.credit]:\"eq.C.RequestTransfer\"}",
+  {
+    "Regular": "Regular",
+    "Swift": "Swift",
+    "Unspecified": "Unspecified"
+  },
   {
     "Revoked": "Revoked",
     "Trusted": "Trusted",
@@ -15350,7 +15393,7 @@
     "Unspecified": "Unspecified",
     "Wallet": "Wallet"
   },
-  "{[ef.xx.debit]:{\"analyticsSection\":\"withdraw\",\"label\":\"ef.cz.withdraw.label\",\"confirmTitle\":\"eF().bbc7d9bc\",\"linkAccountTitle\":\"eF().ecacfe52\",\"canShowFDICNotice\":\"!1\",\"canShowTasks\":\"!1\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.x],\"allowedDebitMethods\":[{\"debitMethod\":\"eI.a.Oct\",\"type\":\"ef.I6.card\"},{\"debitMethod\":\"eI.a.Ach\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.Rtp\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.DomesticWire\",\"type\":\"ef.I6.bank\"}]},[ef.xx.credit]:{\"analyticsSection\":\"deposit\",\"label\":\"ef.cz.deposit.label\",\"confirmTitle\":\"eF().ae748728\",\"linkAccountTitle\":\"eF().d9f3e9b0\",\"linkAccountSubtitle\":\"eF().f3f1c814\",\"canShowFDICNotice\":\"!0\",\"canShowTasks\":\"!0\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.check,ef.I6.cash,ef.I6.x],\"allowedCreditMethods\":[{\"creditMethod\":\"eT.x.Aft\",\"type\":\"ef.I6.card\"},{\"creditMethod\":\"eT.x.Rfp\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Ach\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Check\",\"featureSwitch\":\"payments_cheques_deposits_enabled\",\"type\":\"ef.I6.check\"},{\"creditMethod\":\"eT.x.Cash\",\"featureSwitch\":\"payments_cash_deposits_enabled\",\"type\":\"ef.I6.cash\"}]}}",
+  "{[ef.xx.debit]:{\"analyticsSection\":\"withdraw\",\"label\":\"ef.cz.withdraw.label\",\"confirmTitle\":\"ej().bbc7d9bc\",\"linkAccountTitle\":\"ej().ecacfe52\",\"canShowFDICNotice\":\"!1\",\"canShowTasks\":\"!1\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.x],\"allowedDebitMethods\":[{\"debitMethod\":\"eI.a.Oct\",\"type\":\"ef.I6.card\"},{\"debitMethod\":\"eI.a.Ach\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.Rtp\",\"type\":\"ef.I6.bank\"},{\"debitMethod\":\"eI.a.DomesticWire\",\"type\":\"ef.I6.bank\"}]},[ef.xx.credit]:{\"analyticsSection\":\"deposit\",\"label\":\"ef.cz.deposit.label\",\"confirmTitle\":\"ej().ae748728\",\"linkAccountTitle\":\"ej().d9f3e9b0\",\"linkAccountSubtitle\":\"ej().f3f1c814\",\"canShowFDICNotice\":\"!0\",\"canShowTasks\":\"!0\",\"allowedTypes\":[ef.I6.card,ef.I6.bank,ef.I6.check,ef.I6.cash,ef.I6.x],\"allowedCreditMethods\":[{\"creditMethod\":\"eT.x.Aft\",\"type\":\"ef.I6.card\"},{\"creditMethod\":\"eT.x.Rfp\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Ach\",\"type\":\"ef.I6.bank\"},{\"creditMethod\":\"eT.x.Check\",\"featureSwitch\":\"payments_cheques_deposits_enabled\",\"type\":\"ef.I6.check\"},{\"creditMethod\":\"eT.x.Cash\",\"featureSwitch\":\"payments_cash_deposits_enabled\",\"type\":\"ef.I6.cash\"}]}}",
   "{[ef.xx.debit]:\"eP.C.CreateWithdrawal\",[ef.xx.credit]:\"eP.C.CreateDeposit\"}",
   {
     "PayOffSession": "PayOffSession",
@@ -15389,6 +15432,135 @@
     "Unspecified": "Unspecified"
   },
   {
+    "Money": "money"
+  },
+  {
+    "CancelRequest": "cancel_request",
+    "CancelTransaction": "cancel_transaction",
+    "ClaimTransaction": "claim_transaction",
+    "ConfirmPayment": "confirm_payment",
+    "DirectDepositFacts": "direct_deposit_facts",
+    "DirectDepositFailure": "direct_deposit_failure",
+    "DirectDepositPending": "direct_deposit_pending",
+    "DirectDepositSuccess": "direct_deposit_success",
+    "ManageCredential": "manage_credential",
+    "Money2faApp": "money_2fa_app",
+    "Money2faBackup": "money_2fa_backup",
+    "Money2faNotSupported": "money_2fa_notsupported",
+    "Money2faPasskey": "money_2fa_passkey",
+    "Money2faSms": "money_2fa_sms",
+    "MoneyTwoFactorAuth": "money_two_factor_auth",
+    "OnboardingFailure": "onboarding_failure",
+    "OnboardingInReview": "onboarding_in_review",
+    "OnboardingNonEligible": "onboarding_non_eligible",
+    "OnboardingPendingResult": "onboarding_pending_result",
+    "OnboardingQrHandoff": "onboarding_qr_handoff",
+    "OnboardingResubmit": "onboarding_resubmit",
+    "OnboardingStep": "onboarding_step",
+    "OnboardingStepUp": "onboarding_step_up",
+    "OnboardingSuccess": "onboarding_success",
+    "OnboardingTerms": "onboarding_terms",
+    "OrderCardFailure": "order_card_failure",
+    "OrderCardStep": "order_card_step",
+    "OrderCardSuccess": "order_card_success",
+    "OrderCardTerms": "order_card_terms",
+    "P2pTransfer": "p2p_transfer",
+    "P2pTransferFunded": "p2p_transfer_funded",
+    "P2pTransferFunding": "p2p_transfer_funding",
+    "ReviewRequest": "review_request",
+    "SelectAmount": "select_amount",
+    "SelectParticipant": "select_participant",
+    "SendWire": "send_wire",
+    "TransactionDetails": "transaction_details",
+    "VerifyChallenge": "verify_challenge",
+    "VerifyIdentity": "verify_identity",
+    "VerifyPaymentMethod": "verify_payment_method",
+    "WireInfo": "wire_info",
+    "WireSelectBeneficiary": "wire_select_beneficiary"
+  },
+  {
+    "Address": "address",
+    "AtmPin": "atm_pin",
+    "AtmPinConfirmation": "atm_pin_confirmation",
+    "BirthDate": "birth_date",
+    "ClaimTransferLink": "claim_transfer_link",
+    "ConfirmPhone": "confirm_phone",
+    "CreatePubKeyCredential": "create_pub_key_credential",
+    "Creators": "creators",
+    "CurrentStep": "current_step",
+    "Dba": "dba",
+    "Default": "default",
+    "Design": "design",
+    "Direction": "direction",
+    "Docv": "docv",
+    "Documents": "documents",
+    "FirstName": "first_name",
+    "InReview": "in_review",
+    "Kyc": "kyc",
+    "LastName": "last_name",
+    "LegalName": "legal_name",
+    "Notice": "notice",
+    "PhoneVerification": "phone_verification",
+    "QrHandoff": "qr_handoff",
+    "Settings": "settings",
+    "SharedAccountInvitation": "shared_account_invitation",
+    "ShippingAddress": "shipping_address",
+    "Tier": "tier",
+    "UsSsn": "us_ssn",
+    "UsSsnLast4": "us_ssn_last4",
+    "UsState": "us_state",
+    "VerifyPubKeyCredential": "verify_pub_key_credential",
+    "Vpn": "vpn",
+    "ZipCode": "zip_code"
+  },
+  {
+    "Accept": "accept",
+    "AccountDetails": "account_details",
+    "AgreeTerms": "agree_terms",
+    "Approve": "approve",
+    "AutocompleteResult": "autocomplete_result",
+    "Cancel": "cancel",
+    "Continue": "continue",
+    "CurrentStep": "current_step",
+    "Decline": "decline",
+    "DisputeCharge": "dispute_charge",
+    "GetSupport": "get_support",
+    "Manual": "manual",
+    "Next": "next",
+    "Pay": "pay",
+    "Pin": "pin",
+    "PrintUsername": "print_username",
+    "Recover": "recover",
+    "SetupPasswordManager": "setup_password_manager",
+    "Suggestion": "suggestion",
+    "UnlockPasswordManager": "unlock_password_manager",
+    "VerifyPaymentMethod": "verify_payment_method"
+  },
+  {
+    "Cancelled": "cancelled",
+    "Click": "click",
+    "Disable": "disable",
+    "Enable": "enable",
+    "Error": "error",
+    "Impression": "impression",
+    "Start": "start",
+    "Success": "success"
+  },
+  {
+    "NotAllowed": "not_allowed",
+    "NotAvailable": "not_available",
+    "NotEligible": "not_eligible",
+    "NotEligibleProxy": "not_eligible_proxy",
+    "NotEligibleGeography": "not_eligible_geography",
+    "NotEligibleSafety": "not_eligible_safety",
+    "NotEligibleAllowlist": "not_eligible_allowlist",
+    "UsStateNotAvailable": "us_state_not_available",
+    "CountryNotAvailable": "country_not_available",
+    "AdditionalVerificationRequired": "additional_verification_required",
+    "UnavailableError": "unavailable_error",
+    "Maintenance": "maintenance"
+  },
+  {
     "Alert": "Alert",
     "Info": "Info",
     "Warning": "Warning"
@@ -15403,7 +15575,7 @@
     "PublicKeyCredential": "PublicKeyCredential"
   },
   "{[I.Alert]:\"danger\",[I.Info]:\"primary\",[I.Warning]:\"warning\"}",
-  "{[I.Alert]:\"_.default\",[I.Info]:\"C.default\",[I.Warning]:\"_.default\"}",
+  "{[I.Alert]:\"A.default\",[I.Info]:\"C.default\",[I.Warning]:\"A.default\"}",
   {
     "small": "small",
     "xLarge": "xLarge",
@@ -15426,7 +15598,7 @@
     "Unspecified": "Unspecified"
   },
   "{[m.YV.SEND_WIRE_TRANSFER]:\"i().gd0092d0\",[m.YV.ACCOUNT_LINKING]:\"i().h21d2206\",[m.YV.DEPOSIT]:\"i().f00e8268\",[m.YV.P2P_TRANSFER_REQUEST]:\"i().e3f45a70\",[m.YV.P2P_TRANSFER_SEND]:\"i().e3f45a70\",[m.YV.P2P_TRANSFER_SEND_FUNDED]:\"i().f00e8268\",[m.YV.WITHDRAWAL]:\"i().e04209d0\",[m.YV.MAIL_CHECK]:\"i().d92cbe6a\",[m.YV.CREATE_TRANSFER_LINK]:\"i().cb7b59da\",[m.YV.CLAIM_TRANSFER_LINK]:\"i().jb5966f2\"}",
-  "{\"InsufficientFunds\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f9e0e6a2\",\"action\":{\"link\":\"u.L\",\"label\":\"m.cz.deposit.label\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"B\",\"message\":\"N\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"i().f6b3499c\",\"message\":\"i().f64125f6\",\"action\":{\"link\":\"u.f\",\"label\":\"i().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"i().gde35c74\",\"action\":{\"link\":\"u.zi\",\"label\":\"i().jd899ca2\"}},\"LoginRequired\":\"U\",\"PaymentMethodLinkRequired\":\"U\",\"PaymentMethodInactive\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"PaymentMethodExpired\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"AccountLinkingNameMismatch\":{\"message\":\"i().d660047c\"},\"InsufficientBalance\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f40c576c\",\"action\":{\"link\":\"u.L\",\"label\":\"m.cz.deposit.label\"}},\"TwoFactorAuthRequired\":{\"message\":\"i().i10a73ce\",\"action\":{\"link\":\"u.Z7\",\"label\":\"i().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"R()\"{\"type\":\"m.gT.monthly\"}{\"type\":\"m.gT.daily\"}{\"type\":\"m.gT.monthly\"}{\"type\":\"m.gT.perEntry\"}{\"headline\":\"i().g243dc66\",\"message\":\"i().b0315b3a\",\"action\":{\"link\":\"u.wt.tier2.verifyIdentityPath\",\"label\":\"i().c3d89aca\"}},\"Velocity\":{\"headline\":\"W\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":w[e]}},\"HasAccountBalance\":{\"headline\":\"H\",\"message\":\"i().a9ec0e4a\",\"action\":{\"link\":\"u.hM\",\"label\":\"m.cz.withdraw.label\"}},\"HasCashbackAccountBalance\":{\"headline\":\"H\",\"message\":\"i().a387275c\",\"action\":{\"link\":\"u.hl\",\"label\":\"i().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"H\",\"message\":\"i().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"H\",\"message\":\"i().i0391488\"},\"InactivePaymentMethod\":\"$\",\"InvalidPaymentMethodType\":\"$\",\"PaymentMethodDeleted\":\"$\",\"FeeCalculationError\":{\"headline\":\"G\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":w[e]}{\"link\":\"u.Hu\",\"label\":\"i().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"i().ac1c4c40\",\"message\":\"i().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.YV.P2P_TRANSFER_SEND\":return E;case m.YV.P2P_TRANSFER_REQUEST:return B;case m.YV.WITHDRAWAL:return Z;case m.YV.DEPOSIT:return J;case m.YV.CLOSE_ACCOUNT:return H;case m.YV.REONBOARD:return X;case m.YV.CREATE_TRANSFER_LINK:return i().b64fa994;default:\"return i().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.YV.P2P_TRANSFER_SEND\":case m.YV.P2P_TRANSFER_REQUEST:case m.YV.CREATE_TRANSFER_LINK:return O;default:\"return v\"}},\"message\":\"v\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:\"e===m.YV.CREATE_TRANSFER_LINK?\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while creating a transfer link.\"}:{\"issueReportEnabled\":\"!1\"}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f9e0e6a2\",\"action\":{\"link\":\"u.L\",\"label\":\"m.cz.deposit.label\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"B\",\"message\":\"N\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"i().f6b3499c\",\"message\":\"i().f64125f6\",\"action\":{\"link\":\"u.f\",\"label\":\"i().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"i().gde35c74\",\"action\":{\"link\":\"u.zi\",\"label\":\"i().jd899ca2\"}},\"LoginRequired\":\"U\",\"PaymentMethodLinkRequired\":\"U\",\"PaymentMethodInactive\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"PaymentMethodExpired\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"AccountLinkingNameMismatch\":{\"message\":\"i().d660047c\"},\"InsufficientBalance\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f40c576c\",\"action\":{\"link\":\"u.L\",\"label\":\"m.cz.deposit.label\"}},\"TwoFactorAuthRequired\":{\"message\":\"i().i10a73ce\",\"action\":{\"link\":\"u.Z7\",\"label\":\"i().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"R()\"{\"type\":\"m.gT.monthly\"}{\"type\":\"m.gT.daily\"}{\"type\":\"m.gT.monthly\"}{\"type\":\"m.gT.perEntry\"}{\"headline\":\"i().g243dc66\",\"message\":\"i().b0315b3a\",\"action\":{\"link\":\"u.wt.tier2.verifyIdentityPath\",\"label\":\"i().c3d89aca\"}},\"Velocity\":{\"headline\":\"W\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":w[e]}},\"HasAccountBalance\":{\"headline\":\"X\",\"message\":\"i().a9ec0e4a\",\"action\":{\"link\":\"u.hM\",\"label\":\"m.cz.withdraw.label\"}},\"HasCashbackAccountBalance\":{\"headline\":\"X\",\"message\":\"i().a387275c\",\"action\":{\"link\":\"u.hl\",\"label\":\"i().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"X\",\"message\":\"i().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"X\",\"message\":\"i().i0391488\"},\"InactivePaymentMethod\":\"$\",\"InvalidPaymentMethodType\":\"$\",\"PaymentMethodDeleted\":\"$\",\"FeeCalculationError\":{\"headline\":\"G\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":w[e]}{\"link\":\"u.Hu\",\"label\":\"i().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"i().ac1c4c40\",\"message\":\"i().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.YV.P2P_TRANSFER_SEND\":return E;case m.YV.P2P_TRANSFER_REQUEST:return B;case m.YV.WITHDRAWAL:return Z;case m.YV.DEPOSIT:return J;case m.YV.CLOSE_ACCOUNT:return X;case m.YV.REONBOARD:return H;case m.YV.CREATE_TRANSFER_LINK:return i().b64fa994;default:\"return i().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.YV.P2P_TRANSFER_SEND\":case m.YV.P2P_TRANSFER_REQUEST:case m.YV.CREATE_TRANSFER_LINK:return O;default:\"return S\"}},\"message\":\"S\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:\"e===m.YV.CREATE_TRANSFER_LINK?\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while creating a transfer link.\"}:{\"issueReportEnabled\":\"!1\"}}}",
   {
     "UnrecognizedPaymentDecisionAccept": "UnrecognizedPaymentDecisionAccept",
     "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
@@ -15560,7 +15732,7 @@
     "acceptable-use-policy": "acceptable-use-policy",
     "cardholder-agreement": "cardholder-agreement"
   },
-  "{[C.t.ActivatePhysicalCard]:{\"pathname\":\"v.TJ\"},[C.t.TermsConsent]:{\"pathname\":\"v.c8\",\"state\":{\"step\":\"infoPane\"}}}",
+  "{[C.t.ActivatePhysicalCard]:{\"pathname\":\"S.TJ\"},[C.t.TermsConsent]:{\"pathname\":\"S.c8\",\"state\":{\"step\":\"infoPane\"}}}",
   {
     "initiate": "initiate-challenge",
     "complete2fa": "2fa-complete-challenge",
@@ -15612,7 +15784,7 @@
     "CREATE_TRANSFER_LINK": "CREATE_TRANSFER_LINK",
     "CLAIM_TRANSFER_LINK": "CLAIM_TRANSFER_LINK"
   },
-  "{[ed.SEND_WIRE_TRANSFER]:\"v.V_\",[ed.ACCOUNT_LINKING]:\"v.r9.bankAccounts\",[ed.DEPOSIT]:\"v.L\",[ed.P2P_TRANSFER_REQUEST]:`${\"v.WX\"}\"?direction=$\"{\"E.credit\"}`,[ed.P2P_TRANSFER_SEND]:\"v.WX\",[ed.P2P_TRANSFER_SEND_FUNDED]:\"v.WX\",[ed.WITHDRAWAL]:\"v.hM\",[ed.MAIL_CHECK]:\"v.Dt\",[ed.CREATE_TRANSFER_LINK]:\"v.tE\"}",
+  "{[em.SEND_WIRE_TRANSFER]:\"S.V_\",[em.ACCOUNT_LINKING]:\"S.r9.bankAccounts\",[em.DEPOSIT]:\"S.L\",[em.P2P_TRANSFER_REQUEST]:`${\"S.WX\"}\"?direction=$\"{\"E.credit\"}`,[em.P2P_TRANSFER_SEND]:\"S.WX\",[em.P2P_TRANSFER_SEND_FUNDED]:\"S.WX\",[em.WITHDRAWAL]:\"S.hM\",[em.MAIL_CHECK]:\"S.Dt\",[em.CREATE_TRANSFER_LINK]:\"S.tE\"}",
   {
     "daily": "daily",
     "monthly": "monthly",
@@ -15644,7 +15816,6 @@
     "clickCredential": "credentials-select-credential",
     "clickKnownDevice": "known-devices-click-device",
     "close": "close",
-    "closeAccountPending": "close-account-pending",
     "contactLoaded": "external-contacts-data-loaded",
     "copiedToClipboard": "copied-to-clipboard",
     "createBeneficiaryFailure": "beneficiaries-create-failure",
