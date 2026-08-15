@@ -8931,3 +8931,15 @@
 - xchat_max_group_description_length<br>
 #### remove<br>
 - None<br>
+## 2026/08/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_ads_screening_dialog_enabled<br>
+- responsive_web_qp_paused_policy_hint_enabled<br>
+#### remove<br>
+- None<br>
