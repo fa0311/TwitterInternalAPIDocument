@@ -12811,7 +12811,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[aa.upgradeToKycVerified]:{"path":`${"at"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[aa.upgradeToKycDocumentsVerified]:{"path":`${"at"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[aa.selfieVerification]:{"path":`${"...
+{[tt.upgradeToKycVerified]:{"path":`${"ta"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[tt.upgradeToKycDocumentsVerified]:{"path":`${"ta"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[tt.selfieVerification]:{"path":`${"...
 ```
 | constant   | value   |
 |:-----------|:--------|
