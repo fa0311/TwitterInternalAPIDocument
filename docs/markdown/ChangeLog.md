@@ -8955,3 +8955,16 @@
 - responsive_web_grok_download_cta_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/18<br>
+### API<br>
+#### add<br>
+- QuickPromoteBoostContentCheck<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_boost_content_check_enabled<br>
+- rweb_xchat_calls_whiteboard_enabled<br>
+- xchat_signature_required_after_seq_num_str<br>
+#### remove<br>
+- None<br>
