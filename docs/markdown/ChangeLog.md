@@ -8943,3 +8943,15 @@
 - responsive_web_qp_paused_policy_hint_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_download_cta_copy<br>
+- responsive_web_grok_download_cta_enabled<br>
+#### remove<br>
+- None<br>

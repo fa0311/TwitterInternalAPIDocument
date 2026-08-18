@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "934615",
+          "followers_count": "934464",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1906,6 +1906,12 @@
         "value": "false"
       },
       "responsive_web_grok_disable_new_conversation_url_reset": {
+        "value": "false"
+      },
+      "responsive_web_grok_download_cta_copy": {
+        "value": "open_grok"
+      },
+      "responsive_web_grok_download_cta_enabled": {
         "value": "false"
       },
       "responsive_web_grok_download_favicons": {
@@ -6361,6 +6367,12 @@
         "responsive_web_grok_disable_new_conversation_url_reset": {
           "value": "false"
         },
+        "responsive_web_grok_download_cta_copy": {
+          "value": "open_grok"
+        },
+        "responsive_web_grok_download_cta_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_download_favicons": {
           "value": "true"
         },
@@ -9063,7 +9075,7 @@
       "settingsVersion": "d09e99291e42e6542215da9caeae9a61"
     },
     "debug": {},
-    "featureSetToken": "8f9764dd338c6bc34251c4b67600577faa1cf267",
+    "featureSetToken": "712295477c94d584305600dd538194cb52c94fb5",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9131,7 +9143,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178691463853669383",
+    "guestId": "178700138182637451",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
