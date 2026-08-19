@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "932286",
+          "followers_count": "932363",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1912,7 +1912,7 @@
         "value": "open_grok"
       },
       "responsive_web_grok_download_cta_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_download_favicons": {
         "value": "true"
@@ -9090,10 +9090,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8047b9fe6629d85af00cda9967cab8de"
+      "settingsVersion": "facfd793ca55e103c15f31359d9cc05b"
     },
     "debug": {},
-    "featureSetToken": "17b9b1bcdfff839c095db26ab1e24dbf601afd7e",
+    "featureSetToken": "6139694be2a0801320234f16413d8369f74acd19",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9161,7 +9161,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178708761713862484",
+    "guestId": "178717417626855566",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
