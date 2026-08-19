@@ -6642,7 +6642,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":n="audiospace"}{var r;let o;return()(0,s.jsx){"...()":{"...()(0,a.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":n="audiospace"}{var r;let o;return()(0,s.jsx){"...()":{"...()(0,a.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[d.container,e.style],"children":"()(0,s.jsx)"{...
 ```
 | constant   | value                                                      |
 |:-----------|:-----------------------------------------------------------|
@@ -8266,15 +8266,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"root":`${"a"}/application`,"eligibility":`${"a"}/application/eligibility`,"pricing":`${"a"}/application/pricing`,"completeProfile":`${"a"}/application/complete_profile`,"submit":`${"a"}/application/submit`,"submitted":`${"a"}/application/submitted`,"waitlisted":`${"a"}/application/waitlisted`,"rej...
+{"root":`${"r"}/application`,"eligibility":`${"r"}/application/eligibility`,"pricing":`${"r"}/application/pricing`,"completeProfile":`${"r"}/application/complete_profile`,"submit":`${"r"}/application/submit`,"submitted":`${"r"}/application/submitted`,"waitlisted":`${"r"}/application/waitlisted`,"rej...
 ```
 ```internal process
 # Error
-{"root":`${"a"}/onboarding`,"perksIntro":`${"a"}/onboarding/perks_intro`,"perksDescription":`${"a"}/onboarding/perks_description`,"perksBadges":`${"a"}/onboarding/perks_badges`,"perksConfirm":`${"a"}/onboarding/perks_confirm`,"pricing":`${"a"}/onboarding/pricing`,"pricingConfirm":`${"a"}/onboarding/...
+{"root":`${"r"}/onboarding`,"perksIntro":`${"r"}/onboarding/perks_intro`,"perksDescription":`${"r"}/onboarding/perks_description`,"perksBadges":`${"r"}/onboarding/perks_badges`,"perksConfirm":`${"r"}/onboarding/perks_confirm`,"pricing":`${"r"}/onboarding/pricing`,"pricingConfirm":`${"r"}/onboarding/...
 ```
 ```internal process
 # Error
-{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`,"perksPricing":`${"a"}/management/perks_pricing`}
+{"root":`${"r"}/management`,"perksIntro":`${"r"}/management/perks_intro`,"perksDescription":`${"r"}/management/perks_description`,"perksConfirm":`${"r"}/management/perks_confirm`,"perksPricing":`${"r"}/management/perks_pricing`}
 ```
 | constant     | value        |
 |:-------------|:-------------|
