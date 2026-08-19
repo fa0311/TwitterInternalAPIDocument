@@ -7278,7 +7278,7 @@
       "value": "2"
     }
   },
-  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[c.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"d\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
+  "{\"Default\":\"function()\"{\"children\":\"e\",\"style\":\"t\",\"type\":n=\"audiospace\"}{var r;let o;return()(0,s.jsx){\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[o.primary,o.secondary],\"locations\":[-.1505,1.0496]}}},\"Animated\":\"function()\"{let t;return()(0,s.jsx){\"style\":[d.container,e.style],\"children\":\"()(0,s.jsx)\"{\"...()\":{\"...()(0,a.nQ)\":\"_\",\"colors\":[t.primary,t.secondary,t.primary,t.secondary,t.primary],\"locations\":[.16,.24,.54,.62,.88]}}}},\"SVGLinearGradient\":\"c\",\"getColors\":\"a.Yt\",\"getDarkModeColors\":\"a.Cq\"}",
   {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
@@ -8776,9 +8776,9 @@
     "subscriptions": "creator_subs",
     "preRollAds": "pre_roll_video_ads"
   },
-  "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
-  "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
-  "{\"root\":`${\"a\"}/management`,\"perksIntro\":`${\"a\"}/management/perks_intro`,\"perksDescription\":`${\"a\"}/management/perks_description`,\"perksConfirm\":`${\"a\"}/management/perks_confirm`,\"perksPricing\":`${\"a\"}/management/perks_pricing`}",
+  "{\"root\":`${\"r\"}/application`,\"eligibility\":`${\"r\"}/application/eligibility`,\"pricing\":`${\"r\"}/application/pricing`,\"completeProfile\":`${\"r\"}/application/complete_profile`,\"submit\":`${\"r\"}/application/submit`,\"submitted\":`${\"r\"}/application/submitted`,\"waitlisted\":`${\"r\"}/application/waitlisted`,\"rejected\":`${\"r\"}/application/rejected`}",
+  "{\"root\":`${\"r\"}/onboarding`,\"perksIntro\":`${\"r\"}/onboarding/perks_intro`,\"perksDescription\":`${\"r\"}/onboarding/perks_description`,\"perksBadges\":`${\"r\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"r\"}/onboarding/perks_confirm`,\"pricing\":`${\"r\"}/onboarding/pricing`,\"pricingConfirm\":`${\"r\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"r\"}/onboarding/stripe_setup`,\"stripePending\":`${\"r\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"r\"}/onboarding/stripe_completed`}",
+  "{\"root\":`${\"r\"}/management`,\"perksIntro\":`${\"r\"}/management/perks_intro`,\"perksDescription\":`${\"r\"}/management/perks_description`,\"perksConfirm\":`${\"r\"}/management/perks_confirm`,\"perksPricing\":`${\"r\"}/management/perks_pricing`}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
