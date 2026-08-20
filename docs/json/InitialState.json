@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "932363",
+          "followers_count": "932200",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -2334,6 +2334,12 @@
           "slideshow"
         ]
       },
+      "responsive_web_nfl_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nfl_sidebar_enabled": {
+        "value": "false"
+      },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
       },
@@ -4230,6 +4236,24 @@
       },
       "x_jetfuel_use_new_api_url": {
         "value": "true"
+      },
+      "x_sports_nfl_favorite_teams_enabled": {
+        "value": "false"
+      },
+      "x_sports_nfl_game_chat_enabled": {
+        "value": "false"
+      },
+      "x_sports_nfl_game_feed_enabled": {
+        "value": "false"
+      },
+      "x_sports_nfl_game_odds_card_enabled": {
+        "value": "false"
+      },
+      "x_sports_nfl_hub_home_timeline_tag": {
+        "value": ""
+      },
+      "x_sports_nfl_schedule_reminder_enabled": {
+        "value": "false"
       },
       "xai_profile_redirect_enabled": {
         "value": "true"
@@ -6802,6 +6826,12 @@
             "slideshow"
           ]
         },
+        "responsive_web_nfl_enabled": {
+          "value": "false"
+        },
+        "responsive_web_nfl_sidebar_enabled": {
+          "value": "false"
+        },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
         },
@@ -8699,6 +8729,24 @@
         "x_jetfuel_use_new_api_url": {
           "value": "true"
         },
+        "x_sports_nfl_favorite_teams_enabled": {
+          "value": "false"
+        },
+        "x_sports_nfl_game_chat_enabled": {
+          "value": "false"
+        },
+        "x_sports_nfl_game_feed_enabled": {
+          "value": "false"
+        },
+        "x_sports_nfl_game_odds_card_enabled": {
+          "value": "false"
+        },
+        "x_sports_nfl_hub_home_timeline_tag": {
+          "value": ""
+        },
+        "x_sports_nfl_schedule_reminder_enabled": {
+          "value": "false"
+        },
         "xai_profile_redirect_enabled": {
           "value": "true"
         },
@@ -9093,7 +9141,7 @@
       "settingsVersion": "facfd793ca55e103c15f31359d9cc05b"
     },
     "debug": {},
-    "featureSetToken": "6139694be2a0801320234f16413d8369f74acd19",
+    "featureSetToken": "20592c9722e8761ec2d12684678e5f908c7ba358",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9161,7 +9209,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178717417626855566",
+    "guestId": "178726068766409432",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
