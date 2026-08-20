@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "934464",
+          "followers_count": "932363",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1912,7 +1912,7 @@
         "value": "open_grok"
       },
       "responsive_web_grok_download_cta_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_download_favicons": {
         "value": "true"
@@ -2423,6 +2423,9 @@
       },
       "responsive_web_qp_ads_screening_dialog_enabled": {
         "value": "true"
+      },
+      "responsive_web_qp_boost_content_check_enabled": {
+        "value": "false"
       },
       "responsive_web_qp_full_popup_enabled": {
         "value": "true"
@@ -3037,6 +3040,9 @@
         "value": "false"
       },
       "rweb_xchat_calls_v2_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_calls_whiteboard_enabled": {
         "value": "false"
       },
       "rweb_xchat_debug_enabled": {
@@ -4551,6 +4557,9 @@
       },
       "xchat_share_to_ig_story": {
         "value": "false"
+      },
+      "xchat_signature_required_after_seq_num_str": {
+        "value": "0"
       },
       "xchat_standalone_push_notifications": {
         "value": "false"
@@ -6371,7 +6380,7 @@
           "value": "open_grok"
         },
         "responsive_web_grok_download_cta_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_download_favicons": {
           "value": "true"
@@ -6434,7 +6443,7 @@
           "value": "true"
         },
         "responsive_web_grok_imagine_banner_config": {
-          "value": "{&quot;preset&quot;:&quot;image&quot;,&quot;enabled&quot;:true,&quot;imageUrl&quot;:&quot;https://pbs.twimg.com/ext_tw_video_thumb/2085734353351372800/pu/img/yRIpEChZVF1fmSnl.jpg&quot;,&quot;videoUrl&quot;:&quot;https://video.twimg.com/ext_tw_video/2085734353351372800/pu/vid/avc1/480x270/OcQX19HK90NnyEqD.mp4&quot;,&quot;title&quot;:&quot;Introducing Image 2.0, from Grok Imagine&quot;,&quot;description&quot;:&quot;Our greatest leap in image quality yet, excelling at professional use and text detail.&quot;,&quot;buttonText&quot;:&quot;Try for free&quot;}"
+          "value": ""
         },
         "responsive_web_grok_imagine_composer_enabled": {
           "value": "false"
@@ -6881,6 +6890,9 @@
           "value": "true"
         },
         "responsive_web_qp_ads_screening_dialog_enabled": {
+          "value": "false"
+        },
+        "responsive_web_qp_boost_content_check_enabled": {
           "value": "false"
         },
         "responsive_web_qp_full_popup_enabled": {
@@ -7496,6 +7508,9 @@
           "value": "false"
         },
         "rweb_xchat_calls_v2_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_calls_whiteboard_enabled": {
           "value": "false"
         },
         "rweb_xchat_debug_enabled": {
@@ -9011,6 +9026,9 @@
         "xchat_share_to_ig_story": {
           "value": "false"
         },
+        "xchat_signature_required_after_seq_num_str": {
+          "value": "0"
+        },
         "xchat_standalone_push_notifications": {
           "value": "false"
         },
@@ -9072,10 +9090,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d09e99291e42e6542215da9caeae9a61"
+      "settingsVersion": "facfd793ca55e103c15f31359d9cc05b"
     },
     "debug": {},
-    "featureSetToken": "712295477c94d584305600dd538194cb52c94fb5",
+    "featureSetToken": "6139694be2a0801320234f16413d8369f74acd19",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9143,7 +9161,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178700138182637451",
+    "guestId": "178717417626855566",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
