@@ -3190,7 +3190,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":o="audiospace"}{var i;let n;return()(0,s.jsx){"...()":{"...()(0,r.nQ)":"_","colors":[n.primary,n.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":o="audiospace"}{var a;let n;return()(0,s.jsx){"...()":{"...()(0,r.nQ)":"_","colors":[n.primary,n.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
 ```
 | constant   | value       |
 |:-----------|:------------|
@@ -7468,13 +7468,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                     | value        |
 |:-----------------------------|:-------------|
-| createAccountLabel           | a().eb022176 |
-| createAccountPhoneEmailLabel | a().gcfef7b6 |
-| logInLabel                   | a().e919c3bc |
-| signInLabel                  | a().e5b0e544 |
-| signUpLabel                  | a().a565833e |
-| signUpPhoneEmailLabel        | a().eb022176 |
-| useAppLabel                  | a().gd93944e |
+| createAccountLabel           | o().eb022176 |
+| createAccountPhoneEmailLabel | o().gcfef7b6 |
+| logInLabel                   | o().e919c3bc |
+| signInLabel                  | o().e5b0e544 |
+| signUpLabel                  | o().a565833e |
+| signUpPhoneEmailLabel        | o().eb022176 |
+| useAppLabel                  | o().gd93944e |
 
 | constant        | value       |
 |:----------------|:------------|
@@ -7984,10 +7984,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | rushing_touchdowns            | e2      |
 | receiving_yards               | e4      |
 | receiving_touchdowns          | e8      |
-| receptions                    | e3      |
-| total_touchdowns              | e6      |
-| field_goals_made              | e5      |
-| sacks                         | e9      |
+| receptions                    | e6      |
+| total_touchdowns              | e3      |
+| field_goals_made              | e9      |
+| sacks                         | e5      |
 | tackles                       | e7      |
 | interceptions_made_by_defense | te      |
 
@@ -10423,7 +10423,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"type":"component","Component":"function()"{"onClose":"e"}{"let t=s.useMemo()"{"isLoading":"!0","loadingLabel":"k","onClose":"e","onToggle":"E","options":[],"selected":[],"subtitle":"h","title":"b","withDividers":"!1"}{"errorConfig":"I","suspenseFallback":"t","children":"()(0,g.jsx)"{"onClose":"e"}...
+{"type":"component","Component":"function()"{"onClose":"e"}{"let t=s.useMemo()"{"isLoading":"!0","loadingLabel":"k","onClose":"e","onToggle":"E","options":[],"selected":[],"subtitle":"h","title":"g","withDividers":"!1"}{"errorConfig":"I","suspenseFallback":"t","children":"()(0,b.jsx)"{"onClose":"e"}...
 ```
 | constant   | value              |
 |:-----------|:-------------------|
@@ -13279,8 +13279,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                            |
 |:-----------|:-----------------------------------------------------------------|
-| onsite     | {'label': 'p', 'description': 'h', 'value': 'onsite'}            |
-| remote     | {'label': 'f', 'description': 'r().ibed2d04', 'value': 'remote'} |
+| onsite     | {'label': 'p', 'description': 'f', 'value': 'onsite'}            |
+| remote     | {'label': 'h', 'description': 'r().ibed2d04', 'value': 'remote'} |
 | hybrid     | {'label': 'g', 'description': 'b', 'value': 'hybrid'}            |
 
 | constant      | value        |
