@@ -4797,17 +4797,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | c().fc065ee4 |
+| superFollower | d().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'c().e453f536', 'subtext': 'c().bd4cb7a0', 'actionLabel': 'c().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'c().c2637ef6'} |
+| superFollower | {'graphic': 'u.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | c().efb17190 |
-| superFollowsYou | c().g57b5f6c |
-| superFollower   | c().a77a27c0 |
+| followsYou      | d().efb17190 |
+| superFollowsYou | d().g57b5f6c |
+| superFollower   | d().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7468,13 +7468,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                     | value        |
 |:-----------------------------|:-------------|
-| createAccountLabel           | o().eb022176 |
-| createAccountPhoneEmailLabel | o().gcfef7b6 |
-| logInLabel                   | o().e919c3bc |
-| signInLabel                  | o().e5b0e544 |
-| signUpLabel                  | o().a565833e |
-| signUpPhoneEmailLabel        | o().eb022176 |
-| useAppLabel                  | o().gd93944e |
+| createAccountLabel           | a().eb022176 |
+| createAccountPhoneEmailLabel | a().gcfef7b6 |
+| logInLabel                   | a().e919c3bc |
+| signInLabel                  | a().e5b0e544 |
+| signUpLabel                  | a().a565833e |
+| signUpPhoneEmailLabel        | a().eb022176 |
+| useAppLabel                  | a().gd93944e |
 
 | constant        | value       |
 |:----------------|:------------|
