@@ -9033,3 +9033,20 @@
 - x_sports_nfl_schedule_reminder_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/24<br>
+### API<br>
+#### add<br>
+- SportsGameLatestTimeline<br>
+- SportsGameTopTimeline<br>
+- SportsGameLatestTimeline<br>
+- SportsGameTopTimeline<br>
+#### remove<br>
+- NFLGameEventPage<br>
+- NFLGameEventPage<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_img_composer_in_media_picker<br>
+- xchat_enable_numbers<br>
+- xchat_swipe_to_reveal_timestamp_enabled<br>
+#### remove<br>
+- None<br>
