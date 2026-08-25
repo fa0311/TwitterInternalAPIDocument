@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "932555",
+          "followers_count": "932170",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -857,6 +857,15 @@
       },
       "grok_agent_disclosure_enabled": {
         "value": "false"
+      },
+      "grok_created_with_grok_label_domains": {
+        "value": []
+      },
+      "grok_created_with_grok_label_text": {
+        "value": ""
+      },
+      "grok_created_with_grok_label_url": {
+        "value": ""
       },
       "grok_settings_age_restriction_enabled": {
         "value": "true"
@@ -4258,6 +4267,9 @@
       "x_sports_nfl_schedule_reminder_enabled": {
         "value": "false"
       },
+      "x_sports_nfl_scorecard_odds_disabled": {
+        "value": "true"
+      },
       "xai_profile_redirect_enabled": {
         "value": "true"
       },
@@ -5358,6 +5370,15 @@
         },
         "grok_agent_disclosure_enabled": {
           "value": "false"
+        },
+        "grok_created_with_grok_label_domains": {
+          "value": []
+        },
+        "grok_created_with_grok_label_text": {
+          "value": ""
+        },
+        "grok_created_with_grok_label_url": {
+          "value": ""
         },
         "grok_settings_age_restriction_enabled": {
           "value": "true"
@@ -8759,6 +8780,9 @@
         "x_sports_nfl_schedule_reminder_enabled": {
           "value": "false"
         },
+        "x_sports_nfl_scorecard_odds_disabled": {
+          "value": "true"
+        },
         "xai_profile_redirect_enabled": {
           "value": "true"
         },
@@ -9021,7 +9045,7 @@
           "value": "true"
         },
         "xchat_missing_messages_scribe_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_observe_inbox_categories_separately": {
           "value": "true"
@@ -9156,10 +9180,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
+      "settingsVersion": "781522528a3ed8d8010af80ec3e9ae0e"
     },
     "debug": {},
-    "featureSetToken": "f4b244f2ea07f1e47424ac98bea0aedfd9dec852",
+    "featureSetToken": "990ece60ac07e997f4b4dacaec205281ef740f68",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9227,7 +9251,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178760636433009565",
+    "guestId": "178769265520954466",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
