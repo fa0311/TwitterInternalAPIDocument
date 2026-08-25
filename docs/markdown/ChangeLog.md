@@ -9050,3 +9050,22 @@
 - xchat_swipe_to_reveal_timestamp_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/25<br>
+### API<br>
+#### add<br>
+- SportsProductOptInTeamNotifications<br>
+- SportsProductOptOutTeamNotifications<br>
+- SportsProductTeamNotificationSettings<br>
+- SportsProductOptInTeamNotifications<br>
+- SportsProductOptOutTeamNotifications<br>
+- SportsProductTeamNotificationSettings<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- grok_created_with_grok_label_domains<br>
+- grok_created_with_grok_label_text<br>
+- grok_created_with_grok_label_url<br>
+- x_sports_nfl_scorecard_odds_disabled<br>
+#### remove<br>
+- None<br>
