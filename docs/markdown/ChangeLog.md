@@ -9069,3 +9069,15 @@
 - x_sports_nfl_scorecard_odds_disabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_pin_signatures_enabled<br>
+- xchat_pmk_bundle_signatures_enabled<br>
+#### remove<br>
+- None<br>
