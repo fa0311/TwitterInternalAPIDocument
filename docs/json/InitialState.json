@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "932170",
+          "followers_count": "931335",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -2347,10 +2347,10 @@
         ]
       },
       "responsive_web_nfl_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nfl_sidebar_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
@@ -4250,22 +4250,22 @@
         "value": "true"
       },
       "x_sports_nfl_favorite_teams_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_game_chat_enabled": {
         "value": "false"
       },
       "x_sports_nfl_game_feed_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_game_odds_card_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_hub_home_timeline_tag": {
-        "value": ""
+        "value": "1000000000000000005"
       },
       "x_sports_nfl_schedule_reminder_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_scorecard_odds_disabled": {
         "value": "true"
@@ -4328,7 +4328,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2082251782884425728"
+        "value": "2071020753515446272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -4532,7 +4532,7 @@
         "value": "true"
       },
       "xchat_missing_messages_scribe_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_observe_inbox_categories_separately": {
         "value": "true"
@@ -4546,6 +4546,9 @@
       "xchat_pay_button_enabled": {
         "value": "false"
       },
+      "xchat_pin_signatures_enabled": {
+        "value": "false"
+      },
       "xchat_pinned_messages_enabled": {
         "value": "false"
       },
@@ -4554,6 +4557,9 @@
       },
       "xchat_plaintext_grok_minimum_tier": {
         "value": "PremiumPlus"
+      },
+      "xchat_pmk_bundle_signatures_enabled": {
+        "value": "false"
       },
       "xchat_ratchet_group_id_threshold": {
         "value": "9223372036854776000"
@@ -6860,10 +6866,10 @@
           ]
         },
         "responsive_web_nfl_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nfl_sidebar_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -8763,22 +8769,22 @@
           "value": "true"
         },
         "x_sports_nfl_favorite_teams_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_game_chat_enabled": {
           "value": "false"
         },
         "x_sports_nfl_game_feed_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_game_odds_card_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_hub_home_timeline_tag": {
-          "value": ""
+          "value": "1000000000000000005"
         },
         "x_sports_nfl_schedule_reminder_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_scorecard_odds_disabled": {
           "value": "true"
@@ -8841,7 +8847,7 @@
           "value": "9223372036854776000"
         },
         "xchat_drop_sigs_after_seq_num_str": {
-          "value": "2082251782884425728"
+          "value": "2071020753515446272"
         },
         "xchat_enable_av": {
           "value": "true"
@@ -9059,6 +9065,9 @@
         "xchat_pay_button_enabled": {
           "value": "false"
         },
+        "xchat_pin_signatures_enabled": {
+          "value": "false"
+        },
         "xchat_pinned_messages_enabled": {
           "value": "false"
         },
@@ -9067,6 +9076,9 @@
         },
         "xchat_plaintext_grok_minimum_tier": {
           "value": "PremiumPlus"
+        },
+        "xchat_pmk_bundle_signatures_enabled": {
+          "value": "false"
         },
         "xchat_ratchet_group_id_threshold": {
           "value": "9223372036854776000"
@@ -9180,10 +9192,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "781522528a3ed8d8010af80ec3e9ae0e"
+      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
     },
     "debug": {},
-    "featureSetToken": "990ece60ac07e997f4b4dacaec205281ef740f68",
+    "featureSetToken": "9483923517997647c55f9e3aa228d1bcdb5dc241",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9251,7 +9263,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178769265520954466",
+    "guestId": "178779005699837232",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
