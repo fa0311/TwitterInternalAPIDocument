@@ -306,6 +306,15 @@
     ]
   },
   {
+    "queryId": "",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "foundmedia/categories",
     "dispatch_key": "get",
     "dispatch": [
