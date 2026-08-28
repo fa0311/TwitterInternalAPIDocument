@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "931335",
+          "followers_count": "932048",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1312,7 +1312,7 @@
         "value": "true"
       },
       "payments_scheduled_payments_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_secondary_accounts_enabled": {
         "value": "true"
@@ -4430,7 +4430,7 @@
         "value": "true"
       },
       "xchat_group_description_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_grpc_chat_page_enabled": {
         "value": "false"
@@ -4607,7 +4607,7 @@
         "value": "false"
       },
       "xchat_signature_required_after_seq_num_str": {
-        "value": "0"
+        "value": "9223372036854775806"
       },
       "xchat_standalone_push_notifications": {
         "value": "false"
@@ -5831,7 +5831,7 @@
           "value": "true"
         },
         "payments_scheduled_payments_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_secondary_accounts_enabled": {
           "value": "true"
@@ -8949,7 +8949,7 @@
           "value": "true"
         },
         "xchat_group_description_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_grpc_chat_page_enabled": {
           "value": "false"
@@ -9126,7 +9126,7 @@
           "value": "false"
         },
         "xchat_signature_required_after_seq_num_str": {
-          "value": "0"
+          "value": "9223372036854775806"
         },
         "xchat_standalone_push_notifications": {
           "value": "false"
@@ -9195,7 +9195,7 @@
       "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
     },
     "debug": {},
-    "featureSetToken": "9483923517997647c55f9e3aa228d1bcdb5dc241",
+    "featureSetToken": "ab3ec35761934dc04bf8a98e68643a4797f41ef6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9263,7 +9263,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178779005699837232",
+    "guestId": "178789329149328792",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
