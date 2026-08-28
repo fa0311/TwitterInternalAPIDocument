@@ -215,6 +215,12 @@
       "method": "POST",
       "features": {}
     },
+    "DeleteDraftTweets": {
+      "url": "https://x.com/i/api/graphql/h0rzaIYc9-v3zTQvx1J8OA/DeleteDraftTweets",
+      "queryId": "h0rzaIYc9-v3zTQvx1J8OA",
+      "method": "POST",
+      "features": {}
+    },
     "DeleteScheduledTweet": {
       "url": "https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet",
       "queryId": "CTOVqej0JBXAZSwkp1US0g",
