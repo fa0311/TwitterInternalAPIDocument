@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "931335",
+          "followers_count": "930718",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1312,7 +1312,7 @@
         "value": "true"
       },
       "payments_scheduled_payments_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_secondary_accounts_enabled": {
         "value": "true"
@@ -4430,7 +4430,7 @@
         "value": "true"
       },
       "xchat_group_description_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_grpc_chat_page_enabled": {
         "value": "false"
@@ -4525,6 +4525,9 @@
       "xchat_message_composer_v2": {
         "value": "false"
       },
+      "xchat_message_grouping_window_seconds": {
+        "value": "0"
+      },
       "xchat_message_list_v2_enabled": {
         "value": "false"
       },
@@ -4607,7 +4610,7 @@
         "value": "false"
       },
       "xchat_signature_required_after_seq_num_str": {
-        "value": "0"
+        "value": "9223372036854775806"
       },
       "xchat_standalone_push_notifications": {
         "value": "false"
@@ -5831,7 +5834,7 @@
           "value": "true"
         },
         "payments_scheduled_payments_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_secondary_accounts_enabled": {
           "value": "true"
@@ -8847,7 +8850,7 @@
           "value": "9223372036854776000"
         },
         "xchat_drop_sigs_after_seq_num_str": {
-          "value": "2071020753515446272"
+          "value": "2037681069880246272"
         },
         "xchat_enable_av": {
           "value": "true"
@@ -8949,7 +8952,7 @@
           "value": "true"
         },
         "xchat_group_description_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_grpc_chat_page_enabled": {
           "value": "false"
@@ -9044,6 +9047,9 @@
         "xchat_message_composer_v2": {
           "value": "false"
         },
+        "xchat_message_grouping_window_seconds": {
+          "value": "0"
+        },
         "xchat_message_list_v2_enabled": {
           "value": "false"
         },
@@ -9126,7 +9132,7 @@
           "value": "false"
         },
         "xchat_signature_required_after_seq_num_str": {
-          "value": "0"
+          "value": "9223372036854775806"
         },
         "xchat_standalone_push_notifications": {
           "value": "false"
@@ -9192,10 +9198,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
+      "settingsVersion": "fdfb40aedef1306abf90e3493e48b41a"
     },
     "debug": {},
-    "featureSetToken": "9483923517997647c55f9e3aa228d1bcdb5dc241",
+    "featureSetToken": "568caadfea713d25e0c8d452f5daf3f8306726de",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9263,7 +9269,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178779005699837232",
+    "guestId": "178797219286702221",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

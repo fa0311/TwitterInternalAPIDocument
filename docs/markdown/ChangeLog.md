@@ -9081,3 +9081,14 @@
 - xchat_pmk_bundle_signatures_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/08/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_message_grouping_window_seconds<br>
+#### remove<br>
+- None<br>
