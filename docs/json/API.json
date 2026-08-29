@@ -2983,8 +2983,8 @@
       "features": {}
     },
     "NFLGameHydrate": {
-      "url": "https://x.com/i/api/graphql/owTfEdmE27mshVe9VbVxQA/NFLGameHydrate",
-      "queryId": "owTfEdmE27mshVe9VbVxQA",
+      "url": "https://x.com/i/api/graphql/QcQrS4vWhyMRkmpSG4M16Q/NFLGameHydrate",
+      "queryId": "QcQrS4vWhyMRkmpSG4M16Q",
       "method": "GET",
       "features": {}
     },
@@ -3007,8 +3007,8 @@
       }
     },
     "NFLLiveGame": {
-      "url": "https://x.com/i/api/graphql/slZXl76T2-WEsssuS03EIA/NFLLiveGame",
-      "queryId": "slZXl76T2-WEsssuS03EIA",
+      "url": "https://x.com/i/api/graphql/naqBMTtlMph_VH9TqI-M5g/NFLLiveGame",
+      "queryId": "naqBMTtlMph_VH9TqI-M5g",
       "method": "GET",
       "features": {}
     },
