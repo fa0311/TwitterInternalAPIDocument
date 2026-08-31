@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "930557",
+          "followers_count": "930482",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -517,6 +517,9 @@
       },
       "broadcast_live_chat_enabled": {
         "value": "true"
+      },
+      "broadcast_live_chat_input_max_char_limit": {
+        "value": "200"
       },
       "c9s_auto_collapse_community_detail_header_enabled": {
         "value": "true"
@@ -2345,6 +2348,9 @@
           "toast",
           "slideshow"
         ]
+      },
+      "responsive_web_native_emojis_enabled": {
+        "value": "false"
       },
       "responsive_web_nfl_enabled": {
         "value": "true"
@@ -4328,7 +4334,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2071020753515446272"
+        "value": "2037681069880246272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -5039,6 +5045,9 @@
         },
         "broadcast_live_chat_enabled": {
           "value": "true"
+        },
+        "broadcast_live_chat_input_max_char_limit": {
+          "value": "200"
         },
         "c9s_auto_collapse_community_detail_header_enabled": {
           "value": "true"
@@ -6867,6 +6876,9 @@
             "toast",
             "slideshow"
           ]
+        },
+        "responsive_web_native_emojis_enabled": {
+          "value": "false"
         },
         "responsive_web_nfl_enabled": {
           "value": "true"
@@ -9198,10 +9210,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fdfb40aedef1306abf90e3493e48b41a"
+      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
     },
     "debug": {},
-    "featureSetToken": "568caadfea713d25e0c8d452f5daf3f8306726de",
+    "featureSetToken": "073f7715e7a8ef97d2d159de6e121925063d98dc",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9269,7 +9281,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178804413835551515",
+    "guestId": "178813084891263952",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
