@@ -3244,6 +3244,12 @@
       "method": "GET",
       "features": {}
     },
+    "SportsProductChatState": {
+      "url": "https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState",
+      "queryId": "YNyONbdF7kyn5A7YrAom-w",
+      "method": "GET",
+      "features": {}
+    },
     "SportsProductCreateGameReminder": {
       "url": "https://x.com/i/api/graphql/-5tvdMlTVLfOX1wki-fyiQ/SportsProductCreateGameReminder",
       "queryId": "-5tvdMlTVLfOX1wki-fyiQ",
