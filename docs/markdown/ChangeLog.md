@@ -9104,3 +9104,22 @@
 - responsive_web_native_emojis_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/01<br>
+### API<br>
+#### add<br>
+- SportsProductChatState<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_xweb_replacement_enabled<br>
+- rweb_composer_emoji_typeahead_enabled<br>
+- unified_cards_force_show_cta_bar_card_types<br>
+- unified_cards_web_card_redesign_variant<br>
+- xchat_creator_group_syncing_enabled<br>
+- xchat_fail_closed_unsigned_sends<br>
+- xchat_message_date_tap_enabled<br>
+- xchat_molecule_enabled<br>
+- xchat_numbers_tray_location<br>
+#### remove<br>
+- None<br>
