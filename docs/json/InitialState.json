@@ -102,13 +102,21 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "930482",
+          "followers_count": "930052",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
           "url": "",
-          "verification_info": {},
+          "user_seed_tweet_count": "0",
+          "highlights_info": {
+            "can_highlight_tweets": "false",
+            "highlighted_tweets": "0"
+          },
+          "verification_info": {
+            "is_identity_verified": "false"
+          },
           "is_blue_verified": "false",
+          "has_hidden_subscriptions_on_profile": "false",
           "super_follow_eligible": "false",
           "super_followed_by": "false",
           "super_following": "false",
@@ -126,7 +134,8 @@
           "live_following": "false",
           "muting": "false",
           "has_graduated_access": "true",
-          "created_at": "2014-09-18T21:50:06.000Z"
+          "created_at": "2014-09-18T21:50:06.000Z",
+          "parody_commentary_fan_label": "None"
         }
       },
       "errors": {},
@@ -8787,7 +8796,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_game_feed_enabled": {
           "value": "true"
@@ -9210,7 +9219,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
+      "settingsVersion": "ea18344882e86fe226073df316aca225"
     },
     "debug": {},
     "featureSetToken": "073f7715e7a8ef97d2d159de6e121925063d98dc",
@@ -9281,7 +9290,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178813084891263952",
+    "guestId": "178822151952821877",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
