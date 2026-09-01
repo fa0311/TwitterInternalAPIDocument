@@ -8971,6 +8971,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductChatState<br>
+Request URL: `https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductCreateGameReminder<br>
 Request URL: `https://x.com/i/api/graphql/-5tvdMlTVLfOX1wki-fyiQ/SportsProductCreateGameReminder`<br>
 Request Method: `POST`<br>
