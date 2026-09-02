@@ -8064,3 +8064,19 @@
 - rweb_xchat_remove_x_pro_dms<br>
 - search_results_disable_latest_tab_when_logged_out<br>
 - xchat_unified_tab_min_snowflake_user_id<br>
+## 2026/09/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_agent_connections_enabled<br>
+- responsive_web_qp_boost_content_check_min_delay_seconds<br>
+- rweb_xchat_call_redirect_enabled<br>
+- xchat_enable_numbers_generation<br>
+- xchat_enable_numbers_premium<br>
+- xchat_pinned_messages_reading_enabled<br>
+#### remove<br>
+- None<br>
