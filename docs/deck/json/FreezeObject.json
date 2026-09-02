@@ -1,29 +1,29 @@
 [
   {
     "NOT_RESPONDER": {
-      "DELAY": "q",
+      "DELAY": "Y",
       "RESPONDER_GRANT": "J",
-      "RESPONDER_RELEASE": "q",
-      "RESPONDER_TERMINATED": "q",
-      "LONG_PRESS_DETECTED": "q"
+      "RESPONDER_RELEASE": "Y",
+      "RESPONDER_TERMINATED": "Y",
+      "LONG_PRESS_DETECTED": "Y"
     },
     "RESPONDER_INACTIVE_PRESS_START": {
       "DELAY": "Z",
-      "RESPONDER_GRANT": "q",
+      "RESPONDER_GRANT": "Y",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
-      "LONG_PRESS_DETECTED": "q"
+      "LONG_PRESS_DETECTED": "Y"
     },
     "RESPONDER_ACTIVE_PRESS_START": {
-      "DELAY": "q",
-      "RESPONDER_GRANT": "q",
+      "DELAY": "Y",
+      "RESPONDER_GRANT": "Y",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
       "LONG_PRESS_DETECTED": "X"
     },
     "RESPONDER_ACTIVE_LONG_PRESS_START": {
-      "DELAY": "q",
-      "RESPONDER_GRANT": "q",
+      "DELAY": "Y",
+      "RESPONDER_GRANT": "Y",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
       "LONG_PRESS_DETECTED": "X"
