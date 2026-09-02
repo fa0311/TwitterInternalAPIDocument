@@ -2,10 +2,10 @@
 This document is entirely auto-generated and may contain errors.<br>
 | constant                          | value                                                                                                                     |
 |:----------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
-| NOT_RESPONDER                     | {'DELAY': 'q', 'RESPONDER_GRANT': 'J', 'RESPONDER_RELEASE': 'q', 'RESPONDER_TERMINATED': 'q', 'LONG_PRESS_DETECTED': 'q'} |
-| RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 'Z', 'RESPONDER_GRANT': 'q', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'q'} |
-| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'q', 'RESPONDER_GRANT': 'q', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'} |
-| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'q', 'RESPONDER_GRANT': 'q', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'} |
+| NOT_RESPONDER                     | {'DELAY': 'Y', 'RESPONDER_GRANT': 'J', 'RESPONDER_RELEASE': 'Y', 'RESPONDER_TERMINATED': 'Y', 'LONG_PRESS_DETECTED': 'Y'} |
+| RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 'Z', 'RESPONDER_GRANT': 'Y', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'Y'} |
+| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'Y', 'RESPONDER_GRANT': 'Y', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'} |
+| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'Y', 'RESPONDER_GRANT': 'Y', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'} |
 | ERROR                             | {'DELAY': 'Q', 'RESPONDER_GRANT': 'J', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'Q'} |
 
 | constant                    | value   |
