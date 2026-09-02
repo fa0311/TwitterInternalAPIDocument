@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "929864",
+          "followers_count": "929291",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1256,6 +1256,9 @@
       },
       "payments_1password_history_fix_enabled": {
         "value": "true"
+      },
+      "payments_agent_connections_enabled": {
+        "value": "false"
       },
       "payments_assets_activate_card_dark_video_url": {
         "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
@@ -2454,6 +2457,9 @@
       "responsive_web_qp_boost_content_check_enabled": {
         "value": "true"
       },
+      "responsive_web_qp_boost_content_check_min_delay_seconds": {
+        "value": "11"
+      },
       "responsive_web_qp_full_popup_enabled": {
         "value": "true"
       },
@@ -3064,6 +3070,9 @@
         "value": ""
       },
       "rweb_xchat_call_link_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_call_redirect_enabled": {
         "value": "false"
       },
       "rweb_xchat_call_window_enabled": {
@@ -4349,7 +4358,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2037681069880246272"
+        "value": "2006515713438646272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -4406,6 +4415,12 @@
         "value": "false"
       },
       "xchat_enable_numbers": {
+        "value": "true"
+      },
+      "xchat_enable_numbers_generation": {
+        "value": "false"
+      },
+      "xchat_enable_numbers_premium": {
         "value": "false"
       },
       "xchat_enable_ratcheting": {
@@ -4580,12 +4595,15 @@
         "value": "false"
       },
       "xchat_pay_button_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_pin_signatures_enabled": {
         "value": "false"
       },
       "xchat_pinned_messages_enabled": {
+        "value": "false"
+      },
+      "xchat_pinned_messages_reading_enabled": {
         "value": "false"
       },
       "xchat_plaintext_grok_enabled": {
@@ -5812,6 +5830,9 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
+        "payments_agent_connections_enabled": {
+          "value": "false"
+        },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
         },
@@ -7009,6 +7030,9 @@
         "responsive_web_qp_boost_content_check_enabled": {
           "value": "false"
         },
+        "responsive_web_qp_boost_content_check_min_delay_seconds": {
+          "value": "0"
+        },
         "responsive_web_qp_full_popup_enabled": {
           "value": "true"
         },
@@ -7619,6 +7643,9 @@
           "value": ""
         },
         "rweb_xchat_call_link_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_call_redirect_enabled": {
           "value": "false"
         },
         "rweb_xchat_call_window_enabled": {
@@ -8961,6 +8988,12 @@
           "value": "false"
         },
         "xchat_enable_numbers": {
+          "value": "true"
+        },
+        "xchat_enable_numbers_generation": {
+          "value": "false"
+        },
+        "xchat_enable_numbers_premium": {
           "value": "false"
         },
         "xchat_enable_ratcheting": {
@@ -9135,12 +9168,15 @@
           "value": "false"
         },
         "xchat_pay_button_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_pin_signatures_enabled": {
           "value": "false"
         },
         "xchat_pinned_messages_enabled": {
+          "value": "false"
+        },
+        "xchat_pinned_messages_reading_enabled": {
           "value": "false"
         },
         "xchat_plaintext_grok_enabled": {
@@ -9264,10 +9300,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "23c801e6d0c8f2a9ac93511add879032"
+      "settingsVersion": "c36c8cbba3f1055eefb074ad7bc9a460"
     },
     "debug": {},
-    "featureSetToken": "44285d7ed9fab8649715be47d73f118b4559d196",
+    "featureSetToken": "c961a6e4602222794d331d5ca616cf1a974d3e43",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9335,7 +9371,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178830325242852307",
+    "guestId": "178838965457089919",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
