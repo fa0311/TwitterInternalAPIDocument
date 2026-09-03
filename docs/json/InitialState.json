@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "929291",
+          "followers_count": "928282",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -2056,7 +2056,7 @@
         "value": "11.71"
       },
       "responsive_web_grok_outage_banner_message": {
-        "value": ""
+        "value": "Grok is experiencing issues. Some Grok features may be slow or unavailable due to a datacenter outage. We&#x27;re working on it — check status.x.ai for updates."
       },
       "responsive_web_grok_personality": {
         "value": "true"
@@ -2356,7 +2356,7 @@
         ]
       },
       "responsive_web_native_emojis_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nfl_enabled": {
         "value": "true"
@@ -2857,7 +2857,7 @@
         "value": "false"
       },
       "rweb_composer_emoji_typeahead_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_conf_dev_enabled": {
         "value": "false"
@@ -3007,7 +3007,7 @@
         "value": "true"
       },
       "rweb_session_binding_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_spaces_invite_search_enabled": {
         "value": "true"
@@ -4568,7 +4568,7 @@
         "value": "false"
       },
       "xchat_message_grouping_window_seconds": {
-        "value": "0"
+        "value": "3600"
       },
       "xchat_message_list_v2_enabled": {
         "value": "false"
@@ -5083,7 +5083,7 @@
           "value": "true"
         },
         "branded_features_search_overlay_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "branded_like_preview_enabled": {
           "value": "false"
@@ -6629,7 +6629,7 @@
           "value": "11.71"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": ""
+          "value": "Grok に障害が発生しています。データセンター障害の影響で、一部の Grok 機能が遅くなったり利用できない場合があります。復旧作業中です。最新状況は status.x.ai をご確認ください。"
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -6929,7 +6929,7 @@
           ]
         },
         "responsive_web_native_emojis_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nfl_enabled": {
           "value": "true"
@@ -7430,7 +7430,7 @@
           "value": "true"
         },
         "rweb_composer_emoji_typeahead_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_conf_dev_enabled": {
           "value": "false"
@@ -7580,7 +7580,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -9141,7 +9141,7 @@
           "value": "false"
         },
         "xchat_message_grouping_window_seconds": {
-          "value": "0"
+          "value": "3600"
         },
         "xchat_message_list_v2_enabled": {
           "value": "false"
@@ -9177,7 +9177,7 @@
           "value": "false"
         },
         "xchat_pinned_messages_reading_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_plaintext_grok_enabled": {
           "value": "false"
@@ -9300,10 +9300,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c36c8cbba3f1055eefb074ad7bc9a460"
+      "settingsVersion": "8f636670391e76315a18170f61d80645"
     },
     "debug": {},
-    "featureSetToken": "c961a6e4602222794d331d5ca616cf1a974d3e43",
+    "featureSetToken": "84f42678ab2c6cb5fc10764146a9c4dab7fd839d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9371,7 +9371,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178838965457089919",
+    "guestId": "178847600808318525",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
