@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "930482",
+          "followers_count": "929291",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1257,6 +1257,9 @@
       "payments_1password_history_fix_enabled": {
         "value": "true"
       },
+      "payments_agent_connections_enabled": {
+        "value": "false"
+      },
       "payments_assets_activate_card_dark_video_url": {
         "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
       },
@@ -2190,6 +2193,9 @@
       "responsive_web_grok_webview_file_actions_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_xweb_replacement_enabled": {
+        "value": "false"
+      },
       "responsive_web_hashtag_highlight_is_enabled": {
         "value": "false"
       },
@@ -2450,6 +2456,9 @@
       },
       "responsive_web_qp_boost_content_check_enabled": {
         "value": "true"
+      },
+      "responsive_web_qp_boost_content_check_min_delay_seconds": {
+        "value": "11"
       },
       "responsive_web_qp_full_popup_enabled": {
         "value": "true"
@@ -2847,6 +2856,9 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
+      "rweb_composer_emoji_typeahead_enabled": {
+        "value": "false"
+      },
       "rweb_conf_dev_enabled": {
         "value": "false"
       },
@@ -3058,6 +3070,9 @@
         "value": ""
       },
       "rweb_xchat_call_link_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_call_redirect_enabled": {
         "value": "false"
       },
       "rweb_xchat_call_window_enabled": {
@@ -4133,6 +4148,9 @@
           "3_1485707239990054912"
         ]
       },
+      "unified_cards_force_show_cta_bar_card_types": {
+        "value": []
+      },
       "unified_cards_hide_collection_ad_card_details": {
         "value": "true"
       },
@@ -4141,6 +4159,9 @@
       },
       "unified_cards_use_subtitle_as_vanity_fallback_in_collection": {
         "value": "true"
+      },
+      "unified_cards_web_card_redesign_variant": {
+        "value": "control"
       },
       "user_ad_accounts_config_enabled": {
         "value": "false"
@@ -4259,7 +4280,7 @@
         "value": "true"
       },
       "x_sports_nfl_game_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_game_feed_enabled": {
         "value": "true"
@@ -4318,6 +4339,9 @@
       "xchat_conversation_event_limit": {
         "value": "200"
       },
+      "xchat_creator_group_syncing_enabled": {
+        "value": "false"
+      },
       "xchat_dm_media_upload_workmanager_enabled": {
         "value": "false"
       },
@@ -4334,7 +4358,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2037681069880246272"
+        "value": "2006515713438646272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -4391,6 +4415,12 @@
         "value": "false"
       },
       "xchat_enable_numbers": {
+        "value": "true"
+      },
+      "xchat_enable_numbers_generation": {
+        "value": "false"
+      },
+      "xchat_enable_numbers_premium": {
         "value": "false"
       },
       "xchat_enable_ratcheting": {
@@ -4415,6 +4445,9 @@
         "value": "false"
       },
       "xchat_enforce_media_hash_verification": {
+        "value": "false"
+      },
+      "xchat_fail_closed_unsigned_sends": {
         "value": "false"
       },
       "xchat_fetch_messages_from_push_handler": {
@@ -4531,6 +4564,9 @@
       "xchat_message_composer_v2": {
         "value": "false"
       },
+      "xchat_message_date_tap_enabled": {
+        "value": "false"
+      },
       "xchat_message_grouping_window_seconds": {
         "value": "0"
       },
@@ -4543,6 +4579,12 @@
       "xchat_missing_messages_scribe_enabled": {
         "value": "false"
       },
+      "xchat_molecule_enabled": {
+        "value": "false"
+      },
+      "xchat_numbers_tray_location": {
+        "value": ""
+      },
       "xchat_observe_inbox_categories_separately": {
         "value": "true"
       },
@@ -4553,12 +4595,15 @@
         "value": "false"
       },
       "xchat_pay_button_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_pin_signatures_enabled": {
         "value": "false"
       },
       "xchat_pinned_messages_enabled": {
+        "value": "false"
+      },
+      "xchat_pinned_messages_reading_enabled": {
         "value": "false"
       },
       "xchat_plaintext_grok_enabled": {
@@ -5785,6 +5830,9 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
+        "payments_agent_connections_enabled": {
+          "value": "false"
+        },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
         },
@@ -6718,6 +6766,9 @@
         "responsive_web_grok_webview_file_actions_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_xweb_replacement_enabled": {
+          "value": "false"
+        },
         "responsive_web_hashtag_highlight_is_enabled": {
           "value": "false"
         },
@@ -6978,6 +7029,9 @@
         },
         "responsive_web_qp_boost_content_check_enabled": {
           "value": "false"
+        },
+        "responsive_web_qp_boost_content_check_min_delay_seconds": {
+          "value": "0"
         },
         "responsive_web_qp_full_popup_enabled": {
           "value": "true"
@@ -7375,6 +7429,9 @@
         "rweb_client_transaction_id_enabled": {
           "value": "true"
         },
+        "rweb_composer_emoji_typeahead_enabled": {
+          "value": "false"
+        },
         "rweb_conf_dev_enabled": {
           "value": "false"
         },
@@ -7586,6 +7643,9 @@
           "value": ""
         },
         "rweb_xchat_call_link_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_call_redirect_enabled": {
           "value": "false"
         },
         "rweb_xchat_call_window_enabled": {
@@ -8661,6 +8721,9 @@
             "3_1485707239990054912"
           ]
         },
+        "unified_cards_force_show_cta_bar_card_types": {
+          "value": []
+        },
         "unified_cards_hide_collection_ad_card_details": {
           "value": "true"
         },
@@ -8669,6 +8732,9 @@
         },
         "unified_cards_use_subtitle_as_vanity_fallback_in_collection": {
           "value": "true"
+        },
+        "unified_cards_web_card_redesign_variant": {
+          "value": "control"
         },
         "user_ad_accounts_config_enabled": {
           "value": "false"
@@ -8787,7 +8853,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_game_feed_enabled": {
           "value": "true"
@@ -8846,6 +8912,9 @@
         "xchat_conversation_event_limit": {
           "value": "200"
         },
+        "xchat_creator_group_syncing_enabled": {
+          "value": "false"
+        },
         "xchat_dm_media_upload_workmanager_enabled": {
           "value": "false"
         },
@@ -8862,7 +8931,7 @@
           "value": "9223372036854776000"
         },
         "xchat_drop_sigs_after_seq_num_str": {
-          "value": "2037681069880246272"
+          "value": "2006515713438646272"
         },
         "xchat_enable_av": {
           "value": "true"
@@ -8919,6 +8988,12 @@
           "value": "false"
         },
         "xchat_enable_numbers": {
+          "value": "true"
+        },
+        "xchat_enable_numbers_generation": {
+          "value": "false"
+        },
+        "xchat_enable_numbers_premium": {
           "value": "false"
         },
         "xchat_enable_ratcheting": {
@@ -8943,6 +9018,9 @@
           "value": "false"
         },
         "xchat_enforce_media_hash_verification": {
+          "value": "false"
+        },
+        "xchat_fail_closed_unsigned_sends": {
           "value": "false"
         },
         "xchat_fetch_messages_from_push_handler": {
@@ -9059,6 +9137,9 @@
         "xchat_message_composer_v2": {
           "value": "false"
         },
+        "xchat_message_date_tap_enabled": {
+          "value": "false"
+        },
         "xchat_message_grouping_window_seconds": {
           "value": "0"
         },
@@ -9071,6 +9152,12 @@
         "xchat_missing_messages_scribe_enabled": {
           "value": "false"
         },
+        "xchat_molecule_enabled": {
+          "value": "false"
+        },
+        "xchat_numbers_tray_location": {
+          "value": ""
+        },
         "xchat_observe_inbox_categories_separately": {
           "value": "true"
         },
@@ -9081,12 +9168,15 @@
           "value": "false"
         },
         "xchat_pay_button_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_pin_signatures_enabled": {
           "value": "false"
         },
         "xchat_pinned_messages_enabled": {
+          "value": "false"
+        },
+        "xchat_pinned_messages_reading_enabled": {
           "value": "false"
         },
         "xchat_plaintext_grok_enabled": {
@@ -9210,10 +9300,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "98f7aa8034c050bd070999c6decdab90"
+      "settingsVersion": "c36c8cbba3f1055eefb074ad7bc9a460"
     },
     "debug": {},
-    "featureSetToken": "073f7715e7a8ef97d2d159de6e121925063d98dc",
+    "featureSetToken": "c961a6e4602222794d331d5ca616cf1a974d3e43",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9281,7 +9371,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178813084891263952",
+    "guestId": "178838965457089919",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
