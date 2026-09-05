@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "928282",
+          "followers_count": "928006",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1260,6 +1260,9 @@
       "payments_agent_connections_enabled": {
         "value": "false"
       },
+      "payments_agent_connections_prefill_enabled": {
+        "value": "false"
+      },
       "payments_assets_activate_card_dark_video_url": {
         "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
       },
@@ -2056,7 +2059,7 @@
         "value": "11.71"
       },
       "responsive_web_grok_outage_banner_message": {
-        "value": "Grok is experiencing issues. Some Grok features may be slow or unavailable due to a datacenter outage. We&#x27;re working on it — check status.x.ai for updates."
+        "value": ""
       },
       "responsive_web_grok_personality": {
         "value": "true"
@@ -2361,8 +2364,14 @@
       "responsive_web_nfl_enabled": {
         "value": "true"
       },
+      "responsive_web_nfl_profile_sports_enabled": {
+        "value": "true"
+      },
       "responsive_web_nfl_sidebar_enabled": {
         "value": "true"
+      },
+      "responsive_web_nfl_sidebar_max_live_games": {
+        "value": "3"
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
@@ -4161,7 +4170,7 @@
         "value": "true"
       },
       "unified_cards_web_card_redesign_variant": {
-        "value": "control"
+        "value": "cta_bottom_bar"
       },
       "user_ad_accounts_config_enabled": {
         "value": "false"
@@ -4358,7 +4367,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2006515713438646272"
+        "value": "2055075687429046272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -4604,7 +4613,7 @@
         "value": "false"
       },
       "xchat_pinned_messages_reading_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_plaintext_grok_enabled": {
         "value": "false"
@@ -5833,6 +5842,9 @@
         "payments_agent_connections_enabled": {
           "value": "false"
         },
+        "payments_agent_connections_prefill_enabled": {
+          "value": "true"
+        },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
         },
@@ -6629,7 +6641,7 @@
           "value": "11.71"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": "Grok に障害が発生しています。データセンター障害の影響で、一部の Grok 機能が遅くなったり利用できない場合があります。復旧作業中です。最新状況は status.x.ai をご確認ください。"
+          "value": ""
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -6934,8 +6946,14 @@
         "responsive_web_nfl_enabled": {
           "value": "true"
         },
+        "responsive_web_nfl_profile_sports_enabled": {
+          "value": "true"
+        },
         "responsive_web_nfl_sidebar_enabled": {
           "value": "true"
+        },
+        "responsive_web_nfl_sidebar_max_live_games": {
+          "value": "3"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -8734,7 +8752,7 @@
           "value": "true"
         },
         "unified_cards_web_card_redesign_variant": {
-          "value": "control"
+          "value": "cta_bottom_bar"
         },
         "user_ad_accounts_config_enabled": {
           "value": "false"
@@ -8931,7 +8949,7 @@
           "value": "9223372036854776000"
         },
         "xchat_drop_sigs_after_seq_num_str": {
-          "value": "2006515713438646272"
+          "value": "2055075687429046272"
         },
         "xchat_enable_av": {
           "value": "true"
@@ -9300,10 +9318,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8f636670391e76315a18170f61d80645"
+      "settingsVersion": "9952a2523383fe764ed5cbe2495a39c8"
     },
     "debug": {},
-    "featureSetToken": "84f42678ab2c6cb5fc10764146a9c4dab7fd839d",
+    "featureSetToken": "1bdbae34bd3c88f2b30dbef15fcd1c4cfacd1332",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9371,7 +9389,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178847600808318525",
+    "guestId": "178856148652374726",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
