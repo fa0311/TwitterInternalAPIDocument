@@ -6933,7 +6933,7 @@
   {
     "n": "29650",
     "exports": {
-      "queryId": "ryXhzHPlD6YJE137gSf7mQ",
+      "queryId": "p1UTbncXKApPssa4EpqKvw",
       "operationName": "UserHighlightsTweets",
       "operationType": "query",
       "metadata": {
@@ -7279,7 +7279,7 @@
   {
     "n": "502130",
     "exports": {
-      "queryId": "jcbfqPu_2XMNOwVyGypRhw",
+      "queryId": "F3G579cN5xm0xa_j76q08Q",
       "operationName": "UserOriginalsTimeline",
       "operationType": "query",
       "metadata": {
@@ -8516,7 +8516,7 @@
   {
     "n": "859881",
     "exports": {
-      "queryId": "SXVCYB8XHSS25nzIljNtZA",
+      "queryId": "eviprbEPLvNG88V3smUngQ",
       "operationName": "UserTweets",
       "operationType": "query",
       "metadata": {

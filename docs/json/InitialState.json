@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "929291",
+          "followers_count": "928006",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1260,6 +1260,9 @@
       "payments_agent_connections_enabled": {
         "value": "false"
       },
+      "payments_agent_connections_prefill_enabled": {
+        "value": "false"
+      },
       "payments_assets_activate_card_dark_video_url": {
         "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
       },
@@ -2356,13 +2359,19 @@
         ]
       },
       "responsive_web_native_emojis_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nfl_enabled": {
         "value": "true"
       },
+      "responsive_web_nfl_profile_sports_enabled": {
+        "value": "true"
+      },
       "responsive_web_nfl_sidebar_enabled": {
         "value": "true"
+      },
+      "responsive_web_nfl_sidebar_max_live_games": {
+        "value": "3"
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
@@ -2857,7 +2866,7 @@
         "value": "false"
       },
       "rweb_composer_emoji_typeahead_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_conf_dev_enabled": {
         "value": "false"
@@ -3007,7 +3016,7 @@
         "value": "true"
       },
       "rweb_session_binding_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_spaces_invite_search_enabled": {
         "value": "true"
@@ -4161,7 +4170,7 @@
         "value": "true"
       },
       "unified_cards_web_card_redesign_variant": {
-        "value": "control"
+        "value": "cta_bottom_bar"
       },
       "user_ad_accounts_config_enabled": {
         "value": "false"
@@ -4358,7 +4367,7 @@
         "value": "9223372036854776000"
       },
       "xchat_drop_sigs_after_seq_num_str": {
-        "value": "2006515713438646272"
+        "value": "2055075687429046272"
       },
       "xchat_enable_av": {
         "value": "true"
@@ -4568,7 +4577,7 @@
         "value": "false"
       },
       "xchat_message_grouping_window_seconds": {
-        "value": "0"
+        "value": "3600"
       },
       "xchat_message_list_v2_enabled": {
         "value": "false"
@@ -4604,7 +4613,7 @@
         "value": "false"
       },
       "xchat_pinned_messages_reading_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_plaintext_grok_enabled": {
         "value": "false"
@@ -5083,7 +5092,7 @@
           "value": "true"
         },
         "branded_features_search_overlay_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "branded_like_preview_enabled": {
           "value": "false"
@@ -5832,6 +5841,9 @@
         },
         "payments_agent_connections_enabled": {
           "value": "false"
+        },
+        "payments_agent_connections_prefill_enabled": {
+          "value": "true"
         },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
@@ -6929,13 +6941,19 @@
           ]
         },
         "responsive_web_native_emojis_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nfl_enabled": {
           "value": "true"
         },
+        "responsive_web_nfl_profile_sports_enabled": {
+          "value": "true"
+        },
         "responsive_web_nfl_sidebar_enabled": {
           "value": "true"
+        },
+        "responsive_web_nfl_sidebar_max_live_games": {
+          "value": "3"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -7430,7 +7448,7 @@
           "value": "true"
         },
         "rweb_composer_emoji_typeahead_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_conf_dev_enabled": {
           "value": "false"
@@ -7580,7 +7598,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -8734,7 +8752,7 @@
           "value": "true"
         },
         "unified_cards_web_card_redesign_variant": {
-          "value": "control"
+          "value": "cta_bottom_bar"
         },
         "user_ad_accounts_config_enabled": {
           "value": "false"
@@ -8931,7 +8949,7 @@
           "value": "9223372036854776000"
         },
         "xchat_drop_sigs_after_seq_num_str": {
-          "value": "2006515713438646272"
+          "value": "2055075687429046272"
         },
         "xchat_enable_av": {
           "value": "true"
@@ -9141,7 +9159,7 @@
           "value": "false"
         },
         "xchat_message_grouping_window_seconds": {
-          "value": "0"
+          "value": "3600"
         },
         "xchat_message_list_v2_enabled": {
           "value": "false"
@@ -9177,7 +9195,7 @@
           "value": "false"
         },
         "xchat_pinned_messages_reading_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_plaintext_grok_enabled": {
           "value": "false"
@@ -9300,10 +9318,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c36c8cbba3f1055eefb074ad7bc9a460"
+      "settingsVersion": "9952a2523383fe764ed5cbe2495a39c8"
     },
     "debug": {},
-    "featureSetToken": "c961a6e4602222794d331d5ca616cf1a974d3e43",
+    "featureSetToken": "1bdbae34bd3c88f2b30dbef15fcd1c4cfacd1332",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9371,7 +9389,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178838965457089919",
+    "guestId": "178856148652374726",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

@@ -1899,8 +1899,8 @@
       }
     },
     "UserHighlightsTweets": {
-      "url": "https://x.com/i/api/graphql/ryXhzHPlD6YJE137gSf7mQ/UserHighlightsTweets",
-      "queryId": "ryXhzHPlD6YJE137gSf7mQ",
+      "url": "https://x.com/i/api/graphql/p1UTbncXKApPssa4EpqKvw/UserHighlightsTweets",
+      "queryId": "p1UTbncXKApPssa4EpqKvw",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -1987,8 +1987,8 @@
       }
     },
     "UserOriginalsTimeline": {
-      "url": "https://x.com/i/api/graphql/jcbfqPu_2XMNOwVyGypRhw/UserOriginalsTimeline",
-      "queryId": "jcbfqPu_2XMNOwVyGypRhw",
+      "url": "https://x.com/i/api/graphql/F3G579cN5xm0xa_j76q08Q/UserOriginalsTimeline",
+      "queryId": "F3G579cN5xm0xa_j76q08Q",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -2307,8 +2307,8 @@
       }
     },
     "UserTweets": {
-      "url": "https://x.com/i/api/graphql/SXVCYB8XHSS25nzIljNtZA/UserTweets",
-      "queryId": "SXVCYB8XHSS25nzIljNtZA",
+      "url": "https://x.com/i/api/graphql/eviprbEPLvNG88V3smUngQ/UserTweets",
+      "queryId": "eviprbEPLvNG88V3smUngQ",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
