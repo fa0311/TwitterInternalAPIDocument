@@ -9153,3 +9153,15 @@
 - responsive_web_nfl_sidebar_max_live_games<br>
 #### remove<br>
 - None<br>
+## 2026/09/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_nfl_hub_home_tab_enabled<br>
+- responsive_web_nfl_team_picker_enabled<br>
+#### remove<br>
+- None<br>
