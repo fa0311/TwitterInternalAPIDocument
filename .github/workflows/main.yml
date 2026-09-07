@@ -48,6 +48,7 @@ jobs:
           REPOSITORY: ${{ github.repository }}
           BASE_BRANCH: "master"
           REF_BRANCH: "develop"
+          PROXY_LIST: ${{ secrets.PROXY_LIST }}
       - name: Run Python (Deck)
         run: python generator.py
         env:
@@ -58,3 +59,4 @@ jobs:
           REF_BRANCH: "develop"
           CLIENT_TYPE: Deck
           OUTPUT_DIR: docs/deck
+          PROXY_LIST: ${{ secrets.PROXY_LIST }}
