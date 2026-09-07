@@ -50,3 +50,4 @@ jobs:
           REPOSITORY: ${{ github.repository }}
           REF_BRANCH: "legacy-twitter"
           READ_SCRIPT_JSON: "True"
+          PROXY_LIST: ${{ secrets.PROXY_LIST }}

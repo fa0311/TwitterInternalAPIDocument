@@ -1,3 +1,5 @@
+import os
+import random
 import re
 
 import requests
@@ -14,6 +16,11 @@ class TwitterHome:
 
     def __init__(self):
         self.session = requests.session()
+        proxies = [x.strip() for x in os.environ.get("PROXY_LIST", "").splitlines() if x.strip()]
+        if proxies:
+            host, port, username, password = random.choice(proxies).split(":")
+            proxy = f"http://{username}:{password}@{host}:{port}"
+            self.session.proxies = {"http": proxy, "https": proxy}
         self.user_agent = self.session.get(
             self.LATEST_USER_AGENT, timeout=self.TIMEOUT
         ).json()["chrome"]
