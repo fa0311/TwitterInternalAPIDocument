@@ -2351,8 +2351,8 @@
       }
     },
     "UserTweetsAndReplies": {
-      "url": "https://x.com/i/api/graphql/qUpkZU6eN8MbtQb7rC_pYg/UserTweetsAndReplies",
-      "queryId": "qUpkZU6eN8MbtQb7rC_pYg",
+      "url": "https://x.com/i/api/graphql/3NGdaaeHbLRmVlbbJ-eBgg/UserTweetsAndReplies",
+      "queryId": "3NGdaaeHbLRmVlbbJ-eBgg",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
