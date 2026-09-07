@@ -2022,7 +2022,7 @@
         "value": "11.71"
       },
       "responsive_web_grok_outage_banner_message": {
-        "value": ""
+        "value": "Grok is experiencing issues. Some Grok features may be slow or unavailable due to a datacenter outage. We&#x27;re working on it — check status.x.ai for updates."
       },
       "responsive_web_grok_personality": {
         "value": "true"
@@ -2322,7 +2322,7 @@
         ]
       },
       "responsive_web_native_emojis_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nfl_enabled": {
         "value": "true"
@@ -2823,7 +2823,7 @@
         "value": "false"
       },
       "rweb_composer_emoji_typeahead_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_conf_dev_enabled": {
         "value": "false"
@@ -2973,7 +2973,7 @@
         "value": "true"
       },
       "rweb_session_binding_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_spaces_invite_search_enabled": {
         "value": "true"
@@ -4534,7 +4534,7 @@
         "value": "false"
       },
       "xchat_message_grouping_window_seconds": {
-        "value": "0"
+        "value": "3600"
       },
       "xchat_message_list_v2_enabled": {
         "value": "false"
@@ -4570,7 +4570,7 @@
         "value": "false"
       },
       "xchat_pinned_messages_reading_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_plaintext_grok_enabled": {
         "value": "false"
@@ -5049,7 +5049,7 @@
           "value": "true"
         },
         "branded_features_search_overlay_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "branded_like_preview_enabled": {
           "value": "false"
@@ -6595,7 +6595,7 @@
           "value": "11.71"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": ""
+          "value": "Grok に障害が発生しています。データセンター障害の影響で、一部の Grok 機能が遅くなったり利用できない場合があります。復旧作業中です。最新状況は status.x.ai をご確認ください。"
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -7396,7 +7396,7 @@
           "value": "true"
         },
         "rweb_composer_emoji_typeahead_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_conf_dev_enabled": {
           "value": "false"
@@ -7546,7 +7546,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -9107,7 +9107,7 @@
           "value": "false"
         },
         "xchat_message_grouping_window_seconds": {
-          "value": "0"
+          "value": "3600"
         },
         "xchat_message_list_v2_enabled": {
           "value": "false"
@@ -9143,7 +9143,7 @@
           "value": "false"
         },
         "xchat_pinned_messages_reading_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_plaintext_grok_enabled": {
           "value": "false"
@@ -9266,10 +9266,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fdac03c2285aca389e5d5ed17546b6ff"
+      "settingsVersion": "0b5be996e7d9d8544f92b16b15a36429"
     },
     "debug": {},
-    "featureSetToken": "c961a6e4602222794d331d5ca616cf1a974d3e43",
+    "featureSetToken": "2be24d08d2e7f08f101dabe68db4a750cfdd4f04",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9337,7 +9337,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178839247150407060",
+    "guestId": "178847990538691249",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
