@@ -8080,3 +8080,18 @@
 - xchat_pinned_messages_reading_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_agent_connections_prefill_enabled<br>
+- responsive_web_nfl_hub_home_tab_enabled<br>
+- responsive_web_nfl_profile_sports_enabled<br>
+- responsive_web_nfl_sidebar_max_live_games<br>
+- responsive_web_nfl_team_picker_enabled<br>
+#### remove<br>
+- None<br>
