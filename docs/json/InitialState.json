@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "928006",
+          "followers_count": "927519",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -1261,7 +1261,7 @@
         "value": "false"
       },
       "payments_agent_connections_prefill_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_assets_activate_card_dark_video_url": {
         "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
@@ -2364,6 +2364,9 @@
       "responsive_web_nfl_enabled": {
         "value": "true"
       },
+      "responsive_web_nfl_hub_home_tab_enabled": {
+        "value": "true"
+      },
       "responsive_web_nfl_profile_sports_enabled": {
         "value": "true"
       },
@@ -2372,6 +2375,9 @@
       },
       "responsive_web_nfl_sidebar_max_live_games": {
         "value": "3"
+      },
+      "responsive_web_nfl_team_picker_enabled": {
+        "value": "true"
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
@@ -3016,7 +3022,7 @@
         "value": "true"
       },
       "rweb_session_binding_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_spaces_invite_search_enabled": {
         "value": "true"
@@ -6946,6 +6952,9 @@
         "responsive_web_nfl_enabled": {
           "value": "true"
         },
+        "responsive_web_nfl_hub_home_tab_enabled": {
+          "value": "false"
+        },
         "responsive_web_nfl_profile_sports_enabled": {
           "value": "true"
         },
@@ -6954,6 +6963,9 @@
         },
         "responsive_web_nfl_sidebar_max_live_games": {
           "value": "3"
+        },
+        "responsive_web_nfl_team_picker_enabled": {
+          "value": "true"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -7598,7 +7610,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -9318,10 +9330,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9952a2523383fe764ed5cbe2495a39c8"
+      "settingsVersion": "66331b1fc80d0a6dfe1561e7c272e12e"
     },
     "debug": {},
-    "featureSetToken": "1bdbae34bd3c88f2b30dbef15fcd1c4cfacd1332",
+    "featureSetToken": "9043a5af6e91d2bc0be5f7e1b338ecd19b5bc3b6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9388,8 +9400,8 @@
     }
   },
   "session": {
-    "country": "XX",
-    "guestId": "178856148652374726",
+    "country": "US",
+    "guestId": "178882258021011160",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

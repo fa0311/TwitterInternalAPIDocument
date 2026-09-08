@@ -2984,7 +2984,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://x.com/i/api/graphql/qUpkZU6eN8MbtQb7rC_pYg/UserTweetsAndReplies`<br>
+Request URL: `https://x.com/i/api/graphql/3NGdaaeHbLRmVlbbJ-eBgg/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
