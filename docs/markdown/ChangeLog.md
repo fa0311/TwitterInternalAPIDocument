@@ -9178,3 +9178,15 @@
 - rweb_sports_post_context_header_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/09<br>
+### API<br>
+#### add<br>
+- NFLGamePlayerProps<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- x_sports_play_video_enabled<br>
+- x_sports_nfl_game_player_props_enabled<br>
+#### remove<br>
+- None<br>
