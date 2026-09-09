@@ -9165,3 +9165,16 @@
 - responsive_web_nfl_team_picker_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_sports_post_context_enabled<br>
+- rweb_sports_post_context_footer_enabled<br>
+- rweb_sports_post_context_header_enabled<br>
+#### remove<br>
+- None<br>
