@@ -108,33 +108,6 @@
     ]
   },
   {
-    "queryId": "account/personalization/partner_interests",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/personalization/email_your_data",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/personalization/set_optout_cookies",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "account/user_twitter_data",
     "dispatch_key": "get",
     "dispatch": [
@@ -289,6 +262,33 @@
   },
   {
     "queryId": "lists/memberships",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/personalization/partner_interests",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/personalization/email_your_data",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/personalization/set_optout_cookies",
     "dispatch_key": "get",
     "dispatch": [
       "get",
