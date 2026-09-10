@@ -8108,3 +8108,20 @@
 - rweb_sports_post_context_header_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_calls_rtc_api_enabled<br>
+- x_sports_nfl_game_player_props_enabled<br>
+- x_sports_play_video_enabled<br>
+- xchat_enable_numbers_copying<br>
+- xchat_external_app_integrations_enabled<br>
+- xchat_invoke_grok_bot_enabled<br>
+- xchat_settings_redesign_enabled<br>
+#### remove<br>
+- None<br>
