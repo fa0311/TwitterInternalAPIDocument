@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "929131",
+          "followers_count": "927235",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -7669,7 +7669,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -8800,7 +8800,7 @@
           "value": "true"
         },
         "unified_cards_clip_long_media_aspect_ratio": {
-          "value": "0.6667"
+          "value": "0.1"
         },
         "unified_cards_clip_long_media_promoted_content_enabled": {
           "value": "true"
@@ -8963,7 +8963,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_player_props_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "x_sports_nfl_hub_home_timeline_tag": {
           "value": "1000000000000000005"
@@ -9137,7 +9137,7 @@
           "value": "false"
         },
         "xchat_external_app_integrations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_fail_closed_unsigned_sends": {
           "value": "false"
@@ -9425,7 +9425,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "10db7abfce19c730f6b39e453de5b994"
+      "settingsVersion": "e3bbd4dd1d4495b63323162533d26ad0"
     },
     "debug": {},
     "featureSetToken": "287635fbfc2c32259e09caa66fc4ebd77453d403",
@@ -9496,7 +9496,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178908066958560672",
+    "guestId": "178916719783594723",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
