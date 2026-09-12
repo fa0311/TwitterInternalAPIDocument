@@ -9190,3 +9190,24 @@
 - x_sports_nfl_game_player_props_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_management_enabled<br>
+- responsive_web_grok_bot_preset_enabled<br>
+- responsive_web_grok_bot_preset_title<br>
+- responsive_web_sports_live_profile_rings_enabled<br>
+- rweb_xchat_calls_rtc_api_enabled<br>
+- x_sports_post_context_min_spacing<br>
+- x_sports_post_context_same_game_min_spacing<br>
+- xchat_enable_numbers_copying<br>
+- xchat_external_app_integrations_enabled<br>
+- xchat_invoke_grok_bot_enabled<br>
+- xchat_settings_redesign_enabled<br>
+#### remove<br>
+- None<br>

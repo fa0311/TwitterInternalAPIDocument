@@ -8125,3 +8125,19 @@
 - xchat_settings_redesign_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_management_enabled<br>
+- responsive_web_grok_bot_preset_enabled<br>
+- responsive_web_grok_bot_preset_title<br>
+- responsive_web_sports_live_profile_rings_enabled<br>
+- x_sports_post_context_min_spacing<br>
+- x_sports_post_context_same_game_min_spacing<br>
+#### remove<br>
+- None<br>

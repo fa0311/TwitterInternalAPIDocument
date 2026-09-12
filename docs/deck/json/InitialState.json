@@ -622,6 +622,9 @@
       "communities_web_enable_tweet_community_results_fetch": {
         "value": "true"
       },
+      "complat_management_enabled": {
+        "value": "false"
+      },
       "composer_add_geo_network_conversation_controls": {
         "value": "true"
       },
@@ -1293,7 +1296,7 @@
         "value": "true"
       },
       "payments_shared_accounts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_support_grpc_enabled": {
         "value": "true"
@@ -1873,6 +1876,12 @@
       },
       "responsive_web_grok_bio_auto_translation_is_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_bot_preset_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_bot_preset_title": {
+        "value": ""
       },
       "responsive_web_grok_build_tab_relabel_enabled": {
         "value": "false"
@@ -2519,6 +2528,9 @@
       "responsive_web_signup_direct": {
         "value": "false"
       },
+      "responsive_web_sports_live_profile_rings_enabled": {
+        "value": "true"
+      },
       "responsive_web_spud_enabled": {
         "value": "true"
       },
@@ -3069,7 +3081,7 @@
         "value": "false"
       },
       "rweb_xchat_calls_rtc_api_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_xchat_calls_v2_enabled": {
         "value": "false"
@@ -4229,7 +4241,7 @@
         "value": "1"
       },
       "web_video_hlsjs_version": {
-        "value": "1.5.0"
+        "value": "1.6.0"
       },
       "web_video_persist_bandwidth_estimate_enabled": {
         "value": "true"
@@ -4294,7 +4306,13 @@
         "value": "true"
       },
       "x_sports_play_video_enabled": {
-        "value": "false"
+        "value": "true"
+      },
+      "x_sports_post_context_min_spacing": {
+        "value": "0"
+      },
+      "x_sports_post_context_same_game_min_spacing": {
+        "value": "5"
       },
       "xai_profile_redirect_enabled": {
         "value": "true"
@@ -4417,13 +4435,13 @@
         "value": "true"
       },
       "xchat_enable_numbers_copying": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_numbers_generation": {
         "value": "false"
       },
       "xchat_enable_numbers_premium": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_enable_ratcheting": {
         "value": "false"
@@ -5240,6 +5258,9 @@
         "communities_web_enable_tweet_community_results_fetch": {
           "value": "true"
         },
+        "complat_management_enabled": {
+          "value": "false"
+        },
         "composer_add_geo_network_conversation_controls": {
           "value": "true"
         },
@@ -5911,7 +5932,7 @@
           "value": "true"
         },
         "payments_shared_accounts_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_support_grpc_enabled": {
           "value": "true"
@@ -6491,6 +6512,12 @@
         },
         "responsive_web_grok_bio_auto_translation_is_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_bot_preset_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_bot_preset_title": {
+          "value": ""
         },
         "responsive_web_grok_build_tab_relabel_enabled": {
           "value": "false"
@@ -7137,6 +7164,9 @@
         "responsive_web_signup_direct": {
           "value": "false"
         },
+        "responsive_web_sports_live_profile_rings_enabled": {
+          "value": "true"
+        },
         "responsive_web_spud_enabled": {
           "value": "true"
         },
@@ -7606,7 +7636,7 @@
           "value": "true"
         },
         "rweb_session_binding_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
@@ -7687,7 +7717,7 @@
           "value": "false"
         },
         "rweb_xchat_calls_rtc_api_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_calls_v2_enabled": {
           "value": "false"
@@ -8737,7 +8767,7 @@
           "value": "true"
         },
         "unified_cards_clip_long_media_aspect_ratio": {
-          "value": "0.6667"
+          "value": "0.1"
         },
         "unified_cards_clip_long_media_promoted_content_enabled": {
           "value": "true"
@@ -8900,7 +8930,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_player_props_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "x_sports_nfl_hub_home_timeline_tag": {
           "value": "1000000000000000005"
@@ -8912,7 +8942,13 @@
           "value": "true"
         },
         "x_sports_play_video_enabled": {
-          "value": "false"
+          "value": "true"
+        },
+        "x_sports_post_context_min_spacing": {
+          "value": "0"
+        },
+        "x_sports_post_context_same_game_min_spacing": {
+          "value": "5"
         },
         "xai_profile_redirect_enabled": {
           "value": "true"
@@ -9035,13 +9071,13 @@
           "value": "true"
         },
         "xchat_enable_numbers_copying": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_numbers_generation": {
           "value": "false"
         },
         "xchat_enable_numbers_premium": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_enable_ratcheting": {
           "value": "false"
@@ -9068,7 +9104,7 @@
           "value": "false"
         },
         "xchat_external_app_integrations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_fail_closed_unsigned_sends": {
           "value": "false"
@@ -9356,10 +9392,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "260b5f20144fdce4e8d304c1d9bc26f5"
+      "settingsVersion": "e3bbd4dd1d4495b63323162533d26ad0"
     },
     "debug": {},
-    "featureSetToken": "107ac33d212be9aa5e6c9ffe329e4e28ec8704a5",
+    "featureSetToken": "287635fbfc2c32259e09caa66fc4ebd77453d403",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9427,7 +9463,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178899807941661131",
+    "guestId": "178917158492957073",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
