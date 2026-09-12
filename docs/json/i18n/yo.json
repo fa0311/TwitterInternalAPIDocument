@@ -6320,6 +6320,7 @@
   "f66c509a": "Insufficient funds",
   "f9e0e6a2": "You don’t have a high enough balance to complete this action.",
   "ad4b847a": "This link is incomplete. Ask the sender to share it again.",
+  "cb1d1760": "The quote for this transaction has been updated. Please review and confirm the new details.",
   "f6b3499c": "You might be attempting a duplicate payment",
   "f64125f6": "The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.",
   "e63ed2f0": "View Recent Transactions",
