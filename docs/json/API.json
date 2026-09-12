@@ -1475,6 +1475,12 @@
       "method": "GET",
       "features": {}
     },
+    "SportsProductLiveViewers": {
+      "url": "https://x.com/i/api/graphql/IYQhJtndjln44l9SoPk8AQ/SportsProductLiveViewers",
+      "queryId": "IYQhJtndjln44l9SoPk8AQ",
+      "method": "GET",
+      "features": {}
+    },
     "SportsProductNflTeams": {
       "url": "https://x.com/i/api/graphql/GqvOnvJXEO7Q6PIHCWkxmw/SportsProductNflTeams",
       "queryId": "GqvOnvJXEO7Q6PIHCWkxmw",
