@@ -8141,3 +8141,17 @@
 - x_sports_post_context_same_game_min_spacing<br>
 #### remove<br>
 - None<br>
+## 2026/09/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_xweb_link_prompt_cooldown_days<br>
+- xchat_enable_video_autoplay<br>
+- xchat_grok_bots<br>
+- xchat_grok_bots_transcript_page_size<br>
+#### remove<br>
+- None<br>
