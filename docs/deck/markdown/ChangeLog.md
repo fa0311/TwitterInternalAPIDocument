@@ -8155,3 +8155,14 @@
 - xchat_grok_bots_transcript_page_size<br>
 #### remove<br>
 - None<br>
+## 2026/09/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_markdown_tables_enabled<br>
+#### remove<br>
+- None<br>
