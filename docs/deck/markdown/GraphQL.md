@@ -122,7 +122,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -174,7 +174,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -226,7 +226,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -278,7 +278,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -358,7 +358,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -446,7 +446,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
@@ -506,7 +506,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
@@ -706,7 +706,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -758,7 +758,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -832,7 +832,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -884,7 +884,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -936,7 +936,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -988,7 +988,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1051,7 +1051,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1103,7 +1103,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1155,7 +1155,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1207,7 +1207,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1259,7 +1259,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1322,7 +1322,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1374,7 +1374,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1505,7 +1505,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1590,7 +1590,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1653,7 +1653,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1705,7 +1705,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1779,7 +1779,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1831,7 +1831,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1883,7 +1883,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1935,7 +1935,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -1980,7 +1980,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2030,7 +2030,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2192,7 +2192,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2244,7 +2244,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2296,7 +2296,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2407,7 +2407,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2459,7 +2459,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2511,7 +2511,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2563,7 +2563,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2615,7 +2615,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2667,7 +2667,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2730,7 +2730,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2782,7 +2782,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2834,7 +2834,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2886,7 +2886,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -2949,7 +2949,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -3001,7 +3001,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -3053,7 +3053,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
@@ -3105,7 +3105,7 @@ Login Required: `...`<br>
 | responsive_web_grok_analyze_post_followups_enabled                      | boolean |          0 | nan       |
 | rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
 | responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
-| rweb_sports_post_context_enabled                                        | boolean |          0 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |

@@ -6321,6 +6321,7 @@
   "f66c509a": "Fondos insuficientes",
   "f9e0e6a2": "No tienes un saldo lo suficientemente alto para completar esta acción.",
   "ad4b847a": "Este enlace está incompleto. Pídele al remitente que te lo vuelva a enviar.",
+  "cb1d1760": "The quote for this transaction has been updated. Please review and confirm the new details.",
   "f6b3499c": "Es posible que estés intentando realizar un pago duplicado",
   "f64125f6": "La transferencia no se realizó porque ya se había enviado una similar. Revisa tus transacciones recientes e inténtalo de nuevo si es necesario.",
   "e63ed2f0": "Ver transacciones recientes",
