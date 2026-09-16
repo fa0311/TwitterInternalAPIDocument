@@ -3104,6 +3104,9 @@
       "rweb_xchat_loudness_control_enabled": {
         "value": "false"
       },
+      "rweb_xchat_markdown_tables_enabled": {
+        "value": "false"
+      },
       "rweb_xchat_scroller_rewrite_enabled": {
         "value": "true"
       },
@@ -4477,7 +4480,7 @@
         "value": "true"
       },
       "xchat_fail_closed_unsigned_sends": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_fetch_messages_from_push_handler": {
         "value": "false"
@@ -5124,7 +5127,7 @@
           "value": "true"
         },
         "branded_features_search_overlay_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "branded_like_preview_enabled": {
           "value": "false"
@@ -5371,7 +5374,7 @@
           "value": "false"
         },
         "dm_education_flags_prompt": {
-          "value": "true"
+          "value": "false"
         },
         "dm_inbox_search_groups_bucket_size": {
           "value": "5"
@@ -5557,7 +5560,7 @@
           "value": "false"
         },
         "hashfetti_also_match_query": {
-          "value": "true"
+          "value": "false"
         },
         "hashfetti_duration_ms": {
           "value": "4000"
@@ -5647,7 +5650,7 @@
           "value": "false"
         },
         "insights_ai_trends_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "insights_ai_trends_limit": {
           "value": "5"
@@ -5659,7 +5662,7 @@
           "value": "true"
         },
         "insights_paginated_metrics_backend_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "insights_premium_initial_days_back": {
           "value": "7"
@@ -5668,7 +5671,7 @@
           "value": "false"
         },
         "insights_previews_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
           "value": "true"
@@ -6337,7 +6340,7 @@
           "value": "false"
         },
         "responsive_web_card_reminder_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_carousel_v2_media_detail_enabled": {
           "value": "false"
@@ -6451,7 +6454,7 @@
           "value": "false"
         },
         "responsive_web_gpc_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_graphql_feedback": {
           "value": "true"
@@ -6901,7 +6904,7 @@
           "value": "true"
         },
         "responsive_web_logged_out_ios_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_logged_out_redesign_enabled": {
           "value": "false"
@@ -7096,10 +7099,10 @@
           "value": "false"
         },
         "responsive_web_qp_boost_content_check_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_qp_boost_content_check_min_delay_seconds": {
-          "value": "11"
+          "value": "0"
         },
         "responsive_web_qp_full_popup_enabled": {
           "value": "true"
@@ -7108,7 +7111,7 @@
           "value": "false"
         },
         "responsive_web_qp_new_boost_analytics_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_qp_new_payment_enabled": {
           "value": "false"
@@ -7126,7 +7129,7 @@
           "value": "true"
         },
         "responsive_web_quick_promote_high_budget_tier_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_redux_use_fragment_enabled": {
           "value": "false"
@@ -7627,7 +7630,7 @@
           "value": "true"
         },
         "rweb_promoted_tweet_max_text_lines": {
-          "value": "0"
+          "value": "2"
         },
         "rweb_quick_promote_action_menu_enabled": {
           "value": "true"
@@ -7639,7 +7642,7 @@
           "value": "true"
         },
         "rweb_quick_promote_third_party_boost_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_recommendations_sidebar_graphql_enabled": {
           "value": "true"
@@ -8196,7 +8199,7 @@
           "value": "false"
         },
         "subscriptions_offers_user_location_is_usa": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_experiment_nav_text": {
           "value": "false"
@@ -9404,7 +9407,7 @@
           "value": "true"
         },
         "xprofile_work_history_domain_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_work_history_enabled": {
           "value": "true"
@@ -9419,10 +9422,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3006e8ce7a460c1cc1a297eee778337f"
+      "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
     },
     "debug": {},
-    "featureSetToken": "3ac8c40ac5f5c805db82de6c385ab7d44ed215f2",
+    "featureSetToken": "89aa577fb45088a8f16b62f06f9b00e49c797d59",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9489,8 +9492,8 @@
     }
   },
   "session": {
-    "country": "JP",
-    "guestId": "178943132140205060",
+    "country": "US",
+    "guestId": "178951876254561238",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
