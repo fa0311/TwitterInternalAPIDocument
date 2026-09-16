@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "925595",
+          "followers_count": "925237",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -3137,6 +3137,9 @@
       "rweb_xchat_loudness_control_enabled": {
         "value": "false"
       },
+      "rweb_xchat_markdown_tables_enabled": {
+        "value": "false"
+      },
       "rweb_xchat_scroller_rewrite_enabled": {
         "value": "true"
       },
@@ -4510,7 +4513,7 @@
         "value": "true"
       },
       "xchat_fail_closed_unsigned_sends": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_fetch_messages_from_push_handler": {
         "value": "false"
@@ -9452,10 +9455,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "55ba8e53c36cab88af09e006e797c67f"
+      "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
     },
     "debug": {},
-    "featureSetToken": "3ac8c40ac5f5c805db82de6c385ab7d44ed215f2",
+    "featureSetToken": "89aa577fb45088a8f16b62f06f9b00e49c797d59",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9523,7 +9526,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178942893951144218",
+    "guestId": "178951433281717268",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
