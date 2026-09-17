@@ -9236,3 +9236,15 @@
 - rweb_xchat_markdown_tables_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/17<br>
+### API<br>
+#### add<br>
+- BroadcastUpdateViewerSession<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_xweb_link_required<br>
+- responsive_web_qp_paused_rejection_reasons_enabled<br>
+#### remove<br>
+- None<br>

@@ -24,6 +24,12 @@
       "method": "POST",
       "features": {}
     },
+    "ViewerBadgeCounts": {
+      "url": "https://x.com/i/api/graphql/q4Npr1-FYRWyXsRzPckwEA/ViewerBadgeCounts",
+      "queryId": "q4Npr1-FYRWyXsRzPckwEA",
+      "method": "GET",
+      "features": {}
+    },
     "BakeryQuery": {
       "url": "https://x.com/i/api/graphql/pROR-yRiBVsEjJyHt3fvhg/BakeryQuery",
       "queryId": "pROR-yRiBVsEjJyHt3fvhg",

@@ -52,6 +52,19 @@
     }
   },
   {
+    "n": "911649",
+    "exports": {
+      "queryId": "q4Npr1-FYRWyXsRzPckwEA",
+      "operationName": "ViewerBadgeCounts",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "203642",
     "exports": {
       "queryId": "pROR-yRiBVsEjJyHt3fvhg",

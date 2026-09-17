@@ -3370,27 +3370,9 @@
       "method": "GET",
       "features": {}
     },
-    "UserUnderTheHoodReport": {
-      "url": "https://x.com/i/api/graphql/jI8tWg6m5Yj4nCwc4jXbUQ/UserUnderTheHoodReport",
-      "queryId": "jI8tWg6m5Yj4nCwc4jXbUQ",
-      "method": "GET",
-      "features": {}
-    },
-    "UniversalSearchFeedbackMutation": {
-      "url": "https://x.com/i/api/graphql/qaIzg304L134B5-NI43j2A/UniversalSearchFeedbackMutation",
-      "queryId": "qaIzg304L134B5-NI43j2A",
-      "method": "POST",
-      "features": {}
-    },
     "ClearGrokConversations": {
       "url": "https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations",
       "queryId": "83Gg0lfI-47Z3-ZOxyUjiQ",
-      "method": "POST",
-      "features": {}
-    },
-    "CreateGrokConversation": {
-      "url": "https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation",
-      "queryId": "vvC5uy7pWWHXS2aDi1FZeA",
       "method": "POST",
       "features": {}
     },
@@ -3531,6 +3513,24 @@
     "SetGrokPreferences": {
       "url": "https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences",
       "queryId": "NqLS09LPofalCjVhFolKtA",
+      "method": "POST",
+      "features": {}
+    },
+    "UserUnderTheHoodReport": {
+      "url": "https://x.com/i/api/graphql/jI8tWg6m5Yj4nCwc4jXbUQ/UserUnderTheHoodReport",
+      "queryId": "jI8tWg6m5Yj4nCwc4jXbUQ",
+      "method": "GET",
+      "features": {}
+    },
+    "UniversalSearchFeedbackMutation": {
+      "url": "https://x.com/i/api/graphql/qaIzg304L134B5-NI43j2A/UniversalSearchFeedbackMutation",
+      "queryId": "qaIzg304L134B5-NI43j2A",
+      "method": "POST",
+      "features": {}
+    },
+    "CreateGrokConversation": {
+      "url": "https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation",
+      "queryId": "vvC5uy7pWWHXS2aDi1FZeA",
       "method": "POST",
       "features": {}
     },
@@ -3753,6 +3753,12 @@
       "method": "GET",
       "features": {}
     },
+    "BroadcastUpdateViewerSession": {
+      "url": "https://x.com/i/api/graphql/MRPwWxSUacJB61vTj1mF9g/BroadcastUpdateViewerSession",
+      "queryId": "MRPwWxSUacJB61vTj1mF9g",
+      "method": "POST",
+      "features": {}
+    },
     "NotificationsTimeline": {
       "url": "https://x.com/i/api/graphql/lXkwcYxJtGMm63D8jTPtSA/NotificationsTimeline",
       "queryId": "lXkwcYxJtGMm63D8jTPtSA",
@@ -3820,6 +3826,12 @@
       "url": "https://x.com/i/api/graphql/aQKrduk_DA46XfOQDkcEng/updateAltTextPromptPreference",
       "queryId": "aQKrduk_DA46XfOQDkcEng",
       "method": "POST",
+      "features": {}
+    },
+    "ViewerBadgeCounts": {
+      "url": "https://x.com/i/api/graphql/q4Npr1-FYRWyXsRzPckwEA/ViewerBadgeCounts",
+      "queryId": "q4Npr1-FYRWyXsRzPckwEA",
+      "method": "GET",
       "features": {}
     },
     "BakeryQuery": {

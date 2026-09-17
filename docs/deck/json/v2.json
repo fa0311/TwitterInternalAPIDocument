@@ -1,14 +1,5 @@
 [
   {
-    "queryId": "badge_count/badge_count",
-    "dispatch_key": "getURT",
-    "dispatch": [
-      "get",
-      "URT",
-      "https://x.com/i/api/2/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "guide/get_explore_settings",
     "dispatch_key": "getURT",
     "dispatch": [
