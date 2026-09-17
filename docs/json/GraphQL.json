@@ -36862,6 +36862,19 @@
     }
   },
   {
+    "n": "267638",
+    "exports": {
+      "queryId": "MRPwWxSUacJB61vTj1mF9g",
+      "operationName": "BroadcastUpdateViewerSession",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "688665",
     "exports": {
       "queryId": "LOwOaJtJYEhOSdwEJJITiA",
