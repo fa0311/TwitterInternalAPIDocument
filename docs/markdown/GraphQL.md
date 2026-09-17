@@ -13602,6 +13602,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BroadcastUpdateViewerSession<br>
+Request URL: `https://x.com/i/api/graphql/MRPwWxSUacJB61vTj1mF9g/BroadcastUpdateViewerSession`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BroadcastQuery<br>
 Request URL: `https://x.com/i/api/graphql/LOwOaJtJYEhOSdwEJJITiA/BroadcastQuery`<br>
 Request Method: `GET`<br>
