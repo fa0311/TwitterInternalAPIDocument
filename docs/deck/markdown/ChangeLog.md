@@ -8178,3 +8178,16 @@
 - responsive_web_qp_paused_rejection_reasons_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_responsive_web_castle_minting_enabled<br>
+- payments_timeline_action<br>
+- responsive_web_nested_quote_preview_enabled<br>
+#### remove<br>
+- None<br>
