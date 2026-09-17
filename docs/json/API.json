@@ -3753,6 +3753,12 @@
       "method": "GET",
       "features": {}
     },
+    "BroadcastUpdateViewerSession": {
+      "url": "https://x.com/i/api/graphql/MRPwWxSUacJB61vTj1mF9g/BroadcastUpdateViewerSession",
+      "queryId": "MRPwWxSUacJB61vTj1mF9g",
+      "method": "POST",
+      "features": {}
+    },
     "NotificationsTimeline": {
       "url": "https://x.com/i/api/graphql/lXkwcYxJtGMm63D8jTPtSA/NotificationsTimeline",
       "queryId": "lXkwcYxJtGMm63D8jTPtSA",
