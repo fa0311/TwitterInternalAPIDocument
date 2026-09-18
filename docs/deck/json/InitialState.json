@@ -1308,7 +1308,7 @@
         "value": "true"
       },
       "payments_timeline_action": {
-        "value": "false"
+        "value": "true"
       },
       "payments_tracing_reports_enabled": {
         "value": "true"
@@ -4333,7 +4333,7 @@
         "value": "0"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "5"
+        "value": "20"
       },
       "xai_profile_redirect_enabled": {
         "value": "true"
@@ -4636,7 +4636,7 @@
         "value": "false"
       },
       "xchat_molecule_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_numbers_tray_location": {
         "value": ""
@@ -5974,7 +5974,7 @@
           "value": "true"
         },
         "payments_timeline_action": {
-          "value": "false"
+          "value": "true"
         },
         "payments_tracing_reports_enabled": {
           "value": "true"
@@ -8999,7 +8999,7 @@
           "value": "0"
         },
         "x_sports_post_context_same_game_min_spacing": {
-          "value": "5"
+          "value": "20"
         },
         "xai_profile_redirect_enabled": {
           "value": "true"
@@ -9302,7 +9302,7 @@
           "value": "false"
         },
         "xchat_molecule_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_numbers_tray_location": {
           "value": ""
@@ -9455,7 +9455,7 @@
       "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
     },
     "debug": {},
-    "featureSetToken": "8d1fcd397c10290a77f924d34ee4b867f4da7f12",
+    "featureSetToken": "0011313cff05788fadf76d53b165d89d6553f24e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9523,7 +9523,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178968919749648316",
+    "guestId": "178977401909049744",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
