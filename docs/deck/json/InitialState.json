@@ -625,6 +625,9 @@
       "complat_management_enabled": {
         "value": "false"
       },
+      "complat_responsive_web_castle_minting_enabled": {
+        "value": "false"
+      },
       "composer_add_geo_network_conversation_controls": {
         "value": "true"
       },
@@ -1303,6 +1306,9 @@
       },
       "payments_support_xchat_sessions_enabled": {
         "value": "true"
+      },
+      "payments_timeline_action": {
+        "value": "false"
       },
       "payments_tracing_reports_enabled": {
         "value": "true"
@@ -2342,6 +2348,9 @@
       "responsive_web_native_emojis_enabled": {
         "value": "true"
       },
+      "responsive_web_nested_quote_preview_enabled": {
+        "value": "false"
+      },
       "responsive_web_nfl_enabled": {
         "value": "true"
       },
@@ -2472,7 +2481,7 @@
         "value": "true"
       },
       "responsive_web_qp_paused_rejection_reasons_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_qp_skip_objective_enabled": {
         "value": "true"
@@ -4627,7 +4636,7 @@
         "value": "false"
       },
       "xchat_molecule_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_numbers_tray_location": {
         "value": ""
@@ -5280,6 +5289,9 @@
           "value": "true"
         },
         "complat_management_enabled": {
+          "value": "false"
+        },
+        "complat_responsive_web_castle_minting_enabled": {
           "value": "false"
         },
         "composer_add_geo_network_conversation_controls": {
@@ -5960,6 +5972,9 @@
         },
         "payments_support_xchat_sessions_enabled": {
           "value": "true"
+        },
+        "payments_timeline_action": {
+          "value": "false"
         },
         "payments_tracing_reports_enabled": {
           "value": "true"
@@ -6998,6 +7013,9 @@
         },
         "responsive_web_native_emojis_enabled": {
           "value": "true"
+        },
+        "responsive_web_nested_quote_preview_enabled": {
+          "value": "false"
         },
         "responsive_web_nfl_enabled": {
           "value": "true"
@@ -9284,7 +9302,7 @@
           "value": "false"
         },
         "xchat_molecule_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_numbers_tray_location": {
           "value": ""
@@ -9434,10 +9452,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "512e971af912a31e209ecd6f663b1eb6"
+      "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
     },
     "debug": {},
-    "featureSetToken": "371ef36dab9564051d3f2485147216a009cbddc0",
+    "featureSetToken": "8d1fcd397c10290a77f924d34ee4b867f4da7f12",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9505,7 +9523,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178960542619385589",
+    "guestId": "178968919749648316",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
