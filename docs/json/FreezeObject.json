@@ -1,6 +1,7 @@
 [
   {
     "chat": "chat",
+    "highlights": "highlights",
     "latest": "latest",
     "plays": "plays",
     "stats": "stats",
@@ -951,6 +952,10 @@
     "punt": "punt",
     "safety": "safety",
     "touchdown": "touchdown"
+  },
+  {
+    "all": "all",
+    "highlights": "highlights"
   },
   {
     "chat": "1",
@@ -6346,22 +6351,22 @@
     "y": "y"
   },
   {
-    "superFollower": "c().fc065ee4"
+    "superFollower": "d().fc065ee4"
   },
   {
     "superFollower": {
       "graphic": "u.default",
-      "headline": "c().e453f536",
-      "subtext": "c().bd4cb7a0",
-      "actionLabel": "c().g7099a02",
+      "headline": "d().e453f536",
+      "subtext": "d().bd4cb7a0",
+      "actionLabel": "d().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "c().c2637ef6"
+      "secondaryActionLabel": "d().c2637ef6"
     }
   },
   {
-    "followsYou": "c().efb17190",
-    "superFollowsYou": "c().g57b5f6c",
-    "superFollower": "c().a77a27c0"
+    "followsYou": "d().efb17190",
+    "superFollowsYou": "d().g57b5f6c",
+    "superFollower": "d().a77a27c0"
   },
   {
     "followsYou": "gray700",
@@ -11554,38 +11559,38 @@
     "TIMELINE": "timeline"
   },
   {
-    "passing_yards": "eX",
-    "passing_touchdowns": "eK",
-    "completion_percentage": "eJ",
-    "passer_rating": "eZ",
-    "interceptions_thrown_by_qb": "e0",
-    "rushing_yards": "e1",
-    "rushing_touchdowns": "e2",
-    "receiving_yards": "e4",
-    "receiving_touchdowns": "e6",
-    "receptions": "e8",
-    "total_touchdowns": "e5",
-    "field_goals_made": "e3",
-    "sacks": "e7",
-    "tackles": "e9",
-    "interceptions_made_by_defense": "se"
+    "passing_yards": "eJ",
+    "passing_touchdowns": "eZ",
+    "completion_percentage": "e0",
+    "passer_rating": "e1",
+    "interceptions_thrown_by_qb": "e2",
+    "rushing_yards": "e6",
+    "rushing_touchdowns": "e4",
+    "receiving_yards": "e8",
+    "receiving_touchdowns": "e5",
+    "receptions": "e3",
+    "total_touchdowns": "e7",
+    "field_goals_made": "e9",
+    "sacks": "se",
+    "tackles": "ss",
+    "interceptions_made_by_defense": "st"
   },
   {
-    "passing_yards": "ss",
-    "passing_touchdowns": "st",
-    "completion_percentage": "sr",
-    "passer_rating": "sa",
-    "interceptions_thrown_by_qb": "sl",
-    "rushing_yards": "ss",
-    "rushing_touchdowns": "st",
-    "receiving_yards": "ss",
-    "receiving_touchdowns": "st",
-    "receptions": "si",
-    "total_touchdowns": "st",
-    "field_goals_made": "sn",
-    "sacks": "so",
-    "tackles": "sc",
-    "interceptions_made_by_defense": "sl"
+    "passing_yards": "sa",
+    "passing_touchdowns": "sr",
+    "completion_percentage": "sl",
+    "passer_rating": "si",
+    "interceptions_thrown_by_qb": "sn",
+    "rushing_yards": "sa",
+    "rushing_touchdowns": "sr",
+    "receiving_yards": "sa",
+    "receiving_touchdowns": "sr",
+    "receptions": "so",
+    "total_touchdowns": "sr",
+    "field_goals_made": "sc",
+    "sacks": "sd",
+    "tackles": "su",
+    "interceptions_made_by_defense": "sn"
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",
@@ -12093,10 +12098,10 @@
   },
   {
     "initial": {
-      "fetchStatus": "n.Ay.NONE"
+      "fetchStatus": "o.Ay.NONE"
     },
     "lastSearch": {
-      "fetchStatus": "n.Ay.NONE"
+      "fetchStatus": "o.Ay.NONE"
     },
     "lastSelectedPlace": "void 0"
   },
@@ -12402,8 +12407,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "ei.Ay.NONE",
-    "config": "au"
+    "fetchStatus": "el.Ay.NONE",
+    "config": "am"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
