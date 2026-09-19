@@ -1,12 +1,13 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant   | value   |
-|:-----------|:--------|
-| chat       | chat    |
-| latest     | latest  |
-| plays      | plays   |
-| stats      | stats   |
-| top        | top     |
+| constant   | value      |
+|:-----------|:-----------|
+| chat       | chat       |
+| highlights | highlights |
+| latest     | latest     |
+| plays      | plays      |
+| stats      | stats      |
+| top        | top        |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -811,6 +812,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | punt             | punt             |
 | safety           | safety           |
 | touchdown        | touchdown        |
+
+| constant   | value      |
+|:-----------|:-----------|
+| all        | all        |
+| highlights | highlights |
 
 | constant      |   value |
 |:--------------|--------:|
@@ -5848,17 +5854,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | c().fc065ee4 |
+| superFollower | d().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'c().e453f536', 'subtext': 'c().bd4cb7a0', 'actionLabel': 'c().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'c().c2637ef6'} |
+| superFollower | {'graphic': 'u.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | c().efb17190 |
-| superFollowsYou | c().g57b5f6c |
-| superFollower   | c().a77a27c0 |
+| followsYou      | d().efb17190 |
+| superFollowsYou | d().g57b5f6c |
+| superFollower   | d().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -11461,39 +11467,39 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                      | value   |
 |:------------------------------|:--------|
-| passing_yards                 | eX      |
-| passing_touchdowns            | eK      |
-| completion_percentage         | eJ      |
-| passer_rating                 | eZ      |
-| interceptions_thrown_by_qb    | e0      |
-| rushing_yards                 | e1      |
-| rushing_touchdowns            | e2      |
-| receiving_yards               | e4      |
-| receiving_touchdowns          | e6      |
-| receptions                    | e8      |
-| total_touchdowns              | e5      |
-| field_goals_made              | e3      |
-| sacks                         | e7      |
-| tackles                       | e9      |
-| interceptions_made_by_defense | se      |
+| passing_yards                 | eJ      |
+| passing_touchdowns            | eZ      |
+| completion_percentage         | e0      |
+| passer_rating                 | e1      |
+| interceptions_thrown_by_qb    | e2      |
+| rushing_yards                 | e6      |
+| rushing_touchdowns            | e4      |
+| receiving_yards               | e8      |
+| receiving_touchdowns          | e5      |
+| receptions                    | e3      |
+| total_touchdowns              | e7      |
+| field_goals_made              | e9      |
+| sacks                         | se      |
+| tackles                       | ss      |
+| interceptions_made_by_defense | st      |
 
 | constant                      | value   |
 |:------------------------------|:--------|
-| passing_yards                 | ss      |
-| passing_touchdowns            | st      |
-| completion_percentage         | sr      |
-| passer_rating                 | sa      |
-| interceptions_thrown_by_qb    | sl      |
-| rushing_yards                 | ss      |
-| rushing_touchdowns            | st      |
-| receiving_yards               | ss      |
-| receiving_touchdowns          | st      |
-| receptions                    | si      |
-| total_touchdowns              | st      |
-| field_goals_made              | sn      |
-| sacks                         | so      |
-| tackles                       | sc      |
-| interceptions_made_by_defense | sl      |
+| passing_yards                 | sa      |
+| passing_touchdowns            | sr      |
+| completion_percentage         | sl      |
+| passer_rating                 | si      |
+| interceptions_thrown_by_qb    | sn      |
+| rushing_yards                 | sa      |
+| rushing_touchdowns            | sr      |
+| receiving_yards               | sa      |
+| receiving_touchdowns          | sr      |
+| receptions                    | so      |
+| total_touchdowns              | sr      |
+| field_goals_made              | sc      |
+| sacks                         | sd      |
+| tackles                       | su      |
+| interceptions_made_by_defense | sn      |
 
 | constant         | value           |
 |:-----------------|:----------------|
@@ -12021,8 +12027,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant          | value                        |
 |:------------------|:-----------------------------|
-| initial           | {'fetchStatus': 'n.Ay.NONE'} |
-| lastSearch        | {'fetchStatus': 'n.Ay.NONE'} |
+| initial           | {'fetchStatus': 'o.Ay.NONE'} |
+| lastSearch        | {'fetchStatus': 'o.Ay.NONE'} |
 | lastSelectedPlace | void 0                       |
 
 | constant               | value                  |
@@ -12371,8 +12377,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value      |
 |:------------|:-----------|
-| fetchStatus | ei.Ay.NONE |
-| config      | au         |
+| fetchStatus | el.Ay.NONE |
+| config      | am         |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
