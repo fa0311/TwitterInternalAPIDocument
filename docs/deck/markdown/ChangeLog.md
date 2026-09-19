@@ -8191,3 +8191,17 @@
 - responsive_web_nested_quote_preview_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_xweb_linked_share_readonly_enabled<br>
+- x_sports_game_chat_should_hide_logos<br>
+- x_sports_nfl_game_chat_team_pick_enabled<br>
+- x_sports_nfl_game_roster_enabled<br>
+#### remove<br>
+- None<br>
