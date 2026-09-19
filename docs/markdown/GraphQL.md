@@ -2179,7 +2179,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## NFLGameRoster<br>
-Request URL: `https://x.com/i/api/graphql/SruM3PX-YvCLmsvaaGjqPQ/NFLGameRoster`<br>
+Request URL: `https://x.com/i/api/graphql/8pLIKp-Khhl_ANf4ZeSgVg/NFLGameRoster`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2264,6 +2264,17 @@ Login Required: `...`<br>
 `None`<br>
 ## NFLStandings<br>
 Request URL: `https://x.com/i/api/graphql/whFK1zt98nRCL8cRDsnqFg/NFLStandings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## NFLTeamLastGameHighlights<br>
+Request URL: `https://x.com/i/api/graphql/RJLJjyt4VPiQ5006q8Tteg/NFLTeamLastGameHighlights`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2485,8 +2496,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductAdSlots<br>
+Request URL: `https://x.com/i/api/graphql/pgakXvDW-RVau7vMG6En0A/SportsProductAdSlots`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductChatState<br>
-Request URL: `https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState`<br>
+Request URL: `https://x.com/i/api/graphql/x1B2DaFQ3OroLl5xCmnVXQ/SportsProductChatState`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2595,8 +2617,41 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductSetTeamPick<br>
+Request URL: `https://x.com/i/api/graphql/wgQc8AbBeexw0Hx3kPtFFQ/SportsProductSetTeamPick`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductTeamNotificationSettings<br>
 Request URL: `https://x.com/i/api/graphql/o_ONtKkXGr4GQOvvihmVbA/SportsProductTeamNotificationSettings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamPicker<br>
+Request URL: `https://x.com/i/api/graphql/XwhsOQbv-QA-y5CmUd6mdg/SportsProductTeamPicker`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamTallies<br>
+Request URL: `https://x.com/i/api/graphql/i4p1dyYRohDUQZCx22d0xA/SportsProductTeamTallies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5589,7 +5644,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## NFLGameRoster<br>
-Request URL: `https://x.com/i/api/graphql/SruM3PX-YvCLmsvaaGjqPQ/NFLGameRoster`<br>
+Request URL: `https://x.com/i/api/graphql/8pLIKp-Khhl_ANf4ZeSgVg/NFLGameRoster`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5674,6 +5729,17 @@ Login Required: `...`<br>
 `None`<br>
 ## NFLStandings<br>
 Request URL: `https://x.com/i/api/graphql/whFK1zt98nRCL8cRDsnqFg/NFLStandings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## NFLTeamLastGameHighlights<br>
+Request URL: `https://x.com/i/api/graphql/RJLJjyt4VPiQ5006q8Tteg/NFLTeamLastGameHighlights`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6034,8 +6100,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductAdSlots<br>
+Request URL: `https://x.com/i/api/graphql/pgakXvDW-RVau7vMG6En0A/SportsProductAdSlots`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductChatState<br>
-Request URL: `https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState`<br>
+Request URL: `https://x.com/i/api/graphql/x1B2DaFQ3OroLl5xCmnVXQ/SportsProductChatState`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6144,8 +6221,41 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductSetTeamPick<br>
+Request URL: `https://x.com/i/api/graphql/wgQc8AbBeexw0Hx3kPtFFQ/SportsProductSetTeamPick`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductTeamNotificationSettings<br>
 Request URL: `https://x.com/i/api/graphql/o_ONtKkXGr4GQOvvihmVbA/SportsProductTeamNotificationSettings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamPicker<br>
+Request URL: `https://x.com/i/api/graphql/XwhsOQbv-QA-y5CmUd6mdg/SportsProductTeamPicker`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamTallies<br>
+Request URL: `https://x.com/i/api/graphql/i4p1dyYRohDUQZCx22d0xA/SportsProductTeamTallies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7143,7 +7253,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## NFLGameRoster<br>
-Request URL: `https://x.com/i/api/graphql/SruM3PX-YvCLmsvaaGjqPQ/NFLGameRoster`<br>
+Request URL: `https://x.com/i/api/graphql/8pLIKp-Khhl_ANf4ZeSgVg/NFLGameRoster`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7228,6 +7338,17 @@ Login Required: `...`<br>
 `None`<br>
 ## NFLStandings<br>
 Request URL: `https://x.com/i/api/graphql/whFK1zt98nRCL8cRDsnqFg/NFLStandings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## NFLTeamLastGameHighlights<br>
+Request URL: `https://x.com/i/api/graphql/RJLJjyt4VPiQ5006q8Tteg/NFLTeamLastGameHighlights`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7449,8 +7570,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductAdSlots<br>
+Request URL: `https://x.com/i/api/graphql/pgakXvDW-RVau7vMG6En0A/SportsProductAdSlots`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductChatState<br>
-Request URL: `https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState`<br>
+Request URL: `https://x.com/i/api/graphql/x1B2DaFQ3OroLl5xCmnVXQ/SportsProductChatState`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7559,8 +7691,41 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SportsProductSetTeamPick<br>
+Request URL: `https://x.com/i/api/graphql/wgQc8AbBeexw0Hx3kPtFFQ/SportsProductSetTeamPick`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SportsProductTeamNotificationSettings<br>
 Request URL: `https://x.com/i/api/graphql/o_ONtKkXGr4GQOvvihmVbA/SportsProductTeamNotificationSettings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamPicker<br>
+Request URL: `https://x.com/i/api/graphql/XwhsOQbv-QA-y5CmUd6mdg/SportsProductTeamPicker`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SportsProductTeamTallies<br>
+Request URL: `https://x.com/i/api/graphql/i4p1dyYRohDUQZCx22d0xA/SportsProductTeamTallies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
