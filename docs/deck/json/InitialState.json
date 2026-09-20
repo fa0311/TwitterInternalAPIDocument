@@ -9020,7 +9020,7 @@
           "value": "true"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "0"
+          "value": "3"
         },
         "x_sports_post_context_same_game_min_spacing": {
           "value": "20"
@@ -9476,7 +9476,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
+      "settingsVersion": "3471d3665c3dcc9f83924999106b1143"
     },
     "debug": {},
     "featureSetToken": "f2e692de60eae430575551f0ae50eb29485d0c6b",
@@ -9547,7 +9547,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178986091507005617",
+    "guestId": "178994797518969724",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
