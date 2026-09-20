@@ -102,7 +102,7 @@
           "profile_sort_enabled": "true",
           "is_translator": "false",
           "translator_type": "regular",
-          "followers_count": "925837",
+          "followers_count": "925757",
           "friends_count": "0",
           "media_count": "0",
           "statuses_count": "0",
@@ -9053,7 +9053,7 @@
           "value": "true"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "0"
+          "value": "3"
         },
         "x_sports_post_context_same_game_min_spacing": {
           "value": "20"
@@ -9509,7 +9509,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "59bc437b8489c0206d58ea44acab85ca"
+      "settingsVersion": "3400edbaf82f4b1219ff39aa1dc41891"
     },
     "debug": {},
     "featureSetToken": "f2e692de60eae430575551f0ae50eb29485d0c6b",
@@ -9580,7 +9580,7 @@
   },
   "session": {
     "country": "JP",
-    "guestId": "178985725103784367",
+    "guestId": "178994444619435351",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
