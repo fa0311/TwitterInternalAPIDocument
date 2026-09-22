@@ -2366,6 +2366,9 @@
       "responsive_web_nfl_sidebar_enabled": {
         "value": "true"
       },
+      "responsive_web_nfl_sidebar_for_all_users_enabled": {
+        "value": "false"
+      },
       "responsive_web_nfl_sidebar_max_live_games": {
         "value": "3"
       },
@@ -4342,7 +4345,7 @@
         "value": "true"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "0"
+        "value": "3"
       },
       "x_sports_post_context_same_game_min_spacing": {
         "value": "20"
@@ -6927,6 +6930,9 @@
         "responsive_web_live_scheduled_broadcast_countdown_enabled": {
           "value": "false"
         },
+        "responsive_web_live_video_viewer_session_enabled": {
+          "value": "false"
+        },
         "responsive_web_livecut_native_share_enabled": {
           "value": "true"
         },
@@ -7042,6 +7048,9 @@
           "value": "true"
         },
         "responsive_web_nfl_sidebar_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nfl_sidebar_for_all_users_enabled": {
           "value": "true"
         },
         "responsive_web_nfl_sidebar_max_live_games": {
@@ -7711,10 +7720,10 @@
           "value": "true"
         },
         "rweb_sports_post_context_footer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_sports_post_context_header_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_ssp_ads_enabled": {
           "value": "false"
@@ -8993,7 +9002,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_chat_team_pick_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_game_feed_enabled": {
           "value": "true"
@@ -9476,10 +9485,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3471d3665c3dcc9f83924999106b1143"
+      "settingsVersion": "10e45ca9aa834bbdbf424e47a4853a21"
     },
     "debug": {},
-    "featureSetToken": "f2e692de60eae430575551f0ae50eb29485d0c6b",
+    "featureSetToken": "abc098c93cb16086419bbb29e2e5a355844a66c1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9547,7 +9556,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178994797518969724",
+    "guestId": "179003756398452275",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
