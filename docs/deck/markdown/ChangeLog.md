@@ -8205,3 +8205,15 @@
 - x_sports_nfl_game_roster_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/09/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_nfl_sidebar_for_all_users_enabled<br>
+- responsive_web_live_video_viewer_session_enabled<br>
+#### remove<br>
+- None<br>
