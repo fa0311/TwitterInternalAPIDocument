@@ -2279,7 +2279,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...e9      | _       |
+| ...e5      | _       |
 | ...aj      | _       |
 | ...X       | _       |
 
@@ -7584,6 +7584,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | LinkExternalBankAccount    | LinkExternalBankAccount    |
 | LinkExternalCard           | LinkExternalCard           |
 | P2pTransfer                | P2pTransfer                |
+| P2pTransferFunding         | P2pTransferFunding         |
 | Recipients                 | Recipients                 |
 | ScheduledChecks            | ScheduledChecks            |
 | ScheduledInternalTransfers | ScheduledInternalTransfers |
@@ -17603,12 +17604,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedMissingRequiredPermission                  | RejectedMissingRequiredPermission                  |
 | RejectedNotSufficientFunds                         | RejectedNotSufficientFunds                         |
 | RejectedPlaidLinkExpired                           | RejectedPlaidLinkExpired                           |
+| RequestVerificationExpired                         | RequestVerificationExpired                         |
 | Returned                                           | Returned                                           |
 | ReversedByAgent                                    | ReversedByAgent                                    |
 | TooFarFromBarcodeOriginLocation                    | TooFarFromBarcodeOriginLocation                    |
 | UnrecognizedActivityConfirmed                      | UnrecognizedActivityConfirmed                      |
 | UnrecognizedActivityRejected                       | UnrecognizedActivityRejected                       |
 | Unspecified                                        | Unspecified                                        |
+| VerificationExpired                                | VerificationExpired                                |
 
 ```internal process
 # Error
@@ -18064,11 +18067,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | ClaimTransferDecisionReject      | ClaimTransferDecisionReject      |
 | ClaimTransferDecisionUnspecified | ClaimTransferDecisionUnspecified |
 
-| constant                                       | value                                          |
-|:-----------------------------------------------|:-----------------------------------------------|
-| CustomerAgreementEntryEventInitialCardIssuance | CustomerAgreementEntryEventInitialCardIssuance |
-| CustomerAgreementEntryEventOnboarding          | CustomerAgreementEntryEventOnboarding          |
-| CustomerAgreementEntryEventUnspecified         | CustomerAgreementEntryEventUnspecified         |
+| constant                                          | value                                             |
+|:--------------------------------------------------|:--------------------------------------------------|
+| CustomerAgreementEntryEventInitialCardIssuance    | CustomerAgreementEntryEventInitialCardIssuance    |
+| CustomerAgreementEntryEventOnboarding             | CustomerAgreementEntryEventOnboarding             |
+| CustomerAgreementEntryEventOnboardingConfirmation | CustomerAgreementEntryEventOnboardingConfirmation |
+| CustomerAgreementEntryEventUnspecified            | CustomerAgreementEntryEventUnspecified            |
 
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
