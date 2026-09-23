@@ -5911,10 +5911,10 @@
           "value": "true"
         },
         "payments_agent_connections_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_agent_connections_prefill_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
@@ -9485,7 +9485,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "10e45ca9aa834bbdbf424e47a4853a21"
+      "settingsVersion": "2bd7775c0f0a76ef50e5bb5331e7221d"
     },
     "debug": {},
     "featureSetToken": "abc098c93cb16086419bbb29e2e5a355844a66c1",
@@ -9556,7 +9556,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "179003756398452275",
+    "guestId": "179012278358302684",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
