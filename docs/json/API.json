@@ -1286,8 +1286,8 @@
       "features": {}
     },
     "NFLGameRoster": {
-      "url": "https://x.com/i/api/graphql/SruM3PX-YvCLmsvaaGjqPQ/NFLGameRoster",
-      "queryId": "SruM3PX-YvCLmsvaaGjqPQ",
+      "url": "https://x.com/i/api/graphql/8pLIKp-Khhl_ANf4ZeSgVg/NFLGameRoster",
+      "queryId": "8pLIKp-Khhl_ANf4ZeSgVg",
       "method": "GET",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -1336,6 +1336,12 @@
     "NFLStandings": {
       "url": "https://x.com/i/api/graphql/whFK1zt98nRCL8cRDsnqFg/NFLStandings",
       "queryId": "whFK1zt98nRCL8cRDsnqFg",
+      "method": "GET",
+      "features": {}
+    },
+    "NFLTeamLastGameHighlights": {
+      "url": "https://x.com/i/api/graphql/RJLJjyt4VPiQ5006q8Tteg/NFLTeamLastGameHighlights",
+      "queryId": "RJLJjyt4VPiQ5006q8Tteg",
       "method": "GET",
       "features": {}
     },
@@ -1505,9 +1511,15 @@
       "method": "GET",
       "features": {}
     },
+    "SportsProductAdSlots": {
+      "url": "https://x.com/i/api/graphql/pgakXvDW-RVau7vMG6En0A/SportsProductAdSlots",
+      "queryId": "pgakXvDW-RVau7vMG6En0A",
+      "method": "GET",
+      "features": {}
+    },
     "SportsProductChatState": {
-      "url": "https://x.com/i/api/graphql/YNyONbdF7kyn5A7YrAom-w/SportsProductChatState",
-      "queryId": "YNyONbdF7kyn5A7YrAom-w",
+      "url": "https://x.com/i/api/graphql/x1B2DaFQ3OroLl5xCmnVXQ/SportsProductChatState",
+      "queryId": "x1B2DaFQ3OroLl5xCmnVXQ",
       "method": "GET",
       "features": {}
     },
@@ -1565,9 +1577,27 @@
       "method": "POST",
       "features": {}
     },
+    "SportsProductSetTeamPick": {
+      "url": "https://x.com/i/api/graphql/wgQc8AbBeexw0Hx3kPtFFQ/SportsProductSetTeamPick",
+      "queryId": "wgQc8AbBeexw0Hx3kPtFFQ",
+      "method": "POST",
+      "features": {}
+    },
     "SportsProductTeamNotificationSettings": {
       "url": "https://x.com/i/api/graphql/o_ONtKkXGr4GQOvvihmVbA/SportsProductTeamNotificationSettings",
       "queryId": "o_ONtKkXGr4GQOvvihmVbA",
+      "method": "GET",
+      "features": {}
+    },
+    "SportsProductTeamPicker": {
+      "url": "https://x.com/i/api/graphql/XwhsOQbv-QA-y5CmUd6mdg/SportsProductTeamPicker",
+      "queryId": "XwhsOQbv-QA-y5CmUd6mdg",
+      "method": "GET",
+      "features": {}
+    },
+    "SportsProductTeamTallies": {
+      "url": "https://x.com/i/api/graphql/i4p1dyYRohDUQZCx22d0xA/SportsProductTeamTallies",
+      "queryId": "i4p1dyYRohDUQZCx22d0xA",
       "method": "GET",
       "features": {}
     },

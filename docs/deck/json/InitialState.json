@@ -1308,7 +1308,7 @@
         "value": "true"
       },
       "payments_timeline_action": {
-        "value": "false"
+        "value": "true"
       },
       "payments_tracing_reports_enabled": {
         "value": "true"
@@ -2183,6 +2183,9 @@
       "responsive_web_grok_xweb_link_required": {
         "value": "false"
       },
+      "responsive_web_grok_xweb_linked_share_readonly_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_xweb_replacement_enabled": {
         "value": "false"
       },
@@ -2362,6 +2365,9 @@
       },
       "responsive_web_nfl_sidebar_enabled": {
         "value": "true"
+      },
+      "responsive_web_nfl_sidebar_for_all_users_enabled": {
+        "value": "false"
       },
       "responsive_web_nfl_sidebar_max_live_games": {
         "value": "3"
@@ -3063,7 +3069,7 @@
         "value": "headline2"
       },
       "rweb_under_the_hood_report_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_update_fatigue_switch_to_app_day_timeout": {
         "value": "7"
@@ -4302,11 +4308,17 @@
       "x_jetfuel_use_new_api_url": {
         "value": "true"
       },
+      "x_sports_game_chat_should_hide_logos": {
+        "value": "false"
+      },
       "x_sports_nfl_favorite_teams_enabled": {
         "value": "true"
       },
       "x_sports_nfl_game_chat_enabled": {
         "value": "true"
+      },
+      "x_sports_nfl_game_chat_team_pick_enabled": {
+        "value": "false"
       },
       "x_sports_nfl_game_feed_enabled": {
         "value": "true"
@@ -4315,6 +4327,9 @@
         "value": "true"
       },
       "x_sports_nfl_game_player_props_enabled": {
+        "value": "false"
+      },
+      "x_sports_nfl_game_roster_enabled": {
         "value": "false"
       },
       "x_sports_nfl_hub_home_timeline_tag": {
@@ -4330,10 +4345,10 @@
         "value": "true"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "0"
+        "value": "3"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "5"
+        "value": "20"
       },
       "xai_profile_redirect_enabled": {
         "value": "true"
@@ -4636,7 +4651,7 @@
         "value": "false"
       },
       "xchat_molecule_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_numbers_tray_location": {
         "value": ""
@@ -5896,10 +5911,10 @@
           "value": "true"
         },
         "payments_agent_connections_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_agent_connections_prefill_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "payments_assets_activate_card_dark_video_url": {
           "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
@@ -5974,7 +5989,7 @@
           "value": "true"
         },
         "payments_timeline_action": {
-          "value": "false"
+          "value": "true"
         },
         "payments_tracing_reports_enabled": {
           "value": "true"
@@ -6849,6 +6864,9 @@
         "responsive_web_grok_xweb_link_required": {
           "value": "false"
         },
+        "responsive_web_grok_xweb_linked_share_readonly_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_xweb_replacement_enabled": {
           "value": "false"
         },
@@ -6910,6 +6928,9 @@
           "value": "false"
         },
         "responsive_web_live_scheduled_broadcast_countdown_enabled": {
+          "value": "false"
+        },
+        "responsive_web_live_video_viewer_session_enabled": {
           "value": "false"
         },
         "responsive_web_livecut_native_share_enabled": {
@@ -7027,6 +7048,9 @@
           "value": "true"
         },
         "responsive_web_nfl_sidebar_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nfl_sidebar_for_all_users_enabled": {
           "value": "true"
         },
         "responsive_web_nfl_sidebar_max_live_games": {
@@ -7696,10 +7720,10 @@
           "value": "true"
         },
         "rweb_sports_post_context_footer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_sports_post_context_header_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_ssp_ads_enabled": {
           "value": "false"
@@ -7729,7 +7753,7 @@
           "value": "headline2"
         },
         "rweb_under_the_hood_report_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -8968,10 +8992,16 @@
         "x_jetfuel_use_new_api_url": {
           "value": "true"
         },
+        "x_sports_game_chat_should_hide_logos": {
+          "value": "false"
+        },
         "x_sports_nfl_favorite_teams_enabled": {
           "value": "true"
         },
         "x_sports_nfl_game_chat_enabled": {
+          "value": "true"
+        },
+        "x_sports_nfl_game_chat_team_pick_enabled": {
           "value": "true"
         },
         "x_sports_nfl_game_feed_enabled": {
@@ -8981,6 +9011,9 @@
           "value": "true"
         },
         "x_sports_nfl_game_player_props_enabled": {
+          "value": "false"
+        },
+        "x_sports_nfl_game_roster_enabled": {
           "value": "false"
         },
         "x_sports_nfl_hub_home_timeline_tag": {
@@ -8996,10 +9029,10 @@
           "value": "true"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "0"
+          "value": "3"
         },
         "x_sports_post_context_same_game_min_spacing": {
-          "value": "5"
+          "value": "20"
         },
         "xai_profile_redirect_enabled": {
           "value": "true"
@@ -9302,7 +9335,7 @@
           "value": "false"
         },
         "xchat_molecule_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_numbers_tray_location": {
           "value": ""
@@ -9452,10 +9485,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "78c4e62f4554e2a0c1e2fc103a493bb9"
+      "settingsVersion": "2bd7775c0f0a76ef50e5bb5331e7221d"
     },
     "debug": {},
-    "featureSetToken": "8d1fcd397c10290a77f924d34ee4b867f4da7f12",
+    "featureSetToken": "abc098c93cb16086419bbb29e2e5a355844a66c1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9523,7 +9556,7 @@
   },
   "session": {
     "country": "US",
-    "guestId": "178968919749648316",
+    "guestId": "179012278358302684",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

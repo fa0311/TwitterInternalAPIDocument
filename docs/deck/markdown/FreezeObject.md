@@ -394,35 +394,35 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                          |
 |:--------------------------------|:-------------------------------|
 | ...s()                          | _                              |
-| activeFaintGray                 | rgba(o.jk.light)               |
-| activeBlack                     | a.j_.black(230, 236, 240, 0.7) |
-| hoverBlack                      | a.j_.black(.07)                |
-| navigationBackground            | a.UE                           |
-| navigationBackground95          | a.j_.white(.03)                |
-| cellBackground                  | a.UE                           |
+| activeFaintGray                 | rgba(a.jk.light)               |
+| activeBlack                     | o.j_.black(230, 236, 240, 0.7) |
+| hoverBlack                      | o.j_.black(.07)                |
+| navigationBackground            | o.UE                           |
+| navigationBackground95          | o.j_.white(.03)                |
+| cellBackground                  | o.UE                           |
 | borderColor                     | i.A.color.baseColor.gray50     |
 | nestedBorderColor               | i.A.color.baseColor.gray200    |
 | dmReceivedBubbleBackground      | i.A.color.baseColor.gray50     |
 | badgeColor                      | i.A.color.baseColor.blue500    |
-| maskColor                       | a.j_.black(.95)                |
-| maskColorNative                 | a.j_.black(.4)                 |
-| hoverLabelColor                 | a.j_.black(.4)                 |
-| elevatedBackground              | a.UE                           |
-| elevatedBackgroundShadow        | a.j_.black(.6)                 |
+| maskColor                       | o.j_.black(.95)                |
+| maskColorNative                 | o.j_.black(.4)                 |
+| hoverLabelColor                 | o.j_.black(.4)                 |
+| elevatedBackground              | o.UE                           |
+| elevatedBackgroundShadow        | o.j_.black(.6)                 |
 | brandColor                      | i.A.color.baseColor.gray1100   |
-| whiteOnColor                    | a.UE                           |
+| whiteOnColor                    | o.UE                           |
 | buttonBlack                     | i.A.color.baseColor.gray1100   |
-| buttonWhite                     | a.UE                           |
+| buttonWhite                     | o.UE                           |
 | buttonOutlinedBorder            | i.A.color.baseColor.gray200    |
 | buttonDestructionOutlinedBorder | i.A.color.baseColor.red100     |
-| appBarBackground                | a.j_.white(.1)                 |
-| appBarFirefoxBackground         | a.j_.white(.85)                |
-| modalBackground                 | a.UE                           |
+| appBarBackground                | o.j_.white(.1)                 |
+| appBarFirefoxBackground         | o.j_.white(.85)                |
+| modalBackground                 | o.UE                           |
 | passkeyColor                    | #007AFF                        |
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
-| ...u                       | _                           |
+| ...d                       | _                           |
 | ...s()                     | _                           |
 | text                       | #141D26                     |
 | gray700                    | #3B4C5C                     |
@@ -431,7 +431,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray100                    | #E5EAEC                     |
 | gray50                     | i.A.color.baseColor.gray200 |
 | gray0                      | i.A.color.baseColor.gray50  |
-| navigationBackground95     | a.UE                        |
+| navigationBackground95     | o.UE                        |
 | borderColor                | i.A.color.baseColor.gray300 |
 | nestedBorderColor          | i.A.color.baseColor.gray300 |
 | dmReceivedBubbleBackground | i.A.color.baseColor.gray200 |
@@ -442,30 +442,30 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(o.jk.dark)              |
-| activeBlack                     | a.j_.white(18, 21, 23, 0.7)  |
-| hoverBlack                      | a.j_.white(.07)              |
-| navigationBackground            | a.Uv                         |
-| navigationBackground95          | a.j_.black(.03)              |
-| cellBackground                  | a.Uv                         |
+| activeFaintGray                 | rgba(a.jk.dark)              |
+| activeBlack                     | o.j_.white(18, 21, 23, 0.7)  |
+| hoverBlack                      | o.j_.white(.07)              |
+| navigationBackground            | o.Uv                         |
+| navigationBackground95          | o.j_.black(.03)              |
+| cellBackground                  | o.Uv                         |
 | unreadCellBackground            | #041722                      |
 | borderColor                     | #2F3336                      |
 | nestedBorderColor               | #2F3336                      |
 | dmReceivedBubbleBackground      | #2F3336                      |
 | badgeColor                      | i.A.color.baseColor.blue500  |
-| maskColor                       | a.j_.gray700(.95)            |
-| maskColorNative                 | a.j_.black(.4)               |
-| hoverLabelColor                 | a.j_.gray700(.4)             |
+| maskColor                       | o.j_.gray700(.95)            |
+| maskColorNative                 | o.j_.black(.4)               |
+| hoverLabelColor                 | o.j_.gray700(.4)             |
 | elevatedBackground              | #1B2023                      |
-| elevatedBackgroundShadow        | a.j_.black(.8)               |
+| elevatedBackgroundShadow        | o.j_.black(.8)               |
 | brandColor                      | i.A.color.darkColor.gray1100 |
-| whiteOnColor                    | a.UE                         |
+| whiteOnColor                    | o.UE                         |
 | buttonBlack                     | i.A.color.baseColor.gray50   |
 | buttonWhite                     | i.A.color.baseColor.gray1100 |
 | buttonOutlinedBorder            | i.A.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | a.j_.black(.1)               |
-| appBarFirefoxBackground         | a.j_.black(.65)              |
+| appBarBackground                | o.j_.black(.1)               |
+| appBarFirefoxBackground         | o.j_.black(.65)              |
 | modalBackground                 | #141414                      |
 | passkeyColor                    | #007AFF                      |
 
@@ -473,7 +473,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:---------------------------|:-----------------------------|
 | ...p                       | _                            |
 | ...s()                     | _                            |
-| text                       | a.UE                         |
+| text                       | o.UE                         |
 | navigationBackground       | #050505                      |
 | navigationBackground95     | #050505                      |
 | cellBackground             | #050505                      |
@@ -489,35 +489,35 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(o.jk.business)          |
-| activeBlack                     | a.j_.white(20, 29, 38, 0.7)  |
-| hoverBlack                      | a.j_.white(.07)              |
+| activeFaintGray                 | rgba(a.jk.business)          |
+| activeBlack                     | o.j_.white(20, 29, 38, 0.7)  |
+| hoverBlack                      | o.j_.white(.07)              |
 | navigationBackground            | #010c12                      |
-| navigationBackground95          | a.j_.dim(.03)                |
+| navigationBackground95          | o.j_.dim(.03)                |
 | cellBackground                  | #010c12                      |
 | borderColor                     | #38444D                      |
 | nestedBorderColor               | #38444D                      |
 | dmReceivedBubbleBackground      | #3D5466                      |
 | badgeColor                      | i.A.color.baseColor.blue500  |
-| maskColor                       | a.j_.gray700(.95)            |
-| maskColorNative                 | a.j_.black(.4)               |
-| hoverLabelColor                 | a.j_.gray700(.4)             |
+| maskColor                       | o.j_.gray700(.95)            |
+| maskColorNative                 | o.j_.black(.4)               |
+| hoverLabelColor                 | o.j_.gray700(.4)             |
 | elevatedBackground              | #1C2C3C                      |
-| elevatedBackgroundShadow        | a.j_.dim(.8)                 |
+| elevatedBackgroundShadow        | o.j_.dim(.8)                 |
 | brandColor                      | i.A.color.baseColor.gray0    |
-| whiteOnColor                    | a.UE                         |
+| whiteOnColor                    | o.UE                         |
 | buttonBlack                     | i.A.color.baseColor.gray50   |
 | buttonWhite                     | i.A.color.baseColor.gray1100 |
 | buttonOutlinedBorder            | i.A.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | a.j_.dim(.1)                 |
-| appBarFirefoxBackground         | a.j_.dim(.75)                |
+| appBarBackground                | o.j_.dim(.1)                 |
+| appBarFirefoxBackground         | o.j_.dim(.75)                |
 | modalBackground                 | #141414                      |
 | passkeyColor                    | #007AFF                      |
 
 ```internal process
 # Error
-{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"b.space2","gutterHorizontal":"y.space16","gutterHorizontalPx":"b.space16","gutterVertical":"y.space12","gutterVerticalPx":"b.space12"}
+{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"g.space2","gutterHorizontal":"y.space16","gutterHorizontalPx":"g.space16","gutterVertical":"y.space12","gutterVerticalPx":"g.space12"}
 ```
 | constant   | value               |
 |:-----------|:--------------------|
@@ -542,11 +542,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"aspectRatios":"s","baseFontSize":"A","borderRadii":"c","borderRadiiPx":"l","borderWidths":"u","borderWidthsPx":"d","breakpoints":"o","componentDimensions":"Object.freeze()"{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"b.space2","gutterHorizontal":"y.space16","gutterHoriz...
+{"aspectRatios":"s","baseFontSize":"A","borderRadii":"c","borderRadiiPx":"l","borderWidths":"d","borderWidthsPx":"u","breakpoints":"a","componentDimensions":"Object.freeze()"{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"g.space2","gutterHorizontal":"y.space16","gutterHoriz...
 ```
 ```internal process
 # Error
-{"...()":{"scale":"e","scales":"t=i.Ht"}{let r=t[e],p=e=>Math.round(),{"font":"h","size":"m"}"=n.A","f="{"subtext3":"p()","subtext2":"p(h.lineHeight.subtext3)","subtext1":"p(h.lineHeight.subtext2)","body":"p(h.lineHeight.subtext1)","headline2":"p(h.lineHeight.body)","headline1":"p(h.lineHeight.headl...
+{"...()":{"scale":"e","scales":"t=i.Ht"}{let r=t[e],p=e=>Math.round(),{"font":"h","size":"m"}"=n.A","b="{"subtext3":"p()","subtext2":"p(h.lineHeight.subtext3)","subtext1":"p(h.lineHeight.subtext2)","body":"p(h.lineHeight.subtext1)","headline2":"p(h.lineHeight.body)","headline1":"p(h.lineHeight.headl...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -629,7 +629,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...o       | _       |
+| ...a       | _       |
 
 | constant     | value   |
 |:-------------|:--------|
@@ -854,7 +854,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"cardWidth":"a","columnWidths":"i","sideNavWidths":"n","contentWidths":"o","wideTabBarWidth":"s","dmDrawerHeight":"Object.freeze()"{"expanded":"530","collapsed":"60"}{"min":"350","max":"400"}}
+{"cardWidth":"o","columnWidths":"i","sideNavWidths":"n","contentWidths":"a","wideTabBarWidth":"s","dmDrawerHeight":"Object.freeze()"{"expanded":"530","collapsed":"60"}{"min":"350","max":"400"}}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -924,7 +924,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[n.A.CASHTAG]:"void 0",[n.A.EMOJI]:"void 0",[n.A.HASHTAG]:"o.HASHTAG_CLICK",[n.A.MEDIA]:"void 0",[n.A.MENTION]:"o.USER_MENTION_CLICK",[n.A.SMARTTAG]:"o.SMARTTAG_CLICK",[n.A.TEXT]:"void 0",[n.A.TIMESTAMP]:"void 0",[n.A.URL]:"o.URL_CLICK"}
+{[n.A.CASHTAG]:"void 0",[n.A.EMOJI]:"void 0",[n.A.HASHTAG]:"a.HASHTAG_CLICK",[n.A.MEDIA]:"void 0",[n.A.MENTION]:"a.USER_MENTION_CLICK",[n.A.SMARTTAG]:"a.SMARTTAG_CLICK",[n.A.TEXT]:"void 0",[n.A.TIMESTAMP]:"void 0",[n.A.URL]:"a.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1370,23 +1370,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value   |
 |:--------------------------------|:--------|
-| broadcasts                      | u       |
-| cards                           | u       |
-| commerceItems                   | u       |
-| communities                     | u       |
-| conversations                   | u       |
-| entries                         | u       |
-| grokShare                       | u       |
-| lists                           | u       |
-| livestreams                     | u       |
-| moments                         | u       |
-| topics                          | u       |
-| tweets                          | u       |
-| articleEntities                 | u       |
-| userPresence                    | u       |
-| userCommunityInviteActionResult | u       |
-| users                           | u       |
-| aitrends                        | u       |
+| broadcasts                      | d       |
+| cards                           | d       |
+| commerceItems                   | d       |
+| communities                     | d       |
+| conversations                   | d       |
+| entries                         | d       |
+| grokShare                       | d       |
+| lists                           | d       |
+| livestreams                     | d       |
+| moments                         | d       |
+| topics                          | d       |
+| tweets                          | d       |
+| articleEntities                 | d       |
+| userPresence                    | d       |
+| userCommunityInviteActionResult | d       |
+| users                           | d       |
+| aitrends                        | d       |
 
 | constant   | value                                             |
 |:-----------|:--------------------------------------------------|
