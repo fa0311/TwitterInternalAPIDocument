@@ -1614,8 +1614,8 @@
       "features": {}
     },
     "AiTrendByRestId": {
-      "url": "https://x.com/i/api/graphql/eSeYHOd6VbQ_Emazm5ntIA/AiTrendByRestId",
-      "queryId": "eSeYHOd6VbQ_Emazm5ntIA",
+      "url": "https://x.com/i/api/graphql/wdJkPBXYhqRFOfz3851zOQ/AiTrendByRestId",
+      "queryId": "wdJkPBXYhqRFOfz3851zOQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -1920,6 +1920,12 @@
     "Budgets": {
       "url": "https://x.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets",
       "queryId": "mbK3oSQotwcJXyQIBE3uYw",
+      "method": "GET",
+      "features": {}
+    },
+    "BudgetsByCurrency": {
+      "url": "https://x.com/i/api/graphql/WKAPUeb7AOpuxWasFAJ1Dw/BudgetsByCurrency",
+      "queryId": "WKAPUeb7AOpuxWasFAJ1Dw",
       "method": "GET",
       "features": {}
     },
@@ -6494,7 +6500,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
     "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "ja,en;q=0.9",
     "cache-control": "no-cache",
