@@ -2,6 +2,8 @@ import json
 import os
 import random
 import re
+import socket
+import urllib.parse
 
 import requests
 
@@ -18,8 +20,13 @@ class TwitterHome:
         self.session = requests.session()
         proxies = [x.strip() for x in os.environ.get("PROXY_LIST", "").splitlines() if x.strip()]
         if proxies:
-            host, port, username, password = random.choice(proxies).split(":")
-            proxy = f"http://{username}:{password}@{host}:{port}"
+            proxy = random.choice(proxies)
+            if "://" not in proxy:  # legacy host:port:user:pass
+                host, port, username, password = proxy.split(":")
+                proxy = f"http://{username}:{password}@{host}:{port}"
+            # PySocks and GitHub runners cannot reach IPv6 proxies; pin the IPv4 address
+            parsed = urllib.parse.urlparse(proxy)
+            proxy = parsed._replace(netloc=parsed.netloc.replace(parsed.hostname, socket.gethostbyname(parsed.hostname))).geturl()
             self.session.proxies = {"http": proxy, "https": proxy}
         header = self.session.get(self.LATEST_HEADER, timeout=self.TIMEOUT).json()
         self.chrome_header = {
