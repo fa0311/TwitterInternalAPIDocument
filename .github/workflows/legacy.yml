@@ -21,7 +21,7 @@ jobs:
           git checkout origin/legacy-twitter -- docs
           git fetch origin c150806085e7d482a366da38c4d036b5ac12f28e
           git checkout c150806085e7d482a366da38c4d036b5ac12f28e -- docs/json/ScriptLoadJson.json
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
       - uses: fa0311/twitter-secrets@main
