@@ -1,3 +1,4 @@
+import json
 import os
 import random
 import re
@@ -8,10 +9,9 @@ import requests
 class TwitterHome:
     TWITTER_HOME = "https://x.com/home"
     CLIENT = "responsive-web"
-    LATEST_USER_AGENT = (
-        "https://raw.githubusercontent.com/fa0311/latest-user-agent/main/output.json"
+    LATEST_HEADER = (
+        "https://raw.githubusercontent.com/fa0311/latest-user-agent/main/header.json"
     )
-    TWITTER_FRONTEND_FLOW = False
     TIMEOUT = 30
 
     def __init__(self):
@@ -21,25 +21,17 @@ class TwitterHome:
             host, port, username, password = random.choice(proxies).split(":")
             proxy = f"http://{username}:{password}@{host}:{port}"
             self.session.proxies = {"http": proxy, "https": proxy}
-        self.user_agent = self.session.get(
-            self.LATEST_USER_AGENT, timeout=self.TIMEOUT
-        ).json()["chrome"]
-
-    def login(self, userid: str, password: str):
-        flow = TwitterFrontendFlow()  # type: ignore
-        flow.session = self.session
-        flow.login_flow()
-        flow.LoginJsInstrumentationSubtask()
-        flow.LoginEnterUserIdentifierSSO(userid)
-        flow.LoginEnterPassword(password)
-        flow.AccountDuplicationCheck()
-        if "LoginSuccessSubtask" not in flow.get_subtask_ids():
-            raise Exception("login error")
+        header = self.session.get(self.LATEST_HEADER, timeout=self.TIMEOUT).json()
+        self.chrome_header = {
+            k: v for k, v in header["chrome"].items() if k not in ["host", "connection"]
+        }
 
     def load(self, file_path: str):
-        flow = TwitterFrontendFlow()  # type: ignore
-        flow.session = self.session
-        flow.LoadCookies(file_path)
+        with open(file_path, mode="r", encoding="utf-8") as f:
+            cookies = json.load(f)
+        if isinstance(cookies, list):
+            cookies = {c["name"]: c["value"] for c in cookies}
+        self.session.cookies.update(cookies)
 
     def get_home(self):
         legacy = self.session.get(
@@ -72,19 +64,11 @@ class TwitterHome:
 
     def get_header(self):
         return {
-            "User-Agent": self.user_agent,
-            "accept-encoding": "gzip, deflate, br, zstd",
+            **self.chrome_header,
             "accept-language": "ja,en;q=0.9",
-            "cache-control": "no-cache",
             "origin": "https://x.com",
-            "pragma": "no-cache",
             "referer": "https://x.com/",
-            "sec-ch-ua": '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
-            "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": '"Windows"',
-            "sec-fetch-dest": "script",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site",
         }
 
     def get_script_url(self) -> list[str]:
@@ -113,7 +97,7 @@ class TwitterHome:
             src=r"(https://[\s\S]*?\.js)",
         )
         return {
-            "/".join(url[1].split("/")[5:])[:-12]: url[1]
+            re.sub(r"\.[0-9a-f]+a\.js$", "", "/".join(url[1].split("/")[5:])): url[1]
             for url in re.findall(reg_script, self.response.text)
         }
 
@@ -121,11 +105,3 @@ class TwitterHome:
 class TwitterDeck(TwitterHome):
     TWITTER_HOME = "https://pro.x.com"
     CLIENT = "gryphon-client"
-
-
-try:
-    from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *  # type: ignore
-
-    TwitterHome.TWITTER_FRONTEND_FLOW = True
-except:
-    pass

@@ -33,6 +33,7 @@ LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 CACHE = os.environ.get("CACHE", "False") == "True"
 GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
 READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "False") == "True"
+COOKIE_FILE = os.environ.get("COOKIE_FILE", "cookie.json")
 TIMEOUT = 30
 
 coloredlogs.install(
@@ -52,8 +53,8 @@ if CLIENT_TYPE == "Responsive":
 elif CLIENT_TYPE == "Deck":
     twitter = TwitterDeck()
 
-if TwitterHome.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
-    twitter.load("cookie.json")
+if os.path.isfile(COOKIE_FILE):
+    twitter.load(COOKIE_FILE)
     logging.info("cookie load is completed")
 twitter.get_home()
 

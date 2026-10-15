@@ -1,4 +1,4 @@
-name: Generator
+name: Generator (legacy-twitter)
 
 on:
   workflow_dispatch:
@@ -14,40 +14,24 @@ jobs:
   legacy-twitter:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: develop
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.13"
-          architecture: "x64"
-      - name: Get Python version
-        run: python -V
-
-      - name: Get pip cache dir
-        id: pip-cache
+      - uses: actions/checkout@v7
+      - name: Checkout legacy-twitter documents
         run: |
-          echo "::set-output name=dir::$(pip cache dir)"
-      - name: pip cache
-        uses: actions/cache@v3
-        with:
-          path: ${{ steps.pip-cache.outputs.dir }}
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Get Legacy File
-        run: |
+          git fetch --depth=1 origin legacy-twitter
+          git checkout origin/legacy-twitter -- docs
           git fetch origin c150806085e7d482a366da38c4d036b5ac12f28e
           git checkout c150806085e7d482a366da38c4d036b5ac12f28e -- docs/json/ScriptLoadJson.json
+      - uses: astral-sh/setup-uv@v10
+        with:
+          enable-cache: true
+      - uses: fa0311/twitter-secrets@main
+        with:
+          age-key: ${{ secrets.SOPS_AGE_KEY }}
       - name: Run Python
-        run: python generator.py
+        run: uv run python generator.py
         env:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
           REF_BRANCH: "legacy-twitter"
           READ_SCRIPT_JSON: "True"
-          PROXY_LIST: ${{ secrets.PROXY_LIST }}

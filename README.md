@@ -65,29 +65,15 @@ Unobfuscate `ondemand.s` every day at 22:00 UTC.
 Note written by the developer.  
 [Reverse Engineering Document](./docs/markdown/RE.md)  
 
-## [Deprecate] Install requirements
-
-> Instead, please use <https://github.com/fa0311/twitter-openapi>.
+## Run the generator
 
 ```shell
-git clone https://github.com/fa0311/TwitterInternalAPIDocument.git
-cd TwitterInternalAPIDocument
-pip install -r requirements.txt
+uv run python generator.py
 ```
 
-Optional
-
-```shell
-git clone https://github.com/fa0311/TwitterFrontendFlow.git
-python TwitterFrontendFlow/sample2.py
-```
-
-## [Deprecate] Fast development of modules using this document
-
-> Instead, please use <https://github.com/fa0311/twitter-openapi>.
-
-[Sample](./sample.py)  
-[API](./docs/json/API.json)  
+Put an X cookie export (browser extension JSON or `{name: value}`) at `cookie.json` to scan as a logged-in user.
+The logged-out x.com shell no longer ships the responsive-web bundle, so a cookie is required.
+`PROXY_LIST` (`host:port:user:pass` per line) is honored; CI gets it from [fa0311/twitter-secrets](https://github.com/fa0311/twitter-secrets).
 
 ## Reference
 
