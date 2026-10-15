@@ -71,10 +71,6 @@ Note written by the developer.
 uv run python generator.py
 ```
 
-Put an X cookie export (browser extension JSON or `{name: value}`) at `cookie.json` to scan as a logged-in user.
-The logged-out x.com shell no longer ships the responsive-web bundle, so a cookie is required.
-`PROXY_LIST` (`host:port:user:pass` per line) is honored; CI gets it from [fa0311/twitter-secrets](https://github.com/fa0311/twitter-secrets).
-
 ## Reference
 
 - [fa0311/latest-user-agent](https://github.com/fa0311/latest-user-agent)
