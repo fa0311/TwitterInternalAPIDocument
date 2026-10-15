@@ -19,9 +19,6 @@ class TwitterHome:
         proxies = [x.strip() for x in os.environ.get("PROXY_LIST", "").splitlines() if x.strip()]
         if proxies:
             proxy = random.choice(proxies)
-            if "://" not in proxy:  # legacy host:port:user:pass
-                host, port, username, password = proxy.split(":")
-                proxy = f"http://{username}:{password}@{host}:{port}"
             self.session.proxies = {"http": proxy, "https": proxy}
         header = self.session.get(self.LATEST_HEADER, timeout=self.TIMEOUT).json()
         self.chrome_header = {
