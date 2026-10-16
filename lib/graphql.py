@@ -69,28 +69,29 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
         except:
             pass
 
-    reg_exports_ext = ';{var}.hash="{hash}",e.exports={var}'.format(
-        hash="[a-z0-9]{32}", var="[a-zA-Z0-9]{1,2}"
-    )
-    exports = search_js_reg(parsed_list, reg_exports_ext)
-    for export in exports:
-        params = search_js(export.before, ",params:")
-        if len(params) > 0:
-            n = re.findall(reg_exports, export.parent.before)[0][0]
-            data = json.loads(json_parser(params[0].after))
-            exports_output.append(
-                {
-                    "n": n,
-                    "exports": {
-                        "queryId": data["id"],
-                        "operationName": data["name"],
-                        "operationType": data["operationKind"],
-                        "metadata": {
-                            "featureSwitches": data["metadata"].get("features", [])
-                        },
-                    },
-                }
-            )
+    # Relay persisted operations: e.exports = {..., kind: "Request", ..., params: {id, metadata, name, operationKind, text}}.
+    # metadata is usually a variable (minified), so the fields are read from the text of the params object itself.
+    reg_params = r'id:"([\w-]+)",metadata:[^,]*,name:"(\w+)",operationKind:"(query|mutation)"'
+    known = {export["exports"]["operationName"] for export in exports_output}
+    for params in search_js(parsed_list, ",params:"):
+        if type(params.after) is not JsData:
+            continue
+        text = "".join(child for child in params.after.children if type(child) is str)
+        match = re.search(reg_params, text)
+        if match is None or match[2] in known:
+            continue
+        known.add(match[2])
+        exports_output.append(
+            {
+                "n": "",
+                "exports": {
+                    "queryId": match[1],
+                    "operationName": match[2],
+                    "operationType": match[3],
+                    "metadata": {"featureSwitches": [], "fieldToggles": []},
+                },
+            }
+        )
 
     for key in range(len(exports_output)):
         for graphql in graphql_output:
