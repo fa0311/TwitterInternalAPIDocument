@@ -2149,7 +2149,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"b.A","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"r","onOpen":"n"}{"let o=i.useCallback()"{"items":"r","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"n","renderActionMenu":"o"}},"CallToAction":"o.Ay","ContentDisclosure":"A.i","EditCallout":"x.A","Educ...
+{"ActionsBar":"b.A","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"r","onOpen":"n"}{"let o=i.useCallback()"{"items":"r","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"n","renderActionMenu":"o"}},"CallToAction":"o.Ay","ContentDisclosure":"x.i","EditCallout":"A.A","Educ...
 ```
 ```internal process
 # Error
@@ -19882,11 +19882,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value   |
 |:--------------|:--------|
 | commerce-core | h       |
-| commerce-ui   | 4.7.0   |
+| commerce-ui   | 4.8.0   |
 
 ```internal process
 # Error
-{"versions":"Object.freeze()"{"commerce-core":"h","commerce-ui":"4.7.0"}}
+{"versions":"Object.freeze()"{"commerce-core":"h","commerce-ui":"4.8.0"}}
 ```
 | constant     | value       |
 |:-------------|:------------|
