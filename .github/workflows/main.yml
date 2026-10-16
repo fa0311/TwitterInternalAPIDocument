@@ -16,41 +16,28 @@ jobs:
   generator:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: develop
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.13"
-          architecture: "x64"
-      - name: Get Python version
-        run: python -V
-
-      - name: Get pip cache dir
-        id: pip-cache
+      # code comes from the default branch, documents from develop
+      - uses: actions/checkout@v7
+      - name: Checkout develop documents
         run: |
-          echo "::set-output name=dir::$(pip cache dir)"
-      - name: pip cache
-        uses: actions/cache@v3
+          git fetch --depth=1 origin develop
+          git checkout origin/develop -- docs
+      - uses: astral-sh/setup-uv@v10.3.0
         with:
-          path: ${{ steps.pip-cache.outputs.dir }}
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+          enable-cache: true
+      - uses: fa0311/twitter-secrets@main
+        with:
+          age-key: ${{ secrets.SOPS_AGE_KEY }}
       - name: Run Python
-        run: python generator.py
+        run: uv run python generator.py
         env:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
           BASE_BRANCH: "master"
           REF_BRANCH: "develop"
-          PROXY_LIST: ${{ secrets.PROXY_LIST }}
       - name: Run Python (Deck)
-        run: python generator.py
+        run: uv run python generator.py
         env:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -59,4 +46,3 @@ jobs:
           REF_BRANCH: "develop"
           CLIENT_TYPE: Deck
           OUTPUT_DIR: docs/deck
-          PROXY_LIST: ${{ secrets.PROXY_LIST }}

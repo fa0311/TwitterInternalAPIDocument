@@ -65,29 +65,11 @@ Unobfuscate `ondemand.s` every day at 22:00 UTC.
 Note written by the developer.  
 [Reverse Engineering Document](./docs/markdown/RE.md)  
 
-## [Deprecate] Install requirements
-
-> Instead, please use <https://github.com/fa0311/twitter-openapi>.
+## Run the generator
 
 ```shell
-git clone https://github.com/fa0311/TwitterInternalAPIDocument.git
-cd TwitterInternalAPIDocument
-pip install -r requirements.txt
+uv run python generator.py
 ```
-
-Optional
-
-```shell
-git clone https://github.com/fa0311/TwitterFrontendFlow.git
-python TwitterFrontendFlow/sample2.py
-```
-
-## [Deprecate] Fast development of modules using this document
-
-> Instead, please use <https://github.com/fa0311/twitter-openapi>.
-
-[Sample](./sample.py)  
-[API](./docs/json/API.json)  
 
 ## Reference
 

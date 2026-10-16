@@ -1,0 +1,23 @@
+[project]
+name = "twitter-internal-api-document"
+version = "0.0.0"
+description = "Reverse engineering of the web version of Twitter"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "coloredlogs>=15.0.1",
+    "pandas>=3.0.6",
+    "pygithub>=2.10.0",
+    "requests>=2.34.2",
+    "tabulate>=0.10.0",
+    "tqdm>=4.70.1",
+]
+
+[dependency-groups]
+dev = ["ruff"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
