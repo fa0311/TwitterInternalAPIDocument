@@ -1,0 +1,6 @@
+## /i/capi<br>
+Request URL: `Unversioned`<br>
+Request Method: `POST`<br>
+## /account/sessions/revoke<br>
+Request URL: `Unversioned`<br>
+Request Method: `POST`<br>
