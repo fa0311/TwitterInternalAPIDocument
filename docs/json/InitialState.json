@@ -97,9 +97,9 @@
           "is_translator": "false",
           "translator_type": "none",
           "followers_count": "0",
-          "friends_count": "3",
+          "friends_count": "2",
           "media_count": "0",
-          "statuses_count": "2",
+          "statuses_count": "8",
           "url": "",
           "is_blue_verified": "false",
           "super_follow_eligible": "false",
@@ -671,7 +671,7 @@
         "value": "false"
       },
       "complat_manage_migration_card_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "complat_management_enabled": {
         "value": "true"
@@ -680,7 +680,7 @@
         "value": ""
       },
       "complat_premium_hub_upgrade_card_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "complat_responsive_web_castle_minting_enabled": {
         "value": "false"
@@ -1342,6 +1342,9 @@
       },
       "payments_chat_support_for_limits_enabled": {
         "value": "true"
+      },
+      "payments_checkbook_orders_enabled": {
+        "value": "false"
       },
       "payments_cheques_deposits_enabled": {
         "value": "true"
@@ -2990,49 +2993,13 @@
       "rweb_age_assurance_flow_enabled": {
         "value": "true"
       },
-      "rweb_analytics_active_followers_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_audience_compact_mode": {
-        "value": "true"
-      },
-      "rweb_analytics_audience_xweb_enabled": {
-        "value": "true"
-      },
       "rweb_analytics_control_v2_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_export_data_content_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_export_data_enabled": {
         "value": "true"
       },
       "rweb_analytics_hourly_overview_enabled": {
         "value": "false"
       },
-      "rweb_analytics_in_out_network_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_live_details_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_live_overview_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_nav_item_enabled": {
-        "value": "false"
-      },
-      "rweb_analytics_post_details_realtime_enabled": {
-        "value": "true"
-      },
       "rweb_analytics_realtime_active_followers_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_spaces_details_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_spaces_overview_enabled": {
         "value": "true"
       },
       "rweb_analytics_theme": {
@@ -3040,9 +3007,6 @@
       },
       "rweb_analytics_upsell_variant": {
         "value": ""
-      },
-      "rweb_analytics_xweb_content_page": {
-        "value": "true"
       },
       "rweb_cashtags_composer_attachment_enabled": {
         "value": "true"
@@ -5555,7 +5519,7 @@
           "value": "false"
         },
         "complat_manage_migration_card_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "complat_management_enabled": {
           "value": "true"
@@ -5564,9 +5528,15 @@
           "value": ""
         },
         "complat_premium_hub_upgrade_card_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "complat_responsive_web_castle_minting_enabled": {
+          "value": "false"
+        },
+        "complat_x_grant_entrypoints_enabled": {
+          "value": "false"
+        },
+        "complat_x_grant_opt_in_enabled": {
           "value": "false"
         },
         "complat_x_migration_enabled": {
@@ -6226,6 +6196,9 @@
         },
         "payments_chat_support_for_limits_enabled": {
           "value": "true"
+        },
+        "payments_checkbook_orders_enabled": {
+          "value": "false"
         },
         "payments_cheques_deposits_enabled": {
           "value": "true"
@@ -7874,49 +7847,13 @@
         "rweb_age_assurance_flow_enabled": {
           "value": "true"
         },
-        "rweb_analytics_active_followers_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_audience_compact_mode": {
-          "value": "true"
-        },
-        "rweb_analytics_audience_xweb_enabled": {
-          "value": "true"
-        },
         "rweb_analytics_control_v2_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_export_data_content_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_export_data_enabled": {
           "value": "true"
         },
         "rweb_analytics_hourly_overview_enabled": {
           "value": "false"
         },
-        "rweb_analytics_in_out_network_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_live_details_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_live_overview_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_nav_item_enabled": {
-          "value": "false"
-        },
-        "rweb_analytics_post_details_realtime_enabled": {
-          "value": "true"
-        },
         "rweb_analytics_realtime_active_followers_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_spaces_details_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_spaces_overview_enabled": {
           "value": "true"
         },
         "rweb_analytics_theme": {
@@ -7924,9 +7861,6 @@
         },
         "rweb_analytics_upsell_variant": {
           "value": ""
-        },
-        "rweb_analytics_xweb_content_page": {
-          "value": "true"
         },
         "rweb_cashtags_composer_attachment_enabled": {
           "value": "true"
@@ -9945,10 +9879,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "9daf1aeb37158c673d39f2998429eec7"
+      "settingsVersion": "e4bf9dcc82e4cf9a6b081496ccb20ac8"
     },
     "debug": {},
-    "featureSetToken": "6bef764c6e7c444547d62c1f634d3bf97f2d4476",
+    "featureSetToken": "8d07d62b0962dd108db7811b14261034d482857a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -10077,7 +10011,7 @@
   },
   "educationFlags": {
     "CommunitiesEducationWelcome": "1715180885942",
-    "GrokEducation": "1781377520556"
+    "GrokEducation": "1792084722413"
   },
   "userClaim": {
     "config": {
