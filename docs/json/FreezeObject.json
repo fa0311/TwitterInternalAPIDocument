@@ -2498,7 +2498,7 @@
     "Italic": "ITALIC",
     "Strikethrough": "STRIKETHROUGH"
   },
-  "{\"ActionsBar\":\"b.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"r\",\"onOpen\":\"n\"}{\"let o=i.useCallback()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"A.i\",\"EditCallout\":\"x.A\",\"Education\":\"T.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"S.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"r\",\"knownFollowers\":\"i\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"D.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"r\",\"knownFollowers\":\"i\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}}}},\"ReplyContext\":\"R.Ay\",\"RichContent\":\"j.A\",\"SocialContext\":\"m.A\",\"Text\":\"M.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"p.A\",\"UserAvatar\":\"L.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"v.A\"}",
+  "{\"ActionsBar\":\"b.A\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"r\",\"onOpen\":\"n\"}{\"let o=i.useCallback()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"n\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"o.Ay\",\"ContentDisclosure\":\"x.i\",\"EditCallout\":\"A.A\",\"Education\":\"T.A\",\"HighlightedUserLabel\":\"l.A\",\"Media\":\"S.A\",\"Place\":\"n.Ay\",\"PromotedDetails\":\"c.A\",\"PromotedUserProfileCard\":\"function()\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"r\",\"knownFollowers\":\"i\",\"link\":\"n\",\"onClick\":\"o\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"style\":\"l\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}{\"return()(0,w.jsx)\"{\"style\":\"l\",\"children\":\"()(0,w.jsx)\"{\"link\":\"n\",\"onClick\":\"o\",\"style\":\"D.root\",\"children\":\"()(0,w.jsx)\"{\"followButton\":\"e\",\"isUserProtected\":\"t\",\"isUserVerified\":\"r\",\"knownFollowers\":\"i\",\"onScreenNameClick\":\"s\",\"promotedContent\":\"a\",\"userDescription\":\"d\",\"userId\":\"c\",\"userName\":\"u\",\"userScreenName\":\"p\"}}}},\"ReplyContext\":\"R.Ay\",\"RichContent\":\"j.A\",\"SocialContext\":\"m.A\",\"Text\":\"M.A\",\"Tombstone\":\"f.A\",\"Timestamp\":\"p.A\",\"UserAvatar\":\"L.A\",\"UserFollowIndicator\":\"U.A\",\"UserName\":\"P.A\",\"ArticleCard\":\"v.A\"}",
   "{\"hideCardVanity\":()=>!0}",
   {
     "INITIAL": "initial",
@@ -20050,9 +20050,9 @@
   },
   {
     "commerce-core": "h",
-    "commerce-ui": "4.7.0"
+    "commerce-ui": "4.8.0"
   },
-  "{\"versions\":\"Object.freeze()\"{\"commerce-core\":\"h\",\"commerce-ui\":\"4.7.0\"}}",
+  "{\"versions\":\"Object.freeze()\"{\"commerce-core\":\"h\",\"commerce-ui\":\"4.8.0\"}}",
   {
     "INITIAL": "initial",
     "AUTO_PAUSED": "autoPaused",

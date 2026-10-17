@@ -78,29 +78,42 @@
     },
     "users": {
       "entities": {
-        "1788224200639160320": {
-          "name": "けむけむけむ",
-          "screen_name": "0y1kOJxopr65402",
-          "id_str": "1788224200639160320",
-          "favourites_count": "1",
+        "1787148517779406848": {
+          "name": "けむ",
+          "screen_name": "ptcpz3",
+          "id_str": "1787148517779406848",
+          "favourites_count": "3",
           "profile_banner_url": "",
           "creator_subscriptions_count": "0",
-          "is_profile_translatable": "false",
-          "location": "",
+          "is_profile_translatable": "true",
+          "location": "a",
           "notifications": "false",
           "possibly_sensitive": "false",
           "entities": {
-            "description": {}
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "github.com/fa0311/twitter…",
+                  "expanded_url": "https://github.com/fa0311/twitter_api_safe_relay_skills",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/sgZOSvMZXx"
+                }
+              ]
+            }
           },
           "profile_image_shape": "Circle",
           "profile_interstitial_type": "",
           "is_translator": "false",
           "translator_type": "none",
-          "followers_count": "0",
-          "friends_count": "2",
-          "media_count": "0",
-          "statuses_count": "8",
-          "url": "",
+          "followers_count": "21",
+          "friends_count": "171",
+          "media_count": "4",
+          "statuses_count": "125",
+          "url": "https://t.co/sgZOSvMZXx",
           "is_blue_verified": "false",
           "super_follow_eligible": "false",
           "super_followed_by": "false",
@@ -115,7 +128,7 @@
           "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
           "can_media_tag": "true",
           "follow_request_sent": "false",
-          "description": "本番環境用Token",
+          "description": "API debug か AI",
           "blocked_by": "false",
           "blocking": "false",
           "followed_by": "false",
@@ -123,21 +136,21 @@
           "live_following": "false",
           "muting": "false",
           "birthdate": {
-            "day": "8",
-            "month": "7",
+            "day": "11",
+            "month": "3",
             "visibility": "self",
-            "year": "1965",
+            "year": "2000",
             "year_visibility": "self"
           },
-          "has_graduated_access": "true",
-          "created_at": "2024-05-08T15:07:30.000Z",
+          "has_graduated_access": "false",
+          "created_at": "2024-05-05T15:53:13.000Z",
           "parody_commentary_fan_label": "None",
           "can_dm": "true"
         }
       },
       "errors": {},
       "fetchStatus": {
-        "1788224200639160320": "loaded"
+        "1787148517779406848": "loaded"
       }
     },
     "aitrends": {
@@ -5709,7 +5722,7 @@
           "value": "120000"
         },
         "gryphon_underground_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "gryphon_upgrade_premium_plus_banner_enabled": {
           "value": "true"
@@ -5970,7 +5983,7 @@
           "value": "false"
         },
         "new_timeline_experiment_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "oauth_consent_account_switch_enabled": {
           "value": "true"
@@ -6180,7 +6193,7 @@
           "value": "false"
         },
         "premium_paywall_on_app_load_fatigue_version": {
-          "value": "3"
+          "value": "1"
         },
         "premium_paywall_on_app_load_journey_enabled": {
           "value": "true"
@@ -6819,7 +6832,7 @@
           "value": "true"
         },
         "responsive_web_grok_img_composer_in_media_picker": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_img_composer_redirect_to_grok_com_imagine": {
           "value": "true"
@@ -8720,7 +8733,7 @@
           "value": "false"
         },
         "timeline_scroll_pointer_events_optimization": {
-          "value": "false"
+          "value": "true"
         },
         "topic_landing_page_clearer_controls_enabled": {
           "value": "true"
@@ -9654,27 +9667,35 @@
         }
       },
       "impression_pointers": {
-        "responsive_web_nfl_sidebar_max_live_games": [
-          "nfl_sidebar_max_live_games_19317"
+        "new_timeline_experiment_enabled": [
+          "adblock_fyp_timeline_detection_18915"
         ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
+        ],
+        "responsive_web_primary_nav_route_preload_enabled": [
+          "web_route_preloading_18967"
         ]
       },
       "impressions": {
-        "nfl_sidebar_max_live_games_19317": {
-          "key": "nfl_sidebar_max_live_games_19317",
-          "bucket": "control",
-          "version": "1"
+        "adblock_fyp_timeline_detection_18915": {
+          "key": "adblock_fyp_timeline_detection_18915",
+          "bucket": "treatment",
+          "version": "4"
         },
         "timeline_pointer_events_19084": {
           "key": "timeline_pointer_events_19084",
-          "bucket": "control",
+          "bucket": "treatment",
           "version": "5"
+        },
+        "web_route_preloading_18967": {
+          "key": "web_route_preloading_18967",
+          "bucket": "control",
+          "version": "1"
         }
       },
       "keysRead": {},
-      "settingsVersion": "b7c8cbd9f379b2e2af61518afcf6656b"
+      "settingsVersion": "03799f7d09e848b475f5e75238e023a1"
     },
     "debug": {},
     "featureSetToken": "60115b80fb9088568d7a69b41721da85d798dfcd",
@@ -9702,7 +9723,7 @@
       "settings": {
         "display_sensitive_media": "false",
         "protected": "false",
-        "screen_name": "0y1kOJxopr65402",
+        "screen_name": "ptcpz3",
         "always_use_https": "true",
         "use_cookie_personalization": "false",
         "sleep_time": {
@@ -9804,8 +9825,19 @@
     }
   },
   "educationFlags": {
-    "CommunitiesEducationWelcome": "1715180885942",
-    "GrokEducation": "1792084722413"
+    "AltTextEducation": "1727661055877",
+    "ConversationMutedEducation": "1780338827080",
+    "HideReplyAuthorEducation": "1780338919458",
+    "MuteKeywordEducation": "1780340412714",
+    "DMC16JPCompliancePrompt": "1748821302021",
+    "ChangeConversationControlsEducation": "1730492859343",
+    "CommunitiesEducationWelcome": "1730265823878",
+    "PersistentConversationControlsEducation": "1727660334125",
+    "CommunitiesHashtagsEducation": "1746981117776",
+    "NewUserPromptEducation": "1727624861810",
+    "GraduatedUserPromptEducation": "1730487680136",
+    "GrokEducation": "1784560918896",
+    "GrokFreeNUX": "1733748743063"
   },
   "userClaim": {
     "config": {
@@ -9820,7 +9852,7 @@
       "create": "false"
     },
     "country": "JP",
-    "guestId": "175605027137339332",
+    "guestId": "179216186845560893",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "true",
@@ -9829,7 +9861,7 @@
     "ssoInitTokens": {},
     "superFollowersCount": "0",
     "superFollowsApplicationStatus": "NotStarted",
-    "user_id": "1788224200639160320",
+    "user_id": "1787148517779406848",
     "userFeatures": {
       "mediatool_studio_library": "false"
     },
