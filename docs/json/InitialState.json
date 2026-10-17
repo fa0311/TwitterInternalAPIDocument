@@ -112,7 +112,7 @@
           "followers_count": "21",
           "friends_count": "171",
           "media_count": "4",
-          "statuses_count": "125",
+          "statuses_count": "128",
           "url": "https://t.co/sgZOSvMZXx",
           "is_blue_verified": "false",
           "super_follow_eligible": "false",
@@ -699,7 +699,7 @@
         "value": "false"
       },
       "complat_x_grant_entrypoints_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "complat_x_grant_opt_in_enabled": {
         "value": "true"
@@ -1388,6 +1388,9 @@
       },
       "payments_half_cover_notices_enabled": {
         "value": "true"
+      },
+      "payments_initialize_w9_in_settings_enabled": {
+        "value": "false"
       },
       "payments_interest_details_with_boost_enabled": {
         "value": "true"
@@ -5556,7 +5559,7 @@
           "value": "false"
         },
         "complat_x_grant_entrypoints_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "complat_x_grant_opt_in_enabled": {
           "value": "true"
@@ -6245,6 +6248,9 @@
         },
         "payments_half_cover_notices_enabled": {
           "value": "true"
+        },
+        "payments_initialize_w9_in_settings_enabled": {
+          "value": "false"
         },
         "payments_interest_details_with_boost_enabled": {
           "value": "true"
@@ -9974,7 +9980,7 @@
       "settingsVersion": "fb33c0ed616bf16739be9094c10df0e2"
     },
     "debug": {},
-    "featureSetToken": "d72e7a28cc9e5f3aa3e3481ade79586b7cb7c0f4",
+    "featureSetToken": "e6b9755d4fcbd82d84d63569fc3a9342f3b8e67d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
