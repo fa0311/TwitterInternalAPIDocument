@@ -37281,7 +37281,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "yBfp_zJTu7_HETWSJFXQgg",
+      "queryId": "8MMljzjxQVlkEOdiXgqPsQ",
       "operationName": "businessInsightsGroupsTabSelectedClusterQuery",
       "operationType": "query",
       "metadata": {
@@ -37307,7 +37307,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "X_h5fzED5keM29e1uqHmgg",
+      "queryId": "B6xr1XX8CgOe58yJl6AU3A",
       "operationName": "businessInsightsMonitorTabPostsQuery",
       "operationType": "query",
       "metadata": {
@@ -37320,7 +37320,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "zlGJEMxhif0w4EBUUwrtWQ",
+      "queryId": "0R27-o8SEtk4-6T4xIHwYg",
       "operationName": "businessInsightsOverviewTabQuery",
       "operationType": "query",
       "metadata": {
