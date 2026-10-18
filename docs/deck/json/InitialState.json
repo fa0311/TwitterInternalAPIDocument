@@ -109,7 +109,7 @@
           "profile_interstitial_type": "",
           "is_translator": "false",
           "translator_type": "none",
-          "followers_count": "21",
+          "followers_count": "19",
           "friends_count": "171",
           "media_count": "4",
           "statuses_count": "128",
@@ -430,7 +430,7 @@
         "value": "false"
       },
       "ads_spacing_client_fallback_minimum_spacing": {
-        "value": "2"
+        "value": "1"
       },
       "ads_spacing_client_fallback_minimum_spacing_verified_blue": {
         "value": "3"
@@ -541,13 +541,10 @@
         "value": "true"
       },
       "branded_features_search_overlay_animations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "branded_like_preview_enabled": {
         "value": "false"
-      },
-      "broadcast_live_chat_enabled": {
-        "value": "true"
       },
       "broadcast_live_chat_input_max_char_limit": {
         "value": "200"
@@ -687,14 +684,38 @@
       "communities_web_enable_tweet_community_results_fetch": {
         "value": "true"
       },
-      "complat_management_enabled": {
+      "complat_assets_enabled": {
+        "value": "true"
+      },
+      "complat_enabled": {
+        "value": "true"
+      },
+      "complat_home_sidebar_migration_card_enabled": {
         "value": "false"
+      },
+      "complat_manage_migration_card_enabled": {
+        "value": "true"
+      },
+      "complat_management_enabled": {
+        "value": "true"
+      },
+      "complat_paywall_bundle_tiers_arm": {
+        "value": ""
+      },
+      "complat_premium_hub_upgrade_card_enabled": {
+        "value": "true"
       },
       "complat_responsive_web_castle_minting_enabled": {
         "value": "false"
       },
-      "complat_x_migration_enabled": {
+      "complat_x_grant_entrypoints_enabled": {
         "value": "false"
+      },
+      "complat_x_grant_opt_in_enabled": {
+        "value": "true"
+      },
+      "complat_x_migration_enabled": {
+        "value": "true"
       },
       "composer_add_geo_network_conversation_controls": {
         "value": "true"
@@ -929,10 +950,19 @@
         "value": "false"
       },
       "grok_xweb_connectors_enabled": {
-        "value": "false"
+        "value": "true"
+      },
+      "grok_xweb_history_media_enabled": {
+        "value": "true"
+      },
+      "grok_xweb_message_actions_enabled": {
+        "value": "true"
       },
       "grok_xweb_skills_enabled": {
-        "value": "false"
+        "value": "true"
+      },
+      "grok_xweb_voice_mode_enabled": {
+        "value": "true"
       },
       "gryphon_accountsync_polling_interval_ms": {
         "value": "300000"
@@ -1345,6 +1375,9 @@
       "payments_chat_support_for_limits_enabled": {
         "value": "true"
       },
+      "payments_checkbook_orders_enabled": {
+        "value": "false"
+      },
       "payments_cheques_deposits_enabled": {
         "value": "true"
       },
@@ -1365,6 +1398,9 @@
       },
       "payments_half_cover_notices_enabled": {
         "value": "true"
+      },
+      "payments_initialize_w9_in_settings_enabled": {
+        "value": "false"
       },
       "payments_interest_details_with_boost_enabled": {
         "value": "true"
@@ -1415,6 +1451,9 @@
         "value": "false"
       },
       "people_search_interests_filter_enabled": {
+        "value": "false"
+      },
+      "photo_permalink_share_enabled": {
         "value": "false"
       },
       "post_ctas_fetch_enabled": {
@@ -1780,6 +1819,9 @@
       "responsive_web_card_image_poll_sort_by_vote_count_enabled": {
         "value": "true"
       },
+      "responsive_web_card_player_allowlist_enabled": {
+        "value": "false"
+      },
       "responsive_web_card_preconnect_enabled": {
         "value": "false"
       },
@@ -1821,6 +1863,9 @@
       },
       "responsive_web_composer_configurable_video_player_enabled": {
         "value": "false"
+      },
+      "responsive_web_composer_quote_video_toggle_enabled": {
+        "value": "true"
       },
       "responsive_web_convert_card_video_to_gif_enabled": {
         "value": "false"
@@ -1977,6 +2022,9 @@
       },
       "responsive_web_grok_bot_preset_title": {
         "value": ""
+      },
+      "responsive_web_grok_bot_top_banner_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_build_tab_relabel_enabled": {
         "value": "false"
@@ -2276,7 +2324,7 @@
         "value": "true"
       },
       "responsive_web_grok_xweb_replacement_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_hashtag_highlight_is_enabled": {
         "value": "false"
@@ -2428,6 +2476,60 @@
       "responsive_web_messages_watch_info_interval_s": {
         "value": "600"
       },
+      "responsive_web_mlb_athlete_tray_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_favorite_teams_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_game_animations_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_game_chat_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_game_feed_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_game_odds_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_hub_home_tab_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_lineup_season_stats_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_live_card_collapse_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_logged_out_game_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_pregame_matchup_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_profile_sports_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_reminder_snooze_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_reminders_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_scorecard_odds_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_sidebar_enabled": {
+        "value": "true"
+      },
+      "responsive_web_mlb_team_picker_enabled": {
+        "value": "true"
+      },
       "responsive_web_mobile_app_spotlight_v1_config": {
         "value": "false"
       },
@@ -2443,6 +2545,15 @@
       "responsive_web_native_emojis_enabled": {
         "value": "true"
       },
+      "responsive_web_ncaafb_enabled": {
+        "value": "true"
+      },
+      "responsive_web_ncaafb_logged_out_game_enabled": {
+        "value": "true"
+      },
+      "responsive_web_ncaafb_profile_sports_enabled": {
+        "value": "true"
+      },
       "responsive_web_nested_quote_preview_enabled": {
         "value": "true"
       },
@@ -2451,9 +2562,6 @@
       },
       "responsive_web_nfl_game_dock_enabled": {
         "value": "false"
-      },
-      "responsive_web_nfl_hub_home_tab_enabled": {
-        "value": "true"
       },
       "responsive_web_nfl_profile_sports_enabled": {
         "value": "true"
@@ -2567,7 +2675,7 @@
         "value": "11"
       },
       "responsive_web_qp_budgets_by_billing_currency_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_qp_full_popup_enabled": {
         "value": "true"
@@ -2650,7 +2758,16 @@
       "responsive_web_signup_direct": {
         "value": "false"
       },
+      "responsive_web_sports_chatting_rings_enabled": {
+        "value": "true"
+      },
       "responsive_web_sports_live_profile_rings_enabled": {
+        "value": "true"
+      },
+      "responsive_web_sports_profile_endpoint_enabled": {
+        "value": "true"
+      },
+      "responsive_web_sports_sidebar_league_logos_enabled": {
         "value": "true"
       },
       "responsive_web_spud_enabled": {
@@ -2911,49 +3028,13 @@
       "rweb_age_assurance_flow_enabled": {
         "value": "true"
       },
-      "rweb_analytics_active_followers_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_audience_compact_mode": {
-        "value": "true"
-      },
-      "rweb_analytics_audience_xweb_enabled": {
-        "value": "true"
-      },
       "rweb_analytics_control_v2_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_export_data_content_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_export_data_enabled": {
         "value": "true"
       },
       "rweb_analytics_hourly_overview_enabled": {
         "value": "false"
       },
-      "rweb_analytics_in_out_network_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_live_details_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_live_overview_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_nav_item_enabled": {
-        "value": "false"
-      },
-      "rweb_analytics_post_details_realtime_enabled": {
-        "value": "true"
-      },
       "rweb_analytics_realtime_active_followers_enabled": {
-        "value": "false"
-      },
-      "rweb_analytics_spaces_details_enabled": {
-        "value": "true"
-      },
-      "rweb_analytics_spaces_overview_enabled": {
         "value": "true"
       },
       "rweb_analytics_theme": {
@@ -2961,9 +3042,6 @@
       },
       "rweb_analytics_upsell_variant": {
         "value": ""
-      },
-      "rweb_analytics_xweb_content_page": {
-        "value": "true"
       },
       "rweb_cashtags_composer_attachment_enabled": {
         "value": "true"
@@ -3018,6 +3096,9 @@
       },
       "rweb_home_nav_single_direction_scroll_enabled": {
         "value": "false"
+      },
+      "rweb_home_preserve_entries_enabled": {
+        "value": "true"
       },
       "rweb_home_ranked_following_enabled": {
         "value": "true"
@@ -3232,6 +3313,12 @@
       "rweb_xchat_dogfood_logs_enabled": {
         "value": "false"
       },
+      "rweb_xchat_embed_manifest_url": {
+        "value": "https://chat.x.com/embed-v1.json"
+      },
+      "rweb_xchat_follow_back_message_nudge_enabled": {
+        "value": "false"
+      },
       "rweb_xchat_logs": {
         "value": "false"
       },
@@ -3417,9 +3504,6 @@
       "spaces_dtx_opus_dtx_enabled": {
         "value": "false"
       },
-      "spaces_live_chat_enabled": {
-        "value": "false"
-      },
       "spaces_video_admins_enabled": {
         "value": "false"
       },
@@ -3526,7 +3610,7 @@
         "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
       },
       "subscriptions_gifting_premium_intervals_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_gifting_premium_intro_copy_enabled": {
         "value": "false"
@@ -4326,6 +4410,9 @@
       "video_attribution_display_over_video_cards_enabled": {
         "value": "true"
       },
+      "video_clipping_attribution_enabled": {
+        "value": "false"
+      },
       "video_upload_metadata_title_enabled": {
         "value": "false"
       },
@@ -4395,6 +4482,9 @@
       "web_video_playback_rate_enabled": {
         "value": "true"
       },
+      "web_video_player_size_cap_enabled": {
+        "value": "false"
+      },
       "web_video_prefetch_playlist_autoplay_disabled": {
         "value": "false"
       },
@@ -4422,6 +4512,37 @@
       "x_sports_game_chat_should_hide_logos": {
         "value": "false"
       },
+      "x_sports_game_chat_team_pick_disabled_leagues": {
+        "value": []
+      },
+      "x_sports_hub_home_timeline_ids": {
+        "value": [
+          "nfl:1925951614067650560",
+          "ncaafb:1925951645872975873",
+          "mlb:1925951672561319936",
+          "nba:1925951454121967616",
+          "nhl:1925951775544061952",
+          "formula_racing:1925950746756800513"
+        ]
+      },
+      "x_sports_ncaafb_game_chat_enabled": {
+        "value": "true"
+      },
+      "x_sports_ncaafb_game_feed_enabled": {
+        "value": "true"
+      },
+      "x_sports_ncaafb_game_field_midfield_logo_enabled": {
+        "value": "true"
+      },
+      "x_sports_ncaafb_game_hero_backdrop_enabled": {
+        "value": "true"
+      },
+      "x_sports_ncaafb_game_odds_card_enabled": {
+        "value": "true"
+      },
+      "x_sports_ncaafb_scorecard_odds_disabled": {
+        "value": "false"
+      },
       "x_sports_nfl_favorite_teams_enabled": {
         "value": "true"
       },
@@ -4441,7 +4562,7 @@
         "value": "false"
       },
       "x_sports_nfl_game_roster_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "x_sports_nfl_hub_home_timeline_tag": {
         "value": "1000000000000000005"
@@ -4450,7 +4571,7 @@
         "value": "true"
       },
       "x_sports_nfl_scorecard_odds_disabled": {
-        "value": "true"
+        "value": "false"
       },
       "x_sports_play_video_enabled": {
         "value": "true"
@@ -4464,11 +4585,8 @@
       "x_sports_post_context_same_game_min_spacing": {
         "value": "20"
       },
-      "xai_profile_redirect_enabled": {
-        "value": "true"
-      },
       "xcall_item_in_list_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xcall_link_devices_enabled": {
         "value": "false"
@@ -4615,7 +4733,7 @@
         "value": "false"
       },
       "xchat_enable_undecryptable_tombstones": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_user_metadata_migration_dry_run": {
         "value": "false"
@@ -4803,6 +4921,9 @@
       "xchat_pmk_bundle_signatures_enabled": {
         "value": "false"
       },
+      "xchat_post_details_enabled": {
+        "value": "false"
+      },
       "xchat_ratchet_group_id_threshold": {
         "value": "9223372036854776000"
       },
@@ -4832,6 +4953,9 @@
       },
       "xchat_self_custody_enabled": {
         "value": "false"
+      },
+      "xchat_send_contents_encryption_version": {
+        "value": "0"
       },
       "xchat_send_franking_data": {
         "value": "true"
@@ -5282,9 +5406,6 @@
         "branded_like_preview_enabled": {
           "value": "false"
         },
-        "broadcast_live_chat_enabled": {
-          "value": "true"
-        },
         "broadcast_live_chat_input_max_char_limit": {
           "value": "200"
         },
@@ -5423,14 +5544,35 @@
         "communities_web_enable_tweet_community_results_fetch": {
           "value": "true"
         },
+        "complat_assets_enabled": {
+          "value": "true"
+        },
         "complat_enabled": {
+          "value": "true"
+        },
+        "complat_home_sidebar_migration_card_enabled": {
+          "value": "false"
+        },
+        "complat_manage_migration_card_enabled": {
           "value": "true"
         },
         "complat_management_enabled": {
           "value": "true"
         },
+        "complat_paywall_bundle_tiers_arm": {
+          "value": ""
+        },
+        "complat_premium_hub_upgrade_card_enabled": {
+          "value": "true"
+        },
         "complat_responsive_web_castle_minting_enabled": {
           "value": "false"
+        },
+        "complat_x_grant_entrypoints_enabled": {
+          "value": "false"
+        },
+        "complat_x_grant_opt_in_enabled": {
+          "value": "true"
         },
         "complat_x_migration_enabled": {
           "value": "true"
@@ -5670,7 +5812,16 @@
         "grok_xweb_connectors_enabled": {
           "value": "true"
         },
+        "grok_xweb_history_media_enabled": {
+          "value": "true"
+        },
+        "grok_xweb_message_actions_enabled": {
+          "value": "true"
+        },
         "grok_xweb_skills_enabled": {
+          "value": "true"
+        },
+        "grok_xweb_voice_mode_enabled": {
           "value": "true"
         },
         "gryphon_accountsync_polling_interval_ms": {
@@ -6084,6 +6235,9 @@
         "payments_chat_support_for_limits_enabled": {
           "value": "true"
         },
+        "payments_checkbook_orders_enabled": {
+          "value": "false"
+        },
         "payments_cheques_deposits_enabled": {
           "value": "true"
         },
@@ -6104,6 +6258,9 @@
         },
         "payments_half_cover_notices_enabled": {
           "value": "true"
+        },
+        "payments_initialize_w9_in_settings_enabled": {
+          "value": "false"
         },
         "payments_interest_details_with_boost_enabled": {
           "value": "true"
@@ -6154,6 +6311,9 @@
           "value": "false"
         },
         "people_search_interests_filter_enabled": {
+          "value": "false"
+        },
+        "photo_permalink_share_enabled": {
           "value": "false"
         },
         "post_ctas_fetch_enabled": {
@@ -6519,6 +6679,9 @@
         "responsive_web_card_image_poll_sort_by_vote_count_enabled": {
           "value": "true"
         },
+        "responsive_web_card_player_allowlist_enabled": {
+          "value": "false"
+        },
         "responsive_web_card_preconnect_enabled": {
           "value": "false"
         },
@@ -6719,6 +6882,9 @@
         },
         "responsive_web_grok_bot_preset_title": {
           "value": "create_a_bot"
+        },
+        "responsive_web_grok_bot_top_banner_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_build_tab_relabel_enabled": {
           "value": "false"
@@ -7170,6 +7336,60 @@
         "responsive_web_messages_watch_info_interval_s": {
           "value": "600"
         },
+        "responsive_web_mlb_athlete_tray_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_favorite_teams_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_game_animations_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_game_chat_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_game_feed_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_game_odds_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_hub_home_tab_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_lineup_season_stats_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_live_card_collapse_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_logged_out_game_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_pregame_matchup_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_profile_sports_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_reminder_snooze_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_reminders_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_scorecard_odds_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_sidebar_enabled": {
+          "value": "false"
+        },
+        "responsive_web_mlb_team_picker_enabled": {
+          "value": "false"
+        },
         "responsive_web_mobile_app_spotlight_v1_config": {
           "value": "false"
         },
@@ -7185,6 +7405,15 @@
         "responsive_web_native_emojis_enabled": {
           "value": "true"
         },
+        "responsive_web_ncaafb_enabled": {
+          "value": "false"
+        },
+        "responsive_web_ncaafb_logged_out_game_enabled": {
+          "value": "false"
+        },
+        "responsive_web_ncaafb_profile_sports_enabled": {
+          "value": "false"
+        },
         "responsive_web_nested_quote_preview_enabled": {
           "value": "true"
         },
@@ -7193,9 +7422,6 @@
         },
         "responsive_web_nfl_game_dock_enabled": {
           "value": "false"
-        },
-        "responsive_web_nfl_hub_home_tab_enabled": {
-          "value": "true"
         },
         "responsive_web_nfl_profile_sports_enabled": {
           "value": "true"
@@ -7392,8 +7618,17 @@
         "responsive_web_signup_direct": {
           "value": "false"
         },
+        "responsive_web_sports_chatting_rings_enabled": {
+          "value": "true"
+        },
         "responsive_web_sports_live_profile_rings_enabled": {
           "value": "true"
+        },
+        "responsive_web_sports_profile_endpoint_enabled": {
+          "value": "true"
+        },
+        "responsive_web_sports_sidebar_league_logos_enabled": {
+          "value": "false"
         },
         "responsive_web_spud_enabled": {
           "value": "true"
@@ -7653,49 +7888,13 @@
         "rweb_age_assurance_flow_enabled": {
           "value": "true"
         },
-        "rweb_analytics_active_followers_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_audience_compact_mode": {
-          "value": "true"
-        },
-        "rweb_analytics_audience_xweb_enabled": {
-          "value": "true"
-        },
         "rweb_analytics_control_v2_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_export_data_content_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_export_data_enabled": {
           "value": "true"
         },
         "rweb_analytics_hourly_overview_enabled": {
           "value": "false"
         },
-        "rweb_analytics_in_out_network_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_live_details_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_live_overview_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_nav_item_enabled": {
-          "value": "false"
-        },
-        "rweb_analytics_post_details_realtime_enabled": {
-          "value": "true"
-        },
         "rweb_analytics_realtime_active_followers_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_spaces_details_enabled": {
-          "value": "true"
-        },
-        "rweb_analytics_spaces_overview_enabled": {
           "value": "true"
         },
         "rweb_analytics_theme": {
@@ -7703,9 +7902,6 @@
         },
         "rweb_analytics_upsell_variant": {
           "value": ""
-        },
-        "rweb_analytics_xweb_content_page": {
-          "value": "true"
         },
         "rweb_cashtags_composer_attachment_enabled": {
           "value": "true"
@@ -7760,6 +7956,9 @@
         },
         "rweb_home_nav_single_direction_scroll_enabled": {
           "value": "false"
+        },
+        "rweb_home_preserve_entries_enabled": {
+          "value": "true"
         },
         "rweb_home_ranked_following_enabled": {
           "value": "true"
@@ -7977,6 +8176,9 @@
         "rweb_xchat_embed_manifest_url": {
           "value": "https://chat.x.com/embed-v1.json"
         },
+        "rweb_xchat_follow_back_message_nudge_enabled": {
+          "value": "false"
+        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -7985,9 +8187,6 @@
         },
         "rweb_xchat_markdown_tables_enabled": {
           "value": "false"
-        },
-        "rweb_xchat_module_federation_enabled": {
-          "value": "true"
         },
         "rweb_xchat_scroller_rewrite_enabled": {
           "value": "true"
@@ -8164,9 +8363,6 @@
         },
         "spaces_dtx_opus_dtx_enabled": {
           "value": "false"
-        },
-        "spaces_live_chat_enabled": {
-          "value": "true"
         },
         "spaces_video_admins_enabled": {
           "value": "false"
@@ -9074,6 +9270,9 @@
         "video_attribution_display_over_video_cards_enabled": {
           "value": "true"
         },
+        "video_clipping_attribution_enabled": {
+          "value": "false"
+        },
         "video_upload_metadata_title_enabled": {
           "value": "false"
         },
@@ -9143,6 +9342,9 @@
         "web_video_playback_rate_enabled": {
           "value": "true"
         },
+        "web_video_player_size_cap_enabled": {
+          "value": "false"
+        },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
         },
@@ -9168,6 +9370,37 @@
           "value": "false"
         },
         "x_sports_game_chat_should_hide_logos": {
+          "value": "false"
+        },
+        "x_sports_game_chat_team_pick_disabled_leagues": {
+          "value": []
+        },
+        "x_sports_hub_home_timeline_ids": {
+          "value": [
+            "nfl:1925951614067650560",
+            "ncaafb:1925951645872975873",
+            "mlb:1925951672561319936",
+            "nba:1925951454121967616",
+            "nhl:1925951775544061952",
+            "formula_racing:1925950746756800513"
+          ]
+        },
+        "x_sports_ncaafb_game_chat_enabled": {
+          "value": "true"
+        },
+        "x_sports_ncaafb_game_feed_enabled": {
+          "value": "true"
+        },
+        "x_sports_ncaafb_game_field_midfield_logo_enabled": {
+          "value": "true"
+        },
+        "x_sports_ncaafb_game_hero_backdrop_enabled": {
+          "value": "true"
+        },
+        "x_sports_ncaafb_game_odds_card_enabled": {
+          "value": "true"
+        },
+        "x_sports_ncaafb_scorecard_odds_disabled": {
           "value": "false"
         },
         "x_sports_nfl_favorite_teams_enabled": {
@@ -9211,9 +9444,6 @@
         },
         "x_sports_post_context_same_game_min_spacing": {
           "value": "20"
-        },
-        "xai_profile_redirect_enabled": {
-          "value": "false"
         },
         "xcall_item_in_list_enabled": {
           "value": "true"
@@ -9551,6 +9781,9 @@
         "xchat_pmk_bundle_signatures_enabled": {
           "value": "false"
         },
+        "xchat_post_details_enabled": {
+          "value": "false"
+        },
         "xchat_ratchet_group_id_threshold": {
           "value": "9223372036854776000"
         },
@@ -9695,10 +9928,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "03799f7d09e848b475f5e75238e023a1"
+      "settingsVersion": "1df84f5abf83dbf7e11f4b741914ca97"
     },
     "debug": {},
-    "featureSetToken": "60115b80fb9088568d7a69b41721da85d798dfcd",
+    "featureSetToken": "e6b9755d4fcbd82d84d63569fc3a9342f3b8e67d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -9711,6 +9944,7 @@
       "themeColor": "blue500",
       "highContrastEnabled": "false",
       "loginPromptLastShown": "0",
+      "moneyNotificationsLastSeenSortIndex": {},
       "reducedMotionEnabled": "false",
       "showTweetMediaDetailDrawer": "true",
       "autoPollNewTweets": "false",
@@ -9844,6 +10078,7 @@
       "subscriptions": {},
       "features": {}
     },
+    "commerceSubscriptions": [],
     "debug": {},
     "fetchStatus": "loaded"
   },
