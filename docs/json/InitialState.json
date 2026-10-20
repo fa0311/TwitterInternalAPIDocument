@@ -8167,7 +8167,7 @@
           "value": "https://chat.x.com/embed-v1.json"
         },
         "rweb_xchat_follow_back_message_nudge_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -9977,7 +9977,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "fb33c0ed616bf16739be9094c10df0e2"
+      "settingsVersion": "bdb7083a4676c4f7d8bf10a53a061fce"
     },
     "debug": {},
     "featureSetToken": "e6b9755d4fcbd82d84d63569fc3a9342f3b8e67d",
