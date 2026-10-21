@@ -1977,6 +1977,9 @@
       "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
         "value": "20"
       },
+      "responsive_web_grok_analyze_trend_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_annotations_enabled": {
         "value": "true"
       },
@@ -2534,6 +2537,48 @@
       },
       "responsive_web_native_emojis_enabled": {
         "value": "true"
+      },
+      "responsive_web_nba_athlete_tray_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_favorite_teams_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_game_animations_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_game_chat_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_game_feed_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_game_odds_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_hub_home_tab_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_logged_out_game_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_pregame_matchup_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_profile_sports_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_reminder_snooze_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_reminders_enabled": {
+        "value": "false"
+      },
+      "responsive_web_nba_team_picker_enabled": {
+        "value": "false"
       },
       "responsive_web_ncaafb_enabled": {
         "value": "true"
@@ -3307,7 +3352,7 @@
         "value": "https://chat.x.com/embed-v1.json"
       },
       "rweb_xchat_follow_back_message_nudge_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_xchat_logs": {
         "value": "false"
@@ -3762,7 +3807,7 @@
         "value": "false"
       },
       "subscriptions_premium_hub_ad_free_link_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_premium_hub_boost_block_enabled": {
         "value": "true"
@@ -5550,7 +5595,7 @@
           "value": "true"
         },
         "complat_paywall_bundle_tiers_arm": {
-          "value": ""
+          "value": "all"
         },
         "complat_premium_hub_upgrade_card_enabled": {
           "value": "true"
@@ -6235,7 +6280,7 @@
           "value": "1000"
         },
         "payments_csv_export_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_forward_with_enabled": {
           "value": "true"
@@ -6837,6 +6882,9 @@
         "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
           "value": "20"
         },
+        "responsive_web_grok_analyze_trend_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_annotations_enabled": {
           "value": "true"
         },
@@ -7327,58 +7375,58 @@
           "value": "600"
         },
         "responsive_web_mlb_athlete_tray_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_favorite_teams_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_game_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_game_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_game_feed_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_game_odds_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_hub_home_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_lineup_season_stats_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_live_card_collapse_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_logged_out_game_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_pregame_matchup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_profile_sports_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_reminder_snooze_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_reminders_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_scorecard_odds_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_sidebar_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mlb_team_picker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_mobile_app_spotlight_v1_config": {
           "value": "false"
@@ -7393,6 +7441,48 @@
           ]
         },
         "responsive_web_native_emojis_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_athlete_tray_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_favorite_teams_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_game_animations_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_game_chat_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_game_feed_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_game_odds_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_hub_home_tab_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_logged_out_game_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_pregame_matchup_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_profile_sports_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_reminder_snooze_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_reminders_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_team_picker_enabled": {
           "value": "true"
         },
         "responsive_web_ncaafb_enabled": {
@@ -8622,7 +8712,7 @@
           "value": "false"
         },
         "subscriptions_premium_hub_ad_free_link_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_premium_hub_boost_block_enabled": {
           "value": "true"
@@ -9890,68 +9980,17 @@
         }
       },
       "impression_pointers": {
-        "responsive_web_mlb_athlete_tray_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_reminder_snooze_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_pregame_matchup_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_favorite_teams_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_lineup_season_stats_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_game_animations_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_hub_home_tab_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_team_picker_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_live_card_collapse_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_game_chat_enabled": [
-          "total_mlb_holdback_19570"
+        "complat_paywall_bundle_tiers_arm": [
+          "complat_paywall_bundle_tiers_19662"
         ],
         "new_timeline_experiment_enabled": [
           "adblock_fyp_timeline_detection_18915"
-        ],
-        "responsive_web_mlb_logged_out_game_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_profile_sports_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_game_odds_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_reminders_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_sidebar_enabled": [
-          "total_mlb_holdback_19570"
         ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
         ],
         "responsive_web_primary_nav_route_preload_enabled": [
           "web_route_preloading_18967"
-        ],
-        "responsive_web_mlb_scorecard_odds_enabled": [
-          "total_mlb_holdback_19570"
-        ],
-        "responsive_web_mlb_game_feed_enabled": [
-          "total_mlb_holdback_19570"
         ]
       },
       "impressions": {
@@ -9960,15 +9999,15 @@
           "bucket": "treatment",
           "version": "4"
         },
+        "complat_paywall_bundle_tiers_19662": {
+          "key": "complat_paywall_bundle_tiers_19662",
+          "bucket": "control",
+          "version": "5"
+        },
         "timeline_pointer_events_19084": {
           "key": "timeline_pointer_events_19084",
           "bucket": "treatment",
           "version": "5"
-        },
-        "total_mlb_holdback_19570": {
-          "key": "total_mlb_holdback_19570",
-          "bucket": "control",
-          "version": "2"
         },
         "web_route_preloading_18967": {
           "key": "web_route_preloading_18967",
@@ -9977,10 +10016,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "bdb7083a4676c4f7d8bf10a53a061fce"
+      "settingsVersion": "d5baef7e2dfde17fd39abd47457172c9"
     },
     "debug": {},
-    "featureSetToken": "e6b9755d4fcbd82d84d63569fc3a9342f3b8e67d",
+    "featureSetToken": "aa8b4c77bb1f69eaba71d62b8c87025ec2a8ef73",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
