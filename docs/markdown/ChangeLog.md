@@ -10055,3 +10055,23 @@
 - responsive_web_nba_team_picker_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/10/21<br>
+### API<br>
+#### add<br>
+- NbaScoresSidebarLiveGame<br>
+- NbaScoresSidebarSchedule<br>
+- NbaScoresSidebarLiveGame<br>
+- NbaScoresSidebarSchedule<br>
+- NbaScoresSidebarLiveGame<br>
+- NbaScoresSidebarSchedule<br>
+- NbaScoresSidebarLiveGame<br>
+- NbaScoresSidebarSchedule<br>
+#### remove<br>
+- followUserMutation<br>
+- unfollowUserMutation<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_conversation_controls_multi_select_enabled<br>
+- responsive_web_nba_sidebar_enabled<br>
+#### remove<br>
+- None<br>
