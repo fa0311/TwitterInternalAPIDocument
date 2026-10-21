@@ -699,7 +699,7 @@
         "value": "false"
       },
       "complat_x_grant_entrypoints_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "complat_x_grant_opt_in_enabled": {
         "value": "true"
@@ -1375,7 +1375,7 @@
         "value": "1000"
       },
       "payments_csv_export_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_forward_with_enabled": {
         "value": "true"
@@ -1856,6 +1856,9 @@
       },
       "responsive_web_composer_quote_video_toggle_enabled": {
         "value": "true"
+      },
+      "responsive_web_conversation_controls_multi_select_enabled": {
+        "value": "false"
       },
       "responsive_web_convert_card_video_to_gif_enabled": {
         "value": "false"
@@ -2539,46 +2542,49 @@
         "value": "true"
       },
       "responsive_web_nba_athlete_tray_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_favorite_teams_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_animations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_feed_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_odds_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_hub_home_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_logged_out_game_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_pregame_matchup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_profile_sports_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_reminder_snooze_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_reminders_enabled": {
+        "value": "true"
+      },
+      "responsive_web_nba_sidebar_enabled": {
         "value": "false"
       },
       "responsive_web_nba_team_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ncaafb_enabled": {
         "value": "true"
@@ -5604,7 +5610,7 @@
           "value": "false"
         },
         "complat_x_grant_entrypoints_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "complat_x_grant_opt_in_enabled": {
           "value": "true"
@@ -6762,6 +6768,9 @@
         "responsive_web_composer_quote_video_toggle_enabled": {
           "value": "true"
         },
+        "responsive_web_conversation_controls_multi_select_enabled": {
+          "value": "false"
+        },
         "responsive_web_convert_card_video_to_gif_enabled": {
           "value": "false"
         },
@@ -6922,7 +6931,7 @@
           "value": "create_a_bot"
         },
         "responsive_web_grok_bot_top_banner_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_build_tab_relabel_enabled": {
           "value": "false"
@@ -7480,6 +7489,9 @@
           "value": "true"
         },
         "responsive_web_nba_reminders_enabled": {
+          "value": "true"
+        },
+        "responsive_web_nba_sidebar_enabled": {
           "value": "true"
         },
         "responsive_web_nba_team_picker_enabled": {
@@ -10016,10 +10028,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "d5baef7e2dfde17fd39abd47457172c9"
+      "settingsVersion": "0baf106a210c9d2db761eacb416c924b"
     },
     "debug": {},
-    "featureSetToken": "aa8b4c77bb1f69eaba71d62b8c87025ec2a8ef73",
+    "featureSetToken": "7b5aeb415d22ad7bb27ae1981abc83d7e12b1bab",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
