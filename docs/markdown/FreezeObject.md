@@ -1537,7 +1537,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...e3      | _       |
+| ...e5      | _       |
 | ...aj      | _       |
 | ...X       | _       |
 
@@ -6228,8 +6228,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'M.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'M.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'R.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'R.Notes'}   |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
@@ -11983,7 +11983,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"forYou":{"...M.o.forYou":"_","getControl":()=>H,"getModule":"()"{"state":"e"}{"let t=e?()(0,C.fz)":null;if(e)throw Error(!t);let n=e?(\"Pinned timeline definitions require a viewerUserId\")(0,_.fU):[];return n.length>0?(e)(0,P.Ay){"userId":"t","snoozedTopicIds":"n"}"0","P.Ay"{"userId":"t"}},"getNa...
+{"forYou":{"...M.o.forYou":"_","getControl":()=>H,"getModule":"()"{"state":"e"}{"let t=e?()(0,L.fz)":null;if(e)throw Error(!t);let n=e?(\"Pinned timeline definitions require a viewerUserId\")(0,_.fU):[];return n.length>0?(e)(0,P.Ay){"userId":"t","snoozedTopicIds":"n"}"0","P.Ay"{"userId":"t"}},"getNa...
 ```
 | constant   | value      |
 |:-----------|:-----------|
@@ -13096,7 +13096,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"all":{"icon":"nm","label":"M().i8ea6d4e"},"community":{"icon":"n_","label":"M().a176d0d8"},"by_invitation":{"icon":"ng","label":"M().gc7e52ca"},"followers":{"icon":"n_","label":"M().a83724ac"},"subscribers":{"icon":"nm","label":"M().feb7560a"},"community_members":{"icon":"nf","label":"M().h257006e...
+{"all":{"icon":"ng","label":"M().i8ea6d4e"},"community":{"icon":"nf","label":"M().a176d0d8"},"by_invitation":{"icon":"n_","label":"M().gc7e52ca"},"followers":{"icon":"nf","label":"M().a83724ac"},"subscribers":{"icon":"ng","label":"M().feb7560a"},"community_members":{"icon":"ny","label":"M().h257006e...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -13464,9 +13464,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | interest           | {'backgroundColor': 'green50', 'color': 'green500', 'bold': '!1', 'fontSize': 'subtext1', 'fontWeight': 'medium'}                            |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | S                                                                                                                                            |
-| gif                | S                                                                                                                                            |
-| hd                 | S                                                                                                                                            |
+| alt                | k                                                                                                                                            |
+| gif                | k                                                                                                                                            |
+| hd                 | k                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 | modBadge           | {'backgroundColor': 'gray900', 'bold': '!0', 'color': 'gray0', 'fontSize': 'subtext3'}                                                       |
@@ -16873,7 +16873,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | a.Ay.NONE |
+| fetchStatus | n.Ay.NONE |
 
 | constant   | value                   |
 |:-----------|:------------------------|
@@ -19217,11 +19217,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value   |
 |:--------------|:--------|
 | commerce-core | g       |
-| commerce-ui   | 4.14.0  |
+| commerce-ui   | 4.15.1  |
 
 ```internal process
 # Error
-{"versions":"Object.freeze()"{"commerce-core":"g","commerce-ui":"4.14.0"}}
+{"versions":"Object.freeze()"{"commerce-core":"g","commerce-ui":"4.15.1"}}
 ```
 | constant     | value       |
 |:-------------|:------------|
