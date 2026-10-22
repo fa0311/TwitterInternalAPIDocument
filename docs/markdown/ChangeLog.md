@@ -10075,3 +10075,20 @@
 - responsive_web_nba_sidebar_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/10/22<br>
+### API<br>
+#### add<br>
+- useBookmarkToggleRemoveMutation<br>
+- shareButtonRemoveFromFolderMutation<br>
+#### remove<br>
+- bookmarkButtonRemoveMutation<br>
+- unblockUserMutation<br>
+### Feature Switch<br>
+#### add<br>
+- grok_xweb_voice_personality_enabled<br>
+- payments_web_advanced<br>
+- payments_web_core_profile_widget_enabled<br>
+- responsive_web_personalization_id_sync_ios_webview_enabled<br>
+- responsive_web_scribe_linger_fair_view_time_enabled<br>
+#### remove<br>
+- None<br>
