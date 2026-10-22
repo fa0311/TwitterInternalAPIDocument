@@ -5614,7 +5614,7 @@
           "value": "false"
         },
         "complat_x_grant_entrypoints_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "complat_x_grant_opt_in_enabled": {
           "value": "true"
@@ -6932,7 +6932,7 @@
           "value": "create_a_bot"
         },
         "responsive_web_grok_bot_top_banner_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_build_tab_relabel_enabled": {
           "value": "false"
@@ -10026,7 +10026,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "12a43cacb69f7781ee6be58edd867c58"
+      "settingsVersion": "04c46cb1b9c1f67093b1228e725cc604"
     },
     "debug": {},
     "featureSetToken": "ed74250160bd230f3ead77d37078a555586c19a5",
