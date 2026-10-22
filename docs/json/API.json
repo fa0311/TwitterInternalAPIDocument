@@ -7274,9 +7274,9 @@
       "method": "GET",
       "features": {}
     },
-    "bookmarkButtonRemoveMutation": {
-      "url": "https://x.com/i/api/graphql/6d0yyGdLZxjGey6ikdfBDw/bookmarkButtonRemoveMutation",
-      "queryId": "6d0yyGdLZxjGey6ikdfBDw",
+    "useBookmarkToggleRemoveMutation": {
+      "url": "https://x.com/i/api/graphql/xn5rYJGhMHHgVuXWXscjww/useBookmarkToggleRemoveMutation",
+      "queryId": "xn5rYJGhMHHgVuXWXscjww",
       "method": "POST",
       "features": {}
     },
@@ -7310,6 +7310,12 @@
       "method": "POST",
       "features": {}
     },
+    "shareButtonRemoveFromFolderMutation": {
+      "url": "https://x.com/i/api/graphql/SY9QbhwNFyBWejAW_g3OmQ/shareButtonRemoveFromFolderMutation",
+      "queryId": "SY9QbhwNFyBWejAW_g3OmQ",
+      "method": "POST",
+      "features": {}
+    },
     "feedbackContextApplyMutation": {
       "url": "https://x.com/i/api/graphql/_RwW3rlRHIrKcaLlyDQJTw/feedbackContextApplyMutation",
       "queryId": "_RwW3rlRHIrKcaLlyDQJTw",
@@ -7323,8 +7329,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/3mKZXuUFefRQiKG5wlbvxg/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "3mKZXuUFefRQiKG5wlbvxg",
+      "url": "https://x.com/i/api/graphql/jNpgOPiP3_JQuH5Z5d0RoQ/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "jNpgOPiP3_JQuH5Z5d0RoQ",
       "method": "GET",
       "features": {}
     },
@@ -7335,14 +7341,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/vyJmjISMdPSTfO6P1hpd8w/businessInsightsMonitorTabPostsQuery",
-      "queryId": "vyJmjISMdPSTfO6P1hpd8w",
+      "url": "https://x.com/i/api/graphql/K9WdQqGvfWPTNXMK2JwTNA/businessInsightsMonitorTabPostsQuery",
+      "queryId": "K9WdQqGvfWPTNXMK2JwTNA",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/lDdc0IkSwK_n2CM8Qlbpiw/businessInsightsOverviewTabQuery",
-      "queryId": "lDdc0IkSwK_n2CM8Qlbpiw",
+      "url": "https://x.com/i/api/graphql/PQUkoQKfmOtu5bu3I5z6gg/businessInsightsOverviewTabQuery",
+      "queryId": "PQUkoQKfmOtu5bu3I5z6gg",
       "method": "GET",
       "features": {}
     },
@@ -7563,8 +7569,8 @@
       "features": {}
     },
     "usePaymentsSessionCreateAuthTokenMutation": {
-      "url": "https://x.com/i/api/graphql/KOW1PAa4BrxOOqZnS-jN9g/usePaymentsSessionCreateAuthTokenMutation",
-      "queryId": "KOW1PAa4BrxOOqZnS-jN9g",
+      "url": "https://x.com/i/api/graphql/yieDVG3GAbxkcuiWeIXt5Q/usePaymentsSessionCreateAuthTokenMutation",
+      "queryId": "yieDVG3GAbxkcuiWeIXt5Q",
       "method": "POST",
       "features": {}
     },
@@ -8231,12 +8237,6 @@
     "cancelFollowRequestMutation": {
       "url": "https://x.com/i/api/graphql/46LY_rIBJx7QNZ6ziF9ROg/cancelFollowRequestMutation",
       "queryId": "46LY_rIBJx7QNZ6ziF9ROg",
-      "method": "POST",
-      "features": {}
-    },
-    "unblockUserMutation": {
-      "url": "https://x.com/i/api/graphql/A2MpLvDEQZ48_n2emniqsA/unblockUserMutation",
-      "queryId": "A2MpLvDEQZ48_n2emniqsA",
       "method": "POST",
       "features": {}
     },
