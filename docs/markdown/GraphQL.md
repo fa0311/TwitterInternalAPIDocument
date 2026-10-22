@@ -13894,8 +13894,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## bookmarkButtonRemoveMutation<br>
-Request URL: `https://x.com/i/api/graphql/6d0yyGdLZxjGey6ikdfBDw/bookmarkButtonRemoveMutation`<br>
+## useBookmarkToggleRemoveMutation<br>
+Request URL: `https://x.com/i/api/graphql/xn5rYJGhMHHgVuXWXscjww/useBookmarkToggleRemoveMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13960,6 +13960,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## shareButtonRemoveFromFolderMutation<br>
+Request URL: `https://x.com/i/api/graphql/SY9QbhwNFyBWejAW_g3OmQ/shareButtonRemoveFromFolderMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## feedbackContextApplyMutation<br>
 Request URL: `https://x.com/i/api/graphql/_RwW3rlRHIrKcaLlyDQJTw/feedbackContextApplyMutation`<br>
 Request Method: `POST`<br>
@@ -13983,7 +13994,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/3mKZXuUFefRQiKG5wlbvxg/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/jNpgOPiP3_JQuH5Z5d0RoQ/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14005,7 +14016,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/vyJmjISMdPSTfO6P1hpd8w/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/K9WdQqGvfWPTNXMK2JwTNA/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14016,7 +14027,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/lDdc0IkSwK_n2CM8Qlbpiw/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/PQUkoQKfmOtu5bu3I5z6gg/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14423,7 +14434,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## usePaymentsSessionCreateAuthTokenMutation<br>
-Request URL: `https://x.com/i/api/graphql/KOW1PAa4BrxOOqZnS-jN9g/usePaymentsSessionCreateAuthTokenMutation`<br>
+Request URL: `https://x.com/i/api/graphql/yieDVG3GAbxkcuiWeIXt5Q/usePaymentsSessionCreateAuthTokenMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15645,17 +15656,6 @@ Login Required: `...`<br>
 `None`<br>
 ## cancelFollowRequestMutation<br>
 Request URL: `https://x.com/i/api/graphql/46LY_rIBJx7QNZ6ziF9ROg/cancelFollowRequestMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## unblockUserMutation<br>
-Request URL: `https://x.com/i/api/graphql/A2MpLvDEQZ48_n2emniqsA/unblockUserMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
