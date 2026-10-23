@@ -709,7 +709,7 @@
         "value": "false"
       },
       "complat_x_grant_entrypoints_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "complat_x_grant_opt_in_enabled": {
         "value": "true"
@@ -962,6 +962,9 @@
         "value": "true"
       },
       "grok_xweb_voice_mode_enabled": {
+        "value": "true"
+      },
+      "grok_xweb_voice_personality_enabled": {
         "value": "true"
       },
       "gryphon_accountsync_polling_interval_ms": {
@@ -1385,7 +1388,7 @@
         "value": "1000"
       },
       "payments_csv_export_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_forward_with_enabled": {
         "value": "true"
@@ -1445,6 +1448,9 @@
         "value": "true"
       },
       "payments_transfer_link_enabled": {
+        "value": "false"
+      },
+      "payments_web_advanced": {
         "value": "false"
       },
       "payments_web_external_app_enabled": {
@@ -1867,6 +1873,9 @@
       "responsive_web_composer_quote_video_toggle_enabled": {
         "value": "true"
       },
+      "responsive_web_conversation_controls_multi_select_enabled": {
+        "value": "false"
+      },
       "responsive_web_convert_card_video_to_gif_enabled": {
         "value": "false"
       },
@@ -2021,13 +2030,13 @@
         "value": "true"
       },
       "responsive_web_grok_bot_preset_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_bot_preset_title": {
-        "value": ""
+        "value": "create_a_bot"
       },
       "responsive_web_grok_bot_top_banner_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_build_tab_relabel_enabled": {
         "value": "false"
@@ -2291,7 +2300,7 @@
         "value": "true"
       },
       "responsive_web_grok_tweet_translation_limit": {
-        "value": "5000"
+        "value": "50000"
       },
       "responsive_web_grok_use_new_layout": {
         "value": "true"
@@ -2549,46 +2558,49 @@
         "value": "true"
       },
       "responsive_web_nba_athlete_tray_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_favorite_teams_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_animations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_feed_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_game_odds_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_hub_home_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_logged_out_game_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_pregame_matchup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_profile_sports_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_reminder_snooze_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nba_reminders_enabled": {
-        "value": "false"
+        "value": "true"
+      },
+      "responsive_web_nba_sidebar_enabled": {
+        "value": "true"
       },
       "responsive_web_nba_team_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ncaafb_enabled": {
         "value": "true"
@@ -2672,6 +2684,9 @@
         "value": "false"
       },
       "responsive_web_personalization_id_sync_enabled": {
+        "value": "false"
+      },
+      "responsive_web_personalization_id_sync_ios_webview_enabled": {
         "value": "false"
       },
       "responsive_web_pinned_replies_enabled": {
@@ -3817,7 +3832,7 @@
         "value": "false"
       },
       "subscriptions_premium_hub_ad_free_link_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_premium_hub_boost_block_enabled": {
         "value": "true"
@@ -4528,7 +4543,7 @@
         "value": "true"
       },
       "web_video_player_size_cap_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "web_video_prefetch_playlist_autoplay_disabled": {
         "value": "false"
@@ -5869,6 +5884,9 @@
         "grok_xweb_voice_mode_enabled": {
           "value": "true"
         },
+        "grok_xweb_voice_personality_enabled": {
+          "value": "true"
+        },
         "gryphon_accountsync_polling_interval_ms": {
           "value": "300000"
         },
@@ -6352,6 +6370,9 @@
         "payments_transfer_link_enabled": {
           "value": "false"
         },
+        "payments_web_advanced": {
+          "value": "false"
+        },
         "payments_web_external_app_enabled": {
           "value": "false"
         },
@@ -6771,6 +6792,9 @@
         },
         "responsive_web_composer_quote_video_toggle_enabled": {
           "value": "true"
+        },
+        "responsive_web_conversation_controls_multi_select_enabled": {
+          "value": "false"
         },
         "responsive_web_convert_card_video_to_gif_enabled": {
           "value": "false"
@@ -7196,7 +7220,7 @@
           "value": "true"
         },
         "responsive_web_grok_tweet_translation_limit": {
-          "value": "5000"
+          "value": "50000"
         },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
@@ -7492,6 +7516,9 @@
         "responsive_web_nba_reminders_enabled": {
           "value": "false"
         },
+        "responsive_web_nba_sidebar_enabled": {
+          "value": "false"
+        },
         "responsive_web_nba_team_picker_enabled": {
           "value": "false"
         },
@@ -7577,6 +7604,9 @@
           "value": "false"
         },
         "responsive_web_personalization_id_sync_enabled": {
+          "value": "true"
+        },
+        "responsive_web_personalization_id_sync_ios_webview_enabled": {
           "value": "false"
         },
         "responsive_web_pinned_replies_enabled": {
@@ -9433,7 +9463,7 @@
           "value": "true"
         },
         "web_video_player_size_cap_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
@@ -10026,10 +10056,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "04c46cb1b9c1f67093b1228e725cc604"
+      "settingsVersion": "71885f0acf6281fe1f77760e90b7b24e"
     },
     "debug": {},
-    "featureSetToken": "ed74250160bd230f3ead77d37078a555586c19a5",
+    "featureSetToken": "17718949a881d24409602fa80d66286a5900a9ff",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
