@@ -1491,7 +1491,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[sE.DP]:"authorize",[sE.S0]:"checkout"}
+{[aE.DP]:"authorize",[aE.S0]:"checkout"}
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -1529,7 +1529,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[I.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let r",a,l;return{"type":"radio","props":{"description":"e7().description","getNextFormStep":e=>{"switch()"{"case I.C6.IDENTITY_DOCUMENT":return I.$V.INTAKE_TYPE_SELECT;case I.C6.EMAIL:return...
+{[I.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let r",a,l;return{"type":"radio","props":{"description":"e5().description","getNextFormStep":e=>{"switch()"{"case I.C6.IDENTITY_DOCUMENT":return I.$V.INTAKE_TYPE_SELECT;case I.C6.EMAIL:return...
 ```
 ```internal process
 # Error
@@ -1537,7 +1537,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...e3      | _       |
+| ...e7      | _       |
 | ...aj      | _       |
 | ...X       | _       |
 
@@ -3436,7 +3436,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.upgradeToKycVerified]:{"path":`${"j"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[L.upgradeToKycDocumentsVerified]:{"path":`${"j"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[L.selfieVerification]:{"path":`${"j"}/s...
+{[M.upgradeToKycVerified]:{"path":`${"z"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[M.upgradeToKycDocumentsVerified]:{"path":`${"z"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[M.selfieVerification]:{"path":`${"z"}/s...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -3498,39 +3498,39 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value        |
 |:-----------|:-------------|
-| label      | i().a4ef9cbe |
+| label      | n().a4ef9cbe |
 
 | constant   | value        |
 |:-----------|:-------------|
-| label      | i().b9e1cf02 |
+| label      | n().b9e1cf02 |
 
 | constant   | value        |
 |:-----------|:-------------|
-| label      | i().e3275464 |
+| label      | n().e3275464 |
 
 | constant   | value        |
 |:-----------|:-------------|
-| label      | i().f452238a |
+| label      | n().f452238a |
 
 | constant    | value        |
 |:------------|:-------------|
-| label       | i().dc80fcd6 |
-| description | i().fc37a7ce |
+| label       | n().dc80fcd6 |
+| description | n().fc37a7ce |
 
 | constant    | value        |
 |:------------|:-------------|
-| label       | i().c0728748 |
-| description | i().bb1a58b0 |
+| label       | n().c0728748 |
+| description | n().bb1a58b0 |
 
 | constant    | value        |
 |:------------|:-------------|
-| label       | i().d1df1e18 |
-| description | i().cc0ff70c |
+| label       | n().d1df1e18 |
+| description | n().cc0ff70c |
 
 | constant    | value        |
 |:------------|:-------------|
-| label       | i().ge32c25c |
-| description | i().j5bf97f4 |
+| label       | n().ge32c25c |
+| description | n().j5bf97f4 |
 
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -3611,7 +3611,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"deposit":"Object.freeze()"{"label":"i().a4ef9cbe"}{"label":"i().b9e1cf02"}{"label":"i().e3275464"}{"label":"i().f452238a"}{"label":"i().dc80fcd6","description":"i().fc37a7ce"}{"label":"i().c0728748","description":"i().bb1a58b0"}{"label":"i().d1df1e18","description":"i().cc0ff70c"}{"label":"i().ge3...
+{"deposit":"Object.freeze()"{"label":"n().a4ef9cbe"}{"label":"n().b9e1cf02"}{"label":"n().e3275464"}{"label":"n().f452238a"}{"label":"n().dc80fcd6","description":"n().fc37a7ce"}{"label":"n().c0728748","description":"n().bb1a58b0"}{"label":"n().d1df1e18","description":"n().cc0ff70c"}{"label":"n().ge3...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -3641,7 +3641,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[g.t.ActivatePhysicalCard]:{"pathname":"k.TJ"},[g.t.TermsConsent]:{"pathname":"k.c8","state":{"step":"infoPane"}},[g.t.Deposit]:{"pathname":"k.aD"}}
+{[g.t.ActivatePhysicalCard]:{"pathname":"D.TJ"},[g.t.TermsConsent]:{"pathname":"D.c8","state":{"step":"infoPane"}},[g.t.Deposit]:{"pathname":"D.aD"}}
 ```
 | constant       | value                     |
 |:---------------|:--------------------------|
@@ -3702,7 +3702,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[G.SEND_WIRE_TRANSFER]:"k.V_",[G.ACCOUNT_LINKING]:"k.r9.bankAccounts",[G.CARD_LINKING]:"k.Qm",[G.DEPOSIT]:"k.L",[G.P2P_TRANSFER_REQUEST]:`${"k.WX"}"?direction=$"{"D.credit"}`,[G.P2P_TRANSFER_SEND]:"k.WX",[G.P2P_TRANSFER_SEND_FUNDED]:"k.WX",[G.WITHDRAWAL]:"k.hM",[G.MAIL_CHECK]:"k.Dt",[G.CREATE_TRANS...
+{[G.SEND_WIRE_TRANSFER]:"D.V_",[G.ACCOUNT_LINKING]:"D.r9.bankAccounts",[G.CARD_LINKING]:"D.Qm",[G.DEPOSIT]:"D.L",[G.P2P_TRANSFER_REQUEST]:`${"D.WX"}"?direction=$"{"k.credit"}`,[G.P2P_TRANSFER_SEND]:"D.WX",[G.P2P_TRANSFER_SEND_FUNDED]:"D.WX",[G.WITHDRAWAL]:"D.hM",[G.MAIL_CHECK]:"D.Dt",[G.CREATE_TRANS...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -6228,8 +6228,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'M.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'M.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'R.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'R.Notes'}   |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
@@ -7435,7 +7435,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[w.t.ActivatePhysicalCard]:{"pathname":"v.TJ"},[w.t.TermsConsent]:{"pathname":"v.c8","state":{"step":"infoPane"}},[w.t.Deposit]:{"pathname":"v.aD"}}
+{[C.t.ActivatePhysicalCard]:{"pathname":"w.TJ"},[C.t.TermsConsent]:{"pathname":"w.c8","state":{"step":"infoPane"}},[C.t.Deposit]:{"pathname":"w.aD"}}
 ```
 | constant       | value                     |
 |:---------------|:--------------------------|
@@ -7496,7 +7496,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[G.SEND_WIRE_TRANSFER]:"v.V_",[G.ACCOUNT_LINKING]:"v.r9.bankAccounts",[G.CARD_LINKING]:"v.Qm",[G.DEPOSIT]:"v.L",[G.P2P_TRANSFER_REQUEST]:`${"v.WX"}"?direction=$"{"S.credit"}`,[G.P2P_TRANSFER_SEND]:"v.WX",[G.P2P_TRANSFER_SEND_FUNDED]:"v.WX",[G.WITHDRAWAL]:"v.hM",[G.MAIL_CHECK]:"v.Dt",[G.CREATE_TRANS...
+{[G.SEND_WIRE_TRANSFER]:"w.V_",[G.ACCOUNT_LINKING]:"w.r9.bankAccounts",[G.CARD_LINKING]:"w.Qm",[G.DEPOSIT]:"w.L",[G.P2P_TRANSFER_REQUEST]:`${"w.WX"}"?direction=$"{"S.credit"}`,[G.P2P_TRANSFER_SEND]:"w.WX",[G.P2P_TRANSFER_SEND_FUNDED]:"w.WX",[G.WITHDRAWAL]:"w.hM",[G.MAIL_CHECK]:"w.Dt",[G.CREATE_TRANS...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -9222,22 +9222,33 @@ This document is entirely auto-generated and may contain errors.<br>
 | since_id     | r.TOP    |
 | up_cursor    | r.TOP    |
 
+| constant   | value   |
+|:-----------|:--------|
+| x          | x       |
+| y          | y       |
+
+| constant   | value     |
+|:-----------|:----------|
+| CLOSED     | closed    |
+| COLLAPSED  | collapsed |
+| EXPANDED   | expanded  |
+
 | constant           | value        |
 |:-------------------|:-------------|
-| full_time          | l().c69eb656 |
-| full_time_contract | l().g46ae43c |
-| part_time          | l().jf7d4cc6 |
-| contract_to_hire   | l().b2214572 |
+| full_time          | c().c69eb656 |
+| full_time_contract | c().g46ae43c |
+| part_time          | c().jf7d4cc6 |
+| contract_to_hire   | c().b2214572 |
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | c       |
-|          2 | o       |
+|          1 | f       |
+|          2 | n       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
-| hourly     | {'label': 'o', 'value': '2'} |
+| annually   | {'label': 'f', 'value': '1'} |
+| hourly     | {'label': 'n', 'value': '2'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -9742,13 +9753,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| fieldHref  | ea()    |
-| slabHref   | ea(en)  |
+| fieldHref  | eo()    |
+| slabHref   | eo(er)  |
 
 | constant   | value   |
 |:-----------|:--------|
-| fieldHref  | ea()    |
-| slabHref   | ea(er)  |
+| fieldHref  | eo()    |
+| slabHref   | eo(en)  |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -10963,7 +10974,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"cashtag":()=>(e,t,r){"color":"link","dir":"ltr","link":"h()"{"t.text"}`{"t.text"}`,"type":"a.Cashtag"}"e",t,"r"{"color":"link","dir":"o.A.getTextDirection()","link":"h(t.text)"{"t.text"}`{"t.text"}`,"type":"a.Hashtag"}"e",t,"r"{"color":"link","dir":"ltr","link":"h()","ref":"t","text":`@${"t.screen...
+{"cashtag":()=>(e,t,r){"color":"link","dir":"ltr","link":"c()"{"t.text"}`{"t.text"}`,"type":"a.Cashtag"}"e",t,"r"{"color":"link","dir":"o.A.getTextDirection()","link":"c(t.text)"{"t.text"}`{"t.text"}`,"type":"a.Hashtag"}"e",t,"r"{"color":"link","dir":"ltr","link":"c()","ref":"t","text":`@${"t.screen...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -11983,7 +11994,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"forYou":{"...M.o.forYou":"_","getControl":()=>H,"getModule":"()"{"state":"e"}{"let t=e?()(0,C.fz)":null;if(e)throw Error(!t);let n=e?(\"Pinned timeline definitions require a viewerUserId\")(0,_.fU):[];return n.length>0?(e)(0,P.Ay){"userId":"t","snoozedTopicIds":"n"}"0","P.Ay"{"userId":"t"}},"getNa...
+{"forYou":{"...M.o.forYou":"_","getControl":()=>H,"getModule":"()"{"state":"e"}{"let t=e?()(0,L.fz)":null;if(e)throw Error(!t);let n=e?(\"Pinned timeline definitions require a viewerUserId\")(0,_.fU):[];return n.length>0?(e)(0,P.Ay){"userId":"t","snoozedTopicIds":"n"}"0","P.Ay"{"userId":"t"}},"getNa...
 ```
 | constant   | value      |
 |:-----------|:-----------|
@@ -13096,7 +13107,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"all":{"icon":"nm","label":"M().i8ea6d4e"},"community":{"icon":"n_","label":"M().a176d0d8"},"by_invitation":{"icon":"ng","label":"M().gc7e52ca"},"followers":{"icon":"n_","label":"M().a83724ac"},"subscribers":{"icon":"nm","label":"M().feb7560a"},"community_members":{"icon":"nf","label":"M().h257006e...
+{"all":{"icon":"ng","label":"M().i8ea6d4e"},"community":{"icon":"nf","label":"M().a176d0d8"},"by_invitation":{"icon":"n_","label":"M().gc7e52ca"},"followers":{"icon":"nf","label":"M().a83724ac"},"subscribers":{"icon":"ng","label":"M().feb7560a"},"community_members":{"icon":"ny","label":"M().h257006e...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -13464,9 +13475,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | interest           | {'backgroundColor': 'green50', 'color': 'green500', 'bold': '!1', 'fontSize': 'subtext1', 'fontWeight': 'medium'}                            |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | S                                                                                                                                            |
-| gif                | S                                                                                                                                            |
-| hd                 | S                                                                                                                                            |
+| alt                | k                                                                                                                                            |
+| gif                | k                                                                                                                                            |
+| hd                 | k                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 | modBadge           | {'backgroundColor': 'gray900', 'bold': '!0', 'color': 'gray0', 'fontSize': 'subtext3'}                                                       |
@@ -13711,7 +13722,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"media":{"emptyHeaders":{"other":"()"{"screenName":"e"}{"screenName":"e"}},"emptyMessages":{"other":()=>r().ccc363f6,"viewer":()=>r().d7dc8d0a},"loadingLabel":"()"{"screenName":"e"}{"screenName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}},...
+{"media":{"emptyHeaders":{"other":"()"{"screenName":"e"}{"screenName":"e"}},"emptyMessages":{"other":()=>r().ccc363f6,"viewer":()=>r().d7dc8d0a},"loadingLabel":"()"{"screenName":"e"}{"screenName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}},...
 ```
 | constant             | value                       |
 |:---------------------|:----------------------------|
@@ -13740,7 +13751,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"all":()=>y,"default":()=>y,"posts_only":()=>y,"with_sort_and_filter":()=>y,"with_replies":()=>y,"reposts":()=>r().cccf43ee,"superfollows":()=>r().hb26a1fe,"highlights":()=>r().b7c3572e,"articles":()=>r().i8123550}
+{"all":()=>I,"default":()=>I,"posts_only":()=>I,"with_sort_and_filter":()=>I,"with_replies":()=>I,"reposts":()=>r().cccf43ee,"superfollows":()=>r().hb26a1fe,"highlights":()=>r().b7c3572e,"articles":()=>r().i8123550}
 ```
 ```internal process
 # Error
@@ -13767,11 +13778,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"all":"()"{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenName":"t"}{"fullName":"e","screenNa...
+{"all":"()"{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenNa...
 ```
 ```internal process
 # Error
-{[e9.R.mostRecent]:"nH",[e9.R.popular]:"nG"}
+{[e9.R.mostRecent]:"tH",[e9.R.popular]:"tG"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -13987,7 +13998,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | o.Ay.NONE |
+| fetchStatus | n.Ay.NONE |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -15252,7 +15263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | eF.Ay.NONE |
+| fetchStatus     | eN.Ay.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
@@ -15935,11 +15946,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
 
-| constant   | value   |
-|:-----------|:--------|
-| x          | x       |
-| y          | y       |
-
 | constant     | value       |
 |:-------------|:------------|
 | INITIAL      | initial     |
@@ -16301,12 +16307,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserDetailed      | UserDetailed      |
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
-
-| constant   | value     |
-|:-----------|:----------|
-| CLOSED     | closed    |
-| COLLAPSED  | collapsed |
-| EXPANDED   | expanded  |
 
 | constant   | value                  |
 |:-----------|:-----------------------|
@@ -19217,11 +19217,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value   |
 |:--------------|:--------|
 | commerce-core | g       |
-| commerce-ui   | 4.14.0  |
+| commerce-ui   | 4.18.2  |
 
 ```internal process
 # Error
-{"versions":"Object.freeze()"{"commerce-core":"g","commerce-ui":"4.14.0"}}
+{"versions":"Object.freeze()"{"commerce-core":"g","commerce-ui":"4.18.2"}}
 ```
 | constant     | value       |
 |:-------------|:------------|
@@ -19507,7 +19507,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[l.default]:{"redirectPath":()=>t.Hu},[l.autoclaim]:{"redirectPath":()=>t.Hu},[l.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"t.f"}/${"e"}`:"t.Hu"},[l.claimTransferLink]:{"redirectPath":()=>t.Hu},[l.xmoneyApiAuthorize]:{"redirectPath":()=>t.Hu},[l.xmoneyApiCheckout]:{"redirectPath":()=>...
+{[l.default]:{"redirectPath":()=>a.Hu},[l.autoclaim]:{"redirectPath":()=>a.Hu},[l.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"a.f"}/${"e"}`:"a.Hu"},[l.claimTransferLink]:{"redirectPath":()=>a.Hu},[l.xmoneyApiAuthorize]:{"redirectPath":()=>a.Hu},[l.xmoneyApiCheckout]:{"redirectPath":()=>...
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -19521,7 +19521,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[ep.xx.debit]:"eY.C.CreateTransfer",[ep.xx.credit]:"eY.C.RequestTransfer"}
+{[ep.xx.debit]:"eJ.C.CreateTransfer",[ep.xx.credit]:"eJ.C.RequestTransfer"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -20888,7 +20888,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
-| ...u                       | _                           |
+| ...d                       | _                           |
 | ...a()                     | _                           |
 | text                       | #141D26                     |
 | gray700                    | #3B4C5C                     |
@@ -21008,7 +21008,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"aspectRatios":"a","baseFontSize":"A","borderRadii":"c","borderRadiiPx":"l","borderWidths":"u","borderWidthsPx":"d","breakpoints":"o","componentDimensions":"Object.freeze()"{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"b.space2","gutterHorizontal":"y.space16","gutterHoriz...
+{"aspectRatios":"a","baseFontSize":"A","borderRadii":"c","borderRadiiPx":"l","borderWidths":"d","borderWidthsPx":"u","breakpoints":"o","componentDimensions":"Object.freeze()"{"appBarHeight":`${"T"}px`,"appBarHeightPx":"T","conversationLineWidth":"b.space2","gutterHorizontal":"y.space16","gutterHoriz...
 ```
 ```internal process
 # Error
@@ -21836,23 +21836,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value   |
 |:--------------------------------|:--------|
-| broadcasts                      | u       |
-| cards                           | u       |
-| commerceItems                   | u       |
-| communities                     | u       |
-| conversations                   | u       |
-| entries                         | u       |
-| grokShare                       | u       |
-| lists                           | u       |
-| livestreams                     | u       |
-| moments                         | u       |
-| topics                          | u       |
-| tweets                          | u       |
-| articleEntities                 | u       |
-| userPresence                    | u       |
-| userCommunityInviteActionResult | u       |
-| users                           | u       |
-| aitrends                        | u       |
+| broadcasts                      | d       |
+| cards                           | d       |
+| commerceItems                   | d       |
+| communities                     | d       |
+| conversations                   | d       |
+| entries                         | d       |
+| grokShare                       | d       |
+| lists                           | d       |
+| livestreams                     | d       |
+| moments                         | d       |
+| topics                          | d       |
+| tweets                          | d       |
+| articleEntities                 | d       |
+| userPresence                    | d       |
+| userCommunityInviteActionResult | d       |
+| users                           | d       |
+| aitrends                        | d       |
 
 | constant   | value                                             |
 |:-----------|:--------------------------------------------------|
