@@ -6466,7 +6466,7 @@
           "value": "false"
         },
         "payments_web_core_profile_widget_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_web_external_app_enabled": {
           "value": "false"
@@ -10250,7 +10250,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "d045c7a385a09b75228ecd8db38db445"
+      "settingsVersion": "384b2eb57f794bd9c3b78646a2016167"
     },
     "debug": {},
     "featureSetToken": "b79999d6d570c4c27658409598a964adc0bcd6ba",
