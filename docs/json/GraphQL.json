@@ -38669,7 +38669,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "6d7CbeRFwt1Jmpbmzs04uA",
+      "queryId": "3lJeeA6NkoqLoDWdsNwv9w",
       "operationName": "businessInsightsGroupsTabSelectedClusterQuery",
       "operationType": "query",
       "metadata": {
@@ -38695,7 +38695,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "TQ5GQLTYbW1ACiXNQelx8Q",
+      "queryId": "r4fm60Z6G7g2KPf1zDyeOg",
       "operationName": "businessInsightsMonitorTabPostsQuery",
       "operationType": "query",
       "metadata": {
@@ -38708,7 +38708,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "fvP_4ALsud0rttipN-B6dQ",
+      "queryId": "aZx2fHo1O8WsgBivuu0jYA",
       "operationName": "businessInsightsOverviewTabQuery",
       "operationType": "query",
       "metadata": {
@@ -40268,7 +40268,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "ZXYoRV2xxqxwt4hUF3IzQg",
+      "queryId": "92NZH8d5duzqp-u-N_XaPw",
       "operationName": "viewerQuery",
       "operationType": "query",
       "metadata": {
@@ -41867,19 +41867,6 @@
   {
     "n": "",
     "exports": {
-      "queryId": "s1DOnYCQkcHcRqAwnWj97Q",
-      "operationName": "electionRaceForecastQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "",
-    "exports": {
       "queryId": "qkkFi6FEEcjGAUODVDXV5Q",
       "operationName": "electionRaceLivePulseQuery",
       "operationType": "query",
@@ -41906,7 +41893,7 @@
   {
     "n": "",
     "exports": {
-      "queryId": "L6re5uZdCVriAGKSxxrQLw",
+      "queryId": "zMinRNzt8bY5mFBNz9ltpA",
       "operationName": "electionRacePageQuery",
       "operationType": "query",
       "metadata": {
@@ -41932,7 +41919,20 @@
   {
     "n": "",
     "exports": {
-      "queryId": "BBGmv1NENJJF0v2xJvaG9g",
+      "queryId": "hEIQ2max4_aqZ2k5g1wYog",
+      "operationName": "electionKeyRacesQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "",
+    "exports": {
+      "queryId": "XTMgJEjGg6izBdOwBlpZ0Q",
       "operationName": "electionRacesQuery",
       "operationType": "query",
       "metadata": {
@@ -41984,8 +41984,21 @@
   {
     "n": "",
     "exports": {
-      "queryId": "ACRSTktMBxQVnuRdku7QlQ",
+      "queryId": "Zmyb9bqiflSPR4_dAlXNUg",
       "operationName": "electionLiveResultsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "",
+    "exports": {
+      "queryId": "w9wZdaBmQVN1HBDX50kyIA",
+      "operationName": "electionRaceForecastQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
