@@ -112,7 +112,7 @@
           "followers_count": "19",
           "friends_count": "170",
           "media_count": "4",
-          "statuses_count": "128",
+          "statuses_count": "131",
           "url": "https://t.co/sgZOSvMZXx",
           "is_blue_verified": "false",
           "super_follow_eligible": "false",
@@ -1444,7 +1444,7 @@
         "value": "false"
       },
       "payments_web_core_profile_widget_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_web_external_app_enabled": {
         "value": "false"
@@ -2852,6 +2852,12 @@
       },
       "responsive_web_scheduling_threads_enabled": {
         "value": "true"
+      },
+      "responsive_web_scribe_conversation_reply_dwell_linger_enabled": {
+        "value": "false"
+      },
+      "responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds": {
+        "value": "0.5"
       },
       "responsive_web_scribe_linger_fair_view_time_enabled": {
         "value": "true"
@@ -7875,6 +7881,12 @@
         "responsive_web_scheduling_threads_enabled": {
           "value": "true"
         },
+        "responsive_web_scribe_conversation_reply_dwell_linger_enabled": {
+          "value": "false"
+        },
+        "responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds": {
+          "value": "0.5"
+        },
         "responsive_web_scribe_linger_fair_view_time_enabled": {
           "value": "true"
         },
@@ -10250,10 +10262,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "384b2eb57f794bd9c3b78646a2016167"
+      "settingsVersion": "d045c7a385a09b75228ecd8db38db445"
     },
     "debug": {},
-    "featureSetToken": "b79999d6d570c4c27658409598a964adc0bcd6ba",
+    "featureSetToken": "bb40277aab75214d21d6bcd98194528cb75e8ea0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
