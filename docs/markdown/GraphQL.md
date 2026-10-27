@@ -15587,7 +15587,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/6d7CbeRFwt1Jmpbmzs04uA/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/3lJeeA6NkoqLoDWdsNwv9w/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15609,7 +15609,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/TQ5GQLTYbW1ACiXNQelx8Q/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/r4fm60Z6G7g2KPf1zDyeOg/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15620,7 +15620,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/fvP_4ALsud0rttipN-B6dQ/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/aZx2fHo1O8WsgBivuu0jYA/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16940,7 +16940,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## viewerQuery<br>
-Request URL: `https://x.com/i/api/graphql/ZXYoRV2xxqxwt4hUF3IzQg/viewerQuery`<br>
+Request URL: `https://x.com/i/api/graphql/92NZH8d5duzqp-u-N_XaPw/viewerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -18292,17 +18292,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## electionRaceForecastQuery<br>
-Request URL: `https://x.com/i/api/graphql/s1DOnYCQkcHcRqAwnWj97Q/electionRaceForecastQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## electionRaceLivePulseQuery<br>
 Request URL: `https://x.com/i/api/graphql/qkkFi6FEEcjGAUODVDXV5Q/electionRaceLivePulseQuery`<br>
 Request Method: `GET`<br>
@@ -18326,7 +18315,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## electionRacePageQuery<br>
-Request URL: `https://x.com/i/api/graphql/L6re5uZdCVriAGKSxxrQLw/electionRacePageQuery`<br>
+Request URL: `https://x.com/i/api/graphql/zMinRNzt8bY5mFBNz9ltpA/electionRacePageQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -18347,8 +18336,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## electionKeyRacesQuery<br>
+Request URL: `https://x.com/i/api/graphql/hEIQ2max4_aqZ2k5g1wYog/electionKeyRacesQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## electionRacesQuery<br>
-Request URL: `https://x.com/i/api/graphql/BBGmv1NENJJF0v2xJvaG9g/electionRacesQuery`<br>
+Request URL: `https://x.com/i/api/graphql/XTMgJEjGg6izBdOwBlpZ0Q/electionRacesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -18392,7 +18392,18 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## electionLiveResultsQuery<br>
-Request URL: `https://x.com/i/api/graphql/ACRSTktMBxQVnuRdku7QlQ/electionLiveResultsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/Zmyb9bqiflSPR4_dAlXNUg/electionLiveResultsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## electionRaceForecastQuery<br>
+Request URL: `https://x.com/i/api/graphql/w9wZdaBmQVN1HBDX50kyIA/electionRaceForecastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
