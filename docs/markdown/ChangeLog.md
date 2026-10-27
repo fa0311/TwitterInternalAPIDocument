@@ -10190,3 +10190,15 @@
 - x_elections_live_results_interval_seconds<br>
 #### remove<br>
 - None<br>
+## 2026/10/27<br>
+### API<br>
+#### add<br>
+- electionKeyRacesQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_scribe_conversation_reply_dwell_linger_enabled<br>
+- responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds<br>
+#### remove<br>
+- None<br>
