@@ -7425,8 +7425,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/6d7CbeRFwt1Jmpbmzs04uA/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "6d7CbeRFwt1Jmpbmzs04uA",
+      "url": "https://x.com/i/api/graphql/3lJeeA6NkoqLoDWdsNwv9w/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "3lJeeA6NkoqLoDWdsNwv9w",
       "method": "GET",
       "features": {}
     },
@@ -7437,14 +7437,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/TQ5GQLTYbW1ACiXNQelx8Q/businessInsightsMonitorTabPostsQuery",
-      "queryId": "TQ5GQLTYbW1ACiXNQelx8Q",
+      "url": "https://x.com/i/api/graphql/r4fm60Z6G7g2KPf1zDyeOg/businessInsightsMonitorTabPostsQuery",
+      "queryId": "r4fm60Z6G7g2KPf1zDyeOg",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/fvP_4ALsud0rttipN-B6dQ/businessInsightsOverviewTabQuery",
-      "queryId": "fvP_4ALsud0rttipN-B6dQ",
+      "url": "https://x.com/i/api/graphql/aZx2fHo1O8WsgBivuu0jYA/businessInsightsOverviewTabQuery",
+      "queryId": "aZx2fHo1O8WsgBivuu0jYA",
       "method": "GET",
       "features": {}
     },
@@ -8163,8 +8163,8 @@
       "features": {}
     },
     "viewerQuery": {
-      "url": "https://x.com/i/api/graphql/ZXYoRV2xxqxwt4hUF3IzQg/viewerQuery",
-      "queryId": "ZXYoRV2xxqxwt4hUF3IzQg",
+      "url": "https://x.com/i/api/graphql/92NZH8d5duzqp-u-N_XaPw/viewerQuery",
+      "queryId": "92NZH8d5duzqp-u-N_XaPw",
       "method": "GET",
       "features": {}
     },
@@ -8900,12 +8900,6 @@
       "method": "GET",
       "features": {}
     },
-    "electionRaceForecastQuery": {
-      "url": "https://x.com/i/api/graphql/s1DOnYCQkcHcRqAwnWj97Q/electionRaceForecastQuery",
-      "queryId": "s1DOnYCQkcHcRqAwnWj97Q",
-      "method": "GET",
-      "features": {}
-    },
     "electionRaceLivePulseQuery": {
       "url": "https://x.com/i/api/graphql/qkkFi6FEEcjGAUODVDXV5Q/electionRaceLivePulseQuery",
       "queryId": "qkkFi6FEEcjGAUODVDXV5Q",
@@ -8919,8 +8913,8 @@
       "features": {}
     },
     "electionRacePageQuery": {
-      "url": "https://x.com/i/api/graphql/L6re5uZdCVriAGKSxxrQLw/electionRacePageQuery",
-      "queryId": "L6re5uZdCVriAGKSxxrQLw",
+      "url": "https://x.com/i/api/graphql/zMinRNzt8bY5mFBNz9ltpA/electionRacePageQuery",
+      "queryId": "zMinRNzt8bY5mFBNz9ltpA",
       "method": "GET",
       "features": {}
     },
@@ -8930,9 +8924,15 @@
       "method": "GET",
       "features": {}
     },
+    "electionKeyRacesQuery": {
+      "url": "https://x.com/i/api/graphql/hEIQ2max4_aqZ2k5g1wYog/electionKeyRacesQuery",
+      "queryId": "hEIQ2max4_aqZ2k5g1wYog",
+      "method": "GET",
+      "features": {}
+    },
     "electionRacesQuery": {
-      "url": "https://x.com/i/api/graphql/BBGmv1NENJJF0v2xJvaG9g/electionRacesQuery",
-      "queryId": "BBGmv1NENJJF0v2xJvaG9g",
+      "url": "https://x.com/i/api/graphql/XTMgJEjGg6izBdOwBlpZ0Q/electionRacesQuery",
+      "queryId": "XTMgJEjGg6izBdOwBlpZ0Q",
       "method": "GET",
       "features": {}
     },
@@ -8955,8 +8955,14 @@
       "features": {}
     },
     "electionLiveResultsQuery": {
-      "url": "https://x.com/i/api/graphql/ACRSTktMBxQVnuRdku7QlQ/electionLiveResultsQuery",
-      "queryId": "ACRSTktMBxQVnuRdku7QlQ",
+      "url": "https://x.com/i/api/graphql/Zmyb9bqiflSPR4_dAlXNUg/electionLiveResultsQuery",
+      "queryId": "Zmyb9bqiflSPR4_dAlXNUg",
+      "method": "GET",
+      "features": {}
+    },
+    "electionRaceForecastQuery": {
+      "url": "https://x.com/i/api/graphql/w9wZdaBmQVN1HBDX50kyIA/electionRaceForecastQuery",
+      "queryId": "w9wZdaBmQVN1HBDX50kyIA",
       "method": "GET",
       "features": {}
     },
