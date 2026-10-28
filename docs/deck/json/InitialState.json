@@ -5637,6 +5637,9 @@
         "complat_x_migration_enabled": {
           "value": "true"
         },
+        "complat_x_money_checkout_arm": {
+          "value": ""
+        },
         "composer_add_geo_network_conversation_controls": {
           "value": "true"
         },
@@ -6380,7 +6383,7 @@
           "value": "false"
         },
         "photo_permalink_share_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "post_ctas_fetch_enabled": {
           "value": "false"
@@ -10056,7 +10059,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "cff4a122a13b2e1b339787aa0527824d"
+      "settingsVersion": "4b6c3f45cf4909e91cb693e2ea100470"
     },
     "debug": {},
     "featureSetToken": "17718949a881d24409602fa80d66286a5900a9ff",
