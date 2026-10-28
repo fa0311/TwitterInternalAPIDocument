@@ -10202,3 +10202,24 @@
 - responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds<br>
 #### remove<br>
 - None<br>
+## 2026/10/28<br>
+### API<br>
+#### add<br>
+- liveChatReportMessageMutation<br>
+- liveChatReportReasonsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_compact_phone_checkout_arm<br>
+- complat_wallet_sheet_address_arm<br>
+- complat_x_money_checkout_arm<br>
+- grok_xweb_paid_quota_upsell_enabled<br>
+- responsive_web_scribe_linger_repeat_enabled<br>
+- responsive_web_scribe_linger_viewport_coverage_enabled<br>
+- video_clipping_repost_menu_min_duration_sec<br>
+- x_elections_data_provider_profile<br>
+- responsive_web_scribe_immersive_linger_flush_interval_seconds<br>
+- responsive_web_scribe_nested_quoted_tweet_impression_enabled<br>
+#### remove<br>
+- None<br>
