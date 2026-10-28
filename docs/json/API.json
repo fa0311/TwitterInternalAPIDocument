@@ -7425,8 +7425,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/3lJeeA6NkoqLoDWdsNwv9w/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "3lJeeA6NkoqLoDWdsNwv9w",
+      "url": "https://x.com/i/api/graphql/x_OFbd6T2bzNQkhe_UlhCQ/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "x_OFbd6T2bzNQkhe_UlhCQ",
       "method": "GET",
       "features": {}
     },
@@ -7437,14 +7437,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/r4fm60Z6G7g2KPf1zDyeOg/businessInsightsMonitorTabPostsQuery",
-      "queryId": "r4fm60Z6G7g2KPf1zDyeOg",
+      "url": "https://x.com/i/api/graphql/OR1T72JUxaLLgWF3XBZ3mQ/businessInsightsMonitorTabPostsQuery",
+      "queryId": "OR1T72JUxaLLgWF3XBZ3mQ",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/aZx2fHo1O8WsgBivuu0jYA/businessInsightsOverviewTabQuery",
-      "queryId": "aZx2fHo1O8WsgBivuu0jYA",
+      "url": "https://x.com/i/api/graphql/tVPwp3_frpAs1ECMNYb8eg/businessInsightsOverviewTabQuery",
+      "queryId": "tVPwp3_frpAs1ECMNYb8eg",
       "method": "GET",
       "features": {}
     },
@@ -7464,6 +7464,12 @@
       "url": "https://x.com/i/api/graphql/bKOVxrOlLbA5udkJci7wcg/AccountParodyUserMutation",
       "queryId": "bKOVxrOlLbA5udkJci7wcg",
       "method": "POST",
+      "features": {}
+    },
+    "viewerQuery": {
+      "url": "https://x.com/i/api/graphql/xNlNYNefPbyVL4JBwPJrEw/viewerQuery",
+      "queryId": "xNlNYNefPbyVL4JBwPJrEw",
+      "method": "GET",
       "features": {}
     },
     "BlueVerifiedProfileEditCalloutQuery": {
@@ -7542,6 +7548,18 @@
       "url": "https://x.com/i/api/graphql/KCzv96qeUky_-C22g3lZSw/useSuperFollowsCreateStripeOnboardingUrlMutation",
       "queryId": "KCzv96qeUky_-C22g3lZSw",
       "method": "POST",
+      "features": {}
+    },
+    "liveChatReportMessageMutation": {
+      "url": "https://x.com/i/api/graphql/qtjNLQ2jY5Vs4eZI-967rw/liveChatReportMessageMutation",
+      "queryId": "qtjNLQ2jY5Vs4eZI-967rw",
+      "method": "POST",
+      "features": {}
+    },
+    "liveChatReportReasonsQuery": {
+      "url": "https://x.com/i/api/graphql/eCCnqi1Br1aAzx5-z_0AGA/liveChatReportReasonsQuery",
+      "queryId": "eCCnqi1Br1aAzx5-z_0AGA",
+      "method": "GET",
       "features": {}
     },
     "messageReactorsQuery": {
@@ -7842,6 +7860,18 @@
       "url": "https://x.com/i/api/graphql/40Qdk77H0THXOiSr9IGqiw/useUpdateWorkExperienceItemMutation",
       "queryId": "40Qdk77H0THXOiSr9IGqiw",
       "method": "POST",
+      "features": {}
+    },
+    "grokAccountJwtUnconfirmedQuery": {
+      "url": "https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery",
+      "queryId": "P-Al-tOFh4PfVTQRVOF9Mg",
+      "method": "GET",
+      "features": {}
+    },
+    "grokAccountJwtQuery": {
+      "url": "https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery",
+      "queryId": "DIW0leeI6-dvMzdOMJki4w",
+      "method": "GET",
       "features": {}
     },
     "ScheduledPromotionsQuery": {
@@ -8160,12 +8190,6 @@
       "url": "https://x.com/i/api/graphql/HHgnquSqsnAi4OuhgWjvzQ/useUpdateLocationSpotlightMutation",
       "queryId": "HHgnquSqsnAi4OuhgWjvzQ",
       "method": "POST",
-      "features": {}
-    },
-    "viewerQuery": {
-      "url": "https://x.com/i/api/graphql/92NZH8d5duzqp-u-N_XaPw/viewerQuery",
-      "queryId": "92NZH8d5duzqp-u-N_XaPw",
-      "method": "GET",
       "features": {}
     },
     "SmartTagChartDataRefetchQuery": {
@@ -8583,14 +8607,14 @@
       "features": {}
     },
     "voCardsQuery": {
-      "url": "https://x.com/i/api/graphql/ojZKWfzjvLPTyUiV0-qcSg/voCardsQuery",
-      "queryId": "ojZKWfzjvLPTyUiV0-qcSg",
+      "url": "https://x.com/i/api/graphql/2z7sInS_ewUNZr77VqtkIA/voCardsQuery",
+      "queryId": "2z7sInS_ewUNZr77VqtkIA",
       "method": "GET",
       "features": {}
     },
     "wallOfLoveCardQuery": {
-      "url": "https://x.com/i/api/graphql/cs17Aobp76e8i_7vvszUbQ/wallOfLoveCardQuery",
-      "queryId": "cs17Aobp76e8i_7vvszUbQ",
+      "url": "https://x.com/i/api/graphql/0LOx3hhPp_33yZti5N5ugg/wallOfLoveCardQuery",
+      "queryId": "0LOx3hhPp_33yZti5N5ugg",
       "method": "GET",
       "features": {}
     },
@@ -8937,8 +8961,8 @@
       "features": {}
     },
     "electionsHubQuery": {
-      "url": "https://x.com/i/api/graphql/42rSiGvniS45VppLbzG9Hg/electionsHubQuery",
-      "queryId": "42rSiGvniS45VppLbzG9Hg",
+      "url": "https://x.com/i/api/graphql/nQ_7NqFogtyecRV8DJ_4nQ/electionsHubQuery",
+      "queryId": "nQ_7NqFogtyecRV8DJ_4nQ",
       "method": "GET",
       "features": {}
     },
@@ -9179,18 +9203,6 @@
     "managementListsPageTimelineQuery": {
       "url": "https://x.com/i/api/graphql/GnXsg-b3jcy1iUHoL6gnsQ/managementListsPageTimelineQuery",
       "queryId": "GnXsg-b3jcy1iUHoL6gnsQ",
-      "method": "GET",
-      "features": {}
-    },
-    "grokAccountJwtUnconfirmedQuery": {
-      "url": "https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery",
-      "queryId": "P-Al-tOFh4PfVTQRVOF9Mg",
-      "method": "GET",
-      "features": {}
-    },
-    "grokAccountJwtQuery": {
-      "url": "https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery",
-      "queryId": "DIW0leeI6-dvMzdOMJki4w",
       "method": "GET",
       "features": {}
     },
