@@ -6377,7 +6377,7 @@
           "value": "false"
         },
         "payments_web_external_app_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "people_search_interests_filter_enabled": {
           "value": "false"
@@ -9614,7 +9614,7 @@
           "value": "200"
         },
         "xchat_creator_group_syncing_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_dm_media_upload_workmanager_enabled": {
           "value": "false"
@@ -10059,7 +10059,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "4b6c3f45cf4909e91cb693e2ea100470"
+      "settingsVersion": "8cac56253fd302196087175d23dff7c5"
     },
     "debug": {},
     "featureSetToken": "17718949a881d24409602fa80d66286a5900a9ff",
