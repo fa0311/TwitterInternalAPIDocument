@@ -7528,8 +7528,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/FH3CO-0Ph7E0Km_vorvieA/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "FH3CO-0Ph7E0Km_vorvieA",
+      "url": "https://x.com/i/api/graphql/aKei8N4EiTvQPCLLwa2-sg/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "aKei8N4EiTvQPCLLwa2-sg",
       "method": "GET",
       "features": {}
     },
@@ -7540,14 +7540,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/0i0WjJQSTTF71VQR75e-Tw/businessInsightsMonitorTabPostsQuery",
-      "queryId": "0i0WjJQSTTF71VQR75e-Tw",
+      "url": "https://x.com/i/api/graphql/L65YwP5eAtclvqBCUsrT3g/businessInsightsMonitorTabPostsQuery",
+      "queryId": "L65YwP5eAtclvqBCUsrT3g",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/nXi-movPtVRskLP-4G3-OA/businessInsightsOverviewTabQuery",
-      "queryId": "nXi-movPtVRskLP-4G3-OA",
+      "url": "https://x.com/i/api/graphql/mHoqcdztEr8LPjdmmG-GAg/businessInsightsOverviewTabQuery",
+      "queryId": "mHoqcdztEr8LPjdmmG-GAg",
       "method": "GET",
       "features": {}
     },
