@@ -5637,6 +5637,9 @@
         "complat_x_migration_enabled": {
           "value": "true"
         },
+        "complat_x_money_checkout_arm": {
+          "value": ""
+        },
         "composer_add_geo_network_conversation_controls": {
           "value": "true"
         },
@@ -6374,13 +6377,13 @@
           "value": "false"
         },
         "payments_web_external_app_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "people_search_interests_filter_enabled": {
           "value": "false"
         },
         "photo_permalink_share_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "post_ctas_fetch_enabled": {
           "value": "false"
@@ -9611,7 +9614,7 @@
           "value": "200"
         },
         "xchat_creator_group_syncing_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_dm_media_upload_workmanager_enabled": {
           "value": "false"
@@ -10020,11 +10023,17 @@
         }
       },
       "impression_pointers": {
+        "responsive_web_verified_organizations_application_two_column_enabled": [
+          "premium_business_application_redesign_19473"
+        ],
         "complat_paywall_bundle_tiers_arm": [
           "complat_paywall_bundle_tiers_19662"
         ],
         "new_timeline_experiment_enabled": [
           "adblock_fyp_timeline_detection_18915"
+        ],
+        "responsive_web_verified_organizations_application_requirements_enabled": [
+          "premium_business_application_redesign_19473"
         ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
@@ -10044,6 +10053,11 @@
           "bucket": "control",
           "version": "5"
         },
+        "premium_business_application_redesign_19473": {
+          "key": "premium_business_application_redesign_19473",
+          "bucket": "control",
+          "version": "4"
+        },
         "timeline_pointer_events_19084": {
           "key": "timeline_pointer_events_19084",
           "bucket": "treatment",
@@ -10056,7 +10070,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "cff4a122a13b2e1b339787aa0527824d"
+      "settingsVersion": "05ffe12bec7a533231c8bb379c07b0cf"
     },
     "debug": {},
     "featureSetToken": "17718949a881d24409602fa80d66286a5900a9ff",

@@ -9198,3 +9198,14 @@
 - responsive_web_personalization_id_sync_ios_webview_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/10/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_x_money_checkout_arm<br>
+#### remove<br>
+- None<br>
