@@ -10237,3 +10237,14 @@
 - x_elections_post_context_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/10/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- composer_max_media_count<br>
+#### remove<br>
+- responsive_web_personalization_id_sync_ios_webview_enabled<br>
