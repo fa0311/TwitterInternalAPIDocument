@@ -722,6 +722,9 @@
       "composer_composition_signals_enabled": {
         "value": "true"
       },
+      "composer_max_media_count": {
+        "value": "4"
+      },
       "content_disclosure_ai_generated_c2pa_detection_enabled": {
         "value": "true"
       },
@@ -2764,9 +2767,6 @@
         "value": "false"
       },
       "responsive_web_personalization_id_sync_enabled": {
-        "value": "false"
-      },
-      "responsive_web_personalization_id_sync_ios_webview_enabled": {
         "value": "false"
       },
       "responsive_web_pinned_replies_enabled": {
@@ -5789,6 +5789,9 @@
         "composer_composition_signals_enabled": {
           "value": "true"
         },
+        "composer_max_media_count": {
+          "value": "4"
+        },
         "content_disclosure_ai_generated_c2pa_detection_enabled": {
           "value": "true"
         },
@@ -7832,9 +7835,6 @@
         },
         "responsive_web_personalization_id_sync_enabled": {
           "value": "true"
-        },
-        "responsive_web_personalization_id_sync_ios_webview_enabled": {
-          "value": "false"
         },
         "responsive_web_pinned_replies_enabled": {
           "value": "false"
@@ -10304,11 +10304,17 @@
         }
       },
       "impression_pointers": {
+        "responsive_web_verified_organizations_application_two_column_enabled": [
+          "premium_business_application_redesign_19473"
+        ],
         "complat_paywall_bundle_tiers_arm": [
           "complat_paywall_bundle_tiers_19662"
         ],
         "new_timeline_experiment_enabled": [
           "adblock_fyp_timeline_detection_18915"
+        ],
+        "responsive_web_verified_organizations_application_requirements_enabled": [
+          "premium_business_application_redesign_19473"
         ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
@@ -10328,6 +10334,11 @@
           "bucket": "control",
           "version": "5"
         },
+        "premium_business_application_redesign_19473": {
+          "key": "premium_business_application_redesign_19473",
+          "bucket": "control",
+          "version": "4"
+        },
         "timeline_pointer_events_19084": {
           "key": "timeline_pointer_events_19084",
           "bucket": "treatment",
@@ -10340,10 +10351,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "f7e43c55bc4c6f6e29e9fd0c18685909"
+      "settingsVersion": "f52ea89b58c1fbba16ef60c2e0a408f8"
     },
     "debug": {},
-    "featureSetToken": "0862874767b7077f43d6b11a2044915b3e906933",
+    "featureSetToken": "15ed2decef8fa612dc1bcb0d1946c981cffa367a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
