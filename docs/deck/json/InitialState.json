@@ -9563,7 +9563,7 @@
           "value": "false"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "3"
+          "value": "5"
         },
         "x_sports_post_context_same_game_min_spacing": {
           "value": "20"
@@ -10070,7 +10070,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "05ffe12bec7a533231c8bb379c07b0cf"
+      "settingsVersion": "70da133867910a0c78d4e2aef664550c"
     },
     "debug": {},
     "featureSetToken": "17718949a881d24409602fa80d66286a5900a9ff",
