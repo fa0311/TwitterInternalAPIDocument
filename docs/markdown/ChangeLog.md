@@ -10248,3 +10248,15 @@
 - composer_max_media_count<br>
 #### remove<br>
 - responsive_web_personalization_id_sync_ios_webview_enabled<br>
+## 2026/10/31<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- composer_max_media_quote_overflow_count_enabled<br>
+- grok_link_consent_skip_option<br>
+#### remove<br>
+- None<br>
