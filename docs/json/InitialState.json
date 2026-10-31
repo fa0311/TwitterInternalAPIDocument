@@ -6028,7 +6028,7 @@
           "value": "true"
         },
         "grok_xweb_paid_quota_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "grok_xweb_skills_enabled": {
           "value": "true"
@@ -9844,7 +9844,7 @@
           "value": "false"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "3"
+          "value": "5"
         },
         "x_sports_post_context_same_game_min_spacing": {
           "value": "20"
@@ -10316,6 +10316,9 @@
         "responsive_web_verified_organizations_application_requirements_enabled": [
           "premium_business_application_redesign_19473"
         ],
+        "grok_xweb_paid_quota_upsell_enabled": [
+          "grok_xweb_paid_quota_upsell_19862"
+        ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
         ],
@@ -10334,6 +10337,11 @@
           "bucket": "control",
           "version": "5"
         },
+        "grok_xweb_paid_quota_upsell_19862": {
+          "key": "grok_xweb_paid_quota_upsell_19862",
+          "bucket": "treatment",
+          "version": "2"
+        },
         "premium_business_application_redesign_19473": {
           "key": "premium_business_application_redesign_19473",
           "bucket": "control",
@@ -10351,7 +10359,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "f52ea89b58c1fbba16ef60c2e0a408f8"
+      "settingsVersion": "df3e6cb19640b05891fa0cbd15ca3815"
     },
     "debug": {},
     "featureSetToken": "15ed2decef8fa612dc1bcb0d1946c981cffa367a",
