@@ -725,6 +725,9 @@
       "composer_max_media_count": {
         "value": "4"
       },
+      "composer_max_media_quote_overflow_count_enabled": {
+        "value": "false"
+      },
       "content_disclosure_ai_generated_c2pa_detection_enabled": {
         "value": "true"
       },
@@ -931,6 +934,9 @@
         "value": ""
       },
       "grok_created_with_grok_label_url": {
+        "value": ""
+      },
+      "grok_link_consent_skip_option": {
         "value": ""
       },
       "grok_settings_age_restriction_enabled": {
@@ -4777,7 +4783,7 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "3"
+        "value": "5"
       },
       "x_sports_post_context_same_game_min_spacing": {
         "value": "20"
@@ -5792,6 +5798,9 @@
         "composer_max_media_count": {
           "value": "4"
         },
+        "composer_max_media_quote_overflow_count_enabled": {
+          "value": "false"
+        },
         "content_disclosure_ai_generated_c2pa_detection_enabled": {
           "value": "true"
         },
@@ -5998,6 +6007,9 @@
           "value": ""
         },
         "grok_created_with_grok_label_url": {
+          "value": ""
+        },
+        "grok_link_consent_skip_option": {
           "value": ""
         },
         "grok_settings_age_restriction_enabled": {
@@ -10359,10 +10371,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "df3e6cb19640b05891fa0cbd15ca3815"
+      "settingsVersion": "f117afa822dd36b8cea2befa59e98248"
     },
     "debug": {},
-    "featureSetToken": "15ed2decef8fa612dc1bcb0d1946c981cffa367a",
+    "featureSetToken": "300c1e5252310de9ae6fe44dc7553bffad27a596",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
