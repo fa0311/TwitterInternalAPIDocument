@@ -1,7 +1,7 @@
 {
   "env": "prod",
   "isCanary": "false",
-  "sha": "a17d6f188c1c450128caf6cf84170862f800536e",
+  "sha": "b9f895f4d1498df4fdc5609a10c9e50aeeaa6f91",
   "isLoggedIn": "true",
   "isTwoffice": "false",
   "hasMultiAccountCookie": "true",
@@ -10,7 +10,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1793577676219",
+  "serverDate": "1793673758519",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -106,6 +106,6 @@
   },
   "userHash": "08b4025dc60d9f3069d3cdbc7108f0744eae6d3c1227538d610d2ddaad93e345",
   "userId": "1787148517779406848",
-  "xchatEmbedBuild": "https://abs.twimg.com/x-web/xchat/embed/929057ea3a5ed21eedc95cb28d2c6d72e2874b92/",
-  "xchatEmbedBuildFetchedAt": "1793577617277"
+  "xchatEmbedBuild": "https://abs.twimg.com/x-web/xchat/embed/ae5dafddcabd45ae999a5e4c55b6c846ad7d3b66/",
+  "xchatEmbedBuildFetchedAt": "1793673728254"
 }
