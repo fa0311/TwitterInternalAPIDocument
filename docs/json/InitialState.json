@@ -702,7 +702,7 @@
         "value": "false"
       },
       "complat_wallet_sheet_address_arm": {
-        "value": "sheet"
+        "value": "card"
       },
       "complat_x_grant_entrypoints_enabled": {
         "value": "true"
@@ -4903,7 +4903,7 @@
         "value": "true"
       },
       "xchat_enable_message_requests_attachments": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_metadata_sync": {
         "value": "false"
@@ -5775,7 +5775,7 @@
           "value": "false"
         },
         "complat_wallet_sheet_address_arm": {
-          "value": "sheet"
+          "value": "card"
         },
         "complat_x_grant_entrypoints_enabled": {
           "value": "true"
@@ -9798,7 +9798,13 @@
             "mlb:1925951672561319936",
             "nba:1925951454121967616",
             "nhl:1925951775544061952",
-            "f1:1925950746756800513"
+            "f1:1925950746756800513",
+            "epl:1925950498420469760",
+            "laliga:1925951079100928001",
+            "bundesliga:1925951257107206144",
+            "seriea:1925951109660577792",
+            "ligue1:1925951305895272448",
+            "ucl:1925951334777233408"
           ]
         },
         "x_sports_ncaafb_game_chat_enabled": {
@@ -9976,7 +9982,7 @@
           "value": "true"
         },
         "xchat_enable_message_requests_attachments": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_metadata_sync": {
           "value": "true"
@@ -10371,10 +10377,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "f117afa822dd36b8cea2befa59e98248"
+      "settingsVersion": "0b69d982ed581c89be6f3382e7c2fd19"
     },
     "debug": {},
-    "featureSetToken": "300c1e5252310de9ae6fe44dc7553bffad27a596",
+    "featureSetToken": "35de07c1bd454dd2e9c06a0afa0c11b6c1ac8435",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
