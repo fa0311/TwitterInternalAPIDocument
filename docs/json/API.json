@@ -7222,8 +7222,8 @@
       "features": {}
     },
     "usePaymentsConfigQuery": {
-      "url": "https://x.com/i/api/graphql/Rbcma2-6tzQs6pMTWLO5PA/usePaymentsConfigQuery",
-      "queryId": "Rbcma2-6tzQs6pMTWLO5PA",
+      "url": "https://x.com/i/api/graphql/P8qZu5xSzn9YelltK1eQfQ/usePaymentsConfigQuery",
+      "queryId": "P8qZu5xSzn9YelltK1eQfQ",
       "method": "GET",
       "features": {}
     },
@@ -7528,8 +7528,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/pTNA0cw43bcDBo6w5Xgi5g/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "pTNA0cw43bcDBo6w5Xgi5g",
+      "url": "https://x.com/i/api/graphql/LwfKScchuaX5-KGxv4Lzgw/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "LwfKScchuaX5-KGxv4Lzgw",
       "method": "GET",
       "features": {}
     },
@@ -7540,14 +7540,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/5nDbdmwllEs6OOXS9GkdRA/businessInsightsMonitorTabPostsQuery",
-      "queryId": "5nDbdmwllEs6OOXS9GkdRA",
+      "url": "https://x.com/i/api/graphql/tA3eWuq8PKvRIT1UeoebZw/businessInsightsMonitorTabPostsQuery",
+      "queryId": "tA3eWuq8PKvRIT1UeoebZw",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/ry70haF_SOfNyJ_HZ399Vg/businessInsightsOverviewTabQuery",
-      "queryId": "ry70haF_SOfNyJ_HZ399Vg",
+      "url": "https://x.com/i/api/graphql/ckyQE7t6tScj34bzpEeWkw/businessInsightsOverviewTabQuery",
+      "queryId": "ckyQE7t6tScj34bzpEeWkw",
       "method": "GET",
       "features": {}
     },
@@ -10117,6 +10117,12 @@
       "url": "https://x.com/i/api/graphql/geUlrGOe42McchPDX8Pa1Q/useInitiateGrokTransactionSearchMutation",
       "queryId": "geUlrGOe42McchPDX8Pa1Q",
       "method": "POST",
+      "features": {}
+    },
+    "usePaymentsAgreementEntriesQuery": {
+      "url": "https://x.com/i/api/graphql/SedDeKV5fmVg8exq_OObHg/usePaymentsAgreementEntriesQuery",
+      "queryId": "SedDeKV5fmVg8exq_OObHg",
+      "method": "GET",
       "features": {}
     },
     "usePaymentsClientEventsMutation": {
