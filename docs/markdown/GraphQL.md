@@ -15439,7 +15439,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## usePaymentsConfigQuery<br>
-Request URL: `https://x.com/i/api/graphql/Rbcma2-6tzQs6pMTWLO5PA/usePaymentsConfigQuery`<br>
+Request URL: `https://x.com/i/api/graphql/P8qZu5xSzn9YelltK1eQfQ/usePaymentsConfigQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16000,7 +16000,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/pTNA0cw43bcDBo6w5Xgi5g/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/LwfKScchuaX5-KGxv4Lzgw/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16022,7 +16022,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/5nDbdmwllEs6OOXS9GkdRA/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/tA3eWuq8PKvRIT1UeoebZw/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16033,7 +16033,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/ry70haF_SOfNyJ_HZ399Vg/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/ckyQE7t6tScj34bzpEeWkw/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -20743,6 +20743,17 @@ Login Required: `...`<br>
 ## useInitiateGrokTransactionSearchMutation<br>
 Request URL: `https://x.com/i/api/graphql/geUlrGOe42McchPDX8Pa1Q/useInitiateGrokTransactionSearchMutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## usePaymentsAgreementEntriesQuery<br>
+Request URL: `https://x.com/i/api/graphql/SedDeKV5fmVg8exq_OObHg/usePaymentsAgreementEntriesQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
