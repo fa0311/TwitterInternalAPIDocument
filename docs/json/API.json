@@ -7251,6 +7251,12 @@
       "method": "GET",
       "features": {}
     },
+    "SensitiveMediaSettingsQuery": {
+      "url": "https://x.com/i/api/graphql/ft92vAsha0RhDxwgq_ojWQ/SensitiveMediaSettingsQuery",
+      "queryId": "ft92vAsha0RhDxwgq_ojWQ",
+      "method": "GET",
+      "features": {}
+    },
     "useEditSensitiveMediaSettingsMutation": {
       "url": "https://x.com/i/api/graphql/YWGRWrle16Fb6JvAjvjoTQ/useEditSensitiveMediaSettingsMutation",
       "queryId": "YWGRWrle16Fb6JvAjvjoTQ",
@@ -7528,8 +7534,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/LwfKScchuaX5-KGxv4Lzgw/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "LwfKScchuaX5-KGxv4Lzgw",
+      "url": "https://x.com/i/api/graphql/SjEZF57CGBauRm66DVw8ng/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "SjEZF57CGBauRm66DVw8ng",
       "method": "GET",
       "features": {}
     },
@@ -7540,14 +7546,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/tA3eWuq8PKvRIT1UeoebZw/businessInsightsMonitorTabPostsQuery",
-      "queryId": "tA3eWuq8PKvRIT1UeoebZw",
+      "url": "https://x.com/i/api/graphql/oEc-ZTk9HPrMY2toNplB2Q/businessInsightsMonitorTabPostsQuery",
+      "queryId": "oEc-ZTk9HPrMY2toNplB2Q",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/ckyQE7t6tScj34bzpEeWkw/businessInsightsOverviewTabQuery",
-      "queryId": "ckyQE7t6tScj34bzpEeWkw",
+      "url": "https://x.com/i/api/graphql/h8kNsaZRHirZFZDmh0IT9Q/businessInsightsOverviewTabQuery",
+      "queryId": "h8kNsaZRHirZFZDmh0IT9Q",
       "method": "GET",
       "features": {}
     },
@@ -7570,8 +7576,8 @@
       "features": {}
     },
     "viewerQuery": {
-      "url": "https://x.com/i/api/graphql/Ouqgpqn9ihXpKGhjVeQPoQ/viewerQuery",
-      "queryId": "Ouqgpqn9ihXpKGhjVeQPoQ",
+      "url": "https://x.com/i/api/graphql/LAjGcDY8LrtuxCKt321diQ/viewerQuery",
+      "queryId": "LAjGcDY8LrtuxCKt321diQ",
       "method": "GET",
       "features": {}
     },
@@ -7687,6 +7693,12 @@
       "url": "https://x.com/i/api/graphql/prlWGHN2ynbLArfO5Ajh8w/reactToMessageMutation",
       "queryId": "prlWGHN2ynbLArfO5Ajh8w",
       "method": "POST",
+      "features": {}
+    },
+    "usePaymentsAccountStatusQuery": {
+      "url": "https://x.com/i/api/graphql/QJcsjMx0SFGQLmcamETmyQ/usePaymentsAccountStatusQuery",
+      "queryId": "QJcsjMx0SFGQLmcamETmyQ",
+      "method": "GET",
       "features": {}
     },
     "usePaymentsIssueReportMutation": {
@@ -8013,84 +8025,6 @@
       "method": "GET",
       "features": {}
     },
-    "P2PTransferParticipantQuery": {
-      "url": "https://x.com/i/api/graphql/NhIjwzcaNBic03v2n_gB7A/P2PTransferParticipantQuery",
-      "queryId": "NhIjwzcaNBic03v2n_gB7A",
-      "method": "GET",
-      "features": {}
-    },
-    "RecentParticipantsQuery": {
-      "url": "https://x.com/i/api/graphql/vdBGOBisHQK3b1BEBwU8fA/RecentParticipantsQuery",
-      "queryId": "vdBGOBisHQK3b1BEBwU8fA",
-      "method": "GET",
-      "features": {}
-    },
-    "useActionableItemsQuery": {
-      "url": "https://x.com/i/api/graphql/qZgorgf-AfHIM0Bf4I3Hfw/useActionableItemsQuery",
-      "queryId": "qZgorgf-AfHIM0Bf4I3Hfw",
-      "method": "GET",
-      "features": {}
-    },
-    "useCustomerTasksQuery": {
-      "url": "https://x.com/i/api/graphql/KgfLZ9APFwYFXNDe9F8O_Q/useCustomerTasksQuery",
-      "queryId": "KgfLZ9APFwYFXNDe9F8O_Q",
-      "method": "GET",
-      "features": {}
-    },
-    "useHomeActivityPreviewQuery": {
-      "url": "https://x.com/i/api/graphql/-VIKSYh4HZkXxivFpzP34A/useHomeActivityPreviewQuery",
-      "queryId": "-VIKSYh4HZkXxivFpzP34A",
-      "method": "GET",
-      "features": {}
-    },
-    "useIssuedCardsQuery": {
-      "url": "https://x.com/i/api/graphql/e2oGsdKLJ66udMctTudMcA/useIssuedCardsQuery",
-      "queryId": "e2oGsdKLJ66udMctTudMcA",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsAccountStatusQuery": {
-      "url": "https://x.com/i/api/graphql/QJcsjMx0SFGQLmcamETmyQ/usePaymentsAccountStatusQuery",
-      "queryId": "QJcsjMx0SFGQLmcamETmyQ",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsBalanceQuery": {
-      "url": "https://x.com/i/api/graphql/vCvX5NcCn5T4btzIB9bbLg/usePaymentsBalanceQuery",
-      "queryId": "vCvX5NcCn5T4btzIB9bbLg",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsLimitsQuery": {
-      "url": "https://x.com/i/api/graphql/yn4iHbyadr74nFfMlAb9tA/usePaymentsLimitsQuery",
-      "queryId": "yn4iHbyadr74nFfMlAb9tA",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsMethodsQuery": {
-      "url": "https://x.com/i/api/graphql/ZszdwP-X4Hi_X59u5eHoxQ/usePaymentsMethodsQuery",
-      "queryId": "ZszdwP-X4Hi_X59u5eHoxQ",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsPreferencesQuery": {
-      "url": "https://x.com/i/api/graphql/ZgJie8pacyYN09CiuUp1vA/usePaymentsPreferencesQuery",
-      "queryId": "ZgJie8pacyYN09CiuUp1vA",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsTransactionsListQuery": {
-      "url": "https://x.com/i/api/graphql/HkazeNXFprdfU6RMj92EFg/usePaymentsTransactionsListQuery",
-      "queryId": "HkazeNXFprdfU6RMj92EFg",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsWidgetsQuery": {
-      "url": "https://x.com/i/api/graphql/-SrjRECbT748W8I2ScRvtA/usePaymentsWidgetsQuery",
-      "queryId": "-SrjRECbT748W8I2ScRvtA",
-      "method": "GET",
-      "features": {}
-    },
     "CommunitySelectQuery": {
       "url": "https://x.com/i/api/graphql/Lue1DfmoW2cc0225t_8z1w/CommunitySelectQuery",
       "queryId": "Lue1DfmoW2cc0225t_8z1w",
@@ -8380,8 +8314,8 @@
       "features": {}
     },
     "contentPageQuery": {
-      "url": "https://x.com/i/api/graphql/rBR5x6JKCtKMynvLXoF9yA/contentPageQuery",
-      "queryId": "rBR5x6JKCtKMynvLXoF9yA",
+      "url": "https://x.com/i/api/graphql/jOwitFNFdUVAsZtAHQwqYQ/contentPageQuery",
+      "queryId": "jOwitFNFdUVAsZtAHQwqYQ",
       "method": "GET",
       "features": {}
     },
@@ -8404,8 +8338,8 @@
       "features": {}
     },
     "postDetailsProviderQuery": {
-      "url": "https://x.com/i/api/graphql/g8LqzpbYPdBgYDDGpLcVsw/postDetailsProviderQuery",
-      "queryId": "g8LqzpbYPdBgYDDGpLcVsw",
+      "url": "https://x.com/i/api/graphql/IWhAUUhE9hTMomPfjpNReA/postDetailsProviderQuery",
+      "queryId": "IWhAUUhE9hTMomPfjpNReA",
       "method": "GET",
       "features": {}
     },
@@ -8440,8 +8374,8 @@
       "features": {}
     },
     "spacesDetailsProviderQuery": {
-      "url": "https://x.com/i/api/graphql/cp7LNN-MjMd9RX4Rhebrog/spacesDetailsProviderQuery",
-      "queryId": "cp7LNN-MjMd9RX4Rhebrog",
+      "url": "https://x.com/i/api/graphql/dSRNMjeJeM6SPRw3SRLdZQ/spacesDetailsProviderQuery",
+      "queryId": "dSRNMjeJeM6SPRw3SRLdZQ",
       "method": "GET",
       "features": {}
     },
@@ -8458,8 +8392,8 @@
       "features": {}
     },
     "videoDetailsProviderMediaPostsQuery": {
-      "url": "https://x.com/i/api/graphql/COyBsPCMti_Ujrir1KE7wg/videoDetailsProviderMediaPostsQuery",
-      "queryId": "COyBsPCMti_Ujrir1KE7wg",
+      "url": "https://x.com/i/api/graphql/_qgaXVMbZHVcYkMxqjY4yQ/videoDetailsProviderMediaPostsQuery",
+      "queryId": "_qgaXVMbZHVcYkMxqjY4yQ",
       "method": "GET",
       "features": {}
     },
@@ -8502,6 +8436,18 @@
     "useTotalAdCampaignsForUserQuery": {
       "url": "https://x.com/i/api/graphql/UFD9D7pipG78WFN0SJviDg/useTotalAdCampaignsForUserQuery",
       "queryId": "UFD9D7pipG78WFN0SJviDg",
+      "method": "GET",
+      "features": {}
+    },
+    "fetchDownloadSettingAllowedQuery": {
+      "url": "https://x.com/i/api/graphql/P4Y9VY-Vn1cJuBnjOVZ4xA/fetchDownloadSettingAllowedQuery",
+      "queryId": "P4Y9VY-Vn1cJuBnjOVZ4xA",
+      "method": "GET",
+      "features": {}
+    },
+    "fetchUploadedMediaQuery": {
+      "url": "https://x.com/i/api/graphql/uK9pwXCmN_AMiZhnneGOGA/fetchUploadedMediaQuery",
+      "queryId": "uK9pwXCmN_AMiZhnneGOGA",
       "method": "GET",
       "features": {}
     },
@@ -8961,24 +8907,6 @@
       "method": "GET",
       "features": {}
     },
-    "fetchDownloadSettingAllowedQuery": {
-      "url": "https://x.com/i/api/graphql/P4Y9VY-Vn1cJuBnjOVZ4xA/fetchDownloadSettingAllowedQuery",
-      "queryId": "P4Y9VY-Vn1cJuBnjOVZ4xA",
-      "method": "GET",
-      "features": {}
-    },
-    "fetchUploadedMediaQuery": {
-      "url": "https://x.com/i/api/graphql/uK9pwXCmN_AMiZhnneGOGA/fetchUploadedMediaQuery",
-      "queryId": "uK9pwXCmN_AMiZhnneGOGA",
-      "method": "GET",
-      "features": {}
-    },
-    "SensitiveMediaSettingsQuery": {
-      "url": "https://x.com/i/api/graphql/ft92vAsha0RhDxwgq_ojWQ/SensitiveMediaSettingsQuery",
-      "queryId": "ft92vAsha0RhDxwgq_ojWQ",
-      "method": "GET",
-      "features": {}
-    },
     "ProfessionalHomeQuery": {
       "url": "https://x.com/i/api/graphql/bEYA3LzIMRGorKS17PlDQQ/ProfessionalHomeQuery",
       "queryId": "bEYA3LzIMRGorKS17PlDQQ",
@@ -9007,6 +8935,60 @@
       "url": "https://x.com/i/api/graphql/GqTVJ4S1526tLkxj69xIZw/useOneTimePurchaseGiftMutation",
       "queryId": "GqTVJ4S1526tLkxj69xIZw",
       "method": "POST",
+      "features": {}
+    },
+    "electionChamberOverviewsQuery": {
+      "url": "https://x.com/i/api/graphql/4uo1-lCjISH3KnXus4f-5A/electionChamberOverviewsQuery",
+      "queryId": "4uo1-lCjISH3KnXus4f-5A",
+      "method": "GET",
+      "features": {}
+    },
+    "electionLiveResultsQuery": {
+      "url": "https://x.com/i/api/graphql/Zmyb9bqiflSPR4_dAlXNUg/electionLiveResultsQuery",
+      "queryId": "Zmyb9bqiflSPR4_dAlXNUg",
+      "method": "GET",
+      "features": {}
+    },
+    "electionKeyRacesQuery": {
+      "url": "https://x.com/i/api/graphql/O73HVeB9NTOP5evMDwouoA/electionKeyRacesQuery",
+      "queryId": "O73HVeB9NTOP5evMDwouoA",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsChatStateViewerBeatQuery": {
+      "url": "https://x.com/i/api/graphql/Kx5Z9bFup_JbFxO4gUTdoQ/electionsChatStateViewerBeatQuery",
+      "queryId": "Kx5Z9bFup_JbFxO4gUTdoQ",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsChatStateFeaturedElectionQuery": {
+      "url": "https://x.com/i/api/graphql/7urGBSraUX9eORAq8yds2Q/electionsChatStateFeaturedElectionQuery",
+      "queryId": "7urGBSraUX9eORAq8yds2Q",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsChatStateQuery": {
+      "url": "https://x.com/i/api/graphql/MHHFm1rZPyY_dvIJRugMHQ/electionsChatStateQuery",
+      "queryId": "MHHFm1rZPyY_dvIJRugMHQ",
+      "method": "GET",
+      "features": {}
+    },
+    "electionRacesQuery": {
+      "url": "https://x.com/i/api/graphql/s2O-bwCpwE4bLuC1K1EmJw/electionRacesQuery",
+      "queryId": "s2O-bwCpwE4bLuC1K1EmJw",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsHubQuery": {
+      "url": "https://x.com/i/api/graphql/nQ_7NqFogtyecRV8DJ_4nQ/electionsHubQuery",
+      "queryId": "nQ_7NqFogtyecRV8DJ_4nQ",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsTimelineIdFeedQuery": {
+      "url": "https://x.com/i/api/graphql/KyuUfQuZUs73rpazVePvqA/electionsTimelineIdFeedQuery",
+      "queryId": "KyuUfQuZUs73rpazVePvqA",
+      "method": "GET",
       "features": {}
     },
     "electionPollAveragesQuery": {
@@ -9039,69 +9021,15 @@
       "method": "GET",
       "features": {}
     },
-    "electionsTimelineIdFeedQuery": {
-      "url": "https://x.com/i/api/graphql/KyuUfQuZUs73rpazVePvqA/electionsTimelineIdFeedQuery",
-      "queryId": "KyuUfQuZUs73rpazVePvqA",
-      "method": "GET",
-      "features": {}
-    },
-    "electionKeyRacesQuery": {
-      "url": "https://x.com/i/api/graphql/O73HVeB9NTOP5evMDwouoA/electionKeyRacesQuery",
-      "queryId": "O73HVeB9NTOP5evMDwouoA",
-      "method": "GET",
-      "features": {}
-    },
-    "electionRacesQuery": {
-      "url": "https://x.com/i/api/graphql/s2O-bwCpwE4bLuC1K1EmJw/electionRacesQuery",
-      "queryId": "s2O-bwCpwE4bLuC1K1EmJw",
-      "method": "GET",
-      "features": {}
-    },
-    "electionsHubQuery": {
-      "url": "https://x.com/i/api/graphql/nQ_7NqFogtyecRV8DJ_4nQ/electionsHubQuery",
-      "queryId": "nQ_7NqFogtyecRV8DJ_4nQ",
-      "method": "GET",
-      "features": {}
-    },
-    "electionChamberOverviewsQuery": {
-      "url": "https://x.com/i/api/graphql/4uo1-lCjISH3KnXus4f-5A/electionChamberOverviewsQuery",
-      "queryId": "4uo1-lCjISH3KnXus4f-5A",
-      "method": "GET",
-      "features": {}
-    },
     "electionDataCreditQuery": {
       "url": "https://x.com/i/api/graphql/Gg4EajtgK2c0QZVnAHFZrA/electionDataCreditQuery",
       "queryId": "Gg4EajtgK2c0QZVnAHFZrA",
       "method": "GET",
       "features": {}
     },
-    "electionLiveResultsQuery": {
-      "url": "https://x.com/i/api/graphql/Zmyb9bqiflSPR4_dAlXNUg/electionLiveResultsQuery",
-      "queryId": "Zmyb9bqiflSPR4_dAlXNUg",
-      "method": "GET",
-      "features": {}
-    },
     "electionRaceForecastQuery": {
       "url": "https://x.com/i/api/graphql/jpLWGUgmDi_eX35lEo-0vQ/electionRaceForecastQuery",
       "queryId": "jpLWGUgmDi_eX35lEo-0vQ",
-      "method": "GET",
-      "features": {}
-    },
-    "electionsChatStateViewerBeatQuery": {
-      "url": "https://x.com/i/api/graphql/Kx5Z9bFup_JbFxO4gUTdoQ/electionsChatStateViewerBeatQuery",
-      "queryId": "Kx5Z9bFup_JbFxO4gUTdoQ",
-      "method": "GET",
-      "features": {}
-    },
-    "electionsChatStateFeaturedElectionQuery": {
-      "url": "https://x.com/i/api/graphql/7urGBSraUX9eORAq8yds2Q/electionsChatStateFeaturedElectionQuery",
-      "queryId": "7urGBSraUX9eORAq8yds2Q",
-      "method": "GET",
-      "features": {}
-    },
-    "electionsChatStateQuery": {
-      "url": "https://x.com/i/api/graphql/MHHFm1rZPyY_dvIJRugMHQ/electionsChatStateQuery",
-      "queryId": "MHHFm1rZPyY_dvIJRugMHQ",
       "method": "GET",
       "features": {}
     },
@@ -9238,8 +9166,8 @@
       "features": {}
     },
     "postListQuery": {
-      "url": "https://x.com/i/api/graphql/VKD5qaPf78VkoaR-J-jLxQ/postListQuery",
-      "queryId": "VKD5qaPf78VkoaR-J-jLxQ",
+      "url": "https://x.com/i/api/graphql/-qjJnCNjKfYbDi2PdHZM-A/postListQuery",
+      "queryId": "-qjJnCNjKfYbDi2PdHZM-A",
       "method": "GET",
       "features": {}
     },
@@ -9645,381 +9573,9 @@
       "method": "GET",
       "features": {}
     },
-    "usePaymentsInitQuery": {
-      "url": "https://x.com/i/api/graphql/WTi_eGDPllbOx4PNkLeOTA/usePaymentsInitQuery",
-      "queryId": "WTi_eGDPllbOx4PNkLeOTA",
-      "method": "GET",
-      "features": {}
-    },
-    "ActivityScreenGetSearchFiltersQuery": {
-      "url": "https://x.com/i/api/graphql/7p2L0l3ylF7kbHTjOJBS3A/ActivityScreenGetSearchFiltersQuery",
-      "queryId": "7p2L0l3ylF7kbHTjOJBS3A",
-      "method": "GET",
-      "features": {}
-    },
-    "useExportTransactionsCsvStatusQuery": {
-      "url": "https://x.com/i/api/graphql/8IOlnScwe28uZGX78aDDCw/useExportTransactionsCsvStatusQuery",
-      "queryId": "8IOlnScwe28uZGX78aDDCw",
-      "method": "GET",
-      "features": {}
-    },
-    "useExportTransactionsCsvMutation": {
-      "url": "https://x.com/i/api/graphql/k2o7-xs13QoZzcml5tPTNg/useExportTransactionsCsvMutation",
-      "queryId": "k2o7-xs13QoZzcml5tPTNg",
-      "method": "POST",
-      "features": {}
-    },
-    "useGrokTransactionSearchResultsListQuery": {
-      "url": "https://x.com/i/api/graphql/lrmFwcPdjzl1WsTxkymhqg/useGrokTransactionSearchResultsListQuery",
-      "queryId": "lrmFwcPdjzl1WsTxkymhqg",
-      "method": "GET",
-      "features": {}
-    },
-    "useGrokTransactionSearchResultsMetadataQuery": {
-      "url": "https://x.com/i/api/graphql/7TMEsAfDeK-5nNrC4dbyOA/useGrokTransactionSearchResultsMetadataQuery",
-      "queryId": "7TMEsAfDeK-5nNrC4dbyOA",
-      "method": "GET",
-      "features": {}
-    },
-    "useAuthenticatePaymentMutation": {
-      "url": "https://x.com/i/api/graphql/4C24FD09VTjs05XPI32bXQ/useAuthenticatePaymentMutation",
-      "queryId": "4C24FD09VTjs05XPI32bXQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useActiveAuthPaymentsQuery": {
-      "url": "https://x.com/i/api/graphql/68xhSnrETd8eSyQqqsJsXg/useActiveAuthPaymentsQuery",
-      "queryId": "68xhSnrETd8eSyQqqsJsXg",
-      "method": "GET",
-      "features": {}
-    },
-    "BankCardPollerQuery": {
-      "url": "https://x.com/i/api/graphql/iE4jtdhuDgymGIp_wFrwMw/BankCardPollerQuery",
-      "queryId": "iE4jtdhuDgymGIp_wFrwMw",
-      "method": "GET",
-      "features": {}
-    },
-    "useLinkBankCardMutation": {
-      "url": "https://x.com/i/api/graphql/JiiPgkbV1SI1hPtyP4OqVg/useLinkBankCardMutation",
-      "queryId": "JiiPgkbV1SI1hPtyP4OqVg",
-      "method": "POST",
-      "features": {}
-    },
-    "useUpdateBankCardLinkingSessionSubmissionStatusMutation": {
-      "url": "https://x.com/i/api/graphql/NUUOv14wZZou7IK65Aja6g/useUpdateBankCardLinkingSessionSubmissionStatusMutation",
-      "queryId": "NUUOv14wZZou7IK65Aja6g",
-      "method": "POST",
-      "features": {}
-    },
-    "useLockCardMutation": {
-      "url": "https://x.com/i/api/graphql/FTRvsLzCHSdiKakILU5kMA/useLockCardMutation",
-      "queryId": "FTRvsLzCHSdiKakILU5kMA",
-      "method": "POST",
-      "features": {}
-    },
-    "CardIssuancePollerQuery": {
-      "url": "https://x.com/i/api/graphql/Og0DXpCtmZvBTco_e8TTRw/CardIssuancePollerQuery",
-      "queryId": "Og0DXpCtmZvBTco_e8TTRw",
-      "method": "GET",
-      "features": {}
-    },
-    "useIssuedCardDesignsQuery": {
-      "url": "https://x.com/i/api/graphql/cA37VmkXZS07W5mDhbfPcQ/useIssuedCardDesignsQuery",
-      "queryId": "cA37VmkXZS07W5mDhbfPcQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useCashbackDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/2hpWcraZVoLVp8KAOIQAdA/useCashbackDetailsQuery",
-      "queryId": "2hpWcraZVoLVp8KAOIQAdA",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsNameQuery": {
-      "url": "https://x.com/i/api/graphql/spFJ8Z4VsHK5VJzXonRbWQ/usePaymentsNameQuery",
-      "queryId": "spFJ8Z4VsHK5VJzXonRbWQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useEphemeralKeyMutation": {
-      "url": "https://x.com/i/api/graphql/3KlOMPaK8cIhXYM41ieZcQ/useEphemeralKeyMutation",
-      "queryId": "3KlOMPaK8cIhXYM41ieZcQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useClaimTransferLinkMutation": {
-      "url": "https://x.com/i/api/graphql/wF8VU-09U1MLjgSTmvgywA/useClaimTransferLinkMutation",
-      "queryId": "wF8VU-09U1MLjgSTmvgywA",
-      "method": "POST",
-      "features": {}
-    },
-    "useGetTransferLinkDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/fys2w-4gEScXDLyp2JvGxg/useGetTransferLinkDetailsQuery",
-      "queryId": "fys2w-4gEScXDLyp2JvGxg",
-      "method": "GET",
-      "features": {}
-    },
-    "useCloseAccountMutation": {
-      "url": "https://x.com/i/api/graphql/q7mxbycgjl1fiyAzS8ZMwA/useCloseAccountMutation",
-      "queryId": "q7mxbycgjl1fiyAzS8ZMwA",
-      "method": "POST",
-      "features": {}
-    },
-    "useConsentSummaryQuery": {
-      "url": "https://x.com/i/api/graphql/Rq-AHo4VlMdoER2rvLcNEg/useConsentSummaryQuery",
-      "queryId": "Rq-AHo4VlMdoER2rvLcNEg",
-      "method": "GET",
-      "features": {}
-    },
-    "useUpdateConsentsMutation": {
-      "url": "https://x.com/i/api/graphql/Dai5BeTzIfkXJkmNzLe-1Q/useUpdateConsentsMutation",
-      "queryId": "Dai5BeTzIfkXJkmNzLe-1Q",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsAccountLimitsQuery": {
-      "url": "https://x.com/i/api/graphql/YWhLZWa3uQEYfq0h-QEAVw/usePaymentsAccountLimitsQuery",
-      "queryId": "YWhLZWa3uQEYfq0h-QEAVw",
-      "method": "GET",
-      "features": {}
-    },
-    "useMarkDirectDepositSwitchCompleteMutation": {
-      "url": "https://x.com/i/api/graphql/H2gnjMSmoy1oAdAEqkWh1A/useMarkDirectDepositSwitchCompleteMutation",
-      "queryId": "H2gnjMSmoy1oAdAEqkWh1A",
-      "method": "POST",
-      "features": {}
-    },
-    "PaymentMethodPollerQuery": {
-      "url": "https://x.com/i/api/graphql/UF7VUY_kIMLH98wWnXXcfQ/PaymentMethodPollerQuery",
-      "queryId": "UF7VUY_kIMLH98wWnXXcfQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useLinkTokenExchangeMutation": {
-      "url": "https://x.com/i/api/graphql/wgESOwMoEcB4wghQm9Pw3Q/useLinkTokenExchangeMutation",
-      "queryId": "wgESOwMoEcB4wghQm9Pw3Q",
-      "method": "POST",
-      "features": {}
-    },
-    "useLinkUpdateCompleteMutation": {
-      "url": "https://x.com/i/api/graphql/LNbwQMIN-XfxOsZciyUWMQ/useLinkUpdateCompleteMutation",
-      "queryId": "LNbwQMIN-XfxOsZciyUWMQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useGrokTransactionSearchHistoryQuery": {
-      "url": "https://x.com/i/api/graphql/Bu6LV3A_K1HWi0kinDsMKA/useGrokTransactionSearchHistoryQuery",
-      "queryId": "Bu6LV3A_K1HWi0kinDsMKA",
-      "method": "GET",
-      "features": {}
-    },
-    "JointAccountInvitationQuery": {
-      "url": "https://x.com/i/api/graphql/vVBu5NgPnGkt1Kghr3iiRw/JointAccountInvitationQuery",
-      "queryId": "vVBu5NgPnGkt1Kghr3iiRw",
-      "method": "GET",
-      "features": {}
-    },
-    "useLinkFinancialInstitutionMutation": {
-      "url": "https://x.com/i/api/graphql/oEdvUw4hi8-4XIBuuyPctg/useLinkFinancialInstitutionMutation",
-      "queryId": "oEdvUw4hi8-4XIBuuyPctg",
-      "method": "POST",
-      "features": {}
-    },
-    "useCreateIssuedCheckMutation": {
-      "url": "https://x.com/i/api/graphql/xYR4Hy43Ht9uwaEcwUm1NA/useCreateIssuedCheckMutation",
-      "queryId": "xYR4Hy43Ht9uwaEcwUm1NA",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsAccountEligibilityStatusMutation": {
-      "url": "https://x.com/i/api/graphql/t5RacliZlaQuWbVox6wp_Q/usePaymentsAccountEligibilityStatusMutation",
-      "queryId": "t5RacliZlaQuWbVox6wp_Q",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsInvitationDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/PeUPpVT28sls8BiBHilA1Q/usePaymentsInvitationDetailsQuery",
-      "queryId": "PeUPpVT28sls8BiBHilA1Q",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentTransferMutation": {
-      "url": "https://x.com/i/api/graphql/R64kks50X7bgup1ho5LRlw/usePaymentTransferMutation",
-      "queryId": "R64kks50X7bgup1ho5LRlw",
-      "method": "POST",
-      "features": {}
-    },
-    "ScreenNamePaneQuery": {
-      "url": "https://x.com/i/api/graphql/OVYbL-iJvJ51EDfDLdg03A/ScreenNamePaneQuery",
-      "queryId": "OVYbL-iJvJ51EDfDLdg03A",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentRequestTransferMutation": {
-      "url": "https://x.com/i/api/graphql/UBT4qzQZTmhDJMvWqp-Qcw/usePaymentRequestTransferMutation",
-      "queryId": "UBT4qzQZTmhDJMvWqp-Qcw",
-      "method": "POST",
-      "features": {}
-    },
-    "useReonboardMutation": {
-      "url": "https://x.com/i/api/graphql/CfBeqlfvIwYpn-zan8xVSQ/useReonboardMutation",
-      "queryId": "CfBeqlfvIwYpn-zan8xVSQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useCreateScheduledPaymentMutation": {
-      "url": "https://x.com/i/api/graphql/TfOo_NKYBgTnSpop8pYygg/useCreateScheduledPaymentMutation",
-      "queryId": "TfOo_NKYBgTnSpop8pYygg",
-      "method": "POST",
-      "features": {}
-    },
-    "useCreateInternationalWirePaymentQuoteMutation": {
-      "url": "https://x.com/i/api/graphql/gCVFjFztZhJSRDl-qOhbhA/useCreateInternationalWirePaymentQuoteMutation",
-      "queryId": "gCVFjFztZhJSRDl-qOhbhA",
-      "method": "POST",
-      "features": {}
-    },
-    "useGetExchangeRateMutation": {
-      "url": "https://x.com/i/api/graphql/NXHzf4IxaPpEudTX3JM5LA/useGetExchangeRateMutation",
-      "queryId": "NXHzf4IxaPpEudTX3JM5LA",
-      "method": "POST",
-      "features": {}
-    },
-    "useCreateOutgoingInternationalWireMutation": {
-      "url": "https://x.com/i/api/graphql/xOCzUwEi3WaOqSmDp8a6gA/useCreateOutgoingInternationalWireMutation",
-      "queryId": "xOCzUwEi3WaOqSmDp8a6gA",
-      "method": "POST",
-      "features": {}
-    },
-    "useWireTransferMutation": {
-      "url": "https://x.com/i/api/graphql/kReAHhZ8qA4mzag3BJqAGA/useWireTransferMutation",
-      "queryId": "kReAHhZ8qA4mzag3BJqAGA",
-      "method": "POST",
-      "features": {}
-    },
-    "useListScheduledPaymentsQuery": {
-      "url": "https://x.com/i/api/graphql/c0dk03EpAn4PC_oBv3jLtQ/useListScheduledPaymentsQuery",
-      "queryId": "c0dk03EpAn4PC_oBv3jLtQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useCancelScheduledPaymentMutation": {
-      "url": "https://x.com/i/api/graphql/egGe-pE-xEJ_idsbDkb3mg/useCancelScheduledPaymentMutation",
-      "queryId": "egGe-pE-xEJ_idsbDkb3mg",
-      "method": "POST",
-      "features": {}
-    },
-    "useGetScheduledPaymentQuery": {
-      "url": "https://x.com/i/api/graphql/CT72r99fxARZ-MXMo4EErg/useGetScheduledPaymentQuery",
-      "queryId": "CT72r99fxARZ-MXMo4EErg",
-      "method": "GET",
-      "features": {}
-    },
-    "useAchMerchantAuthorizationsQuery": {
-      "url": "https://x.com/i/api/graphql/4FG8FjdSFoC3g53Qf5Aocg/useAchMerchantAuthorizationsQuery",
-      "queryId": "4FG8FjdSFoC3g53Qf5Aocg",
-      "method": "GET",
-      "features": {}
-    },
-    "useAchMerchantAuthorizationTransactionsQuery": {
-      "url": "https://x.com/i/api/graphql/yp55CfZJXNJeeQKqTjZExA/useAchMerchantAuthorizationTransactionsQuery",
-      "queryId": "yp55CfZJXNJeeQKqTjZExA",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsDocumentsQuery": {
-      "url": "https://x.com/i/api/graphql/mHL7un6rhZDDreNmNN5Gww/usePaymentsDocumentsQuery",
-      "queryId": "mHL7un6rhZDDreNmNN5Gww",
-      "method": "GET",
-      "features": {}
-    },
-    "useDeletePaymentMethodMutation": {
-      "url": "https://x.com/i/api/graphql/tw-TmUFZ7DCkkx9QO3LRpw/useDeletePaymentMethodMutation",
-      "queryId": "tw-TmUFZ7DCkkx9QO3LRpw",
-      "method": "POST",
-      "features": {}
-    },
-    "useDirectDepositFormSessionMutation": {
-      "url": "https://x.com/i/api/graphql/CbFxiiBtcaRjGDv9RyIAdw/useDirectDepositFormSessionMutation",
-      "queryId": "CbFxiiBtcaRjGDv9RyIAdw",
-      "method": "POST",
-      "features": {}
-    },
-    "useDirectDepositSwitchSessionMutation": {
-      "url": "https://x.com/i/api/graphql/kmARbwY-l_JNVx3ivNhSOQ/useDirectDepositSwitchSessionMutation",
-      "queryId": "kmARbwY-l_JNVx3ivNhSOQ",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentDepositMutation": {
-      "url": "https://x.com/i/api/graphql/UVeoeGWxeRTHxSvCiJ1zIw/usePaymentDepositMutation",
-      "queryId": "UVeoeGWxeRTHxSvCiJ1zIw",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsInternalTransferMutation": {
-      "url": "https://x.com/i/api/graphql/BnUEACPp9O6QIHV1HK-bjg/usePaymentsInternalTransferMutation",
-      "queryId": "BnUEACPp9O6QIHV1HK-bjg",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentTransferOutMutation": {
-      "url": "https://x.com/i/api/graphql/7J9lwMGveegUwRILBlCWKA/usePaymentTransferOutMutation",
-      "queryId": "7J9lwMGveegUwRILBlCWKA",
-      "method": "POST",
-      "features": {}
-    },
-    "useCreateTransferLinkMutation": {
-      "url": "https://x.com/i/api/graphql/qBXgb8HhohIODNaQ_LxbFw/useCreateTransferLinkMutation",
-      "queryId": "qBXgb8HhohIODNaQ_LxbFw",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsRegionQuery": {
-      "url": "https://x.com/i/api/graphql/tNdMKA3ibctTf93f8FVRhw/usePaymentsRegionQuery",
-      "queryId": "tNdMKA3ibctTf93f8FVRhw",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsMethodUpdateMutation": {
-      "url": "https://x.com/i/api/graphql/k-QBnpPpCHmJ1gzwaaTRMw/usePaymentsMethodUpdateMutation",
-      "queryId": "k-QBnpPpCHmJ1gzwaaTRMw",
-      "method": "POST",
-      "features": {}
-    },
-    "useConfirmXMoneyApiAccountExchangeMutation": {
-      "url": "https://x.com/i/api/graphql/gu1osx-83pg7-CJqy7Y2Kw/useConfirmXMoneyApiAccountExchangeMutation",
-      "queryId": "gu1osx-83pg7-CJqy7Y2Kw",
-      "method": "POST",
-      "features": {}
-    },
-    "useDeclineXMoneyApiAccountExchangeMutation": {
-      "url": "https://x.com/i/api/graphql/w2P7f1NoG_waL79BIVPw5A/useDeclineXMoneyApiAccountExchangeMutation",
-      "queryId": "w2P7f1NoG_waL79BIVPw5A",
-      "method": "POST",
-      "features": {}
-    },
-    "useXMoneyApiAccountExchangeQuery": {
-      "url": "https://x.com/i/api/graphql/6vOZa6tDwhKJ1oFOzVFJcQ/useXMoneyApiAccountExchangeQuery",
-      "queryId": "6vOZa6tDwhKJ1oFOzVFJcQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useConfirmXMoneyApiCheckoutSessionMutation": {
-      "url": "https://x.com/i/api/graphql/4dWqkhaFeX9kbtz-EzqqWA/useConfirmXMoneyApiCheckoutSessionMutation",
-      "queryId": "4dWqkhaFeX9kbtz-EzqqWA",
-      "method": "POST",
-      "features": {}
-    },
-    "useXMoneyApiCheckoutSessionQuery": {
-      "url": "https://x.com/i/api/graphql/8ILnloq-sGKDmJzp4V8XIw/useXMoneyApiCheckoutSessionQuery",
-      "queryId": "8ILnloq-sGKDmJzp4V8XIw",
-      "method": "GET",
-      "features": {}
-    },
-    "GrokSearchBottomBarSearchRecommendationsQuery": {
-      "url": "https://x.com/i/api/graphql/G6lLKzqJ1Mazgd_4aKQHwQ/GrokSearchBottomBarSearchRecommendationsQuery",
-      "queryId": "G6lLKzqJ1Mazgd_4aKQHwQ",
+    "usePaymentsWidgetsQuery": {
+      "url": "https://x.com/i/api/graphql/-SrjRECbT748W8I2ScRvtA/usePaymentsWidgetsQuery",
+      "queryId": "-SrjRECbT748W8I2ScRvtA",
       "method": "GET",
       "features": {}
     },
@@ -10032,150 +9588,6 @@
     "BusinessHeaderCheckoutQuery": {
       "url": "https://x.com/i/api/graphql/8KcKsSKxYUq7XAa2NG07KQ/BusinessHeaderCheckoutQuery",
       "queryId": "8KcKsSKxYUq7XAa2NG07KQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useCancelTransferMutation": {
-      "url": "https://x.com/i/api/graphql/iLg54hbmadq3knELEOJ5Ig/useCancelTransferMutation",
-      "queryId": "iLg54hbmadq3knELEOJ5Ig",
-      "method": "POST",
-      "features": {}
-    },
-    "useClaimTransferMutation": {
-      "url": "https://x.com/i/api/graphql/kgUoZxli1cXwiDcXz9A8Qg/useClaimTransferMutation",
-      "queryId": "kgUoZxli1cXwiDcXz9A8Qg",
-      "method": "POST",
-      "features": {}
-    },
-    "useConfirmUnrecognisedPaymentMutation": {
-      "url": "https://x.com/i/api/graphql/FZcMe0C82dOKa2a4pHoGuQ/useConfirmUnrecognisedPaymentMutation",
-      "queryId": "FZcMe0C82dOKa2a4pHoGuQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useCancelTransferRequestMutation": {
-      "url": "https://x.com/i/api/graphql/nMPKJnumsVRDieUIgFy7Jw/useCancelTransferRequestMutation",
-      "queryId": "nMPKJnumsVRDieUIgFy7Jw",
-      "method": "POST",
-      "features": {}
-    },
-    "useRespondToRequestMutation": {
-      "url": "https://x.com/i/api/graphql/Lw6bwSU8gG2MFHWBRJHrOg/useRespondToRequestMutation",
-      "queryId": "Lw6bwSU8gG2MFHWBRJHrOg",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsShareTransactionMutation": {
-      "url": "https://x.com/i/api/graphql/-lNtVy2QcZxQgMaqNdCYAw/usePaymentsShareTransactionMutation",
-      "queryId": "-lNtVy2QcZxQgMaqNdCYAw",
-      "method": "POST",
-      "features": {}
-    },
-    "useCanDmCounterpartyQuery": {
-      "url": "https://x.com/i/api/graphql/3OSkFBDZl29JIwX5cWqicQ/useCanDmCounterpartyQuery",
-      "queryId": "3OSkFBDZl29JIwX5cWqicQ",
-      "method": "GET",
-      "features": {}
-    },
-    "finishTwoFactorAuthQuery": {
-      "url": "https://x.com/i/api/graphql/582dmGn3a2PeBPnHqltcUQ/finishTwoFactorAuthQuery",
-      "queryId": "582dmGn3a2PeBPnHqltcUQ",
-      "method": "GET",
-      "features": {}
-    },
-    "useStartTwoFactorAuthQuery": {
-      "url": "https://x.com/i/api/graphql/mmKuTztykqv5M7qri5pU1A/useStartTwoFactorAuthQuery",
-      "queryId": "mmKuTztykqv5M7qri5pU1A",
-      "method": "GET",
-      "features": {}
-    },
-    "useActivateCardMutation": {
-      "url": "https://x.com/i/api/graphql/eTrF_9AC0wyM2_rVC9paUw/useActivateCardMutation",
-      "queryId": "eTrF_9AC0wyM2_rVC9paUw",
-      "method": "POST",
-      "features": {}
-    },
-    "useCalculateTransactionFeesMutation": {
-      "url": "https://x.com/i/api/graphql/cXz1ZrQe6_U5ssI9iOtALg/useCalculateTransactionFeesMutation",
-      "queryId": "cXz1ZrQe6_U5ssI9iOtALg",
-      "method": "POST",
-      "features": {}
-    },
-    "useCustomerTasksDismissMutation": {
-      "url": "https://x.com/i/api/graphql/r8FYcuK9sxdL6UIiN-k9_w/useCustomerTasksDismissMutation",
-      "queryId": "r8FYcuK9sxdL6UIiN-k9_w",
-      "method": "POST",
-      "features": {}
-    },
-    "useFundsIncentiveDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/D0XBOLLAN9UTx2_vee-7Lg/useFundsIncentiveDetailsQuery",
-      "queryId": "D0XBOLLAN9UTx2_vee-7Lg",
-      "method": "GET",
-      "features": {}
-    },
-    "useInitiateGrokTransactionSearchMutation": {
-      "url": "https://x.com/i/api/graphql/geUlrGOe42McchPDX8Pa1Q/useInitiateGrokTransactionSearchMutation",
-      "queryId": "geUlrGOe42McchPDX8Pa1Q",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsAgreementEntriesQuery": {
-      "url": "https://x.com/i/api/graphql/SedDeKV5fmVg8exq_OObHg/usePaymentsAgreementEntriesQuery",
-      "queryId": "SedDeKV5fmVg8exq_OObHg",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsClientEventsMutation": {
-      "url": "https://x.com/i/api/graphql/52M2fQZPlEpzZTza6TN2_g/usePaymentsClientEventsMutation",
-      "queryId": "52M2fQZPlEpzZTza6TN2_g",
-      "method": "POST",
-      "features": {}
-    },
-    "usePaymentsTransactionStatusQuery": {
-      "url": "https://x.com/i/api/graphql/Sd59trpsrKeJDdwjOabGGw/usePaymentsTransactionStatusQuery",
-      "queryId": "Sd59trpsrKeJDdwjOabGGw",
-      "method": "GET",
-      "features": {}
-    },
-    "usePaymentsTransactionQuery": {
-      "url": "https://x.com/i/api/graphql/fEUJpdaE0tyNceDJFLLM7Q/usePaymentsTransactionQuery",
-      "queryId": "fEUJpdaE0tyNceDJFLLM7Q",
-      "method": "GET",
-      "features": {}
-    },
-    "usePhysicalCardDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/JLQgbRez3mplAJjiieVIZA/usePhysicalCardDetailsQuery",
-      "queryId": "JLQgbRez3mplAJjiieVIZA",
-      "method": "GET",
-      "features": {}
-    },
-    "useRestoreAchMerchantAuthorizationMutation": {
-      "url": "https://x.com/i/api/graphql/rE0BlGtjVlO6gm2Gnb08ng/useRestoreAchMerchantAuthorizationMutation",
-      "queryId": "rE0BlGtjVlO6gm2Gnb08ng",
-      "method": "POST",
-      "features": {}
-    },
-    "useRevokeAchMerchantAuthorizationMutation": {
-      "url": "https://x.com/i/api/graphql/4IZeghDVNJpCnusZYHIRQQ/useRevokeAchMerchantAuthorizationMutation",
-      "queryId": "4IZeghDVNJpCnusZYHIRQQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useUnlockCardMutation": {
-      "url": "https://x.com/i/api/graphql/Lk3XNPF03ndyrdOMTIJLgw/useUnlockCardMutation",
-      "queryId": "Lk3XNPF03ndyrdOMTIJLgw",
-      "method": "POST",
-      "features": {}
-    },
-    "useUpdatePaymentsPreferencesMutation": {
-      "url": "https://x.com/i/api/graphql/JWdGBYzYzEwIY3UcyJ09UQ/useUpdatePaymentsPreferencesMutation",
-      "queryId": "JWdGBYzYzEwIY3UcyJ09UQ",
-      "method": "POST",
-      "features": {}
-    },
-    "useUserByRestIdQuery": {
-      "url": "https://x.com/i/api/graphql/-lFoj7DgaZIajDr7g5UCPQ/useUserByRestIdQuery",
-      "queryId": "-lFoj7DgaZIajDr7g5UCPQ",
       "method": "GET",
       "features": {}
     }
