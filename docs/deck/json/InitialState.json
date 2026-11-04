@@ -712,7 +712,7 @@
         "value": "false"
       },
       "complat_wallet_sheet_address_arm": {
-        "value": "sheet"
+        "value": "card"
       },
       "complat_x_grant_entrypoints_enabled": {
         "value": "true"
@@ -4735,7 +4735,13 @@
           "mlb:1925951672561319936",
           "nba:1925951454121967616",
           "nhl:1925951775544061952",
-          "f1:1925950746756800513"
+          "f1:1925950746756800513",
+          "epl:1925950498420469760",
+          "laliga:1925951079100928001",
+          "bundesliga:1925951257107206144",
+          "seriea:1925951109660577792",
+          "ligue1:1925951305895272448",
+          "ucl:1925951334777233408"
         ]
       },
       "x_sports_ncaafb_game_chat_enabled": {
@@ -4913,7 +4919,7 @@
         "value": "true"
       },
       "xchat_enable_message_requests_attachments": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_metadata_sync": {
         "value": "false"
@@ -9750,6 +9756,9 @@
         "web_video_hlsjs_version": {
           "value": "1.6.0"
         },
+        "web_video_iphone_hlsjs_enabled": {
+          "value": "true"
+        },
         "web_video_persist_bandwidth_estimate_enabled": {
           "value": "true"
         },
@@ -9781,7 +9790,7 @@
           "value": "918169628"
         },
         "x_elections_live_results_interval_seconds": {
-          "value": "360"
+          "value": "30"
         },
         "x_elections_post_context_enabled": {
           "value": "true"
@@ -10387,10 +10396,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "70596f42b4a7ad75b958e68f5e0195ef"
+      "settingsVersion": "a7a0e5f7b3803a057c11854a95dd45f0"
     },
     "debug": {},
-    "featureSetToken": "300c1e5252310de9ae6fe44dc7553bffad27a596",
+    "featureSetToken": "ad9456e2af92e9182b5b17cb5a97a69662a98719",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
