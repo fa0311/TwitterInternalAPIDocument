@@ -9331,3 +9331,14 @@
 - x_elections_post_context_enabled<br>
 #### remove<br>
 - responsive_web_personalization_id_sync_ios_webview_enabled<br>
+## 2026/11/04<br>
+### API<br>
+#### add<br>
+- usePaymentsAgreementEntriesQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- web_video_iphone_hlsjs_enabled<br>
+#### remove<br>
+- None<br>
