@@ -4435,9 +4435,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | interest           | {'backgroundColor': 'green50', 'color': 'green500', 'bold': '!1', 'fontSize': 'subtext1', 'fontWeight': 'medium'}                            |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | C                                                                                                                                            |
-| gif                | C                                                                                                                                            |
-| hd                 | C                                                                                                                                            |
+| alt                | S                                                                                                                                            |
+| gif                | S                                                                                                                                            |
+| hd                 | S                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 | modBadge           | {'backgroundColor': 'gray900', 'bold': '!0', 'color': 'gray0', 'fontSize': 'subtext3'}                                                       |
@@ -4686,7 +4686,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[s7.DP]:"authorize",[s7.S0]:"checkout"}
+{[s5.DP]:"authorize",[s5.S0]:"checkout"}
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -6149,7 +6149,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[$.SEND_WIRE_TRANSFER]:"x.V_",[$.ACCOUNT_LINKING]:"x.r9.bankAccounts",[$.CARD_LINKING]:"x.Qm",[$.DEPOSIT]:"x.L",[$.P2P_TRANSFER_REQUEST]:`${"x.WX"}"?direction=$"{"P.credit"}`,[$.P2P_TRANSFER_SEND]:"x.WX",[$.P2P_TRANSFER_SEND_FUNDED]:"x.WX",[$.WITHDRAWAL]:"x.hM",[$.MAIL_CHECK]:"x.Dt",[$.CREATE_TRANS...
+{[$.SEND_WIRE_TRANSFER]:"x.V_",[$.ACCOUNT_LINKING]:"x.r9.bankAccounts",[$.CARD_LINKING]:"x.Qm",[$.DEPOSIT]:"x.L",[$.P2P_TRANSFER_REQUEST]:`${"x.WX"}"?direction=$"{"S.credit"}`,[$.P2P_TRANSFER_SEND]:"x.WX",[$.P2P_TRANSFER_SEND_FUNDED]:"x.WX",[$.WITHDRAWAL]:"x.hM",[$.MAIL_CHECK]:"x.Dt",[$.CREATE_TRANS...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -14485,7 +14485,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[C.FOLLOWS]:{"label":"I","url":"/i/connect_people?show_topics=false"},[C.CREATORS]:{"label":"T","url":"/i/connect_people?is_creator_only=true"},[C.TOPICS]:{"label":"R","url":"/i/connect_people"}}
+{[C.FOLLOWS]:{"label":"I","url":"/i/connect_people?show_topics=false"},[C.CREATORS]:{"label":"T","url":"/i/connect_people?is_creator_only=true"},[C.TOPICS]:{"label":"k","url":"/i/connect_people"}}
 ```
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -19455,11 +19455,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value   |
 |:--------------|:--------|
 | commerce-core | s       |
-| commerce-ui   | 4.33.0  |
+| commerce-ui   | 4.34.2  |
 
 ```internal process
 # Error
-{"versions":"Object.freeze()"{"commerce-core":"s","commerce-ui":"4.33.0"}}
+{"versions":"Object.freeze()"{"commerce-core":"s","commerce-ui":"4.34.2"}}
 ```
 | constant     | value       |
 |:-------------|:------------|
