@@ -7534,8 +7534,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/SjEZF57CGBauRm66DVw8ng/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "SjEZF57CGBauRm66DVw8ng",
+      "url": "https://x.com/i/api/graphql/SwFl-M3d8FU_ZPQIXc4WEA/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "SwFl-M3d8FU_ZPQIXc4WEA",
       "method": "GET",
       "features": {}
     },
@@ -7546,14 +7546,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/oEc-ZTk9HPrMY2toNplB2Q/businessInsightsMonitorTabPostsQuery",
-      "queryId": "oEc-ZTk9HPrMY2toNplB2Q",
+      "url": "https://x.com/i/api/graphql/ZazachwdCPCIcjo47Fn1fA/businessInsightsMonitorTabPostsQuery",
+      "queryId": "ZazachwdCPCIcjo47Fn1fA",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/h8kNsaZRHirZFZDmh0IT9Q/businessInsightsOverviewTabQuery",
-      "queryId": "h8kNsaZRHirZFZDmh0IT9Q",
+      "url": "https://x.com/i/api/graphql/GfNP43VL2lmEMCEMt-GdaA/businessInsightsOverviewTabQuery",
+      "queryId": "GfNP43VL2lmEMCEMt-GdaA",
       "method": "GET",
       "features": {}
     },
@@ -8314,8 +8314,8 @@
       "features": {}
     },
     "contentPageQuery": {
-      "url": "https://x.com/i/api/graphql/jOwitFNFdUVAsZtAHQwqYQ/contentPageQuery",
-      "queryId": "jOwitFNFdUVAsZtAHQwqYQ",
+      "url": "https://x.com/i/api/graphql/xPoLXtvRAyS9GNe3qpyRxw/contentPageQuery",
+      "queryId": "xPoLXtvRAyS9GNe3qpyRxw",
       "method": "GET",
       "features": {}
     },
@@ -8338,8 +8338,8 @@
       "features": {}
     },
     "postDetailsProviderQuery": {
-      "url": "https://x.com/i/api/graphql/IWhAUUhE9hTMomPfjpNReA/postDetailsProviderQuery",
-      "queryId": "IWhAUUhE9hTMomPfjpNReA",
+      "url": "https://x.com/i/api/graphql/oPKcq64yQ2ZB1Ka_L0Ntsw/postDetailsProviderQuery",
+      "queryId": "oPKcq64yQ2ZB1Ka_L0Ntsw",
       "method": "GET",
       "features": {}
     },
@@ -8374,8 +8374,8 @@
       "features": {}
     },
     "spacesDetailsProviderQuery": {
-      "url": "https://x.com/i/api/graphql/dSRNMjeJeM6SPRw3SRLdZQ/spacesDetailsProviderQuery",
-      "queryId": "dSRNMjeJeM6SPRw3SRLdZQ",
+      "url": "https://x.com/i/api/graphql/bw1aa1utUzKxeKZw4wUG3w/spacesDetailsProviderQuery",
+      "queryId": "bw1aa1utUzKxeKZw4wUG3w",
       "method": "GET",
       "features": {}
     },
@@ -8392,8 +8392,8 @@
       "features": {}
     },
     "videoDetailsProviderMediaPostsQuery": {
-      "url": "https://x.com/i/api/graphql/_qgaXVMbZHVcYkMxqjY4yQ/videoDetailsProviderMediaPostsQuery",
-      "queryId": "_qgaXVMbZHVcYkMxqjY4yQ",
+      "url": "https://x.com/i/api/graphql/RIHamxiHteJS-jtag5o1ag/videoDetailsProviderMediaPostsQuery",
+      "queryId": "RIHamxiHteJS-jtag5o1ag",
       "method": "GET",
       "features": {}
     },
@@ -9166,8 +9166,8 @@
       "features": {}
     },
     "postListQuery": {
-      "url": "https://x.com/i/api/graphql/-qjJnCNjKfYbDi2PdHZM-A/postListQuery",
-      "queryId": "-qjJnCNjKfYbDi2PdHZM-A",
+      "url": "https://x.com/i/api/graphql/VTYFIVRQ9lW7khw6jW5SSQ/postListQuery",
+      "queryId": "VTYFIVRQ9lW7khw6jW5SSQ",
       "method": "GET",
       "features": {}
     },
@@ -9596,7 +9596,7 @@
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "ja,en;q=0.9",
-    "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"Google Chrome\";v=\"156\"",
+    "sec-ch-ua": "\"Chromium\";v=\"157\", \"Not-A.Brand\";v=\"99\"",
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": "\"Windows\"",
     "sec-fetch-dest": "document",
@@ -9604,7 +9604,7 @@
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
     "origin": "https://x.com",
     "referer": "https://x.com/",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
