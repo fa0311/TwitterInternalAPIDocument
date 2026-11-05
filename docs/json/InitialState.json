@@ -112,7 +112,7 @@
           "followers_count": "19",
           "friends_count": "170",
           "media_count": "4",
-          "statuses_count": "131",
+          "statuses_count": "134",
           "url": "https://t.co/sgZOSvMZXx",
           "is_blue_verified": "false",
           "super_follow_eligible": "false",
@@ -683,6 +683,9 @@
       "complat_enabled": {
         "value": "true"
       },
+      "complat_grok_link_consent_skip_arm": {
+        "value": ""
+      },
       "complat_home_sidebar_migration_card_enabled": {
         "value": "false"
       },
@@ -934,9 +937,6 @@
         "value": ""
       },
       "grok_created_with_grok_label_url": {
-        "value": ""
-      },
-      "grok_link_consent_skip_option": {
         "value": ""
       },
       "grok_settings_age_restriction_enabled": {
@@ -4617,7 +4617,7 @@
         "value": "918169628"
       },
       "x_elections_live_results_interval_seconds": {
-        "value": "360"
+        "value": "30"
       },
       "x_elections_post_context_enabled": {
         "value": "true"
@@ -4744,7 +4744,7 @@
         "value": "true"
       },
       "xchat_ckey_recovery_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_ckey_sig_v6_enforce_after_seq_num_str": {
         "value": "2082251782884425728"
@@ -5681,6 +5681,9 @@
         "complat_enabled": {
           "value": "true"
         },
+        "complat_grok_link_consent_skip_arm": {
+          "value": ""
+        },
         "complat_home_sidebar_migration_card_enabled": {
           "value": "false"
         },
@@ -5932,9 +5935,6 @@
           "value": ""
         },
         "grok_created_with_grok_label_url": {
-          "value": ""
-        },
-        "grok_link_consent_skip_option": {
           "value": ""
         },
         "grok_settings_age_restriction_enabled": {
@@ -9742,7 +9742,7 @@
           "value": "true"
         },
         "xchat_ckey_recovery_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_ckey_sig_v6_enforce_after_seq_num_str": {
           "value": "2082251782884425728"
@@ -10221,10 +10221,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "bc33568ea03ed3caf7d8a2eedf2f54c6"
+      "settingsVersion": "9cdcc782baec7d814b91f4254e5ac2f9"
     },
     "debug": {},
-    "featureSetToken": "217e9ba46127ae3113150561d6023582dccb7cdd",
+    "featureSetToken": "e0366b3808f0ee77fc78c5cd14a025477b18c488",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
