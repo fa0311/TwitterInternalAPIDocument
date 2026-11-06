@@ -10406,3 +10406,22 @@
 - complat_grok_link_consent_skip_arm<br>
 #### remove<br>
 - grok_link_consent_skip_option<br>
+## 2026/11/06<br>
+### API<br>
+#### add<br>
+- SoccerLeaders<br>
+- SoccerMatchweeks<br>
+- SoccerSchedule<br>
+- SoccerStandings<br>
+- likeTransferCreateTransferMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_posts_lpf_p2p_enabled<br>
+- responsive_web_scribe_linger_fair_view_time_lower_bound<br>
+- responsive_web_scribe_linger_fair_view_time_upper_bound<br>
+- rweb_promoted_ad_from_domain_label_enabled<br>
+- rweb_promoted_spine_clicks_enabled<br>
+#### remove<br>
+- None<br>

@@ -9477,3 +9477,15 @@
 - payments_transaction_search_enabled<br>
 - payments_transfer_link_enabled<br>
 - payments_web_external_app_enabled<br>
+## 2026/11/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_grok_link_consent_skip_arm<br>
+- rweb_promoted_spine_clicks_enabled<br>
+#### remove<br>
+- grok_link_consent_skip_option<br>

@@ -261,15 +261,6 @@
     ]
   },
   {
-    "queryId": "moments/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "keyregistry/register",
     "dispatch_key": "post",
     "dispatch": [
@@ -352,6 +343,15 @@
   },
   {
     "queryId": "mutes/keywords/update",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "moments/create",
     "dispatch_key": "post",
     "dispatch": [
       "post",
