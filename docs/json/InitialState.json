@@ -1368,6 +1368,9 @@
       "payments_international_wires_enabled": {
         "value": "false"
       },
+      "payments_posts_lpf_p2p_enabled": {
+        "value": "false"
+      },
       "payments_scheduled_payments_enabled": {
         "value": "true"
       },
@@ -2587,58 +2590,58 @@
         "value": "true"
       },
       "responsive_web_nhl_athlete_tray_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_favorite_teams_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_game_animations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_game_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_game_feed_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_game_odds_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_hub_highlights_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_hub_home_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_logged_out_game_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_play_video_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_pregame_matchup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_profile_sports_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_reminder_snooze_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_reminders_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_scorecard_odds_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_sidebar_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_nhl_team_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
@@ -2791,16 +2794,22 @@
         "value": "true"
       },
       "responsive_web_scribe_conversation_reply_dwell_linger_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds": {
         "value": "0.5"
       },
       "responsive_web_scribe_immersive_linger_flush_interval_seconds": {
-        "value": "0"
+        "value": "10"
       },
       "responsive_web_scribe_linger_fair_view_time_enabled": {
         "value": "true"
+      },
+      "responsive_web_scribe_linger_fair_view_time_lower_bound": {
+        "value": "1"
+      },
+      "responsive_web_scribe_linger_fair_view_time_upper_bound": {
+        "value": "0"
       },
       "responsive_web_scribe_linger_monotonic_clock_enabled": {
         "value": "true"
@@ -2815,7 +2824,7 @@
         "value": "true"
       },
       "responsive_web_scribe_nested_quoted_tweet_impression_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_scroller_top_positioning_enabled": {
         "value": "false"
@@ -3276,6 +3285,12 @@
       "rweb_premium_business_rebranding_url_enabled": {
         "value": "true"
       },
+      "rweb_promoted_ad_from_domain_label_enabled": {
+        "value": "false"
+      },
+      "rweb_promoted_spine_clicks_enabled": {
+        "value": "false"
+      },
       "rweb_promoted_tweet_max_text_lines": {
         "value": "0"
       },
@@ -3563,7 +3578,16 @@
           "68:twcamp^share|twsrc^ipad|twgr^line",
           "69:twcamp^share|twsrc^ipad|twgr^viber",
           "70:twcamp^share|twsrc^ipad|twgr^instagram",
-          "71:twcamp^share|twsrc^ipad|twgr^linkedin"
+          "71:twcamp^share|twsrc^ipad|twgr^linkedin",
+          "72:twcamp^share|twsrc^ipad|twgr^instagramdirect",
+          "73:twcamp^share|twsrc^ipad|twgr^tesla",
+          "74:twcamp^share|twsrc^ipad|twgr^threads",
+          "75:twcamp^share|twsrc^iphone|twgr^instagramdirect",
+          "76:twcamp^share|twsrc^iphone|twgr^tesla",
+          "77:twcamp^share|twsrc^iphone|twgr^threads",
+          "78:twcamp^share|twsrc^android|twgr^instagramdirect",
+          "79:twcamp^share|twsrc^android|twgr^tesla",
+          "80:twcamp^share|twsrc^android|twgr^threads"
         ]
       },
       "smbo_legacy_pac_is_in_follow_position_test": {
@@ -5685,7 +5709,7 @@
           "value": ""
         },
         "complat_home_sidebar_migration_card_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "complat_manage_migration_card_enabled": {
           "value": "true"
@@ -5965,7 +5989,7 @@
           "value": "true"
         },
         "grok_xweb_paid_quota_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "grok_xweb_skills_enabled": {
           "value": "true"
@@ -6366,6 +6390,9 @@
         "payments_international_wires_enabled": {
           "value": "false"
         },
+        "payments_posts_lpf_p2p_enabled": {
+          "value": "false"
+        },
         "payments_scheduled_payments_enabled": {
           "value": "true"
         },
@@ -6391,10 +6418,10 @@
           "value": "true"
         },
         "post_ctas_fetch_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "post_ctas_render_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "premium_business_offers_banner_portal_basic_tier": {
           "value": "false"
@@ -7585,58 +7612,58 @@
           "value": "true"
         },
         "responsive_web_nhl_athlete_tray_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_favorite_teams_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_game_animations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_game_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_game_feed_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_game_odds_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_hub_highlights_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_hub_home_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_logged_out_game_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_play_video_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_pregame_matchup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_profile_sports_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_reminder_snooze_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_reminders_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_scorecard_odds_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_sidebar_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_nhl_team_picker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -7789,16 +7816,22 @@
           "value": "true"
         },
         "responsive_web_scribe_conversation_reply_dwell_linger_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_scribe_conversation_reply_dwell_linger_start_delay_seconds": {
           "value": "0.5"
         },
         "responsive_web_scribe_immersive_linger_flush_interval_seconds": {
-          "value": "0"
+          "value": "10"
         },
         "responsive_web_scribe_linger_fair_view_time_enabled": {
           "value": "true"
+        },
+        "responsive_web_scribe_linger_fair_view_time_lower_bound": {
+          "value": "1"
+        },
+        "responsive_web_scribe_linger_fair_view_time_upper_bound": {
+          "value": "0"
         },
         "responsive_web_scribe_linger_monotonic_clock_enabled": {
           "value": "true"
@@ -7813,7 +7846,7 @@
           "value": "true"
         },
         "responsive_web_scribe_nested_quoted_tweet_impression_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_scroller_top_positioning_enabled": {
           "value": "false"
@@ -8274,6 +8307,12 @@
         "rweb_premium_business_rebranding_url_enabled": {
           "value": "true"
         },
+        "rweb_promoted_ad_from_domain_label_enabled": {
+          "value": "false"
+        },
+        "rweb_promoted_spine_clicks_enabled": {
+          "value": "false"
+        },
         "rweb_promoted_tweet_max_text_lines": {
           "value": "0"
         },
@@ -8561,7 +8600,16 @@
             "68:twcamp^share|twsrc^ipad|twgr^line",
             "69:twcamp^share|twsrc^ipad|twgr^viber",
             "70:twcamp^share|twsrc^ipad|twgr^instagram",
-            "71:twcamp^share|twsrc^ipad|twgr^linkedin"
+            "71:twcamp^share|twsrc^ipad|twgr^linkedin",
+            "72:twcamp^share|twsrc^ipad|twgr^instagramdirect",
+            "73:twcamp^share|twsrc^ipad|twgr^tesla",
+            "74:twcamp^share|twsrc^ipad|twgr^threads",
+            "75:twcamp^share|twsrc^iphone|twgr^instagramdirect",
+            "76:twcamp^share|twsrc^iphone|twgr^tesla",
+            "77:twcamp^share|twsrc^iphone|twgr^threads",
+            "78:twcamp^share|twsrc^android|twgr^instagramdirect",
+            "79:twcamp^share|twsrc^android|twgr^tesla",
+            "80:twcamp^share|twsrc^android|twgr^threads"
           ]
         },
         "smbo_legacy_pac_is_in_follow_position_test": {
@@ -10166,6 +10214,9 @@
         }
       },
       "impression_pointers": {
+        "complat_home_sidebar_migration_card_enabled": [
+          "complat_migration_entrypoint_home_sidebar_20020"
+        ],
         "responsive_web_verified_organizations_application_two_column_enabled": [
           "premium_business_application_redesign_19473"
         ],
@@ -10194,6 +10245,11 @@
           "bucket": "treatment",
           "version": "4"
         },
+        "complat_migration_entrypoint_home_sidebar_20020": {
+          "key": "complat_migration_entrypoint_home_sidebar_20020",
+          "bucket": "treatment",
+          "version": "1"
+        },
         "complat_paywall_bundle_tiers_19662": {
           "key": "complat_paywall_bundle_tiers_19662",
           "bucket": "control",
@@ -10201,8 +10257,8 @@
         },
         "grok_xweb_paid_quota_upsell_19862": {
           "key": "grok_xweb_paid_quota_upsell_19862",
-          "bucket": "treatment",
-          "version": "2"
+          "bucket": "control",
+          "version": "3"
         },
         "premium_business_application_redesign_19473": {
           "key": "premium_business_application_redesign_19473",
@@ -10221,10 +10277,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "9cdcc782baec7d814b91f4254e5ac2f9"
+      "settingsVersion": "4b29ad74c26874f50ffe2c55f65040a4"
     },
     "debug": {},
-    "featureSetToken": "e0366b3808f0ee77fc78c5cd14a025477b18c488",
+    "featureSetToken": "c9bf42c208e0631f7ea84ce6abfda02fc3a5b8a9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -10363,7 +10419,7 @@
     "CommunitiesHashtagsEducation": "1746981117776",
     "NewUserPromptEducation": "1727624861810",
     "GraduatedUserPromptEducation": "1730487680136",
-    "GrokEducation": "1784560918896",
+    "GrokEducation": "1793874493339",
     "GrokFreeNUX": "1733748743063"
   },
   "userClaim": {
