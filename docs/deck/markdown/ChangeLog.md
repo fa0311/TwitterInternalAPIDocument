@@ -9489,3 +9489,15 @@
 - rweb_promoted_spine_clicks_enabled<br>
 #### remove<br>
 - grok_link_consent_skip_option<br>
+## 2026/11/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_max_pins_per_conversation<br>
+- xchat_notify_on_message_edit_enabled<br>
+#### remove<br>
+- None<br>
