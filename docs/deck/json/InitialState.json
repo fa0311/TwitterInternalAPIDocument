@@ -8393,7 +8393,7 @@
           "value": "false"
         },
         "rweb_xchat_call_window_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_calls_rtc_api_enabled": {
           "value": "true"
@@ -10003,6 +10003,9 @@
         "xchat_max_message_preview_size": {
           "value": "1000"
         },
+        "xchat_max_pins_per_conversation": {
+          "value": "50"
+        },
         "xchat_max_users_to_fetch_per_request": {
           "value": "100"
         },
@@ -10037,6 +10040,9 @@
           "value": "false"
         },
         "xchat_molecule_enabled": {
+          "value": "false"
+        },
+        "xchat_notify_on_message_edit_enabled": {
           "value": "false"
         },
         "xchat_numbers_tray_location": {
@@ -10251,7 +10257,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "355f304c93b6fd2ff54f1d099515225c"
+      "settingsVersion": "53ab12a552ae4e6566dc514cecf4d7be"
     },
     "debug": {},
     "featureSetToken": "2057e6d8691e32fe73cdd59eb1ab6d24a59af575",
