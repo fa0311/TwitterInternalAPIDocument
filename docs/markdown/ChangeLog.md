@@ -10425,3 +10425,17 @@
 - rweb_promoted_spine_clicks_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/07<br>
+### API<br>
+#### add<br>
+- FinanceTickerQuery<br>
+- FinanceTickerYearStatsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_top_up_enabled<br>
+- xchat_max_pins_per_conversation<br>
+- xchat_notify_on_message_edit_enabled<br>
+#### remove<br>
+- None<br>

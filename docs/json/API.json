@@ -7869,18 +7869,6 @@
       "method": "GET",
       "features": {}
     },
-    "IDVerificationUpdateHideLabelMutation": {
-      "url": "https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation",
-      "queryId": "lqIzyQL1p3XCZg77zekzZA",
-      "method": "POST",
-      "features": {}
-    },
-    "IDVerificationQuery": {
-      "url": "https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery",
-      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
-      "method": "GET",
-      "features": {}
-    },
     "useNordQueryQuery": {
       "url": "https://x.com/i/api/graphql/99lrYTKgO8IYX2akQGH9Ew/useNordQueryQuery",
       "queryId": "99lrYTKgO8IYX2akQGH9Ew",
@@ -8613,6 +8601,18 @@
       "method": "POST",
       "features": {}
     },
+    "IDVerificationUpdateHideLabelMutation": {
+      "url": "https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation",
+      "queryId": "lqIzyQL1p3XCZg77zekzZA",
+      "method": "POST",
+      "features": {}
+    },
+    "IDVerificationQuery": {
+      "url": "https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery",
+      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+      "method": "GET",
+      "features": {}
+    },
     "UnifiedLanguagePivotMenuLanguagesQuery": {
       "url": "https://x.com/i/api/graphql/8o3965laaTQBsqfrfY8Drw/UnifiedLanguagePivotMenuLanguagesQuery",
       "queryId": "8o3965laaTQBsqfrfY8Drw",
@@ -9264,6 +9264,18 @@
     "managementListsPageTimelineQuery": {
       "url": "https://x.com/i/api/graphql/H9kRCxZSFt1myN8SroioYw/managementListsPageTimelineQuery",
       "queryId": "H9kRCxZSFt1myN8SroioYw",
+      "method": "GET",
+      "features": {}
+    },
+    "FinanceTickerQuery": {
+      "url": "https://x.com/i/api/graphql/KcAqe88WGRsIkGykVmi0hQ/FinanceTickerQuery",
+      "queryId": "KcAqe88WGRsIkGykVmi0hQ",
+      "method": "GET",
+      "features": {}
+    },
+    "FinanceTickerYearStatsQuery": {
+      "url": "https://x.com/i/api/graphql/B2OmuC9gRvO3HYo88Axgvw/FinanceTickerYearStatsQuery",
+      "queryId": "B2OmuC9gRvO3HYo88Axgvw",
       "method": "GET",
       "features": {}
     },
