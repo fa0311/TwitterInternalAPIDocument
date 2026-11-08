@@ -930,6 +930,12 @@
       "grok_agent_disclosure_enabled": {
         "value": "false"
       },
+      "grok_bot_onboarding_show_all_enabled": {
+        "value": "false"
+      },
+      "grok_bot_settings": {
+        "value": "true"
+      },
       "grok_created_with_grok_label_domains": {
         "value": []
       },
@@ -2721,6 +2727,9 @@
       "responsive_web_profile_about_enabled": {
         "value": "true"
       },
+      "responsive_web_profile_media_live_enabled": {
+        "value": "false"
+      },
       "responsive_web_profile_redesign_enabled": {
         "value": "true"
       },
@@ -2888,6 +2897,9 @@
       },
       "responsive_web_subscriptions_setting_enabled": {
         "value": "true"
+      },
+      "responsive_web_supervision_entrypoint_enabled": {
+        "value": "false"
       },
       "responsive_web_suppress_app_button_banner_suppressed": {
         "value": "false"
@@ -5010,6 +5022,9 @@
       "xchat_max_message_preview_size": {
         "value": "1000"
       },
+      "xchat_max_pins_per_conversation": {
+        "value": "50"
+      },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
       },
@@ -5044,6 +5059,9 @@
         "value": "false"
       },
       "xchat_molecule_enabled": {
+        "value": "false"
+      },
+      "xchat_notify_on_message_edit_enabled": {
         "value": "false"
       },
       "xchat_numbers_tray_location": {
@@ -5954,6 +5972,12 @@
         },
         "grok_agent_disclosure_enabled": {
           "value": "false"
+        },
+        "grok_bot_onboarding_show_all_enabled": {
+          "value": "false"
+        },
+        "grok_bot_settings": {
+          "value": "true"
         },
         "grok_created_with_grok_label_domains": {
           "value": []
@@ -7746,6 +7770,9 @@
         "responsive_web_profile_about_enabled": {
           "value": "true"
         },
+        "responsive_web_profile_media_live_enabled": {
+          "value": "false"
+        },
         "responsive_web_profile_redesign_enabled": {
           "value": "true"
         },
@@ -7913,6 +7940,9 @@
         },
         "responsive_web_subscriptions_setting_enabled": {
           "value": "true"
+        },
+        "responsive_web_supervision_entrypoint_enabled": {
+          "value": "false"
         },
         "responsive_web_suppress_app_button_banner_suppressed": {
           "value": "false"
@@ -10289,10 +10319,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "b0e753f0cc002523660b745081f88730"
+      "settingsVersion": "4b29ad74c26874f50ffe2c55f65040a4"
     },
     "debug": {},
-    "featureSetToken": "5c0947f43f2a5241109c6c3b6ad6c63497d5740b",
+    "featureSetToken": "90534fddd585e6be6b6bc0bc7193d622a6290307",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
