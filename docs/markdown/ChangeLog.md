@@ -10439,3 +10439,24 @@
 - xchat_notify_on_message_edit_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/08<br>
+### API<br>
+#### add<br>
+- UserLiveTimeline<br>
+- BookmarkDelete<br>
+- BookmarkAdd<br>
+- likeButtonControlUnfavoriteMutation<br>
+#### remove<br>
+- useBookmarkToggleRemoveMutation<br>
+- bookmarkStateAddMutation<br>
+- likeButtonFavoriteMutation<br>
+- likeButtonUnfavoriteMutation<br>
+- retweetButtonRetweetMutation<br>
+### Feature Switch<br>
+#### add<br>
+- grok_bot_onboarding_show_all_enabled<br>
+- grok_bot_settings<br>
+- responsive_web_profile_media_live_enabled<br>
+- responsive_web_supervision_entrypoint_enabled<br>
+#### remove<br>
+- None<br>
