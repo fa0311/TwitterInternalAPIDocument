@@ -6337,7 +6337,7 @@
           "value": "false"
         },
         "new_timeline_experiment_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "oauth_consent_account_switch_enabled": {
           "value": "true"
@@ -10265,9 +10265,6 @@
         "complat_paywall_bundle_tiers_arm": [
           "complat_paywall_bundle_tiers_19662"
         ],
-        "new_timeline_experiment_enabled": [
-          "adblock_fyp_timeline_detection_18915"
-        ],
         "responsive_web_verified_organizations_application_requirements_enabled": [
           "premium_business_application_redesign_19473"
         ],
@@ -10282,11 +10279,6 @@
         ]
       },
       "impressions": {
-        "adblock_fyp_timeline_detection_18915": {
-          "key": "adblock_fyp_timeline_detection_18915",
-          "bucket": "treatment",
-          "version": "4"
-        },
         "complat_migration_entrypoint_home_sidebar_20020": {
           "key": "complat_migration_entrypoint_home_sidebar_20020",
           "bucket": "treatment",
@@ -10319,7 +10311,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "4b29ad74c26874f50ffe2c55f65040a4"
+      "settingsVersion": "3e062dd17fba8f8dc6ba8c3b7ff8cde4"
     },
     "debug": {},
     "featureSetToken": "90534fddd585e6be6b6bc0bc7193d622a6290307",
