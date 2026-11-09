@@ -10,7 +10,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1794096208814",
+  "serverDate": "1794183502599",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -106,6 +106,6 @@
   },
   "userHash": "08b4025dc60d9f3069d3cdbc7108f0744eae6d3c1227538d610d2ddaad93e345",
   "userId": "1787148517779406848",
-  "xchatEmbedBuild": "https://abs.twimg.com/x-web/xchat/embed/dac5a02e55ca4b241dca5f983dd6434d86741a9d/",
-  "xchatEmbedBuildFetchedAt": "1794096184719"
+  "xchatEmbedBuild": "https://abs.twimg.com/x-web/xchat/embed/485032e3aa86fc78272e0d279c7e83f4d65d0c16/",
+  "xchatEmbedBuildFetchedAt": "1794183476123"
 }
