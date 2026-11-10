@@ -135,7 +135,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -190,7 +190,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -385,7 +385,7 @@ Login Required: `...`<br>
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -440,7 +440,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -551,7 +551,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -606,7 +606,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -826,7 +826,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -881,7 +881,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1245,7 +1245,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1300,7 +1300,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1593,7 +1593,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1648,7 +1648,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1714,7 +1714,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1769,7 +1769,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1868,7 +1868,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -1923,7 +1923,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2121,7 +2121,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2176,7 +2176,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2389,7 +2389,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2493,7 +2493,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2548,7 +2548,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2618,7 +2618,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2675,7 +2675,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2940,7 +2940,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -2988,7 +2988,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3111,7 +3111,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3192,7 +3192,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3245,7 +3245,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3316,7 +3316,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3691,7 +3691,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3746,7 +3746,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3801,7 +3801,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3856,7 +3856,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3911,7 +3911,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -3966,7 +3966,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4032,7 +4032,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4087,7 +4087,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4222,7 +4222,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4277,7 +4277,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4475,7 +4475,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4530,7 +4530,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4798,7 +4798,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4887,7 +4887,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -4942,7 +4942,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5195,7 +5195,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5250,7 +5250,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5305,7 +5305,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5360,7 +5360,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5592,7 +5592,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5647,7 +5647,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -5697,7 +5697,7 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          1 | nan       |
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6124,7 +6124,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6213,7 +6213,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6268,7 +6268,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6554,7 +6554,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6715,7 +6715,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6770,7 +6770,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6825,7 +6825,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6880,7 +6880,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6935,7 +6935,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -6990,7 +6990,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7045,7 +7045,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7100,7 +7100,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7155,7 +7155,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7210,7 +7210,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7265,7 +7265,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7320,7 +7320,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7342,6 +7342,50 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled          | boolean |          1 | nan       |
 | responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
 
+#### queryId<br>
+`None`<br>
+## SoccerLeaders<br>
+Request URL: `https://x.com/i/api/graphql/P1WcelZybikR-GpqJ19K7A/SoccerLeaders`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerMatchweeks<br>
+Request URL: `https://x.com/i/api/graphql/l4UfmwkgQ7RudV3ddLCueQ/SoccerMatchweeks`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerSchedule<br>
+Request URL: `https://x.com/i/api/graphql/BgmEf4z1co-6iwhKArsXPg/SoccerSchedule`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerStandings<br>
+Request URL: `https://x.com/i/api/graphql/0sh90UjWpuHzJhn8ZCf0Rg/SoccerStandings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## HomeLatestTimeline<br>
@@ -7375,7 +7419,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7430,7 +7474,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7518,7 +7562,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7573,7 +7617,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7705,7 +7749,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7813,7 +7857,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7906,7 +7950,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -7961,7 +8005,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8011,7 +8055,7 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          1 | nan       |
 | rweb_video_screen_enabled                                               | boolean |          0 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8350,7 +8394,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8439,7 +8483,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8494,7 +8538,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8747,7 +8791,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8818,7 +8862,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8902,7 +8946,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ViewerBadgeCounts<br>
-Request URL: `https://x.com/i/api/graphql/q4Npr1-FYRWyXsRzPckwEA/ViewerBadgeCounts`<br>
+Request URL: `https://x.com/i/api/graphql/I7FbT7Bfw_If9nT5q6PUQQ/ViewerBadgeCounts`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8943,7 +8987,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -8998,7 +9042,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9053,7 +9097,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9108,7 +9152,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9174,7 +9218,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9240,7 +9284,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9292,7 +9336,7 @@ Login Required: `...`<br>
 | rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9348,7 +9392,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9403,7 +9447,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9458,7 +9502,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9513,7 +9557,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9586,7 +9630,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9641,7 +9685,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9732,7 +9776,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9895,7 +9939,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -9986,7 +10030,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10041,7 +10085,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10121,7 +10165,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10250,7 +10294,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10306,7 +10350,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10361,7 +10405,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10416,7 +10460,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10517,7 +10561,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10618,7 +10662,7 @@ Login Required: `...`<br>
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10681,7 +10725,7 @@ Login Required: `...`<br>
 | responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10918,7 +10962,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -10973,7 +11017,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11050,7 +11094,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11105,7 +11149,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11160,7 +11204,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11215,7 +11259,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11281,7 +11325,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11336,7 +11380,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11534,7 +11578,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11679,7 +11723,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11745,7 +11789,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11800,7 +11844,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11855,7 +11899,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11910,7 +11954,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -11976,7 +12020,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12049,7 +12093,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12122,7 +12166,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12195,7 +12239,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12297,7 +12341,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12352,7 +12396,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12407,7 +12451,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12473,7 +12517,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12528,7 +12572,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12662,7 +12706,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12739,7 +12783,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12816,7 +12860,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12882,7 +12926,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -12937,7 +12981,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13047,7 +13091,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13124,7 +13168,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13179,7 +13223,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13234,7 +13278,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13289,7 +13333,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13337,7 +13381,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13390,7 +13434,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13555,7 +13599,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13610,7 +13654,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13665,7 +13709,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13779,7 +13823,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13834,7 +13878,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13889,7 +13933,62 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
+| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
+| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean |          1 | nan       |
+| content_disclosure_indicator_enabled                                    | boolean |          1 | nan       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean |          1 | nan       |
+| responsive_web_grok_show_grok_translated_post                           | boolean |          1 | nan       |
+| responsive_web_grok_analysis_button_from_backend                        | boolean |          1 | nan       |
+| post_ctas_fetch_enabled                                                 | boolean |          1 | nan       |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          1 | nan       |
+| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          1 | nan       |
+| longform_notetweets_rich_text_read_enabled                              | boolean |          1 | nan       |
+| longform_notetweets_inline_media_enabled                                | boolean |          0 | nan       |
+| responsive_web_nested_quote_preview_enabled                             | boolean |          1 | nan       |
+| responsive_web_grok_image_annotation_enabled                            | boolean |          1 | nan       |
+| responsive_web_grok_imagine_annotation_enabled                          | boolean |          1 | nan       |
+| responsive_web_made_on_x_label_enabled                                  | ...     |        nan | error     |
+| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean |          1 | nan       |
+| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
+
+#### queryId<br>
+`None`<br>
+## UserLiveTimeline<br>
+Request URL: `https://x.com/i/api/graphql/lena-Nam3oRYmKKNfvqHqg/UserLiveTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    |   variable | default   |
+|:------------------------------------------------------------------------|:--------|-----------:|:----------|
+| rweb_video_screen_enabled                                               | boolean |          0 | nan       |
+| rweb_cashtags_enabled                                                   | boolean |          1 | nan       |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean |          1 | nan       |
+| responsive_web_profile_redirect_enabled                                 | boolean |          1 | nan       |
+| rweb_tipjar_consumption_enabled                                         | boolean |          0 | nan       |
+| verified_phone_label_enabled                                            | boolean |          0 | nan       |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
+| premium_content_api_read_enabled                                        | boolean |          0 | nan       |
+| communities_web_enable_tweet_community_results_fetch                    | boolean |          1 | nan       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean |          1 | nan       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean |          0 | nan       |
+| responsive_web_grok_analyze_post_followups_enabled                      | boolean |          1 | nan       |
+| rweb_cashtags_composer_attachment_enabled                               | boolean |          1 | nan       |
+| responsive_web_jetfuel_frame                                            | boolean |          1 | nan       |
+| rweb_sports_post_context_enabled                                        | boolean |          1 | nan       |
+| x_elections_post_context_enabled                                        | boolean |          1 | nan       |
+| responsive_web_grok_share_attachment_enabled                            | boolean |          1 | nan       |
+| responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
+| articles_preview_enabled                                                | boolean |          1 | nan       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13944,7 +14043,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -13999,7 +14098,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14054,7 +14153,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14120,7 +14219,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14175,7 +14274,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14230,7 +14329,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14285,7 +14384,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14351,7 +14450,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14406,7 +14505,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14461,7 +14560,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -14516,7 +14615,7 @@ Login Required: `...`<br>
 | responsive_web_grok_annotations_enabled                                 | boolean |          1 | nan       |
 | articles_preview_enabled                                                | boolean |          1 | nan       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| rweb_conversational_replies_downvote_enabled                            | ...     |        nan | error     |
+| rweb_conversational_replies_downvote_enabled                            | boolean |          0 | nan       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
 | view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
 | longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
@@ -15299,6 +15398,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## usePaymentsConfigQuery<br>
+Request URL: `https://x.com/i/api/graphql/P8qZu5xSzn9YelltK1eQfQ/usePaymentsConfigQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## useStoryTopicQuery<br>
 Request URL: `https://x.com/i/api/graphql/I3V_Tt32aTZdw7cBdKUJbg/useStoryTopicQuery`<br>
 Request Method: `GET`<br>
@@ -15442,8 +15552,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## useBookmarkToggleRemoveMutation<br>
-Request URL: `https://x.com/i/api/graphql/xn5rYJGhMHHgVuXWXscjww/useBookmarkToggleRemoveMutation`<br>
+## BookmarkDelete<br>
+Request URL: `https://x.com/i/api/graphql/jTTS9lZmxUq-eYwmY8pHiA/BookmarkDelete`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15453,8 +15563,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## bookmarkStateAddMutation<br>
-Request URL: `https://x.com/i/api/graphql/x8uBHu4J_1PIqsrIxFQAvg/bookmarkStateAddMutation`<br>
+## BookmarkAdd<br>
+Request URL: `https://x.com/i/api/graphql/9559L3Eb62SZndMSVHIeNw/BookmarkAdd`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15464,30 +15574,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## likeButtonFavoriteMutation<br>
-Request URL: `https://x.com/i/api/graphql/i9VOuSqJJf59jkZ0zVNZMQ/likeButtonFavoriteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## likeButtonUnfavoriteMutation<br>
-Request URL: `https://x.com/i/api/graphql/w8z7av_jrLvW_Ty559qjVg/likeButtonUnfavoriteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## retweetButtonRetweetMutation<br>
-Request URL: `https://x.com/i/api/graphql/6uvqjlPaij9o7Ce15XW4sA/retweetButtonRetweetMutation`<br>
+## likeButtonControlUnfavoriteMutation<br>
+Request URL: `https://x.com/i/api/graphql/jd_5MSDRzKH4MJ3c4BmrqQ/likeButtonControlUnfavoriteMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15564,7 +15652,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/SwFl-M3d8FU_ZPQIXc4WEA/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/-HXFjSO_BkHaO0XC32rIhA/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15586,7 +15674,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/ZazachwdCPCIcjo47Fn1fA/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/GIxT0FKx9tYn-1GB33PWcQ/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15597,7 +15685,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/GfNP43VL2lmEMCEMt-GdaA/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/oaljCQi8dAUBRegMJQuUyg/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15641,18 +15729,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## viewerQuery<br>
-Request URL: `https://x.com/i/api/graphql/LAjGcDY8LrtuxCKt321diQ/viewerQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## usePaymentsConfigQuery<br>
-Request URL: `https://x.com/i/api/graphql/P8qZu5xSzn9YelltK1eQfQ/usePaymentsConfigQuery`<br>
+Request URL: `https://x.com/i/api/graphql/MM03-j3f92mPdpwfwhZzcA/viewerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15915,28 +15992,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## usePaymentsAccountStatusQuery<br>
-Request URL: `https://x.com/i/api/graphql/QJcsjMx0SFGQLmcamETmyQ/usePaymentsAccountStatusQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## usePaymentsIssueReportMutation<br>
-Request URL: `https://x.com/i/api/graphql/Lko9MTXX3xrZ8DDkumk1Ww/usePaymentsIssueReportMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## useAudienceRewardsEntityQuery<br>
 Request URL: `https://x.com/i/api/graphql/DydTmS5b0gtlcfjD3aN_Cw/useAudienceRewardsEntityQuery`<br>
 Request Method: `GET`<br>
@@ -16168,39 +16223,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## usePaymentsSessionRefreshAuthTokenMutation<br>
-Request URL: `https://x.com/i/api/graphql/M67Z2AnC9wWtbigxEs6zjA/usePaymentsSessionRefreshAuthTokenMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## usePaymentsSessionCreateAuthTokenMutation<br>
-Request URL: `https://x.com/i/api/graphql/yieDVG3GAbxkcuiWeIXt5Q/usePaymentsSessionCreateAuthTokenMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## usePaymentsSessionMutation<br>
-Request URL: `https://x.com/i/api/graphql/jrS6luzi2VuDNWvsG4ZSZA/usePaymentsSessionMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## PinnedTimelinesManagementSheetQuery<br>
 Request URL: `https://x.com/i/api/graphql/9GXlcvTyuEyONW2ua63Zfw/PinnedTimelinesManagementSheetQuery`<br>
 Request Method: `GET`<br>
@@ -16247,28 +16269,6 @@ Login Required: `...`<br>
 `None`<br>
 ## grokTokFeedQuery<br>
 Request URL: `https://x.com/i/api/graphql/0V6es-1_jw1Um1a7W0gCEQ/grokTokFeedQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## IDVerificationUpdateHideLabelMutation<br>
-Request URL: `https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## IDVerificationQuery<br>
-Request URL: `https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16476,6 +16476,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## grokAccountJwtUnconfirmedQuery<br>
+Request URL: `https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## grokAccountJwtQuery<br>
+Request URL: `https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SharedResourceFollowModalColumnQuery<br>
 Request URL: `https://x.com/i/api/graphql/ofKaifZi0pYMNht7Dtxv9Q/SharedResourceFollowModalColumnQuery`<br>
 Request Method: `GET`<br>
@@ -16655,6 +16677,17 @@ Login Required: `...`<br>
 ## GrokAutoTranslationToggleQuery<br>
 Request URL: `https://x.com/i/api/graphql/J0iibs_CtTMRvj1R7Iykmg/GrokAutoTranslationToggleQuery`<br>
 Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## likeTransferCreateTransferMutation<br>
+Request URL: `https://x.com/i/api/graphql/_5tBqOa5TecHNiOsYlQsQg/likeTransferCreateTransferMutation`<br>
+Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -17037,6 +17070,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## usePaymentsAccountStatusQuery<br>
+Request URL: `https://x.com/i/api/graphql/QJcsjMx0SFGQLmcamETmyQ/usePaymentsAccountStatusQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## usePaymentsIssueReportMutation<br>
+Request URL: `https://x.com/i/api/graphql/Lko9MTXX3xrZ8DDkumk1Ww/usePaymentsIssueReportMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## useFetchAnalyticsQuery<br>
 Request URL: `https://x.com/i/api/graphql/5JkoDLRvQrXv2QV4U5gKFg/useFetchAnalyticsQuery`<br>
 Request Method: `GET`<br>
@@ -17071,7 +17126,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## accountOverviewDailyQuery<br>
-Request URL: `https://x.com/i/api/graphql/2hqAR3h2xhN1cUrUBZypyg/accountOverviewDailyQuery`<br>
+Request URL: `https://x.com/i/api/graphql/sklI2pXJvdvnG7seZKtivg/accountOverviewDailyQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17082,7 +17137,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## accountOverviewHourlyQuery<br>
-Request URL: `https://x.com/i/api/graphql/wwqFMBp-ruRblXh-ZFU0Xw/accountOverviewHourlyQuery`<br>
+Request URL: `https://x.com/i/api/graphql/tzEQF2cbBwha3pqddkbuug/accountOverviewHourlyQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17115,7 +17170,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## contentPageQuery<br>
-Request URL: `https://x.com/i/api/graphql/xPoLXtvRAyS9GNe3qpyRxw/contentPageQuery`<br>
+Request URL: `https://x.com/i/api/graphql/UuayDDyCJIGhIOKzpsmOdA/contentPageQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17159,7 +17214,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## postDetailsProviderQuery<br>
-Request URL: `https://x.com/i/api/graphql/oPKcq64yQ2ZB1Ka_L0Ntsw/postDetailsProviderQuery`<br>
+Request URL: `https://x.com/i/api/graphql/WjPUbbgQ8sPCaZxSwnrv1A/postDetailsProviderQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17225,7 +17280,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## spacesDetailsProviderQuery<br>
-Request URL: `https://x.com/i/api/graphql/bw1aa1utUzKxeKZw4wUG3w/spacesDetailsProviderQuery`<br>
+Request URL: `https://x.com/i/api/graphql/DjXA2sCQVaIU64ZvclAh5g/spacesDetailsProviderQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17258,7 +17313,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## videoDetailsProviderMediaPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/RIHamxiHteJS-jtag5o1ag/videoDetailsProviderMediaPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/fzslMPeXmJaP7w071MMjRA/videoDetailsProviderMediaPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17546,6 +17601,28 @@ Login Required: `...`<br>
 ## XaiPersonalizationSettingsMutation<br>
 Request URL: `https://x.com/i/api/graphql/JbFOnszPZQclTK-4UHDjvw/XaiPersonalizationSettingsMutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## IDVerificationUpdateHideLabelMutation<br>
+Request URL: `https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## IDVerificationQuery<br>
+Request URL: `https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -18489,6 +18566,39 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## usePaymentsSessionRefreshAuthTokenMutation<br>
+Request URL: `https://x.com/i/api/graphql/M67Z2AnC9wWtbigxEs6zjA/usePaymentsSessionRefreshAuthTokenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## usePaymentsSessionCreateAuthTokenMutation<br>
+Request URL: `https://x.com/i/api/graphql/yieDVG3GAbxkcuiWeIXt5Q/usePaymentsSessionCreateAuthTokenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## usePaymentsSessionMutation<br>
+Request URL: `https://x.com/i/api/graphql/jrS6luzi2VuDNWvsG4ZSZA/usePaymentsSessionMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## useNewsArticleQuery<br>
 Request URL: `https://x.com/i/api/graphql/KVlJUSCh1B-KfOe1HxZ9kA/useNewsArticleQuery`<br>
 Request Method: `GET`<br>
@@ -18611,7 +18721,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## postListQuery<br>
-Request URL: `https://x.com/i/api/graphql/VTYFIVRQ9lW7khw6jW5SSQ/postListQuery`<br>
+Request URL: `https://x.com/i/api/graphql/K9vEYxnG-hefvyy6-zwzaA/postListQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -18764,8 +18874,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## grokAccountJwtUnconfirmedQuery<br>
-Request URL: `https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery`<br>
+## FinanceTickerQuery<br>
+Request URL: `https://x.com/i/api/graphql/KcAqe88WGRsIkGykVmi0hQ/FinanceTickerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -18775,8 +18885,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## grokAccountJwtQuery<br>
-Request URL: `https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery`<br>
+## FinanceTickerYearStatsQuery<br>
+Request URL: `https://x.com/i/api/graphql/B2OmuC9gRvO3HYo88Axgvw/FinanceTickerYearStatsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
