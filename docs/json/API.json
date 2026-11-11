@@ -2330,7 +2330,7 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_birdwatch_live_note_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "premium_content_api_read_enabled": false,
@@ -2391,7 +2391,7 @@
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_live_note_enabled": true,
@@ -2607,7 +2607,7 @@
         "responsive_web_birdwatch_live_note_enabled": true,
         "responsive_web_birdwatch_enforce_author_user_quotas": true,
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_note_internal_insights_enabled": false,
@@ -2625,7 +2625,7 @@
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_live_note_enabled": true,
@@ -2807,7 +2807,7 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_birdwatch_live_note_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "premium_content_api_read_enabled": false,
@@ -2919,6 +2919,54 @@
     "FetchScheduledTweets": {
       "url": "https://x.com/i/api/graphql/H2elmT2R9DLhWoo0DZFNkA/FetchScheduledTweets",
       "queryId": "H2elmT2R9DLhWoo0DZFNkA",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerGame": {
+      "url": "https://x.com/i/api/graphql/aHMyPwcykMGU9HfervWHEA/SoccerGame",
+      "queryId": "aHMyPwcykMGU9HfervWHEA",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerGameOdds": {
+      "url": "https://x.com/i/api/graphql/a-rEkVj32-42VC9h5o3a4Q/SoccerGameOdds",
+      "queryId": "a-rEkVj32-42VC9h5o3a4Q",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerGamePregame": {
+      "url": "https://x.com/i/api/graphql/oXAS9BiMmQyUIGAJNdoPSQ/SoccerGamePregame",
+      "queryId": "oXAS9BiMmQyUIGAJNdoPSQ",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerLeaders": {
+      "url": "https://x.com/i/api/graphql/P1WcelZybikR-GpqJ19K7A/SoccerLeaders",
+      "queryId": "P1WcelZybikR-GpqJ19K7A",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerMatchweeks": {
+      "url": "https://x.com/i/api/graphql/l4UfmwkgQ7RudV3ddLCueQ/SoccerMatchweeks",
+      "queryId": "l4UfmwkgQ7RudV3ddLCueQ",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerPlayerBio": {
+      "url": "https://x.com/i/api/graphql/n300A5CmJTzMcM7_MzmGIw/SoccerPlayerBio",
+      "queryId": "n300A5CmJTzMcM7_MzmGIw",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerSchedule": {
+      "url": "https://x.com/i/api/graphql/BgmEf4z1co-6iwhKArsXPg/SoccerSchedule",
+      "queryId": "BgmEf4z1co-6iwhKArsXPg",
+      "method": "GET",
+      "features": {}
+    },
+    "SoccerStandings": {
+      "url": "https://x.com/i/api/graphql/0sh90UjWpuHzJhn8ZCf0Rg/SoccerStandings",
+      "queryId": "0sh90UjWpuHzJhn8ZCf0Rg",
       "method": "GET",
       "features": {}
     },
@@ -3233,14 +3281,14 @@
       "features": {}
     },
     "SportsProductCreateGameReminder": {
-      "url": "https://x.com/i/api/graphql/ZyWLAyQ_WsLedy-JBkIROg/SportsProductCreateGameReminder",
-      "queryId": "ZyWLAyQ_WsLedy-JBkIROg",
+      "url": "https://x.com/i/api/graphql/WdKv6DN3ozlgNbZnBiPmKQ/SportsProductCreateGameReminder",
+      "queryId": "WdKv6DN3ozlgNbZnBiPmKQ",
       "method": "POST",
       "features": {}
     },
     "SportsProductDeleteGameReminder": {
-      "url": "https://x.com/i/api/graphql/zD6qMrNX_BPjXZ8fLPXuiQ/SportsProductDeleteGameReminder",
-      "queryId": "zD6qMrNX_BPjXZ8fLPXuiQ",
+      "url": "https://x.com/i/api/graphql/7RPkOzj8Lg_DSI7Nfkd9Ag/SportsProductDeleteGameReminder",
+      "queryId": "7RPkOzj8Lg_DSI7Nfkd9Ag",
       "method": "POST",
       "features": {}
     },
@@ -3257,8 +3305,8 @@
       "features": {}
     },
     "SportsProductGameReminders": {
-      "url": "https://x.com/i/api/graphql/4T5v2sJ-8kOvk53OgBaLkQ/SportsProductGameReminders",
-      "queryId": "4T5v2sJ-8kOvk53OgBaLkQ",
+      "url": "https://x.com/i/api/graphql/2_uTEYthMrEBh6Z75La3Qw/SportsProductGameReminders",
+      "queryId": "2_uTEYthMrEBh6Z75La3Qw",
       "method": "GET",
       "features": {}
     },
@@ -3293,8 +3341,8 @@
       "features": {}
     },
     "SportsProductSnoozeGameReminder": {
-      "url": "https://x.com/i/api/graphql/9LCYq2VYYvKE--NhmJk8pg/SportsProductSnoozeGameReminder",
-      "queryId": "9LCYq2VYYvKE--NhmJk8pg",
+      "url": "https://x.com/i/api/graphql/79_s7GZsGUcCZM-trBCFYg/SportsProductSnoozeGameReminder",
+      "queryId": "79_s7GZsGUcCZM-trBCFYg",
       "method": "POST",
       "features": {}
     },
@@ -3550,30 +3598,6 @@
     "ViewerEmailSettings": {
       "url": "https://x.com/i/api/graphql/YYJk-rhCD2EUmq49LugABA/ViewerEmailSettings",
       "queryId": "YYJk-rhCD2EUmq49LugABA",
-      "method": "GET",
-      "features": {}
-    },
-    "SoccerLeaders": {
-      "url": "https://x.com/i/api/graphql/P1WcelZybikR-GpqJ19K7A/SoccerLeaders",
-      "queryId": "P1WcelZybikR-GpqJ19K7A",
-      "method": "GET",
-      "features": {}
-    },
-    "SoccerMatchweeks": {
-      "url": "https://x.com/i/api/graphql/l4UfmwkgQ7RudV3ddLCueQ/SoccerMatchweeks",
-      "queryId": "l4UfmwkgQ7RudV3ddLCueQ",
-      "method": "GET",
-      "features": {}
-    },
-    "SoccerSchedule": {
-      "url": "https://x.com/i/api/graphql/BgmEf4z1co-6iwhKArsXPg/SoccerSchedule",
-      "queryId": "BgmEf4z1co-6iwhKArsXPg",
-      "method": "GET",
-      "features": {}
-    },
-    "SoccerStandings": {
-      "url": "https://x.com/i/api/graphql/0sh90UjWpuHzJhn8ZCf0Rg/SoccerStandings",
-      "queryId": "0sh90UjWpuHzJhn8ZCf0Rg",
       "method": "GET",
       "features": {}
     },
@@ -7642,6 +7666,18 @@
       "method": "GET",
       "features": {}
     },
+    "liveEventReminderButtonMutation": {
+      "url": "https://x.com/i/api/graphql/dmCalhCZr-kK8D7H3k4CKQ/liveEventReminderButtonMutation",
+      "queryId": "dmCalhCZr-kK8D7H3k4CKQ",
+      "method": "POST",
+      "features": {}
+    },
+    "liveEventReminderButtonQuery": {
+      "url": "https://x.com/i/api/graphql/kinP-3xrZVsSSru-17VdkA/liveEventReminderButtonQuery",
+      "queryId": "kinP-3xrZVsSSru-17VdkA",
+      "method": "GET",
+      "features": {}
+    },
     "BookmarkDelete": {
       "url": "https://x.com/i/api/graphql/jTTS9lZmxUq-eYwmY8pHiA/BookmarkDelete",
       "queryId": "jTTS9lZmxUq-eYwmY8pHiA",
@@ -7651,6 +7687,24 @@
     "BookmarkAdd": {
       "url": "https://x.com/i/api/graphql/9559L3Eb62SZndMSVHIeNw/BookmarkAdd",
       "queryId": "9559L3Eb62SZndMSVHIeNw",
+      "method": "POST",
+      "features": {}
+    },
+    "downvoteButtonCreateMutation": {
+      "url": "https://x.com/i/api/graphql/oolM4YvaGr4OPfmhHsHZ6g/downvoteButtonCreateMutation",
+      "queryId": "oolM4YvaGr4OPfmhHsHZ6g",
+      "method": "POST",
+      "features": {}
+    },
+    "downvoteButtonDeleteMutation": {
+      "url": "https://x.com/i/api/graphql/PJk7J4-y_25wgj4-vph7pA/downvoteButtonDeleteMutation",
+      "queryId": "PJk7J4-y_25wgj4-vph7pA",
+      "method": "POST",
+      "features": {}
+    },
+    "replyDownvoteTraySpamReportMutation": {
+      "url": "https://x.com/i/api/graphql/g_ojjFZ1fZRKgz9KCVtpQA/replyDownvoteTraySpamReportMutation",
+      "queryId": "g_ojjFZ1fZRKgz9KCVtpQA",
       "method": "POST",
       "features": {}
     },
@@ -7697,8 +7751,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/-HXFjSO_BkHaO0XC32rIhA/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "-HXFjSO_BkHaO0XC32rIhA",
+      "url": "https://x.com/i/api/graphql/9DwHVUy8AO1eW4imtg2pVQ/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "9DwHVUy8AO1eW4imtg2pVQ",
       "method": "GET",
       "features": {}
     },
@@ -7709,14 +7763,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/GIxT0FKx9tYn-1GB33PWcQ/businessInsightsMonitorTabPostsQuery",
-      "queryId": "GIxT0FKx9tYn-1GB33PWcQ",
+      "url": "https://x.com/i/api/graphql/gkAMsqxkh0gDfGjdIVEjcw/businessInsightsMonitorTabPostsQuery",
+      "queryId": "gkAMsqxkh0gDfGjdIVEjcw",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/oaljCQi8dAUBRegMJQuUyg/businessInsightsOverviewTabQuery",
-      "queryId": "oaljCQi8dAUBRegMJQuUyg",
+      "url": "https://x.com/i/api/graphql/OXQujr7K0wE4V7th1XmbeQ/businessInsightsOverviewTabQuery",
+      "queryId": "OXQujr7K0wE4V7th1XmbeQ",
       "method": "GET",
       "features": {}
     },
@@ -8114,18 +8168,6 @@
       "url": "https://x.com/i/api/graphql/40Qdk77H0THXOiSr9IGqiw/useUpdateWorkExperienceItemMutation",
       "queryId": "40Qdk77H0THXOiSr9IGqiw",
       "method": "POST",
-      "features": {}
-    },
-    "grokAccountJwtUnconfirmedQuery": {
-      "url": "https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery",
-      "queryId": "P-Al-tOFh4PfVTQRVOF9Mg",
-      "method": "GET",
-      "features": {}
-    },
-    "grokAccountJwtQuery": {
-      "url": "https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery",
-      "queryId": "DIW0leeI6-dvMzdOMJki4w",
-      "method": "GET",
       "features": {}
     },
     "ScheduledPromotionsQuery": {
@@ -9427,6 +9469,18 @@
     "FinanceTickerYearStatsQuery": {
       "url": "https://x.com/i/api/graphql/B2OmuC9gRvO3HYo88Axgvw/FinanceTickerYearStatsQuery",
       "queryId": "B2OmuC9gRvO3HYo88Axgvw",
+      "method": "GET",
+      "features": {}
+    },
+    "grokAccountJwtUnconfirmedQuery": {
+      "url": "https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery",
+      "queryId": "P-Al-tOFh4PfVTQRVOF9Mg",
+      "method": "GET",
+      "features": {}
+    },
+    "grokAccountJwtQuery": {
+      "url": "https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery",
+      "queryId": "DIW0leeI6-dvMzdOMJki4w",
       "method": "GET",
       "features": {}
     },
