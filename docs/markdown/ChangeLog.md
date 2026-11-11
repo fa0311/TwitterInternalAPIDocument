@@ -10471,3 +10471,27 @@
 - rweb_conversational_replies_downvote_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/11<br>
+### API<br>
+#### add<br>
+- SoccerGame<br>
+- SoccerGameOdds<br>
+- SoccerGamePregame<br>
+- SoccerPlayerBio<br>
+- SoccerGame<br>
+- SoccerGameOdds<br>
+- SoccerGamePregame<br>
+- SoccerPlayerBio<br>
+- liveEventReminderButtonMutation<br>
+- liveEventReminderButtonQuery<br>
+- downvoteButtonCreateMutation<br>
+- downvoteButtonDeleteMutation<br>
+- replyDownvoteTraySpamReportMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_auto_top_up_default_enabled<br>
+- rweb_xchat_background_unread_badge<br>
+#### remove<br>
+- None<br>
