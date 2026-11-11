@@ -1002,7 +1002,7 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_birdwatch_live_note_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "premium_content_api_read_enabled": false,
@@ -1063,7 +1063,7 @@
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_live_note_enabled": true,
@@ -1279,7 +1279,7 @@
         "responsive_web_birdwatch_live_note_enabled": true,
         "responsive_web_birdwatch_enforce_author_user_quotas": true,
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_note_internal_insights_enabled": false,
@@ -1297,7 +1297,7 @@
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_grok_community_note_translation_is_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_birdwatch_live_note_enabled": true,
@@ -1479,7 +1479,7 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
-        "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_birdwatch_url_notes_enabled": true,
         "responsive_web_birdwatch_live_note_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "premium_content_api_read_enabled": false,
