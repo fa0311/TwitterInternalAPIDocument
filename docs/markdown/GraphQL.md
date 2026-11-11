@@ -4485,7 +4485,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean |          1 | nan       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean |          0 | nan       |
-| responsive_web_birdwatch_url_notes_enabled                              | boolean |          0 | nan       |
+| responsive_web_birdwatch_url_notes_enabled                              | boolean |          1 | nan       |
 | responsive_web_birdwatch_live_note_enabled                              | boolean |          1 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
 | premium_content_api_read_enabled                                        | boolean |          0 | nan       |
@@ -4563,7 +4563,7 @@ Login Required: `...`<br>
 | key                                                            | type    | variable   |
 |:---------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
@@ -4875,7 +4875,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
 | responsive_web_birdwatch_enforce_author_user_quotas            | boolean | True       |
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_note_internal_insights_enabled        | boolean | False      |
@@ -4899,7 +4899,7 @@ Login Required: `...`<br>
 | key                                                            | type    | variable   |
 |:---------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
@@ -5126,7 +5126,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean |          1 | nan       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean |          0 | nan       |
-| responsive_web_birdwatch_url_notes_enabled                              | boolean |          0 | nan       |
+| responsive_web_birdwatch_url_notes_enabled                              | boolean |          1 | nan       |
 | responsive_web_birdwatch_live_note_enabled                              | boolean |          1 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
 | premium_content_api_read_enabled                                        | boolean |          0 | nan       |
@@ -6054,6 +6054,94 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled          | boolean |          1 | nan       |
 | responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
 
+#### queryId<br>
+`None`<br>
+## SoccerGame<br>
+Request URL: `https://x.com/i/api/graphql/aHMyPwcykMGU9HfervWHEA/SoccerGame`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerGameOdds<br>
+Request URL: `https://x.com/i/api/graphql/a-rEkVj32-42VC9h5o3a4Q/SoccerGameOdds`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerGamePregame<br>
+Request URL: `https://x.com/i/api/graphql/oXAS9BiMmQyUIGAJNdoPSQ/SoccerGamePregame`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerLeaders<br>
+Request URL: `https://x.com/i/api/graphql/P1WcelZybikR-GpqJ19K7A/SoccerLeaders`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerMatchweeks<br>
+Request URL: `https://x.com/i/api/graphql/l4UfmwkgQ7RudV3ddLCueQ/SoccerMatchweeks`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerPlayerBio<br>
+Request URL: `https://x.com/i/api/graphql/n300A5CmJTzMcM7_MzmGIw/SoccerPlayerBio`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerSchedule<br>
+Request URL: `https://x.com/i/api/graphql/BgmEf4z1co-6iwhKArsXPg/SoccerSchedule`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerStandings<br>
+Request URL: `https://x.com/i/api/graphql/0sh90UjWpuHzJhn8ZCf0Rg/SoccerStandings`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## CreateGrokConversation<br>
@@ -7066,7 +7154,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductCreateGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/ZyWLAyQ_WsLedy-JBkIROg/SportsProductCreateGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/WdKv6DN3ozlgNbZnBiPmKQ/SportsProductCreateGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7077,7 +7165,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductDeleteGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/zD6qMrNX_BPjXZ8fLPXuiQ/SportsProductDeleteGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/7RPkOzj8Lg_DSI7Nfkd9Ag/SportsProductDeleteGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7110,7 +7198,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductGameReminders<br>
-Request URL: `https://x.com/i/api/graphql/4T5v2sJ-8kOvk53OgBaLkQ/SportsProductGameReminders`<br>
+Request URL: `https://x.com/i/api/graphql/2_uTEYthMrEBh6Z75La3Qw/SportsProductGameReminders`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7176,7 +7264,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductSnoozeGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/9LCYq2VYYvKE--NhmJk8pg/SportsProductSnoozeGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/79_s7GZsGUcCZM-trBCFYg/SportsProductSnoozeGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8392,7 +8480,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductCreateGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/ZyWLAyQ_WsLedy-JBkIROg/SportsProductCreateGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/WdKv6DN3ozlgNbZnBiPmKQ/SportsProductCreateGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8403,7 +8491,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductDeleteGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/zD6qMrNX_BPjXZ8fLPXuiQ/SportsProductDeleteGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/7RPkOzj8Lg_DSI7Nfkd9Ag/SportsProductDeleteGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8436,7 +8524,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductGameReminders<br>
-Request URL: `https://x.com/i/api/graphql/4T5v2sJ-8kOvk53OgBaLkQ/SportsProductGameReminders`<br>
+Request URL: `https://x.com/i/api/graphql/2_uTEYthMrEBh6Z75La3Qw/SportsProductGameReminders`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8502,7 +8590,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductSnoozeGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/9LCYq2VYYvKE--NhmJk8pg/SportsProductSnoozeGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/79_s7GZsGUcCZM-trBCFYg/SportsProductSnoozeGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9300,6 +9388,39 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## SoccerGame<br>
+Request URL: `https://x.com/i/api/graphql/aHMyPwcykMGU9HfervWHEA/SoccerGame`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerGameOdds<br>
+Request URL: `https://x.com/i/api/graphql/a-rEkVj32-42VC9h5o3a4Q/SoccerGameOdds`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerGamePregame<br>
+Request URL: `https://x.com/i/api/graphql/oXAS9BiMmQyUIGAJNdoPSQ/SoccerGamePregame`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SoccerLeaders<br>
 Request URL: `https://x.com/i/api/graphql/P1WcelZybikR-GpqJ19K7A/SoccerLeaders`<br>
 Request Method: `GET`<br>
@@ -9313,6 +9434,17 @@ Login Required: `...`<br>
 `None`<br>
 ## SoccerMatchweeks<br>
 Request URL: `https://x.com/i/api/graphql/l4UfmwkgQ7RudV3ddLCueQ/SoccerMatchweeks`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SoccerPlayerBio<br>
+Request URL: `https://x.com/i/api/graphql/n300A5CmJTzMcM7_MzmGIw/SoccerPlayerBio`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -11317,7 +11449,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductCreateGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/ZyWLAyQ_WsLedy-JBkIROg/SportsProductCreateGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/WdKv6DN3ozlgNbZnBiPmKQ/SportsProductCreateGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -11328,7 +11460,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductDeleteGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/zD6qMrNX_BPjXZ8fLPXuiQ/SportsProductDeleteGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/7RPkOzj8Lg_DSI7Nfkd9Ag/SportsProductDeleteGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -11361,7 +11493,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductGameReminders<br>
-Request URL: `https://x.com/i/api/graphql/4T5v2sJ-8kOvk53OgBaLkQ/SportsProductGameReminders`<br>
+Request URL: `https://x.com/i/api/graphql/2_uTEYthMrEBh6Z75La3Qw/SportsProductGameReminders`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -11427,7 +11559,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SportsProductSnoozeGameReminder<br>
-Request URL: `https://x.com/i/api/graphql/9LCYq2VYYvKE--NhmJk8pg/SportsProductSnoozeGameReminder`<br>
+Request URL: `https://x.com/i/api/graphql/79_s7GZsGUcCZM-trBCFYg/SportsProductSnoozeGameReminder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15988,6 +16120,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## liveEventReminderButtonMutation<br>
+Request URL: `https://x.com/i/api/graphql/dmCalhCZr-kK8D7H3k4CKQ/liveEventReminderButtonMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## liveEventReminderButtonQuery<br>
+Request URL: `https://x.com/i/api/graphql/kinP-3xrZVsSSru-17VdkA/liveEventReminderButtonQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BookmarkDelete<br>
 Request URL: `https://x.com/i/api/graphql/jTTS9lZmxUq-eYwmY8pHiA/BookmarkDelete`<br>
 Request Method: `POST`<br>
@@ -16001,6 +16155,39 @@ Login Required: `...`<br>
 `None`<br>
 ## BookmarkAdd<br>
 Request URL: `https://x.com/i/api/graphql/9559L3Eb62SZndMSVHIeNw/BookmarkAdd`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## downvoteButtonCreateMutation<br>
+Request URL: `https://x.com/i/api/graphql/oolM4YvaGr4OPfmhHsHZ6g/downvoteButtonCreateMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## downvoteButtonDeleteMutation<br>
+Request URL: `https://x.com/i/api/graphql/PJk7J4-y_25wgj4-vph7pA/downvoteButtonDeleteMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## replyDownvoteTraySpamReportMutation<br>
+Request URL: `https://x.com/i/api/graphql/g_ojjFZ1fZRKgz9KCVtpQA/replyDownvoteTraySpamReportMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16088,7 +16275,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/-HXFjSO_BkHaO0XC32rIhA/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/9DwHVUy8AO1eW4imtg2pVQ/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16110,7 +16297,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/GIxT0FKx9tYn-1GB33PWcQ/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/gkAMsqxkh0gDfGjdIVEjcw/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16121,7 +16308,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/oaljCQi8dAUBRegMJQuUyg/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/OXQujr7K0wE4V7th1XmbeQ/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16849,28 +17036,6 @@ Login Required: `...`<br>
 ## useUpdateWorkExperienceItemMutation<br>
 Request URL: `https://x.com/i/api/graphql/40Qdk77H0THXOiSr9IGqiw/useUpdateWorkExperienceItemMutation`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## grokAccountJwtUnconfirmedQuery<br>
-Request URL: `https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## grokAccountJwtQuery<br>
-Request URL: `https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -19257,6 +19422,28 @@ Login Required: `...`<br>
 `None`<br>
 ## FinanceTickerYearStatsQuery<br>
 Request URL: `https://x.com/i/api/graphql/B2OmuC9gRvO3HYo88Axgvw/FinanceTickerYearStatsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## grokAccountJwtUnconfirmedQuery<br>
+Request URL: `https://x.com/i/api/graphql/P-Al-tOFh4PfVTQRVOF9Mg/grokAccountJwtUnconfirmedQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## grokAccountJwtQuery<br>
+Request URL: `https://x.com/i/api/graphql/DIW0leeI6-dvMzdOMJki4w/grokAccountJwtQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
