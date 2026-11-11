@@ -2659,7 +2659,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean |          1 | nan       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean |          0 | nan       |
-| responsive_web_birdwatch_url_notes_enabled                              | boolean |          0 | nan       |
+| responsive_web_birdwatch_url_notes_enabled                              | boolean |          1 | nan       |
 | responsive_web_birdwatch_live_note_enabled                              | boolean |          1 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
 | premium_content_api_read_enabled                                        | boolean |          0 | nan       |
@@ -2737,7 +2737,7 @@ Login Required: `...`<br>
 | key                                                            | type    | variable   |
 |:---------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
@@ -3049,7 +3049,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
 | responsive_web_birdwatch_enforce_author_user_quotas            | boolean | True       |
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_note_internal_insights_enabled        | boolean | False      |
@@ -3073,7 +3073,7 @@ Login Required: `...`<br>
 | key                                                            | type    | variable   |
 |:---------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                   | boolean | True       |
-| responsive_web_birdwatch_url_notes_enabled                     | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                     | boolean | True       |
 | responsive_web_grok_community_note_translation_is_enabled      | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled              | boolean | False      |
 | responsive_web_birdwatch_live_note_enabled                     | boolean | True       |
@@ -3300,7 +3300,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean |          1 | nan       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean |          0 | nan       |
-| responsive_web_birdwatch_url_notes_enabled                              | boolean |          0 | nan       |
+| responsive_web_birdwatch_url_notes_enabled                              | boolean |          1 | nan       |
 | responsive_web_birdwatch_live_note_enabled                              | boolean |          1 | nan       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean |          1 | nan       |
 | premium_content_api_read_enabled                                        | boolean |          0 | nan       |
