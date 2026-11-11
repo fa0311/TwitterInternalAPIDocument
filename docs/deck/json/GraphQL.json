@@ -6050,7 +6050,7 @@
             "value": "false"
           },
           "responsive_web_birdwatch_url_notes_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_birdwatch_live_note_enabled": {
             "value": "true"
@@ -6233,7 +6233,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_url_notes_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_grok_community_note_translation_is_enabled": {
             "value": "true"
@@ -6924,7 +6924,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_url_notes_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_grok_community_note_translation_is_enabled": {
             "value": "true"
@@ -6988,7 +6988,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_url_notes_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_grok_community_note_translation_is_enabled": {
             "value": "true"
@@ -7699,7 +7699,7 @@
             "value": "false"
           },
           "responsive_web_birdwatch_url_notes_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_birdwatch_live_note_enabled": {
             "value": "true"
