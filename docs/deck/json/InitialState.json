@@ -6803,7 +6803,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_url_notes_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_card_conversion_hoisted": {
           "value": "off"
@@ -9691,7 +9691,7 @@
           "value": "true"
         },
         "web_video_player_size_cap_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
@@ -9761,10 +9761,10 @@
           "value": "true"
         },
         "x_sports_ncaafb_game_odds_card_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "x_sports_ncaafb_scorecard_odds_disabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_nfl_favorite_teams_enabled": {
           "value": "true"
@@ -9779,7 +9779,7 @@
           "value": "true"
         },
         "x_sports_nfl_game_odds_card_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "x_sports_nfl_game_player_props_enabled": {
           "value": "false"
@@ -9794,7 +9794,7 @@
           "value": "true"
         },
         "x_sports_nfl_scorecard_odds_disabled": {
-          "value": "false"
+          "value": "true"
         },
         "x_sports_play_video_enabled": {
           "value": "true"
@@ -10324,7 +10324,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "41e45410b4774b24ad7e72ddd68165e1"
+      "settingsVersion": "4c577152949543bda7b06c34f91fa9c3"
     },
     "debug": {},
     "featureSetToken": "90534fddd585e6be6b6bc0bc7193d622a6290307",
