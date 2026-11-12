@@ -1145,7 +1145,7 @@
         "value": "false"
       },
       "immersive_viewer_enable_profile_viewer": {
-        "value": "false"
+        "value": "true"
       },
       "insights_ai_trends_enabled": {
         "value": "false"
@@ -1760,7 +1760,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_url_notes_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_card_conversion_hoisted": {
         "value": "off"
@@ -1971,6 +1971,9 @@
       },
       "responsive_web_grok_atgrok_sample_rate": {
         "value": "0.5"
+      },
+      "responsive_web_grok_auto_top_up_default_enabled": {
+        "value": "true"
       },
       "responsive_web_grok_backend_prompts_enabled": {
         "value": "true"
@@ -3196,6 +3199,9 @@
       "rweb_conf_rnnoise_enabled": {
         "value": "true"
       },
+      "rweb_conversational_replies_downvote_enabled": {
+        "value": "false"
+      },
       "rweb_dash_menu_app_redirect_footer_enabled": {
         "value": "true"
       },
@@ -3408,6 +3414,9 @@
       },
       "rweb_video_tagging_enabled": {
         "value": "true"
+      },
+      "rweb_xchat_background_unread_badge": {
+        "value": "false"
       },
       "rweb_xchat_bug_report_url": {
         "value": ""
@@ -4558,7 +4567,7 @@
         "value": "false"
       },
       "video_clipping_attribution_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "video_clipping_max_duration_fraction": {
         "value": "0.3"
@@ -4570,7 +4579,7 @@
         "value": "5"
       },
       "video_clipping_repost_menu_min_duration_sec": {
-        "value": "0"
+        "value": "120"
       },
       "video_upload_metadata_title_enabled": {
         "value": "false"
@@ -7015,6 +7024,9 @@
         "responsive_web_grok_atgrok_sample_rate": {
           "value": "0.5"
         },
+        "responsive_web_grok_auto_top_up_default_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
         },
@@ -8455,6 +8467,9 @@
         "rweb_video_tagging_enabled": {
           "value": "true"
         },
+        "rweb_xchat_background_unread_badge": {
+          "value": "true"
+        },
         "rweb_xchat_bug_report_url": {
           "value": ""
         },
@@ -9616,7 +9631,7 @@
           "value": "5"
         },
         "video_clipping_repost_menu_min_duration_sec": {
-          "value": "120"
+          "value": "0"
         },
         "video_upload_metadata_title_enabled": {
           "value": "false"
@@ -10324,10 +10339,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "4c577152949543bda7b06c34f91fa9c3"
+      "settingsVersion": "65f34ace161f08d148bebc2df1a442e9"
     },
     "debug": {},
-    "featureSetToken": "90534fddd585e6be6b6bc0bc7193d622a6290307",
+    "featureSetToken": "2a66be1a16ae07e65797c12215a1ea86b5a95f0d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
