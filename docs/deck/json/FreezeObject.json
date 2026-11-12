@@ -4170,7 +4170,7 @@
     "DockPeek": "DockPeek",
     "DockRoot": "DockRoot"
   },
-  "{[sl.DP]:\"authorize\",[sl.S0]:\"checkout\"}",
+  "{[sp.DP]:\"authorize\",[sp.S0]:\"checkout\"}",
   {
     "AudioSpaceAnalytics": "AudioSpaceAnalytics",
     "AudioSpaceDetail": "AudioSpaceDetail",
@@ -10971,6 +10971,21 @@
     "image": "image"
   },
   {
+    "blockedFieldGoal": "blockedFieldGoal",
+    "blockedPunt": "blockedPunt",
+    "downs": "downs",
+    "endOfGame": "endOfGame",
+    "endOfHalf": "endOfHalf",
+    "fieldGoal": "fieldGoal",
+    "fumble": "fumble",
+    "interception": "interception",
+    "kickoff": "kickoff",
+    "missedFieldGoal": "missedFieldGoal",
+    "punt": "punt",
+    "safety": "safety",
+    "touchdown": "touchdown"
+  },
+  {
     "BROADCAST": "broadcast",
     "DM": "dm",
     "TWEET": "tweet",
@@ -11550,7 +11565,7 @@
   },
   {
     "fetchStatus": "et.Ay.NONE",
-    "config": "im"
+    "config": "ap"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -13784,10 +13799,6 @@
     "main_offer": "main_offer",
     "main_offer_stripe": "main_offer_stripe",
     "app_open_upgrade_offer": "app_open_upgrade_offer"
-  },
-  {
-    "latest": "latest",
-    "top": "top"
   },
   {
     "TWEET_CARET": "tweet_caret",
@@ -17668,21 +17679,6 @@
     }
   },
   {
-    "blockedFieldGoal": "blockedFieldGoal",
-    "blockedPunt": "blockedPunt",
-    "downs": "downs",
-    "endOfGame": "endOfGame",
-    "endOfHalf": "endOfHalf",
-    "fieldGoal": "fieldGoal",
-    "fumble": "fumble",
-    "interception": "interception",
-    "kickoff": "kickoff",
-    "missedFieldGoal": "missedFieldGoal",
-    "punt": "punt",
-    "safety": "safety",
-    "touchdown": "touchdown"
-  },
-  {
     "promotedContent": "void 0"
   },
   {
@@ -18619,9 +18615,9 @@
   },
   {
     "commerce-core": "s",
-    "commerce-ui": "4.46.0"
+    "commerce-ui": "4.48.0"
   },
-  "{\"versions\":\"Object.freeze()\"{\"commerce-core\":\"s\",\"commerce-ui\":\"4.46.0\"}}",
+  "{\"versions\":\"Object.freeze()\"{\"commerce-core\":\"s\",\"commerce-ui\":\"4.48.0\"}}",
   {
     "ExternalWidget": "ExternalWidget",
     "OwnProfile": "OwnProfile",
@@ -18792,6 +18788,10 @@
   {
     "Mentions": "mentions",
     "Keyword": "keyword"
+  },
+  {
+    "latest": "latest",
+    "top": "top"
   },
   {
     "live": {
