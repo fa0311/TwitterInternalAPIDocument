@@ -6643,6 +6643,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -8980,6 +8981,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -9492,6 +9494,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -9965,6 +9968,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -11584,6 +11588,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -19221,6 +19226,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirtyDayTransferSendVolumeKycVerified           | ThirtyDayTransferSendVolumeKycVerified           |
 | ThirtyDayWithdrawalVolumeKycUnverified           | ThirtyDayWithdrawalVolumeKycUnverified           |
 | ThirtyDayWithdrawalVolumeKycVerified             | ThirtyDayWithdrawalVolumeKycVerified             |
+| TransferBusinessOwnership                        | TransferBusinessOwnership                        |
 | TransferLevelFour                                | TransferLevelFour                                |
 | TransferLevelOne                                 | TransferLevelOne                                 |
 | TransferLevelThree                               | TransferLevelThree                               |
@@ -20773,12 +20779,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value    |
 |:-------------|:---------|
-| down_cursor  | r.BOTTOM |
-| max_id       | r.BOTTOM |
-| max_position | r.BOTTOM |
-| min_position | r.TOP    |
-| since_id     | r.TOP    |
-| up_cursor    | r.TOP    |
+| down_cursor  | n.BOTTOM |
+| max_id       | n.BOTTOM |
+| max_position | n.BOTTOM |
+| min_position | n.TOP    |
+| since_id     | n.TOP    |
+| up_cursor    | n.TOP    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -20786,7 +20792,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Object.freeze(){"VerificationCheck":"VerificationCheck"}"e"{if()throw Error(3!==e.length);let[t,n,r]=e;return[{"width":"400","height":"200","uri":"t"},{"width":"800","height":"400","uri":"n"},{"width":"1200","height":"600","uri":"r"}]}"()"}
+{[Object.freeze(){"VerificationCheck":"VerificationCheck"}"e"{if()throw Error(3!==e.length);let[t,r,n]=e;return[{"width":"400","height":"200","uri":"t"},{"width":"800","height":"400","uri":"r"},{"width":"1200","height":"600","uri":"n"}]}"()"}
 ```
 | constant                          | value                                                                                                                     |
 |:----------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
