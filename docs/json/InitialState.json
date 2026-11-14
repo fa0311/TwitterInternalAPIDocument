@@ -142,7 +142,7 @@
             "year": "2000",
             "year_visibility": "self"
           },
-          "has_graduated_access": "false",
+          "has_graduated_access": "true",
           "created_at": "2024-05-05T15:53:13.000Z",
           "parody_commentary_fan_label": "None",
           "can_dm": "true"
@@ -726,10 +726,10 @@
         "value": "true"
       },
       "composer_max_media_count": {
-        "value": "4"
+        "value": "20"
       },
       "composer_max_media_quote_overflow_count_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "content_disclosure_ai_generated_c2pa_detection_enabled": {
         "value": "true"
@@ -3307,7 +3307,7 @@
         "value": "true"
       },
       "rweb_promoted_ad_from_domain_label_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_promoted_spine_clicks_enabled": {
         "value": "false"
@@ -3406,7 +3406,7 @@
         "value": "true"
       },
       "rweb_xchat_background_unread_badge": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_xchat_bug_report_url": {
         "value": ""
@@ -4759,10 +4759,10 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "5"
+        "value": "1"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "20"
+        "value": "5"
       },
       "xcall_item_in_list_enabled": {
         "value": "true"
@@ -5739,7 +5739,7 @@
           "value": "true"
         },
         "complat_grok_link_consent_skip_arm": {
-          "value": ""
+          "value": "create_before_cart"
         },
         "complat_home_sidebar_migration_card_enabled": {
           "value": "true"
@@ -5751,7 +5751,7 @@
           "value": "true"
         },
         "complat_paywall_bundle_tiers_arm": {
-          "value": "all"
+          "value": ""
         },
         "complat_premium_hub_upgrade_card_enabled": {
           "value": "true"
@@ -10286,9 +10286,6 @@
         "responsive_web_verified_organizations_application_two_column_enabled": [
           "premium_business_application_redesign_19473"
         ],
-        "complat_paywall_bundle_tiers_arm": [
-          "complat_paywall_bundle_tiers_19662"
-        ],
         "responsive_web_verified_organizations_application_requirements_enabled": [
           "premium_business_application_redesign_19473"
         ],
@@ -10307,11 +10304,6 @@
           "key": "complat_migration_entrypoint_home_sidebar_20020",
           "bucket": "treatment",
           "version": "1"
-        },
-        "complat_paywall_bundle_tiers_19662": {
-          "key": "complat_paywall_bundle_tiers_19662",
-          "bucket": "control",
-          "version": "5"
         },
         "grok_xweb_paid_quota_upsell_19862": {
           "key": "grok_xweb_paid_quota_upsell_19862",
@@ -10335,10 +10327,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "d198483b399a4538638ed57117a56620"
+      "settingsVersion": "5f8a116f0c4cfdf1eb8ed1be37715552"
     },
     "debug": {},
-    "featureSetToken": "171d03b71f3f548a8777c577473f31f10a455645",
+    "featureSetToken": "209eb4465bb2f1072d8035b8e3614a6122106282",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
