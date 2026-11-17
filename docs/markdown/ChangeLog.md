@@ -10522,3 +10522,16 @@
 - sports_settings_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/17<br>
+### API<br>
+#### add<br>
+- unifiedCardReminderSubscribeMutation<br>
+- unifiedCardReminderQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- video_clipping_composer_entry_enabled<br>
+- responsive_web_search_typeahead_debounce_ms<br>
+#### remove<br>
+- None<br>
