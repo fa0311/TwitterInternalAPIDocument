@@ -684,7 +684,7 @@
         "value": "true"
       },
       "complat_grok_link_consent_skip_arm": {
-        "value": ""
+        "value": "create_before_cart"
       },
       "complat_home_sidebar_migration_card_enabled": {
         "value": "false"
@@ -3310,7 +3310,7 @@
         "value": "true"
       },
       "rweb_promoted_spine_clicks_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_promoted_tweet_max_text_lines": {
         "value": "0"
@@ -4561,6 +4561,9 @@
       },
       "video_clipping_attribution_enabled": {
         "value": "true"
+      },
+      "video_clipping_composer_entry_enabled": {
+        "value": "false"
       },
       "video_clipping_max_duration_fraction": {
         "value": "0.3"
@@ -7899,6 +7902,9 @@
         "responsive_web_scroller_top_positioning_enabled": {
           "value": "false"
         },
+        "responsive_web_search_typeahead_debounce_ms": {
+          "value": "250"
+        },
         "responsive_web_seasonal_custom_logo": {
           "value": "IconTwitter"
         },
@@ -8365,7 +8371,7 @@
           "value": "true"
         },
         "rweb_promoted_spine_clicks_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_promoted_tweet_max_text_lines": {
           "value": "0"
@@ -9617,6 +9623,9 @@
         "video_clipping_attribution_enabled": {
           "value": "true"
         },
+        "video_clipping_composer_entry_enabled": {
+          "value": "false"
+        },
         "video_clipping_max_duration_fraction": {
           "value": "0.3"
         },
@@ -10294,9 +10303,6 @@
         ],
         "timeline_scroll_pointer_events_optimization": [
           "timeline_pointer_events_19084"
-        ],
-        "responsive_web_primary_nav_route_preload_enabled": [
-          "web_route_preloading_18967"
         ]
       },
       "impressions": {
@@ -10319,18 +10325,13 @@
           "key": "timeline_pointer_events_19084",
           "bucket": "treatment",
           "version": "5"
-        },
-        "web_route_preloading_18967": {
-          "key": "web_route_preloading_18967",
-          "bucket": "control",
-          "version": "1"
         }
       },
       "keysRead": {},
-      "settingsVersion": "5f8a116f0c4cfdf1eb8ed1be37715552"
+      "settingsVersion": "6810d556490ab5c0b52833640b85620c"
     },
     "debug": {},
-    "featureSetToken": "209eb4465bb2f1072d8035b8e3614a6122106282",
+    "featureSetToken": "b7be55fca76cea5a2ae8d037b866e02643235652",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
