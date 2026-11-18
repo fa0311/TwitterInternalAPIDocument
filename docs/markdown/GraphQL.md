@@ -19284,7 +19284,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## HandleShareBannerQuery<br>
-Request URL: `https://x.com/i/api/graphql/SWoUqh-wBlTFOEUOjcmU0Q/HandleShareBannerQuery`<br>
+Request URL: `https://x.com/i/api/graphql/_g7JvjWJxSnOy6Lsz7LP0w/HandleShareBannerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
