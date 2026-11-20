@@ -209,6 +209,18 @@
       "method": "GET",
       "features": {}
     },
+    "SportsLeagueFollow": {
+      "url": "https://x.com/i/api/graphql/ROSPydUYihwVnF1940yA3A/SportsLeagueFollow",
+      "queryId": "ROSPydUYihwVnF1940yA3A",
+      "method": "GET",
+      "features": {}
+    },
+    "BroadcastReplayEdit": {
+      "url": "https://x.com/i/api/graphql/CZFRymYV43d3egrZbhsnPg/BroadcastReplayEdit",
+      "queryId": "CZFRymYV43d3egrZbhsnPg",
+      "method": "POST",
+      "features": {}
+    },
     "AudioSpaceAddSharing": {
       "url": "https://x.com/i/api/graphql/0CrTevh0Oxx1-M0px0-0cw/AudioSpaceAddSharing",
       "queryId": "0CrTevh0Oxx1-M0px0-0cw",
@@ -330,18 +342,6 @@
     "UnsubscribeFromScheduledSpace": {
       "url": "https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace",
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
-      "method": "POST",
-      "features": {}
-    },
-    "SportsLeagueFollow": {
-      "url": "https://x.com/i/api/graphql/ROSPydUYihwVnF1940yA3A/SportsLeagueFollow",
-      "queryId": "ROSPydUYihwVnF1940yA3A",
-      "method": "GET",
-      "features": {}
-    },
-    "BroadcastReplayEdit": {
-      "url": "https://x.com/i/api/graphql/CZFRymYV43d3egrZbhsnPg/BroadcastReplayEdit",
-      "queryId": "CZFRymYV43d3egrZbhsnPg",
       "method": "POST",
       "features": {}
     },
@@ -549,12 +549,6 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
-    "GenerateDrmToken": {
-      "url": "https://x.com/i/api/graphql/6csp1Dw5r5zveD-1qaqXdA/GenerateDrmToken",
-      "queryId": "6csp1Dw5r5zveD-1qaqXdA",
-      "method": "GET",
-      "features": {}
-    },
     "SetDefault": {
       "url": "https://x.com/i/api/graphql/QEMLEzEMzoPNbeauKCCLbg/SetDefault",
       "queryId": "QEMLEzEMzoPNbeauKCCLbg",
@@ -666,18 +660,6 @@
     "CommunityBoostFetchPublicData": {
       "url": "https://x.com/i/api/graphql/mtel1c9ozKWaWr9-D2wMwg/CommunityBoostFetchPublicData",
       "queryId": "mtel1c9ozKWaWr9-D2wMwg",
-      "method": "GET",
-      "features": {}
-    },
-    "DisableUserAccountLabel": {
-      "url": "https://x.com/i/api/graphql/_ckHEj05gan2VfNHG6thBA/DisableUserAccountLabel",
-      "queryId": "_ckHEj05gan2VfNHG6thBA",
-      "method": "POST",
-      "features": {}
-    },
-    "UserAccountLabel": {
-      "url": "https://x.com/i/api/graphql/rD5gLxVmMvtdtYU1UHWlFQ/UserAccountLabel",
-      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
       "method": "GET",
       "features": {}
     },
@@ -934,6 +916,12 @@
     "GifSearch": {
       "url": "https://x.com/i/api/graphql/bKYBmwqIxMGZv04iU_lLWg/GifSearch",
       "queryId": "bKYBmwqIxMGZv04iU_lLWg",
+      "method": "GET",
+      "features": {}
+    },
+    "GenerateDrmToken": {
+      "url": "https://x.com/i/api/graphql/6csp1Dw5r5zveD-1qaqXdA/GenerateDrmToken",
+      "queryId": "6csp1Dw5r5zveD-1qaqXdA",
       "method": "GET",
       "features": {}
     },
@@ -2060,6 +2048,93 @@
       "method": "GET",
       "features": {}
     },
+    "DmAllSearchSlice": {
+      "url": "https://x.com/i/api/graphql/Vgd0g_8lqGHd2MZQ8fTGzw/DmAllSearchSlice",
+      "queryId": "Vgd0g_8lqGHd2MZQ8fTGzw",
+      "method": "GET",
+      "features": {
+        "rweb_cashtags_enabled": true,
+        "profile_label_improvements_pcf_label_in_post_enabled": true,
+        "responsive_web_profile_redirect_enabled": true,
+        "rweb_tipjar_consumption_enabled": false,
+        "verified_phone_label_enabled": false,
+        "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_imagine_annotation_enabled": true,
+        "responsive_web_graphql_timeline_navigation_enabled": true
+      }
+    },
+    "DmGroupSearchSlice": {
+      "url": "https://x.com/i/api/graphql/LxrvmqF3Lokl_BYZ1c83LA/DmGroupSearchSlice",
+      "queryId": "LxrvmqF3Lokl_BYZ1c83LA",
+      "method": "GET",
+      "features": {}
+    },
+    "DmMutedTimeline": {
+      "url": "https://x.com/i/api/graphql/rpeDHdXeiyhJP93Apf3C4Q/DmMutedTimeline",
+      "queryId": "rpeDHdXeiyhJP93Apf3C4Q",
+      "method": "GET",
+      "features": {
+        "rweb_video_screen_enabled": false,
+        "rweb_cashtags_enabled": true,
+        "profile_label_improvements_pcf_label_in_post_enabled": true,
+        "responsive_web_profile_redirect_enabled": true,
+        "rweb_tipjar_consumption_enabled": false,
+        "verified_phone_label_enabled": false,
+        "creator_subscriptions_tweet_preview_api_enabled": true,
+        "responsive_web_graphql_timeline_navigation_enabled": true,
+        "premium_content_api_read_enabled": false,
+        "communities_web_enable_tweet_community_results_fetch": true,
+        "c9s_tweet_anatomy_moderator_badge_enabled": true,
+        "responsive_web_grok_analyze_button_fetch_trends_enabled": false,
+        "responsive_web_grok_analyze_post_followups_enabled": true,
+        "rweb_cashtags_composer_attachment_enabled": true,
+        "responsive_web_jetfuel_frame": true,
+        "rweb_sports_post_context_enabled": true,
+        "x_elections_post_context_enabled": true,
+        "responsive_web_grok_share_attachment_enabled": true,
+        "responsive_web_grok_annotations_enabled": true,
+        "articles_preview_enabled": true,
+        "responsive_web_edit_tweet_api_enabled": true,
+        "rweb_conversational_replies_downvote_enabled": false,
+        "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
+        "view_counts_everywhere_api_enabled": true,
+        "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": true,
+        "content_disclosure_indicator_enabled": true,
+        "content_disclosure_ai_generated_indicator_enabled": true,
+        "responsive_web_grok_show_grok_translated_post": true,
+        "responsive_web_grok_analysis_button_from_backend": true,
+        "post_ctas_fetch_enabled": true,
+        "freedom_of_speech_not_reach_fetch_enabled": true,
+        "standardized_nudges_misinfo": true,
+        "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
+        "longform_notetweets_rich_text_read_enabled": true,
+        "longform_notetweets_inline_media_enabled": false,
+        "responsive_web_nested_quote_preview_enabled": true,
+        "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_imagine_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": true,
+        "responsive_web_enhance_cards_enabled": false
+      }
+    },
+    "DmPeopleSearchSlice": {
+      "url": "https://x.com/i/api/graphql/c1MnRRmI-_Bggpntlq9-hQ/DmPeopleSearchSlice",
+      "queryId": "c1MnRRmI-_Bggpntlq9-hQ",
+      "method": "GET",
+      "features": {}
+    },
+    "WriteEmailNotificationSettings": {
+      "url": "https://x.com/i/api/graphql/2qKKYFQift8p5-J1k6kqxQ/WriteEmailNotificationSettings",
+      "queryId": "2qKKYFQift8p5-J1k6kqxQ",
+      "method": "POST",
+      "features": {}
+    },
+    "ViewerEmailSettings": {
+      "url": "https://x.com/i/api/graphql/YYJk-rhCD2EUmq49LugABA/ViewerEmailSettings",
+      "queryId": "YYJk-rhCD2EUmq49LugABA",
+      "method": "GET",
+      "features": {}
+    },
     "Favoriters": {
       "url": "https://x.com/i/api/graphql/JGLhZd8aiYqBdjBBcRTwNg/Favoriters",
       "queryId": "JGLhZd8aiYqBdjBBcRTwNg",
@@ -2203,93 +2278,6 @@
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "responsive_web_enhance_cards_enabled": false
       }
-    },
-    "DmAllSearchSlice": {
-      "url": "https://x.com/i/api/graphql/Vgd0g_8lqGHd2MZQ8fTGzw/DmAllSearchSlice",
-      "queryId": "Vgd0g_8lqGHd2MZQ8fTGzw",
-      "method": "GET",
-      "features": {
-        "rweb_cashtags_enabled": true,
-        "profile_label_improvements_pcf_label_in_post_enabled": true,
-        "responsive_web_profile_redirect_enabled": true,
-        "rweb_tipjar_consumption_enabled": false,
-        "verified_phone_label_enabled": false,
-        "responsive_web_grok_image_annotation_enabled": true,
-        "responsive_web_grok_imagine_annotation_enabled": true,
-        "responsive_web_graphql_timeline_navigation_enabled": true
-      }
-    },
-    "DmGroupSearchSlice": {
-      "url": "https://x.com/i/api/graphql/LxrvmqF3Lokl_BYZ1c83LA/DmGroupSearchSlice",
-      "queryId": "LxrvmqF3Lokl_BYZ1c83LA",
-      "method": "GET",
-      "features": {}
-    },
-    "DmMutedTimeline": {
-      "url": "https://x.com/i/api/graphql/rpeDHdXeiyhJP93Apf3C4Q/DmMutedTimeline",
-      "queryId": "rpeDHdXeiyhJP93Apf3C4Q",
-      "method": "GET",
-      "features": {
-        "rweb_video_screen_enabled": false,
-        "rweb_cashtags_enabled": true,
-        "profile_label_improvements_pcf_label_in_post_enabled": true,
-        "responsive_web_profile_redirect_enabled": true,
-        "rweb_tipjar_consumption_enabled": false,
-        "verified_phone_label_enabled": false,
-        "creator_subscriptions_tweet_preview_api_enabled": true,
-        "responsive_web_graphql_timeline_navigation_enabled": true,
-        "premium_content_api_read_enabled": false,
-        "communities_web_enable_tweet_community_results_fetch": true,
-        "c9s_tweet_anatomy_moderator_badge_enabled": true,
-        "responsive_web_grok_analyze_button_fetch_trends_enabled": false,
-        "responsive_web_grok_analyze_post_followups_enabled": true,
-        "rweb_cashtags_composer_attachment_enabled": true,
-        "responsive_web_jetfuel_frame": true,
-        "rweb_sports_post_context_enabled": true,
-        "x_elections_post_context_enabled": true,
-        "responsive_web_grok_share_attachment_enabled": true,
-        "responsive_web_grok_annotations_enabled": true,
-        "articles_preview_enabled": true,
-        "responsive_web_edit_tweet_api_enabled": true,
-        "rweb_conversational_replies_downvote_enabled": false,
-        "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
-        "view_counts_everywhere_api_enabled": true,
-        "longform_notetweets_consumption_enabled": true,
-        "responsive_web_twitter_article_tweet_consumption_enabled": true,
-        "content_disclosure_indicator_enabled": true,
-        "content_disclosure_ai_generated_indicator_enabled": true,
-        "responsive_web_grok_show_grok_translated_post": true,
-        "responsive_web_grok_analysis_button_from_backend": true,
-        "post_ctas_fetch_enabled": true,
-        "freedom_of_speech_not_reach_fetch_enabled": true,
-        "standardized_nudges_misinfo": true,
-        "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
-        "longform_notetweets_rich_text_read_enabled": true,
-        "longform_notetweets_inline_media_enabled": false,
-        "responsive_web_nested_quote_preview_enabled": true,
-        "responsive_web_grok_image_annotation_enabled": true,
-        "responsive_web_grok_imagine_annotation_enabled": true,
-        "responsive_web_grok_community_note_auto_translation_is_enabled": true,
-        "responsive_web_enhance_cards_enabled": false
-      }
-    },
-    "DmPeopleSearchSlice": {
-      "url": "https://x.com/i/api/graphql/c1MnRRmI-_Bggpntlq9-hQ/DmPeopleSearchSlice",
-      "queryId": "c1MnRRmI-_Bggpntlq9-hQ",
-      "method": "GET",
-      "features": {}
-    },
-    "WriteEmailNotificationSettings": {
-      "url": "https://x.com/i/api/graphql/2qKKYFQift8p5-J1k6kqxQ/WriteEmailNotificationSettings",
-      "queryId": "2qKKYFQift8p5-J1k6kqxQ",
-      "method": "POST",
-      "features": {}
-    },
-    "ViewerEmailSettings": {
-      "url": "https://x.com/i/api/graphql/YYJk-rhCD2EUmq49LugABA/ViewerEmailSettings",
-      "queryId": "YYJk-rhCD2EUmq49LugABA",
-      "method": "GET",
-      "features": {}
     },
     "BroadcastUpdateViewerSession": {
       "url": "https://x.com/i/api/graphql/MRPwWxSUacJB61vTj1mF9g/BroadcastUpdateViewerSession",
@@ -2827,6 +2815,18 @@
       "url": "https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences",
       "queryId": "NqLS09LPofalCjVhFolKtA",
       "method": "POST",
+      "features": {}
+    },
+    "DisableUserAccountLabel": {
+      "url": "https://x.com/i/api/graphql/_ckHEj05gan2VfNHG6thBA/DisableUserAccountLabel",
+      "queryId": "_ckHEj05gan2VfNHG6thBA",
+      "method": "POST",
+      "features": {}
+    },
+    "UserAccountLabel": {
+      "url": "https://x.com/i/api/graphql/rD5gLxVmMvtdtYU1UHWlFQ/UserAccountLabel",
+      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
+      "method": "GET",
       "features": {}
     },
     "NCAAFBGameHydrate": {
@@ -7758,6 +7758,12 @@
       "method": "GET",
       "features": {}
     },
+    "sendLiveChatMutation": {
+      "url": "https://x.com/i/api/graphql/igfzSylm2VIW-ooc4Eh7nA/sendLiveChatMutation",
+      "queryId": "igfzSylm2VIW-ooc4Eh7nA",
+      "method": "POST",
+      "features": {}
+    },
     "PinTweetToCommunityMutation": {
       "url": "https://x.com/i/api/graphql/5jpFuDdu111UuWpne0_ajg/PinTweetToCommunityMutation",
       "queryId": "5jpFuDdu111UuWpne0_ajg",
@@ -8034,30 +8040,6 @@
       "method": "GET",
       "features": {}
     },
-    "InviteSpeakersQuery": {
-      "url": "https://x.com/i/api/graphql/Atqnih68zlZvyQgwZWpxeA/InviteSpeakersQuery",
-      "queryId": "Atqnih68zlZvyQgwZWpxeA",
-      "method": "GET",
-      "features": {}
-    },
-    "useUserCellDataQuery": {
-      "url": "https://x.com/i/api/graphql/ViuR5lH4T0JM_PY7VDhG2w/useUserCellDataQuery",
-      "queryId": "ViuR5lH4T0JM_PY7VDhG2w",
-      "method": "GET",
-      "features": {}
-    },
-    "sendLiveChatMutation": {
-      "url": "https://x.com/i/api/graphql/igfzSylm2VIW-ooc4Eh7nA/sendLiveChatMutation",
-      "queryId": "igfzSylm2VIW-ooc4Eh7nA",
-      "method": "POST",
-      "features": {}
-    },
-    "ConferenceChatMessageItemQuery": {
-      "url": "https://x.com/i/api/graphql/XJNuv2BqGIvqxxrOy0kJZw/ConferenceChatMessageItemQuery",
-      "queryId": "XJNuv2BqGIvqxxrOy0kJZw",
-      "method": "GET",
-      "features": {}
-    },
     "UserJobListQueryScreenJobsQuery": {
       "url": "https://x.com/i/api/graphql/zWs8BlUk9DyCZQ04cHzqPQ/UserJobListQueryScreenJobsQuery",
       "queryId": "zWs8BlUk9DyCZQ04cHzqPQ",
@@ -8094,6 +8076,12 @@
       "method": "GET",
       "features": {}
     },
+    "useRedirectToGraduatedAccessQuery": {
+      "url": "https://x.com/i/api/graphql/H_dPrTniIScfQwM4auNBvA/useRedirectToGraduatedAccessQuery",
+      "queryId": "H_dPrTniIScfQwM4auNBvA",
+      "method": "GET",
+      "features": {}
+    },
     "liveEventReminderButtonMutation": {
       "url": "https://x.com/i/api/graphql/dmCalhCZr-kK8D7H3k4CKQ/liveEventReminderButtonMutation",
       "queryId": "dmCalhCZr-kK8D7H3k4CKQ",
@@ -8106,15 +8094,21 @@
       "method": "GET",
       "features": {}
     },
-    "BookmarkDelete": {
-      "url": "https://x.com/i/api/graphql/jTTS9lZmxUq-eYwmY8pHiA/BookmarkDelete",
-      "queryId": "jTTS9lZmxUq-eYwmY8pHiA",
+    "unifiedCardReminderSubscribeMutation": {
+      "url": "https://x.com/i/api/graphql/Ged7bXqSBozUMh8CJFaw2Q/unifiedCardReminderSubscribeMutation",
+      "queryId": "Ged7bXqSBozUMh8CJFaw2Q",
       "method": "POST",
       "features": {}
     },
-    "BookmarkAdd": {
-      "url": "https://x.com/i/api/graphql/9559L3Eb62SZndMSVHIeNw/BookmarkAdd",
-      "queryId": "9559L3Eb62SZndMSVHIeNw",
+    "unifiedCardReminderQuery": {
+      "url": "https://x.com/i/api/graphql/R5PI5Lm07eA2Ic9Q4PS09w/unifiedCardReminderQuery",
+      "queryId": "R5PI5Lm07eA2Ic9Q4PS09w",
+      "method": "GET",
+      "features": {}
+    },
+    "BookmarkDelete": {
+      "url": "https://x.com/i/api/graphql/jTTS9lZmxUq-eYwmY8pHiA/BookmarkDelete",
+      "queryId": "jTTS9lZmxUq-eYwmY8pHiA",
       "method": "POST",
       "features": {}
     },
@@ -8148,21 +8142,15 @@
       "method": "POST",
       "features": {}
     },
-    "useRedirectToGraduatedAccessQuery": {
-      "url": "https://x.com/i/api/graphql/H_dPrTniIScfQwM4auNBvA/useRedirectToGraduatedAccessQuery",
-      "queryId": "H_dPrTniIScfQwM4auNBvA",
-      "method": "GET",
-      "features": {}
-    },
-    "shareButtonRemoveFromFolderMutation": {
-      "url": "https://x.com/i/api/graphql/SY9QbhwNFyBWejAW_g3OmQ/shareButtonRemoveFromFolderMutation",
-      "queryId": "SY9QbhwNFyBWejAW_g3OmQ",
-      "method": "POST",
-      "features": {}
-    },
     "shareButtonCreateShareLinkMutation": {
       "url": "https://x.com/i/api/graphql/nnBWIT3igGpvPWts7FXwiw/shareButtonCreateShareLinkMutation",
       "queryId": "nnBWIT3igGpvPWts7FXwiw",
+      "method": "POST",
+      "features": {}
+    },
+    "BookmarkAdd": {
+      "url": "https://x.com/i/api/graphql/9559L3Eb62SZndMSVHIeNw/BookmarkAdd",
+      "queryId": "9559L3Eb62SZndMSVHIeNw",
       "method": "POST",
       "features": {}
     },
@@ -8179,8 +8167,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/CEfofKrZvriKljlaL3zjkA/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "CEfofKrZvriKljlaL3zjkA",
+      "url": "https://x.com/i/api/graphql/HCmqrrvs4qlHrZDRIc7Z4w/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "HCmqrrvs4qlHrZDRIc7Z4w",
       "method": "GET",
       "features": {}
     },
@@ -8191,14 +8179,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/rYmsVpXaR1nIO_JXOeptKQ/businessInsightsMonitorTabPostsQuery",
-      "queryId": "rYmsVpXaR1nIO_JXOeptKQ",
+      "url": "https://x.com/i/api/graphql/bRj6xhKVnAudefp8b_K6IA/businessInsightsMonitorTabPostsQuery",
+      "queryId": "bRj6xhKVnAudefp8b_K6IA",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/Pd376ZIl92lYyqB-KqB3yw/businessInsightsOverviewTabQuery",
-      "queryId": "Pd376ZIl92lYyqB-KqB3yw",
+      "url": "https://x.com/i/api/graphql/oGXfflKoxOj6oPo2LpowFA/businessInsightsOverviewTabQuery",
+      "queryId": "oGXfflKoxOj6oPo2LpowFA",
       "method": "GET",
       "features": {}
     },
@@ -8218,12 +8206,6 @@
       "url": "https://x.com/i/api/graphql/bKOVxrOlLbA5udkJci7wcg/AccountParodyUserMutation",
       "queryId": "bKOVxrOlLbA5udkJci7wcg",
       "method": "POST",
-      "features": {}
-    },
-    "viewerQuery": {
-      "url": "https://x.com/i/api/graphql/VNDJhBbDKWIzHmR7xvScxA/viewerQuery",
-      "queryId": "VNDJhBbDKWIzHmR7xvScxA",
-      "method": "GET",
       "features": {}
     },
     "useSaveWatchInfo_SaveWatchInfoMutation": {
@@ -8517,6 +8499,18 @@
     "grokTokFeedQuery": {
       "url": "https://x.com/i/api/graphql/0V6es-1_jw1Um1a7W0gCEQ/grokTokFeedQuery",
       "queryId": "0V6es-1_jw1Um1a7W0gCEQ",
+      "method": "GET",
+      "features": {}
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+      "url": "https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation",
+      "queryId": "lqIzyQL1p3XCZg77zekzZA",
+      "method": "POST",
+      "features": {}
+    },
+    "IDVerificationQuery": {
+      "url": "https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery",
+      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
       "method": "GET",
       "features": {}
     },
@@ -8898,24 +8892,6 @@
       "method": "POST",
       "features": {}
     },
-    "SmartTagChartDataRefetchQuery": {
-      "url": "https://x.com/i/api/graphql/Z4l83ySKlZ2QA1l8nPWVIg/SmartTagChartDataRefetchQuery",
-      "queryId": "Z4l83ySKlZ2QA1l8nPWVIg",
-      "method": "GET",
-      "features": {}
-    },
-    "SmartTagQuery": {
-      "url": "https://x.com/i/api/graphql/c_bks1aPoCsZUL_CtsWNfQ/SmartTagQuery",
-      "queryId": "c_bks1aPoCsZUL_CtsWNfQ",
-      "method": "GET",
-      "features": {}
-    },
-    "HeaderAssetRefetchQuery": {
-      "url": "https://x.com/i/api/graphql/7B1Rm0lEZ1x2JZR-Obc50g/HeaderAssetRefetchQuery",
-      "queryId": "7B1Rm0lEZ1x2JZR-Obc50g",
-      "method": "GET",
-      "features": {}
-    },
     "faceLivenessHostResultsQuery": {
       "url": "https://x.com/i/api/graphql/N1mHTH7vQsAsPWPs6cbJkw/faceLivenessHostResultsQuery",
       "queryId": "N1mHTH7vQsAsPWPs6cbJkw",
@@ -9084,33 +9060,27 @@
       "method": "GET",
       "features": {}
     },
-    "useClientEducationFlagMutation": {
-      "url": "https://x.com/i/api/graphql/d4xIcusscQ1tzVMQ3BPQ-Q/useClientEducationFlagMutation",
-      "queryId": "d4xIcusscQ1tzVMQ3BPQ-Q",
-      "method": "POST",
-      "features": {}
-    },
-    "composerCardPreviewQuery": {
-      "url": "https://x.com/i/api/graphql/C1r84YfBL_DG4qOwIaQfjA/composerCardPreviewQuery",
-      "queryId": "C1r84YfBL_DG4qOwIaQfjA",
-      "method": "GET",
-      "features": {}
-    },
-    "cancelFollowRequestMutation": {
-      "url": "https://x.com/i/api/graphql/46LY_rIBJx7QNZ6ziF9ROg/cancelFollowRequestMutation",
-      "queryId": "46LY_rIBJx7QNZ6ziF9ROg",
-      "method": "POST",
-      "features": {}
-    },
-    "smartTagHoverCardQuery": {
-      "url": "https://x.com/i/api/graphql/foX3C6-uluC-QSwC7WsYBQ/smartTagHoverCardQuery",
-      "queryId": "foX3C6-uluC-QSwC7WsYBQ",
-      "method": "GET",
-      "features": {}
-    },
     "useTotalAdCampaignsForUserQuery": {
       "url": "https://x.com/i/api/graphql/UFD9D7pipG78WFN0SJviDg/useTotalAdCampaignsForUserQuery",
       "queryId": "UFD9D7pipG78WFN0SJviDg",
+      "method": "GET",
+      "features": {}
+    },
+    "SmartTagChartDataRefetchQuery": {
+      "url": "https://x.com/i/api/graphql/Z4l83ySKlZ2QA1l8nPWVIg/SmartTagChartDataRefetchQuery",
+      "queryId": "Z4l83ySKlZ2QA1l8nPWVIg",
+      "method": "GET",
+      "features": {}
+    },
+    "SmartTagQuery": {
+      "url": "https://x.com/i/api/graphql/c_bks1aPoCsZUL_CtsWNfQ/SmartTagQuery",
+      "queryId": "c_bks1aPoCsZUL_CtsWNfQ",
+      "method": "GET",
+      "features": {}
+    },
+    "HeaderAssetRefetchQuery": {
+      "url": "https://x.com/i/api/graphql/7B1Rm0lEZ1x2JZR-Obc50g/HeaderAssetRefetchQuery",
+      "queryId": "7B1Rm0lEZ1x2JZR-Obc50g",
       "method": "GET",
       "features": {}
     },
@@ -9226,18 +9196,6 @@
       "url": "https://x.com/i/api/graphql/JbFOnszPZQclTK-4UHDjvw/XaiPersonalizationSettingsMutation",
       "queryId": "JbFOnszPZQclTK-4UHDjvw",
       "method": "POST",
-      "features": {}
-    },
-    "IDVerificationUpdateHideLabelMutation": {
-      "url": "https://x.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation",
-      "queryId": "lqIzyQL1p3XCZg77zekzZA",
-      "method": "POST",
-      "features": {}
-    },
-    "IDVerificationQuery": {
-      "url": "https://x.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery",
-      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
-      "method": "GET",
       "features": {}
     },
     "UnifiedLanguagePivotMenuLanguagesQuery": {
@@ -9547,8 +9505,8 @@
       "features": {}
     },
     "HandleShareBannerQuery": {
-      "url": "https://x.com/i/api/graphql/SWoUqh-wBlTFOEUOjcmU0Q/HandleShareBannerQuery",
-      "queryId": "SWoUqh-wBlTFOEUOjcmU0Q",
+      "url": "https://x.com/i/api/graphql/_g7JvjWJxSnOy6Lsz7LP0w/HandleShareBannerQuery",
+      "queryId": "_g7JvjWJxSnOy6Lsz7LP0w",
       "method": "GET",
       "features": {}
     },
@@ -9612,21 +9570,33 @@
       "method": "POST",
       "features": {}
     },
-    "electionChamberOverviewsQuery": {
-      "url": "https://x.com/i/api/graphql/4uo1-lCjISH3KnXus4f-5A/electionChamberOverviewsQuery",
-      "queryId": "4uo1-lCjISH3KnXus4f-5A",
-      "method": "GET",
-      "features": {}
-    },
     "electionLiveResultsQuery": {
       "url": "https://x.com/i/api/graphql/Zmyb9bqiflSPR4_dAlXNUg/electionLiveResultsQuery",
       "queryId": "Zmyb9bqiflSPR4_dAlXNUg",
       "method": "GET",
       "features": {}
     },
+    "electionChamberOverviewsQuery": {
+      "url": "https://x.com/i/api/graphql/4uo1-lCjISH3KnXus4f-5A/electionChamberOverviewsQuery",
+      "queryId": "4uo1-lCjISH3KnXus4f-5A",
+      "method": "GET",
+      "features": {}
+    },
+    "electionsHubQuery": {
+      "url": "https://x.com/i/api/graphql/nQ_7NqFogtyecRV8DJ_4nQ/electionsHubQuery",
+      "queryId": "nQ_7NqFogtyecRV8DJ_4nQ",
+      "method": "GET",
+      "features": {}
+    },
     "electionKeyRacesQuery": {
       "url": "https://x.com/i/api/graphql/O73HVeB9NTOP5evMDwouoA/electionKeyRacesQuery",
       "queryId": "O73HVeB9NTOP5evMDwouoA",
+      "method": "GET",
+      "features": {}
+    },
+    "electionRacesQuery": {
+      "url": "https://x.com/i/api/graphql/s2O-bwCpwE4bLuC1K1EmJw/electionRacesQuery",
+      "queryId": "s2O-bwCpwE4bLuC1K1EmJw",
       "method": "GET",
       "features": {}
     },
@@ -9637,8 +9607,8 @@
       "features": {}
     },
     "electionsChatStateFeaturedElectionQuery": {
-      "url": "https://x.com/i/api/graphql/7urGBSraUX9eORAq8yds2Q/electionsChatStateFeaturedElectionQuery",
-      "queryId": "7urGBSraUX9eORAq8yds2Q",
+      "url": "https://x.com/i/api/graphql/_6P1UEo_8avnxv3-z6vOvQ/electionsChatStateFeaturedElectionQuery",
+      "queryId": "_6P1UEo_8avnxv3-z6vOvQ",
       "method": "GET",
       "features": {}
     },
@@ -9648,21 +9618,15 @@
       "method": "GET",
       "features": {}
     },
-    "electionRacesQuery": {
-      "url": "https://x.com/i/api/graphql/s2O-bwCpwE4bLuC1K1EmJw/electionRacesQuery",
-      "queryId": "s2O-bwCpwE4bLuC1K1EmJw",
+    "ElectionsTimelineIdFeedQuery": {
+      "url": "https://x.com/i/api/graphql/FoUbEGI8jMQLSHhqt4oyDw/ElectionsTimelineIdFeedQuery",
+      "queryId": "FoUbEGI8jMQLSHhqt4oyDw",
       "method": "GET",
       "features": {}
     },
-    "electionsHubQuery": {
-      "url": "https://x.com/i/api/graphql/nQ_7NqFogtyecRV8DJ_4nQ/electionsHubQuery",
-      "queryId": "nQ_7NqFogtyecRV8DJ_4nQ",
-      "method": "GET",
-      "features": {}
-    },
-    "electionsTimelineIdFeedQuery": {
-      "url": "https://x.com/i/api/graphql/KyuUfQuZUs73rpazVePvqA/electionsTimelineIdFeedQuery",
-      "queryId": "KyuUfQuZUs73rpazVePvqA",
+    "electionRacePageQuery": {
+      "url": "https://x.com/i/api/graphql/cQEH714F60V0f3Cx5Uaj9w/electionRacePageQuery",
+      "queryId": "cQEH714F60V0f3Cx5Uaj9w",
       "method": "GET",
       "features": {}
     },
@@ -9687,12 +9651,6 @@
     "electionRaceMapQuery": {
       "url": "https://x.com/i/api/graphql/HScJoKjJqy4kPlBjCm777g/electionRaceMapQuery",
       "queryId": "HScJoKjJqy4kPlBjCm777g",
-      "method": "GET",
-      "features": {}
-    },
-    "electionRacePageQuery": {
-      "url": "https://x.com/i/api/graphql/V7wQDuKDdyrz9707XpBluQ/electionRacePageQuery",
-      "queryId": "V7wQDuKDdyrz9707XpBluQ",
       "method": "GET",
       "features": {}
     },
@@ -10313,7 +10271,7 @@
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "ja,en;q=0.9",
-    "sec-ch-ua": "\"Chromium\";v=\"157\", \"Not-A.Brand\";v=\"99\"",
+    "sec-ch-ua": "\"Not.A/Brand\";v=\"24\", \"Chromium\";v=\"158\"",
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": "\"Windows\"",
     "sec-fetch-dest": "document",
@@ -10321,7 +10279,7 @@
     "sec-fetch-site": "none",
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
     "origin": "https://x.com",
     "referer": "https://x.com/",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"

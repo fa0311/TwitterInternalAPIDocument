@@ -9826,10 +9826,10 @@
           "value": "false"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "25"
+          "value": "5"
         },
         "x_sports_post_context_same_game_min_spacing": {
-          "value": "25"
+          "value": "10"
         },
         "xcall_item_in_list_enabled": {
           "value": "true"
@@ -10331,7 +10331,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "23fe09c62dfb9e44da133db75f5c25ef"
+      "settingsVersion": "144245a47f516abceccb374a965c4e69"
     },
     "debug": {},
     "featureSetToken": "09d8e1b24c936daaebb133706d1b6b93d4cb2db1",
