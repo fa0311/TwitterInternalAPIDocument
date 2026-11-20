@@ -9587,3 +9587,26 @@
 - video_clipping_composer_entry_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/20<br>
+### API<br>
+#### add<br>
+- unifiedCardReminderSubscribeMutation<br>
+- unifiedCardReminderQuery<br>
+- ElectionsTimelineIdFeedQuery<br>
+#### remove<br>
+- InviteSpeakersQuery<br>
+- useUserCellDataQuery<br>
+- ConferenceChatMessageItemQuery<br>
+- shareButtonRemoveFromFolderMutation<br>
+- viewerQuery<br>
+- useClientEducationFlagMutation<br>
+- composerCardPreviewQuery<br>
+- cancelFollowRequestMutation<br>
+- smartTagHoverCardQuery<br>
+- electionsTimelineIdFeedQuery<br>
+### Feature Switch<br>
+#### add<br>
+- grok_xweb_bot_promotion_enabled<br>
+- responsive_web_search_typeahead_debounce_ms<br>
+#### remove<br>
+- None<br>
