@@ -973,6 +973,9 @@
       "grok_translations_post_auto_translation_is_enabled": {
         "value": "false"
       },
+      "grok_xweb_bot_promotion_enabled": {
+        "value": "false"
+      },
       "grok_xweb_connectors_enabled": {
         "value": "true"
       },
@@ -1382,7 +1385,7 @@
         "value": "true"
       },
       "payments_international_wires_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_posts_lpf_p2p_enabled": {
         "value": "false"
@@ -2854,6 +2857,9 @@
       "responsive_web_scroller_top_positioning_enabled": {
         "value": "false"
       },
+      "responsive_web_search_typeahead_debounce_ms": {
+        "value": "250"
+      },
       "responsive_web_seasonal_custom_logo": {
         "value": "IconTwitter"
       },
@@ -3320,7 +3326,7 @@
         "value": "true"
       },
       "rweb_promoted_spine_clicks_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_promoted_tweet_max_text_lines": {
         "value": "0"
@@ -3664,7 +3670,7 @@
         "value": "false"
       },
       "sports_settings_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "standardized_nudges_misinfo": {
         "value": "true"
@@ -4573,7 +4579,7 @@
         "value": "true"
       },
       "video_clipping_composer_entry_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "video_clipping_max_duration_fraction": {
         "value": "0.3"
@@ -4585,7 +4591,7 @@
         "value": "5"
       },
       "video_clipping_repost_menu_min_duration_sec": {
-        "value": "0"
+        "value": "120"
       },
       "video_upload_metadata_title_enabled": {
         "value": "false"
@@ -4772,10 +4778,10 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "1"
+        "value": "25"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "5"
+        "value": "25"
       },
       "xcall_item_in_list_enabled": {
         "value": "true"
@@ -6030,6 +6036,9 @@
         },
         "grok_translations_post_auto_translation_is_enabled": {
           "value": "false"
+        },
+        "grok_xweb_bot_promotion_enabled": {
+          "value": "true"
         },
         "grok_xweb_connectors_enabled": {
           "value": "true"
@@ -7911,6 +7920,9 @@
         },
         "responsive_web_scroller_top_positioning_enabled": {
           "value": "false"
+        },
+        "responsive_web_search_typeahead_debounce_ms": {
+          "value": "250"
         },
         "responsive_web_seasonal_custom_logo": {
           "value": "IconTwitter"
@@ -9830,10 +9842,10 @@
           "value": "false"
         },
         "x_sports_post_context_min_spacing": {
-          "value": "25"
+          "value": "5"
         },
         "x_sports_post_context_same_game_min_spacing": {
-          "value": "25"
+          "value": "10"
         },
         "xcall_item_in_list_enabled": {
           "value": "true"
@@ -10335,10 +10347,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "8e62480a717ac1180129b6c677cd0210"
+      "settingsVersion": "515ad848ca5b8ad5e52166c331e4d21e"
     },
     "debug": {},
-    "featureSetToken": "df7741b6fae2d7d19d228d1da072f522e93b0a94",
+    "featureSetToken": "8179adcc730299265f7742c25fec467b00612f89",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
