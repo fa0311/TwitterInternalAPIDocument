@@ -109,7 +109,7 @@
           "profile_interstitial_type": "",
           "is_translator": "false",
           "translator_type": "none",
-          "followers_count": "19",
+          "followers_count": "18",
           "friends_count": "170",
           "media_count": "4",
           "statuses_count": "134",
@@ -963,6 +963,9 @@
       "grok_translations_post_auto_translation_is_enabled": {
         "value": "false"
       },
+      "grok_xweb_bot_promotion_enabled": {
+        "value": "false"
+      },
       "grok_xweb_connectors_enabled": {
         "value": "true"
       },
@@ -1168,6 +1171,24 @@
         "value": "true"
       },
       "krs_registration_enabled": {
+        "value": "false"
+      },
+      "live_clipping_attribution_enabled": {
+        "value": "true"
+      },
+      "live_clipping_default_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_lookback_sec": {
+        "value": "0"
+      },
+      "live_clipping_max_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_min_duration_sec": {
+        "value": "5"
+      },
+      "live_clipping_replay_enabled": {
         "value": "false"
       },
       "live_event_docking_enabled": {
@@ -4028,6 +4049,9 @@
       "subscriptions_upsells_home_nav_migration_enabled": {
         "value": "false"
       },
+      "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+        "value": "false"
+      },
       "subscriptions_upsells_home_sidebar_grok_promo": {
         "value": "false"
       },
@@ -4765,10 +4789,10 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "25"
+        "value": "5"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "25"
+        "value": "10"
       },
       "xcall_item_in_list_enabled": {
         "value": "true"
@@ -4957,9 +4981,6 @@
         "value": "50"
       },
       "xchat_group_admin_settings_enabled": {
-        "value": "true"
-      },
-      "xchat_group_description_enabled": {
         "value": "true"
       },
       "xchat_grpc_chat_page_enabled": {
@@ -6024,6 +6045,9 @@
         "grok_translations_post_auto_translation_is_enabled": {
           "value": "false"
         },
+        "grok_xweb_bot_promotion_enabled": {
+          "value": "true"
+        },
         "grok_xweb_connectors_enabled": {
           "value": "true"
         },
@@ -6229,6 +6253,24 @@
           "value": "true"
         },
         "krs_registration_enabled": {
+          "value": "false"
+        },
+        "live_clipping_attribution_enabled": {
+          "value": "true"
+        },
+        "live_clipping_default_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_lookback_sec": {
+          "value": "0"
+        },
+        "live_clipping_max_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_min_duration_sec": {
+          "value": "5"
+        },
+        "live_clipping_replay_enabled": {
           "value": "false"
         },
         "live_event_docking_enabled": {
@@ -9089,6 +9131,9 @@
         "subscriptions_upsells_home_nav_migration_enabled": {
           "value": "false"
         },
+        "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+          "value": "false"
+        },
         "subscriptions_upsells_home_sidebar_grok_promo": {
           "value": "false"
         },
@@ -10020,9 +10065,6 @@
         "xchat_group_admin_settings_enabled": {
           "value": "true"
         },
-        "xchat_group_description_enabled": {
-          "value": "true"
-        },
         "xchat_grpc_chat_page_enabled": {
           "value": "false"
         },
@@ -10331,10 +10373,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "144245a47f516abceccb374a965c4e69"
+      "settingsVersion": "cabb597681d1fdc77573eee71877ff50"
     },
     "debug": {},
-    "featureSetToken": "09d8e1b24c936daaebb133706d1b6b93d4cb2db1",
+    "featureSetToken": "c0c6dfc087db4f3ba7ec7ac61acf3c221448c65f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -10473,7 +10515,7 @@
     "CommunitiesHashtagsEducation": "1746981117776",
     "NewUserPromptEducation": "1727624861810",
     "GraduatedUserPromptEducation": "1730487680136",
-    "GrokEducation": "1793874493339",
+    "GrokEducation": "1795162347778",
     "GrokFreeNUX": "1733748743063"
   },
   "userClaim": {
