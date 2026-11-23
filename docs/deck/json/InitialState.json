@@ -1183,6 +1183,24 @@
       "krs_registration_enabled": {
         "value": "false"
       },
+      "live_clipping_attribution_enabled": {
+        "value": "true"
+      },
+      "live_clipping_default_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_lookback_sec": {
+        "value": "0"
+      },
+      "live_clipping_max_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_min_duration_sec": {
+        "value": "5"
+      },
+      "live_clipping_replay_enabled": {
+        "value": "false"
+      },
       "live_event_docking_enabled": {
         "value": "true"
       },
@@ -4041,6 +4059,9 @@
       "subscriptions_upsells_home_nav_migration_enabled": {
         "value": "false"
       },
+      "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+        "value": "false"
+      },
       "subscriptions_upsells_home_sidebar_grok_promo": {
         "value": "false"
       },
@@ -4778,10 +4799,10 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "25"
+        "value": "5"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "25"
+        "value": "10"
       },
       "xcall_item_in_list_enabled": {
         "value": "true"
@@ -4970,9 +4991,6 @@
         "value": "50"
       },
       "xchat_group_admin_settings_enabled": {
-        "value": "true"
-      },
-      "xchat_group_description_enabled": {
         "value": "true"
       },
       "xchat_grpc_chat_page_enabled": {
@@ -6245,6 +6263,24 @@
           "value": "true"
         },
         "krs_registration_enabled": {
+          "value": "false"
+        },
+        "live_clipping_attribution_enabled": {
+          "value": "true"
+        },
+        "live_clipping_default_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_lookback_sec": {
+          "value": "0"
+        },
+        "live_clipping_max_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_min_duration_sec": {
+          "value": "5"
+        },
+        "live_clipping_replay_enabled": {
           "value": "false"
         },
         "live_event_docking_enabled": {
@@ -9105,6 +9141,9 @@
         "subscriptions_upsells_home_nav_migration_enabled": {
           "value": "false"
         },
+        "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+          "value": "false"
+        },
         "subscriptions_upsells_home_sidebar_grok_promo": {
           "value": "false"
         },
@@ -10036,9 +10075,6 @@
         "xchat_group_admin_settings_enabled": {
           "value": "true"
         },
-        "xchat_group_description_enabled": {
-          "value": "true"
-        },
         "xchat_grpc_chat_page_enabled": {
           "value": "false"
         },
@@ -10347,10 +10383,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "515ad848ca5b8ad5e52166c331e4d21e"
+      "settingsVersion": "0f5a5cde589b3bbbdc234c831f8e382f"
     },
     "debug": {},
-    "featureSetToken": "8179adcc730299265f7742c25fec467b00612f89",
+    "featureSetToken": "c0c6dfc087db4f3ba7ec7ac61acf3c221448c65f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
