@@ -9610,3 +9610,22 @@
 - responsive_web_search_typeahead_debounce_ms<br>
 #### remove<br>
 - None<br>
+## 2026/11/23<br>
+### API<br>
+#### add<br>
+- viewerQuery<br>
+- palmLivenessHostConfirmSessionMutation<br>
+- palmLivenessHostCreateSessionMutation<br>
+#### remove<br>
+- replyDownvoteTraySpamReportMutation<br>
+### Feature Switch<br>
+#### add<br>
+- live_clipping_attribution_enabled<br>
+- live_clipping_default_duration_sec<br>
+- live_clipping_lookback_sec<br>
+- live_clipping_max_duration_sec<br>
+- live_clipping_min_duration_sec<br>
+- live_clipping_replay_enabled<br>
+- subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday<br>
+#### remove<br>
+- xchat_group_description_enabled<br>
