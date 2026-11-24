@@ -110,7 +110,7 @@
           "is_translator": "false",
           "translator_type": "none",
           "followers_count": "18",
-          "friends_count": "170",
+          "friends_count": "169",
           "media_count": "4",
           "statuses_count": "134",
           "url": "https://t.co/sgZOSvMZXx",
@@ -7844,7 +7844,7 @@
           "value": "true"
         },
         "responsive_web_profile_media_live_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_profile_redesign_enabled": {
           "value": "true"
@@ -8018,7 +8018,7 @@
           "value": "true"
         },
         "responsive_web_supervision_entrypoint_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_suppress_app_button_banner_suppressed": {
           "value": "false"
@@ -10383,7 +10383,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "0f5a5cde589b3bbbdc234c831f8e382f"
+      "settingsVersion": "bb8c4232bb815b23d6b0bbdbddfb0cd8"
     },
     "debug": {},
     "featureSetToken": "c0c6dfc087db4f3ba7ec7ac61acf3c221448c65f",
