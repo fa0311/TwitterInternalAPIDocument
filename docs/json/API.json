@@ -7167,8 +7167,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/ED7gx_95mk8FhWNLSmChpQ/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "ED7gx_95mk8FhWNLSmChpQ",
+      "url": "https://x.com/i/api/graphql/MHmpOxpZQtqIGSWL79c8LQ/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "MHmpOxpZQtqIGSWL79c8LQ",
       "method": "GET",
       "features": {}
     },
@@ -7179,14 +7179,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/fWlYipNYcArKALyHR7oMbg/businessInsightsMonitorTabPostsQuery",
-      "queryId": "fWlYipNYcArKALyHR7oMbg",
+      "url": "https://x.com/i/api/graphql/YbSu-kpyrHqk7bg3xPryvg/businessInsightsMonitorTabPostsQuery",
+      "queryId": "YbSu-kpyrHqk7bg3xPryvg",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/eHpuzwFJtvYx6egl3ykeGQ/businessInsightsOverviewTabQuery",
-      "queryId": "eHpuzwFJtvYx6egl3ykeGQ",
+      "url": "https://x.com/i/api/graphql/eT6-ZqVmrDDjNsWjK8HHtw/businessInsightsOverviewTabQuery",
+      "queryId": "eT6-ZqVmrDDjNsWjK8HHtw",
       "method": "GET",
       "features": {}
     },
@@ -7947,14 +7947,14 @@
       "features": {}
     },
     "liveDetailsQuery": {
-      "url": "https://x.com/i/api/graphql/cz2Y44XHSg1-IolqWHpNtw/liveDetailsQuery",
-      "queryId": "cz2Y44XHSg1-IolqWHpNtw",
+      "url": "https://x.com/i/api/graphql/QPhFdVpf01xjbJ6bSRxanQ/liveDetailsQuery",
+      "queryId": "QPhFdVpf01xjbJ6bSRxanQ",
       "method": "GET",
       "features": {}
     },
     "liveDetailsTimeSeriesQuery": {
-      "url": "https://x.com/i/api/graphql/WWnhraJ5KYZ20khZEDILug/liveDetailsTimeSeriesQuery",
-      "queryId": "WWnhraJ5KYZ20khZEDILug",
+      "url": "https://x.com/i/api/graphql/PuOwNyLxK6O1Rk4U-_yEmQ/liveDetailsTimeSeriesQuery",
+      "queryId": "PuOwNyLxK6O1Rk4U-_yEmQ",
       "method": "GET",
       "features": {}
     },
@@ -7965,8 +7965,8 @@
       "features": {}
     },
     "postDetailsProviderQuery": {
-      "url": "https://x.com/i/api/graphql/WjPUbbgQ8sPCaZxSwnrv1A/postDetailsProviderQuery",
-      "queryId": "WjPUbbgQ8sPCaZxSwnrv1A",
+      "url": "https://x.com/i/api/graphql/8a0N0Wjg02W6882evNnyzg/postDetailsProviderQuery",
+      "queryId": "8a0N0Wjg02W6882evNnyzg",
       "method": "GET",
       "features": {}
     },
@@ -8019,8 +8019,8 @@
       "features": {}
     },
     "videoDetailsProviderMediaPostsQuery": {
-      "url": "https://x.com/i/api/graphql/fzslMPeXmJaP7w071MMjRA/videoDetailsProviderMediaPostsQuery",
-      "queryId": "fzslMPeXmJaP7w071MMjRA",
+      "url": "https://x.com/i/api/graphql/7UnwD2ASd0glnAV9XMiPhw/videoDetailsProviderMediaPostsQuery",
+      "queryId": "7UnwD2ASd0glnAV9XMiPhw",
       "method": "GET",
       "features": {}
     },
@@ -8031,8 +8031,8 @@
       "features": {}
     },
     "videoListProviderQuery": {
-      "url": "https://x.com/i/api/graphql/lsr6F4Fr6P1ozI-uvgW2ZA/videoListProviderQuery",
-      "queryId": "lsr6F4Fr6P1ozI-uvgW2ZA",
+      "url": "https://x.com/i/api/graphql/2ZraxMUgBk_w11tJB7bGxw/videoListProviderQuery",
+      "queryId": "2ZraxMUgBk_w11tJB7bGxw",
       "method": "GET",
       "features": {}
     },
@@ -8805,8 +8805,8 @@
       "features": {}
     },
     "postListQuery": {
-      "url": "https://x.com/i/api/graphql/K9vEYxnG-hefvyy6-zwzaA/postListQuery",
-      "queryId": "K9vEYxnG-hefvyy6-zwzaA",
+      "url": "https://x.com/i/api/graphql/Za9-aiSxqqLDXUNFg6XuGA/postListQuery",
+      "queryId": "Za9-aiSxqqLDXUNFg6XuGA",
       "method": "GET",
       "features": {}
     },
