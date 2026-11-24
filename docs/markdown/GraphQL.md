@@ -17891,7 +17891,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/ED7gx_95mk8FhWNLSmChpQ/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/MHmpOxpZQtqIGSWL79c8LQ/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17913,7 +17913,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/fWlYipNYcArKALyHR7oMbg/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/YbSu-kpyrHqk7bg3xPryvg/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17924,7 +17924,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/eHpuzwFJtvYx6egl3ykeGQ/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/eT6-ZqVmrDDjNsWjK8HHtw/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19321,7 +19321,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## liveDetailsQuery<br>
-Request URL: `https://x.com/i/api/graphql/cz2Y44XHSg1-IolqWHpNtw/liveDetailsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/QPhFdVpf01xjbJ6bSRxanQ/liveDetailsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19332,7 +19332,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## liveDetailsTimeSeriesQuery<br>
-Request URL: `https://x.com/i/api/graphql/WWnhraJ5KYZ20khZEDILug/liveDetailsTimeSeriesQuery`<br>
+Request URL: `https://x.com/i/api/graphql/PuOwNyLxK6O1Rk4U-_yEmQ/liveDetailsTimeSeriesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19354,7 +19354,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## postDetailsProviderQuery<br>
-Request URL: `https://x.com/i/api/graphql/WjPUbbgQ8sPCaZxSwnrv1A/postDetailsProviderQuery`<br>
+Request URL: `https://x.com/i/api/graphql/8a0N0Wjg02W6882evNnyzg/postDetailsProviderQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19453,7 +19453,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## videoDetailsProviderMediaPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/fzslMPeXmJaP7w071MMjRA/videoDetailsProviderMediaPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/7UnwD2ASd0glnAV9XMiPhw/videoDetailsProviderMediaPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19475,7 +19475,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## videoListProviderQuery<br>
-Request URL: `https://x.com/i/api/graphql/lsr6F4Fr6P1ozI-uvgW2ZA/videoListProviderQuery`<br>
+Request URL: `https://x.com/i/api/graphql/2ZraxMUgBk_w11tJB7bGxw/videoListProviderQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -20894,7 +20894,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## postListQuery<br>
-Request URL: `https://x.com/i/api/graphql/K9vEYxnG-hefvyy6-zwzaA/postListQuery`<br>
+Request URL: `https://x.com/i/api/graphql/Za9-aiSxqqLDXUNFg6XuGA/postListQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
