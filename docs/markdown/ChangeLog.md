@@ -10601,3 +10601,14 @@
 - subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday<br>
 #### remove<br>
 - xchat_group_description_enabled<br>
+## 2026/11/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_replacement_upgrade_arm<br>
+#### remove<br>
+- None<br>
