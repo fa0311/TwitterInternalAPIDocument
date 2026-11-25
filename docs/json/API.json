@@ -6872,6 +6872,12 @@
       "method": "POST",
       "features": {}
     },
+    "useLoadXMoneyApiLinkPreviewTransferLinkDetailsQuery": {
+      "url": "https://x.com/i/api/graphql/rhPJGX_j4vrC0IHZfdLXUw/useLoadXMoneyApiLinkPreviewTransferLinkDetailsQuery",
+      "queryId": "rhPJGX_j4vrC0IHZfdLXUw",
+      "method": "GET",
+      "features": {}
+    },
     "useLoadXMoneyApiLinkPreviewCheckoutSessionQuery": {
       "url": "https://x.com/i/api/graphql/-2hRCK-VpM5KZg-M8j-3Yg/useLoadXMoneyApiLinkPreviewCheckoutSessionQuery",
       "queryId": "-2hRCK-VpM5KZg-M8j-3Yg",
@@ -7167,8 +7173,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/MHmpOxpZQtqIGSWL79c8LQ/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "MHmpOxpZQtqIGSWL79c8LQ",
+      "url": "https://x.com/i/api/graphql/QAemWSzwYAyJ01WjgwxC-w/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "QAemWSzwYAyJ01WjgwxC-w",
       "method": "GET",
       "features": {}
     },
@@ -7179,14 +7185,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/YbSu-kpyrHqk7bg3xPryvg/businessInsightsMonitorTabPostsQuery",
-      "queryId": "YbSu-kpyrHqk7bg3xPryvg",
+      "url": "https://x.com/i/api/graphql/5nV6hSuuhsj6zWIQJsVAWw/businessInsightsMonitorTabPostsQuery",
+      "queryId": "5nV6hSuuhsj6zWIQJsVAWw",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/eT6-ZqVmrDDjNsWjK8HHtw/businessInsightsOverviewTabQuery",
-      "queryId": "eT6-ZqVmrDDjNsWjK8HHtw",
+      "url": "https://x.com/i/api/graphql/-lVAwuQShl2ZdJZCIo7fqA/businessInsightsOverviewTabQuery",
+      "queryId": "-lVAwuQShl2ZdJZCIo7fqA",
       "method": "GET",
       "features": {}
     },
@@ -7941,8 +7947,8 @@
       "features": {}
     },
     "contentPageQuery": {
-      "url": "https://x.com/i/api/graphql/UuayDDyCJIGhIOKzpsmOdA/contentPageQuery",
-      "queryId": "UuayDDyCJIGhIOKzpsmOdA",
+      "url": "https://x.com/i/api/graphql/qGimXp98ZDdc7PxyfiiSaQ/contentPageQuery",
+      "queryId": "qGimXp98ZDdc7PxyfiiSaQ",
       "method": "GET",
       "features": {}
     },
