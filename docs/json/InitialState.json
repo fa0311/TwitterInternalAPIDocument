@@ -110,7 +110,7 @@
           "is_translator": "false",
           "translator_type": "none",
           "followers_count": "18",
-          "friends_count": "169",
+          "friends_count": "170",
           "media_count": "4",
           "statuses_count": "134",
           "url": "https://t.co/sgZOSvMZXx",
@@ -700,6 +700,12 @@
       },
       "complat_premium_hub_upgrade_card_enabled": {
         "value": "true"
+      },
+      "complat_replacement_upgrade_arm": {
+        "value": ""
+      },
+      "complat_replacement_upgrade_web_arm": {
+        "value": ""
       },
       "complat_responsive_web_castle_minting_enabled": {
         "value": "false"
@@ -1388,6 +1394,9 @@
       },
       "payments_auth_token_enabled": {
         "value": "true"
+      },
+      "payments_auth_token_with_jwt_enabled": {
+        "value": "false"
       },
       "payments_forward_with_enabled": {
         "value": "true"
@@ -5786,6 +5795,9 @@
         "complat_replacement_upgrade_arm": {
           "value": ""
         },
+        "complat_replacement_upgrade_web_arm": {
+          "value": ""
+        },
         "complat_responsive_web_castle_minting_enabled": {
           "value": "false"
         },
@@ -6473,6 +6485,9 @@
         },
         "payments_auth_token_enabled": {
           "value": "true"
+        },
+        "payments_auth_token_with_jwt_enabled": {
+          "value": "false"
         },
         "payments_forward_with_enabled": {
           "value": "true"
@@ -9135,7 +9150,7 @@
           "value": "false"
         },
         "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_home_sidebar_grok_promo": {
           "value": "false"
@@ -10060,7 +10075,7 @@
           "value": "9223372036854775807"
         },
         "xchat_grok_bots": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_grok_bots_transcript_page_size": {
           "value": "50"
@@ -10376,10 +10391,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "8c7fe3475efb93d1a36959577f9b2614"
+      "settingsVersion": "f56fd681bde2c97bb59ac3882b9e82c1"
     },
     "debug": {},
-    "featureSetToken": "91658bf5a5fd5c09cc83a0d1e392ed03763c8627",
+    "featureSetToken": "da6053f31c6b5fa12e4c76a99b55fc279da2b92d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
