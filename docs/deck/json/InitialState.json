@@ -110,7 +110,7 @@
           "is_translator": "false",
           "translator_type": "none",
           "followers_count": "18",
-          "friends_count": "169",
+          "friends_count": "170",
           "media_count": "4",
           "statuses_count": "134",
           "url": "https://t.co/sgZOSvMZXx",
@@ -9142,7 +9142,7 @@
           "value": "false"
         },
         "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_home_sidebar_grok_promo": {
           "value": "false"
@@ -10067,7 +10067,7 @@
           "value": "9223372036854775807"
         },
         "xchat_grok_bots": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_grok_bots_transcript_page_size": {
           "value": "50"
@@ -10383,7 +10383,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "bb8c4232bb815b23d6b0bbdbddfb0cd8"
+      "settingsVersion": "3f1b2b46964b107a7a2b28156944e8f7"
     },
     "debug": {},
     "featureSetToken": "c0c6dfc087db4f3ba7ec7ac61acf3c221448c65f",
