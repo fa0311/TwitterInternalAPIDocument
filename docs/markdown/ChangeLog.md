@@ -10612,3 +10612,15 @@
 - complat_replacement_upgrade_arm<br>
 #### remove<br>
 - None<br>
+## 2026/11/25<br>
+### API<br>
+#### add<br>
+- useLoadXMoneyApiLinkPreviewTransferLinkDetailsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_replacement_upgrade_web_arm<br>
+- payments_auth_token_with_jwt_enabled<br>
+#### remove<br>
+- None<br>
