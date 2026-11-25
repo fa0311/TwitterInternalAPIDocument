@@ -17351,6 +17351,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## useLoadXMoneyApiLinkPreviewTransferLinkDetailsQuery<br>
+Request URL: `https://x.com/i/api/graphql/rhPJGX_j4vrC0IHZfdLXUw/useLoadXMoneyApiLinkPreviewTransferLinkDetailsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## useLoadXMoneyApiLinkPreviewCheckoutSessionQuery<br>
 Request URL: `https://x.com/i/api/graphql/-2hRCK-VpM5KZg-M8j-3Yg/useLoadXMoneyApiLinkPreviewCheckoutSessionQuery`<br>
 Request Method: `GET`<br>
@@ -17891,7 +17902,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsGroupsTabSelectedClusterQuery<br>
-Request URL: `https://x.com/i/api/graphql/MHmpOxpZQtqIGSWL79c8LQ/businessInsightsGroupsTabSelectedClusterQuery`<br>
+Request URL: `https://x.com/i/api/graphql/QAemWSzwYAyJ01WjgwxC-w/businessInsightsGroupsTabSelectedClusterQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17913,7 +17924,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsMonitorTabPostsQuery<br>
-Request URL: `https://x.com/i/api/graphql/YbSu-kpyrHqk7bg3xPryvg/businessInsightsMonitorTabPostsQuery`<br>
+Request URL: `https://x.com/i/api/graphql/5nV6hSuuhsj6zWIQJsVAWw/businessInsightsMonitorTabPostsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17924,7 +17935,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## businessInsightsOverviewTabQuery<br>
-Request URL: `https://x.com/i/api/graphql/eT6-ZqVmrDDjNsWjK8HHtw/businessInsightsOverviewTabQuery`<br>
+Request URL: `https://x.com/i/api/graphql/-lVAwuQShl2ZdJZCIo7fqA/businessInsightsOverviewTabQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -19310,7 +19321,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## contentPageQuery<br>
-Request URL: `https://x.com/i/api/graphql/UuayDDyCJIGhIOKzpsmOdA/contentPageQuery`<br>
+Request URL: `https://x.com/i/api/graphql/qGimXp98ZDdc7PxyfiiSaQ/contentPageQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
