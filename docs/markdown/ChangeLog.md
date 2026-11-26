@@ -10624,3 +10624,15 @@
 - payments_auth_token_with_jwt_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/11/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- complat_cursor_merge_web_enabled<br>
+- complat_replacement_upgrade_android_arm<br>
+#### remove<br>
+- None<br>
