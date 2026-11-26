@@ -7089,8 +7089,8 @@
       "features": {}
     },
     "useRedirectToGraduatedAccessQuery": {
-      "url": "https://x.com/i/api/graphql/H_dPrTniIScfQwM4auNBvA/useRedirectToGraduatedAccessQuery",
-      "queryId": "H_dPrTniIScfQwM4auNBvA",
+      "url": "https://x.com/i/api/graphql/1mXMV6Qgswyapym-Gfl_0A/useRedirectToGraduatedAccessQuery",
+      "queryId": "1mXMV6Qgswyapym-Gfl_0A",
       "method": "GET",
       "features": {}
     },
@@ -7173,8 +7173,8 @@
       "features": {}
     },
     "businessInsightsGroupsTabSelectedClusterQuery": {
-      "url": "https://x.com/i/api/graphql/QAemWSzwYAyJ01WjgwxC-w/businessInsightsGroupsTabSelectedClusterQuery",
-      "queryId": "QAemWSzwYAyJ01WjgwxC-w",
+      "url": "https://x.com/i/api/graphql/--rWT1N5T9LZb0sxq3Hyfw/businessInsightsGroupsTabSelectedClusterQuery",
+      "queryId": "--rWT1N5T9LZb0sxq3Hyfw",
       "method": "GET",
       "features": {}
     },
@@ -7185,14 +7185,14 @@
       "features": {}
     },
     "businessInsightsMonitorTabPostsQuery": {
-      "url": "https://x.com/i/api/graphql/5nV6hSuuhsj6zWIQJsVAWw/businessInsightsMonitorTabPostsQuery",
-      "queryId": "5nV6hSuuhsj6zWIQJsVAWw",
+      "url": "https://x.com/i/api/graphql/9pJc2-WYpCQfq9-6kWrRxg/businessInsightsMonitorTabPostsQuery",
+      "queryId": "9pJc2-WYpCQfq9-6kWrRxg",
       "method": "GET",
       "features": {}
     },
     "businessInsightsOverviewTabQuery": {
-      "url": "https://x.com/i/api/graphql/-lVAwuQShl2ZdJZCIo7fqA/businessInsightsOverviewTabQuery",
-      "queryId": "-lVAwuQShl2ZdJZCIo7fqA",
+      "url": "https://x.com/i/api/graphql/g28M7yzeKmoN2unHoOg46A/businessInsightsOverviewTabQuery",
+      "queryId": "g28M7yzeKmoN2unHoOg46A",
       "method": "GET",
       "features": {}
     },
@@ -7227,8 +7227,8 @@
       "features": {}
     },
     "viewerQuery": {
-      "url": "https://x.com/i/api/graphql/VNDJhBbDKWIzHmR7xvScxA/viewerQuery",
-      "queryId": "VNDJhBbDKWIzHmR7xvScxA",
+      "url": "https://x.com/i/api/graphql/c7yTlPd4LJJnkC8UqGJUQw/viewerQuery",
+      "queryId": "c7yTlPd4LJJnkC8UqGJUQw",
       "method": "GET",
       "features": {}
     },
