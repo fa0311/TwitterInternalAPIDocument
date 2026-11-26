@@ -680,6 +680,9 @@
       "complat_compact_phone_checkout_arm": {
         "value": "compact"
       },
+      "complat_cursor_merge_web_enabled": {
+        "value": "false"
+      },
       "complat_enabled": {
         "value": "true"
       },
@@ -700,6 +703,9 @@
       },
       "complat_premium_hub_upgrade_card_enabled": {
         "value": "true"
+      },
+      "complat_replacement_upgrade_android_arm": {
+        "value": ""
       },
       "complat_replacement_upgrade_arm": {
         "value": ""
@@ -4984,7 +4990,7 @@
         "value": "9223372036854775807"
       },
       "xchat_grok_bots": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_grok_bots_transcript_page_size": {
         "value": "50"
@@ -5771,6 +5777,9 @@
         "complat_compact_phone_checkout_arm": {
           "value": "compact"
         },
+        "complat_cursor_merge_web_enabled": {
+          "value": "true"
+        },
         "complat_enabled": {
           "value": "true"
         },
@@ -5791,6 +5800,9 @@
         },
         "complat_premium_hub_upgrade_card_enabled": {
           "value": "true"
+        },
+        "complat_replacement_upgrade_android_arm": {
+          "value": ""
         },
         "complat_replacement_upgrade_arm": {
           "value": ""
@@ -10391,10 +10403,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "f56fd681bde2c97bb59ac3882b9e82c1"
+      "settingsVersion": "457f54d5b951a41752769633cd18e45f"
     },
     "debug": {},
-    "featureSetToken": "da6053f31c6b5fa12e4c76a99b55fc279da2b92d",
+    "featureSetToken": "871cdf24ce8906f2cf5ccb662fd21c360c012672",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
