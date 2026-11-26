@@ -2285,7 +2285,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[I.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let r",a,s;return{"type":"radio","props":{"description":"e7().description","getNextFormStep":e=>{"switch()"{"case I.C6.IDENTITY_DOCUMENT":return I.$V.INTAKE_TYPE_SELECT;case I.C6.EMAIL:return...
+{[I.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let r",a,s;return{"type":"radio","props":{"description":"e9().description","getNextFormStep":e=>{"switch()"{"case I.C6.IDENTITY_DOCUMENT":return I.$V.INTAKE_TYPE_SELECT;case I.C6.EMAIL:return...
 ```
 ```internal process
 # Error
@@ -2293,7 +2293,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...e5      | _       |
+| ...e7      | _       |
 | ...aj      | _       |
 | ...X       | _       |
 
@@ -5151,7 +5151,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[b.relevant]:"m",[b.recent]:"h",[b.likes]:"u"}
+{[w.relevant]:"m",[w.recent]:"h",[w.likes]:"u"}
 ```
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -5159,6 +5159,108 @@ This document is entirely auto-generated and may contain errors.<br>
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
+
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| accountWireDetails            | accountWireDetails            |
+| address                       | address                       |
+| autoclaim                     | autoclaim                     |
+| beneficiaries                 | beneficiaries                 |
+| beneficiaryDetails            | beneficiaryDetails            |
+| cancelAccountInvitation       | cancelAccountInvitation       |
+| cardOnboarding                | cardOnboarding                |
+| challenge                     | challenge                     |
+| changeCardAccount             | changeCardAccount             |
+| changeCardPin                 | changeCardPin                 |
+| checkbook                     | checkbook                     |
+| checkbookOrder                | checkbookOrder                |
+| checkbookOrderDetail          | checkbookOrderDetail          |
+| checkMeta                     | checkMeta                     |
+| checkPendingTransactions      | checkPendingTransactions      |
+| closeSecondaryAccount         | closeSecondaryAccount         |
+| connectAgent                  | connectAgent                  |
+| connection                    | connection                    |
+| connections                   | connections                   |
+| contactData                   | contactData                   |
+| contactDetails                | contactDetails                |
+| contacts                      | contacts                      |
+| createAccount                 | createAccount                 |
+| createBeneficiary             | createBeneficiary             |
+| createContact                 | createContact                 |
+| createCredential              | createCredential              |
+| createInternationalContact    | createInternationalContact    |
+| credential                    | credential                    |
+| credentials                   | credentials                   |
+| directDepositSetup            | directDepositSetup            |
+| forgotPin                     | forgotPin                     |
+| fullAccountRouting            | fullAccountRouting            |
+| internationalContacts         | internationalContacts         |
+| knownDevice                   | knownDevice                   |
+| knownDeviceModal              | knownDeviceModal              |
+| knownDevices                  | knownDevices                  |
+| linkExternalAccount           | linkExternalAccount           |
+| migrateCredential             | migrateCredential             |
+| onboarding                    | onboarding                    |
+| personal                      | personal                      |
+| questions                     | questions                     |
+| recoverAccess                 | recoverAccess                 |
+| removeAccountMember           | removeAccountMember           |
+| replaceCard                   | replaceCard                   |
+| respondAccountInvitation      | respondAccountInvitation      |
+| revealCustomerPersonalInfo    | revealCustomerPersonalInfo    |
+| selfieVerification            | selfie                        |
+| supportChat                   | supportChat                   |
+| supportChatConversation       | supportChatConversation       |
+| transactionReceipt            | transactionReceipt            |
+| updateAccountNickname         | updateAccountNickname         |
+| updateAddress                 | updateAddress                 |
+| updateBeneficiary             | updateBeneficiary             |
+| updateCardNickname            | updateCardNickname            |
+| updateContact                 | updateContact                 |
+| updateCredential              | updateCredential              |
+| updateInternationalContact    | updateInternationalContact    |
+| updateMailingAddress          | updateMailingAddress          |
+| updatePin                     | updatePin                     |
+| upgradeToKycDocumentsVerified | upgradeToKycDocumentsVerified |
+| upgradeToKycVerified          | upgradeToKycVerified          |
+| verifyPaymentMethod           | verifyPaymentMethod           |
+| wireMeta                      | wireMeta                      |
+
+| constant   | value   |
+|:-----------|:--------|
+| tier2      | tier2   |
+| tier3      | tier3   |
+| selfie     | selfie  |
+
+| constant    | value       |
+|:------------|:------------|
+| development | development |
+| staging     | staging     |
+| production  | production  |
+
+| constant                   | value                      |
+|:---------------------------|:---------------------------|
+| auth                       | auth                       |
+| transaction                | transaction                |
+| preference                 | preference                 |
+| forgotPin                  | forgotPin                  |
+| recoverAccess              | recoverAccess              |
+| migrateCredential          | migrateCredential          |
+| createCredential           | createCredential           |
+| activateCard               | activateCard               |
+| changeCardPin              | changeCardPin              |
+| confirmUnrecognisedPayment | confirmUnrecognisedPayment |
+| viewCardDetails            | viewCardDetails            |
+| replaceCard                | replaceCard                |
+| addBankCard                | addBankCard                |
+| addBankAccount             | addBankAccount             |
+| closeAccount               | closeAccount               |
+| reonboard                  | reonboard                  |
+| directDepositSetup         | directDepositSetup         |
+| removeCredential           | removeCredential           |
+| cardLockToggle             | cardLockToggle             |
+| revealCustomerPersonalInfo | revealCustomerPersonalInfo |
+| supportChat                | supportChat                |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -7764,108 +7866,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | WithdrawalOnly                          | WithdrawalOnly                          |
 | XcorpSuspectedCompromise                | XcorpSuspectedCompromise                |
 
-| constant                      | value                         |
-|:------------------------------|:------------------------------|
-| accountWireDetails            | accountWireDetails            |
-| address                       | address                       |
-| autoclaim                     | autoclaim                     |
-| beneficiaries                 | beneficiaries                 |
-| beneficiaryDetails            | beneficiaryDetails            |
-| cancelAccountInvitation       | cancelAccountInvitation       |
-| cardOnboarding                | cardOnboarding                |
-| challenge                     | challenge                     |
-| changeCardAccount             | changeCardAccount             |
-| changeCardPin                 | changeCardPin                 |
-| checkbook                     | checkbook                     |
-| checkbookOrder                | checkbookOrder                |
-| checkbookOrderDetail          | checkbookOrderDetail          |
-| checkMeta                     | checkMeta                     |
-| checkPendingTransactions      | checkPendingTransactions      |
-| closeSecondaryAccount         | closeSecondaryAccount         |
-| connectAgent                  | connectAgent                  |
-| connection                    | connection                    |
-| connections                   | connections                   |
-| contactData                   | contactData                   |
-| contactDetails                | contactDetails                |
-| contacts                      | contacts                      |
-| createAccount                 | createAccount                 |
-| createBeneficiary             | createBeneficiary             |
-| createContact                 | createContact                 |
-| createCredential              | createCredential              |
-| createInternationalContact    | createInternationalContact    |
-| credential                    | credential                    |
-| credentials                   | credentials                   |
-| directDepositSetup            | directDepositSetup            |
-| forgotPin                     | forgotPin                     |
-| fullAccountRouting            | fullAccountRouting            |
-| internationalContacts         | internationalContacts         |
-| knownDevice                   | knownDevice                   |
-| knownDeviceModal              | knownDeviceModal              |
-| knownDevices                  | knownDevices                  |
-| linkExternalAccount           | linkExternalAccount           |
-| migrateCredential             | migrateCredential             |
-| onboarding                    | onboarding                    |
-| personal                      | personal                      |
-| questions                     | questions                     |
-| recoverAccess                 | recoverAccess                 |
-| removeAccountMember           | removeAccountMember           |
-| replaceCard                   | replaceCard                   |
-| respondAccountInvitation      | respondAccountInvitation      |
-| revealCustomerPersonalInfo    | revealCustomerPersonalInfo    |
-| selfieVerification            | selfie                        |
-| supportChat                   | supportChat                   |
-| supportChatConversation       | supportChatConversation       |
-| transactionReceipt            | transactionReceipt            |
-| updateAccountNickname         | updateAccountNickname         |
-| updateAddress                 | updateAddress                 |
-| updateBeneficiary             | updateBeneficiary             |
-| updateCardNickname            | updateCardNickname            |
-| updateContact                 | updateContact                 |
-| updateCredential              | updateCredential              |
-| updateInternationalContact    | updateInternationalContact    |
-| updateMailingAddress          | updateMailingAddress          |
-| updatePin                     | updatePin                     |
-| upgradeToKycDocumentsVerified | upgradeToKycDocumentsVerified |
-| upgradeToKycVerified          | upgradeToKycVerified          |
-| verifyPaymentMethod           | verifyPaymentMethod           |
-| wireMeta                      | wireMeta                      |
-
-| constant   | value   |
-|:-----------|:--------|
-| tier2      | tier2   |
-| tier3      | tier3   |
-| selfie     | selfie  |
-
-| constant    | value       |
-|:------------|:------------|
-| development | development |
-| staging     | staging     |
-| production  | production  |
-
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| auth                       | auth                       |
-| transaction                | transaction                |
-| preference                 | preference                 |
-| forgotPin                  | forgotPin                  |
-| recoverAccess              | recoverAccess              |
-| migrateCredential          | migrateCredential          |
-| createCredential           | createCredential           |
-| activateCard               | activateCard               |
-| changeCardPin              | changeCardPin              |
-| confirmUnrecognisedPayment | confirmUnrecognisedPayment |
-| viewCardDetails            | viewCardDetails            |
-| replaceCard                | replaceCard                |
-| addBankCard                | addBankCard                |
-| addBankAccount             | addBankAccount             |
-| closeAccount               | closeAccount               |
-| reonboard                  | reonboard                  |
-| directDepositSetup         | directDepositSetup         |
-| removeCredential           | removeCredential           |
-| cardLockToggle             | cardLockToggle             |
-| revealCustomerPersonalInfo | revealCustomerPersonalInfo |
-| supportChat                | supportChat                |
-
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | CustomerNotFound       | CustomerNotFound       |
@@ -8822,7 +8822,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | a.Ay.NONE |
+| fetchStatus | o.Ay.NONE |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -10320,108 +10320,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | WithdrawalOnly                          | WithdrawalOnly                          |
 | XcorpSuspectedCompromise                | XcorpSuspectedCompromise                |
 
-| constant                      | value                         |
-|:------------------------------|:------------------------------|
-| accountWireDetails            | accountWireDetails            |
-| address                       | address                       |
-| autoclaim                     | autoclaim                     |
-| beneficiaries                 | beneficiaries                 |
-| beneficiaryDetails            | beneficiaryDetails            |
-| cancelAccountInvitation       | cancelAccountInvitation       |
-| cardOnboarding                | cardOnboarding                |
-| challenge                     | challenge                     |
-| changeCardAccount             | changeCardAccount             |
-| changeCardPin                 | changeCardPin                 |
-| checkbook                     | checkbook                     |
-| checkbookOrder                | checkbookOrder                |
-| checkbookOrderDetail          | checkbookOrderDetail          |
-| checkMeta                     | checkMeta                     |
-| checkPendingTransactions      | checkPendingTransactions      |
-| closeSecondaryAccount         | closeSecondaryAccount         |
-| connectAgent                  | connectAgent                  |
-| connection                    | connection                    |
-| connections                   | connections                   |
-| contactData                   | contactData                   |
-| contactDetails                | contactDetails                |
-| contacts                      | contacts                      |
-| createAccount                 | createAccount                 |
-| createBeneficiary             | createBeneficiary             |
-| createContact                 | createContact                 |
-| createCredential              | createCredential              |
-| createInternationalContact    | createInternationalContact    |
-| credential                    | credential                    |
-| credentials                   | credentials                   |
-| directDepositSetup            | directDepositSetup            |
-| forgotPin                     | forgotPin                     |
-| fullAccountRouting            | fullAccountRouting            |
-| internationalContacts         | internationalContacts         |
-| knownDevice                   | knownDevice                   |
-| knownDeviceModal              | knownDeviceModal              |
-| knownDevices                  | knownDevices                  |
-| linkExternalAccount           | linkExternalAccount           |
-| migrateCredential             | migrateCredential             |
-| onboarding                    | onboarding                    |
-| personal                      | personal                      |
-| questions                     | questions                     |
-| recoverAccess                 | recoverAccess                 |
-| removeAccountMember           | removeAccountMember           |
-| replaceCard                   | replaceCard                   |
-| respondAccountInvitation      | respondAccountInvitation      |
-| revealCustomerPersonalInfo    | revealCustomerPersonalInfo    |
-| selfieVerification            | selfie                        |
-| supportChat                   | supportChat                   |
-| supportChatConversation       | supportChatConversation       |
-| transactionReceipt            | transactionReceipt            |
-| updateAccountNickname         | updateAccountNickname         |
-| updateAddress                 | updateAddress                 |
-| updateBeneficiary             | updateBeneficiary             |
-| updateCardNickname            | updateCardNickname            |
-| updateContact                 | updateContact                 |
-| updateCredential              | updateCredential              |
-| updateInternationalContact    | updateInternationalContact    |
-| updateMailingAddress          | updateMailingAddress          |
-| updatePin                     | updatePin                     |
-| upgradeToKycDocumentsVerified | upgradeToKycDocumentsVerified |
-| upgradeToKycVerified          | upgradeToKycVerified          |
-| verifyPaymentMethod           | verifyPaymentMethod           |
-| wireMeta                      | wireMeta                      |
-
-| constant   | value   |
-|:-----------|:--------|
-| tier2      | tier2   |
-| tier3      | tier3   |
-| selfie     | selfie  |
-
-| constant    | value       |
-|:------------|:------------|
-| development | development |
-| staging     | staging     |
-| production  | production  |
-
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| auth                       | auth                       |
-| transaction                | transaction                |
-| preference                 | preference                 |
-| forgotPin                  | forgotPin                  |
-| recoverAccess              | recoverAccess              |
-| migrateCredential          | migrateCredential          |
-| createCredential           | createCredential           |
-| activateCard               | activateCard               |
-| changeCardPin              | changeCardPin              |
-| confirmUnrecognisedPayment | confirmUnrecognisedPayment |
-| viewCardDetails            | viewCardDetails            |
-| replaceCard                | replaceCard                |
-| addBankCard                | addBankCard                |
-| addBankAccount             | addBankAccount             |
-| closeAccount               | closeAccount               |
-| reonboard                  | reonboard                  |
-| directDepositSetup         | directDepositSetup         |
-| removeCredential           | removeCredential           |
-| cardLockToggle             | cardLockToggle             |
-| revealCustomerPersonalInfo | revealCustomerPersonalInfo |
-| supportChat                | supportChat                |
-
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | CustomerNotFound       | CustomerNotFound       |
@@ -10574,6 +10472,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | edit                    | edit                      |
 | merchantReturn          | merchant-return           |
 | redirect                | redirect                  |
+| sessionRenewed          | session-renewed           |
 | sessionRequired         | session-required          |
 | success                 | success                   |
 | transactionSuccess      | transaction-success       |
@@ -12113,11 +12012,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:--------|
 | ANIMATED_GIF | l       |
 | VIDEO        | s       |
-| VINE         | d       |
+| VINE         | c       |
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let a;return()(0,l.jsx){"...()":{"...()(0,o.nQ)":"_","colors":[a.primary,a.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,l.jsx){"style":[d.container,e.style],"children":"()(0,l.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let a;return()(0,l.jsx){"...()":{"...()(0,o.nQ)":"_","colors":[a.primary,a.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,l.jsx){"style":[c.container,e.style],"children":"()(0,l.jsx)"{...
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -17594,11 +17493,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:--------|
 | ANIMATED_GIF | a       |
 | VIDEO        | l       |
-| VINE         | c       |
+| VINE         | d       |
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let o;return()(0,a.jsx){"...()":{"...()(0,s.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,a.jsx){"style":[c.container,e.style],"children":"()(0,a.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let o;return()(0,a.jsx){"...()":{"...()(0,s.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,a.jsx){"style":[d.container,e.style],"children":"()(0,a.jsx)"{...
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -22910,11 +22809,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value   |
 |:--------------|:--------|
 | commerce-core | s       |
-| commerce-ui   | 4.75.1  |
+| commerce-ui   | 4.78.1  |
 
 ```internal process
 # Error
-{"versions":"Object.freeze()"{"commerce-core":"s","commerce-ui":"4.75.1"}}
+{"versions":"Object.freeze()"{"commerce-core":"s","commerce-ui":"4.78.1"}}
 ```
 | constant        | value           |
 |:----------------|:----------------|
