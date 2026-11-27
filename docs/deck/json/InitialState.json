@@ -109,7 +109,7 @@
           "profile_interstitial_type": "",
           "is_translator": "false",
           "translator_type": "none",
-          "followers_count": "19",
+          "followers_count": "18",
           "friends_count": "170",
           "media_count": "4",
           "statuses_count": "134",
@@ -1181,6 +1181,24 @@
         "value": "true"
       },
       "krs_registration_enabled": {
+        "value": "false"
+      },
+      "live_clipping_attribution_enabled": {
+        "value": "true"
+      },
+      "live_clipping_default_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_lookback_sec": {
+        "value": "0"
+      },
+      "live_clipping_max_duration_sec": {
+        "value": "60"
+      },
+      "live_clipping_min_duration_sec": {
+        "value": "5"
+      },
+      "live_clipping_replay_enabled": {
         "value": "false"
       },
       "live_event_docking_enabled": {
@@ -4041,6 +4059,9 @@
       "subscriptions_upsells_home_nav_migration_enabled": {
         "value": "false"
       },
+      "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+        "value": "false"
+      },
       "subscriptions_upsells_home_sidebar_grok_promo": {
         "value": "false"
       },
@@ -4778,10 +4799,10 @@
         "value": "false"
       },
       "x_sports_post_context_min_spacing": {
-        "value": "25"
+        "value": "5"
       },
       "x_sports_post_context_same_game_min_spacing": {
-        "value": "25"
+        "value": "10"
       },
       "xcall_item_in_list_enabled": {
         "value": "true"
@@ -4970,9 +4991,6 @@
         "value": "50"
       },
       "xchat_group_admin_settings_enabled": {
-        "value": "true"
-      },
-      "xchat_group_description_enabled": {
         "value": "true"
       },
       "xchat_grpc_chat_page_enabled": {
@@ -6245,6 +6263,24 @@
           "value": "true"
         },
         "krs_registration_enabled": {
+          "value": "false"
+        },
+        "live_clipping_attribution_enabled": {
+          "value": "true"
+        },
+        "live_clipping_default_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_lookback_sec": {
+          "value": "0"
+        },
+        "live_clipping_max_duration_sec": {
+          "value": "60"
+        },
+        "live_clipping_min_duration_sec": {
+          "value": "5"
+        },
+        "live_clipping_replay_enabled": {
           "value": "false"
         },
         "live_event_docking_enabled": {
@@ -7808,7 +7844,7 @@
           "value": "true"
         },
         "responsive_web_profile_media_live_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_profile_redesign_enabled": {
           "value": "true"
@@ -7982,7 +8018,7 @@
           "value": "true"
         },
         "responsive_web_supervision_entrypoint_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_suppress_app_button_banner_suppressed": {
           "value": "false"
@@ -9105,6 +9141,9 @@
         "subscriptions_upsells_home_nav_migration_enabled": {
           "value": "false"
         },
+        "subscriptions_upsells_home_sidebar_grok_bot_offer_black_friday": {
+          "value": "true"
+        },
         "subscriptions_upsells_home_sidebar_grok_promo": {
           "value": "false"
         },
@@ -10028,15 +10067,12 @@
           "value": "9223372036854775807"
         },
         "xchat_grok_bots": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_grok_bots_transcript_page_size": {
           "value": "50"
         },
         "xchat_group_admin_settings_enabled": {
-          "value": "true"
-        },
-        "xchat_group_description_enabled": {
           "value": "true"
         },
         "xchat_grpc_chat_page_enabled": {
@@ -10347,10 +10383,10 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "515ad848ca5b8ad5e52166c331e4d21e"
+      "settingsVersion": "3f1b2b46964b107a7a2b28156944e8f7"
     },
     "debug": {},
-    "featureSetToken": "8179adcc730299265f7742c25fec467b00612f89",
+    "featureSetToken": "c0c6dfc087db4f3ba7ec7ac61acf3c221448c65f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -10489,7 +10525,7 @@
     "CommunitiesHashtagsEducation": "1746981117776",
     "NewUserPromptEducation": "1727624861810",
     "GraduatedUserPromptEducation": "1730487680136",
-    "GrokEducation": "1793874493339",
+    "GrokEducation": "1795162347778",
     "GrokFreeNUX": "1733748743063"
   },
   "userClaim": {

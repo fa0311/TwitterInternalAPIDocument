@@ -117,6 +117,15 @@
     ]
   },
   {
+    "queryId": "geo/places",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "moments/create",
     "dispatch_key": "post",
     "dispatch": [
@@ -157,15 +166,6 @@
     "dispatch_key": "post",
     "dispatch": [
       "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "geo/places",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
